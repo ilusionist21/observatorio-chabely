@@ -1,13 +1,13 @@
 {
   "title": "Observatorio para Chabely",
   "date": "2026-10-15",
-  "updated_at": "15 de Octubre de 2026 a las 10:20 PM (Hora Perú)",
-  "updated_at_iso": "2026-10-15T22:20:17.561624-05:00",
+  "updated_at": "15 de Octubre de 2026 a las 10:28 PM (Hora Perú)",
+  "updated_at_iso": "2026-10-15T22:28:05.010857-05:00",
   "stats": {
-    "total": 67,
+    "total": 66,
     "portadas": 5,
     "regional": 24,
-    "nacional": 15,
+    "nacional": 14,
     "internacional": 23
   },
   "media": [
@@ -23,7 +23,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792120817,
+      "timestamp": 1792121285,
       "summary": "Primera plana y portada oficial del diario El Comercio (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -38,7 +38,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792120817,
+      "timestamp": 1792121285,
       "summary": "Primera plana y portada oficial del diario La República (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -53,7 +53,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792120817,
+      "timestamp": 1792121285,
       "summary": "Primera plana y portada oficial del diario La Razón (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -68,7 +68,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792120817,
+      "timestamp": 1792121285,
       "summary": "Primera plana y portada oficial del diario Líbero (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -83,7 +83,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792120817,
+      "timestamp": 1792121285,
       "summary": "Primera plana y portada oficial del diario El País (España / Global) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -220,21 +220,6 @@
       "date_full": "15 de Octubre de 2026, 9:30 PM",
       "timestamp": 1792117840,
       "summary": "La rápida intervención de los bomberos, autoridades locales y pobladores permitió controlar un incendio forestal registrado en las inmediaciones del complejo arqueológico de Kuélap, en la región Amazonas, y evitar que la..."
-    },
-    {
-      "id": "nacional-5-RPP_Noticias_Se_define_en",
-      "title": "Se define en Brasil: Estudiantes y Flamengo empataron 0-0 por la semifinal de ida por Copa Libertadores 2026",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/copa-libertadores/estudiantes-vs-flamengo-en-vivo-a-que-hora-juegan-y-donde-ver-semifinal-ida-copa-libertadores-2026-partidos-de-hoy-noticia-1712579",
-      "image_url": "https://f.rpp-noticias.io/2026/10/15/473147_1919085.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-15_RPP_Noticias_Se_define_en_Brasil_Estudiantes_y.jpg",
-      "date": "Thu, 15 Oct 2026 21:30:09 -0500",
-      "date_formatted": "Hoy • 9:30 PM",
-      "date_full": "15 de Octubre de 2026, 9:30 PM",
-      "timestamp": 1792117809,
-      "summary": "Flamengo y Estudiantes midieron fuerzas en el Estadio UNO de Argentina en el primer partido de 'semis' de la Copa Libertadores 2026."
     },
     {
       "id": "nacional-6-Agencia_Andina_Minjusdh_m",
