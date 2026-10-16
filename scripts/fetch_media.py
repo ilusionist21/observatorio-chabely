@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-Observatorio para Chabely - Extractor Diario de Medios
-Obtiene fotos y noticias de medios:
+Observatorio para Chabely - Extractor Diario de Medios (Scraping Automático)
+Personalizado para la jornada laboral de Chabely (9:00 AM a 2:00 PM).
+Extrae fotos y noticias exclusivas de HOY de:
+- Portadas de Diarios del Día: El Comercio, La República, La Razón, Líbero, El País
 - Regional (Puno): Diario Sin Fronteras, Pachamama Radio, Diario Los Andes (Excluye Onda Azul)
 - Nacional (Perú): RPP Noticias, Agencia Andina
-- Portadas de Diarios del Día: El Comercio, La República, La Razón, Líbero, El País
 - Internacional: BBC Mundo, France 24 en Español, El País Internacional
-Descarga las fotos a 'images/today/' y guarda 'data/today.json' y 'data/archive/YYYY-MM-DD.json'.
 """
 
 import os
@@ -16,6 +16,8 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 import html
+import unicodedata
+import dateutil.parser
 
 # Directorios de salida
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -29,6 +31,9 @@ for d in [DATA_DIR, ARCHIVE_DIR, IMAGES_DIR, IMAGES_TODAY_DIR]:
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 
+# Zona horaria de Perú (UTC-5)
+PERU_TZ = timezone(timedelta(hours=-5))
+
 def get_request(url):
     return urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
 
@@ -38,20 +43,49 @@ def clean_html(raw_html):
     clean = re.sub(r"<[^>]+>", "", raw_html)
     return html.unescape(clean).strip()
 
-import unicodedata
-
 def sanitize_filename(name):
-    # Convertir acentos a caracteres ASCII estándar (á -> a, ñ -> n)
     normalized = unicodedata.normalize('NFKD', name).encode('ascii', 'ignore').decode('utf-8')
     clean = re.sub(r'[^a-zA-Z0-9_\-]+', '_', normalized)
     clean = re.sub(r'_+', '_', clean).strip('._')
     return clean[:60]
 
+def parse_and_format_date(date_str, now_peru):
+    """
+    Parsea cualquier formato de fecha y devuelve:
+    (es_reciente_de_hoy, fecha_formateada_corta, fecha_completa, objeto_datetime)
+    """
+    if not date_str:
+        return (True, now_peru.strftime("Hoy • %I:%M %p"), now_peru.strftime("%d de %B de %Y, %I:%M %p"), now_peru)
+    
+    try:
+        dt = dateutil.parser.parse(date_str)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=PERU_TZ)
+        else:
+            dt = dt.astimezone(PERU_TZ)
+    except Exception:
+        return (True, now_peru.strftime("Hoy • %I:%M %p"), date_str, now_peru)
+
+    # Solo noticias de las últimas 30 horas (del día de hoy y madrugada)
+    diff_hours = (now_peru - dt).total_seconds() / 3600
+    is_today = (diff_hours >= -2 and diff_hours <= 32)
+
+    meses = ['', 'Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Set', 'Oct', 'Nov', 'Dic']
+    meses_completos = ['', 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Setiembre', 'Octubre', 'Noviembre', 'Diciembre']
+
+    hora_str = dt.strftime("%I:%M %p").lstrip('0')
+    if dt.date() == now_peru.date():
+        short_fmt = f"Hoy • {hora_str}"
+    else:
+        short_fmt = f"{dt.day} {meses[dt.month]} • {hora_str}"
+        
+    full_fmt = f"{dt.day} de {meses_completos[dt.month]} de {dt.year}, {hora_str}"
+    return (is_today, short_fmt, full_fmt, dt)
+
 def download_image(img_url, filename_prefix, date_str):
     if not img_url:
         return None
     try:
-        # Resolver URLs relativas tipo //img.kiosko.net
         if img_url.startswith("//"):
             img_url = "https:" + img_url
             
@@ -67,7 +101,7 @@ def download_image(img_url, filename_prefix, date_str):
             if "image" not in content_type and not img_url.lower().endswith(('.jpg', '.jpeg', '.png', '.webp', '.avif')):
                 return None
             data = response.read()
-            if len(data) < 2000:  # descartar iconos pequeños o errores
+            if len(data) < 2000:
                 return None
             with open(local_path, "wb") as f:
                 f.write(data)
@@ -76,7 +110,7 @@ def download_image(img_url, filename_prefix, date_str):
         print(f"Error descargando imagen {img_url}: {e}")
         return None
 
-def fetch_wp_posts(api_url, source_name, category_id, category_label, max_posts=8, date_str=""):
+def fetch_wp_posts(api_url, source_name, category_id, category_label, now_peru, max_posts=10, date_str=""):
     items = []
     print(f"[*] Obteniendo WP: {source_name}...")
     try:
@@ -84,19 +118,24 @@ def fetch_wp_posts(api_url, source_name, category_id, category_label, max_posts=
         with urllib.request.urlopen(req, timeout=12) as resp:
             posts = json.loads(resp.read().decode('utf-8'))
             for post in posts[:max_posts]:
+                date_iso = post.get("date", "")
+                is_today, date_short, date_full, dt_obj = parse_and_format_date(date_iso, now_peru)
+                
+                # Filtrar solo noticias recientes del día
+                if not is_today:
+                    continue
+
                 title = clean_html(post.get("title", {}).get("rendered", ""))
                 link = post.get("link", "")
-                date_iso = post.get("date", "")
                 
-                # Resumen
                 excerpt = clean_html(post.get("excerpt", {}).get("rendered", ""))
                 if len(excerpt) > 220:
                     excerpt = excerpt[:220] + "..."
                 
-                # Imagen destacada
                 media_info = post.get("_embedded", {}).get("wp:featuredmedia", [{}])
                 img_url = None
                 if media_info and isinstance(media_info, list) and len(media_info) > 0:
+                    # Máxima resolución de WordPress
                     img_url = media_info[0].get("source_url")
                 
                 if not img_url:
@@ -115,13 +154,16 @@ def fetch_wp_posts(api_url, source_name, category_id, category_label, max_posts=
                     "image_url": img_url,
                     "local_image": local_img or img_url,
                     "date": date_iso,
+                    "date_formatted": date_short,
+                    "date_full": date_full,
+                    "timestamp": int(dt_obj.timestamp()),
                     "summary": excerpt or title
                 })
     except Exception as e:
         print(f"[!] Error en WP {source_name}: {e}")
     return items
 
-def fetch_rss_feed(feed_url, source_name, category_id, category_label, max_items=10, date_str=""):
+def fetch_rss_feed(feed_url, source_name, category_id, category_label, now_peru, max_items=12, date_str=""):
     items = []
     print(f"[*] Obteniendo RSS: {source_name}...")
     try:
@@ -132,6 +174,13 @@ def fetch_rss_feed(feed_url, source_name, category_id, category_label, max_items
             
             feed_items = root.findall(".//item")
             for item in feed_items[:max_items]:
+                pubDate_elem = item.find("pubDate")
+                pubDate = pubDate_elem.text if (pubDate_elem is not None and pubDate_elem.text) else ""
+                
+                is_today, date_short, date_full, dt_obj = parse_and_format_date(pubDate, now_peru)
+                if not is_today:
+                    continue
+
                 title_elem = item.find("title")
                 title = clean_html(title_elem.text if title_elem is not None else "")
                 if not title:
@@ -140,19 +189,15 @@ def fetch_rss_feed(feed_url, source_name, category_id, category_label, max_items
                 link_elem = item.find("link")
                 link = link_elem.text if link_elem is not None else ""
                 
-                pubDate_elem = item.find("pubDate")
-                pubDate = pubDate_elem.text if pubDate_elem is not None else ""
-                
                 desc_elem = item.find("description")
                 desc_raw = desc_elem.text if desc_elem is not None else ""
                 summary = clean_html(desc_raw)
                 if len(summary) > 220:
                     summary = summary[:220] + "..."
                 
-                # Buscar imagen
+                # Buscar imagen de alta resolución
                 img_url = None
                 
-                # 1. Enclosure
                 for child in item:
                     tag = child.tag.lower()
                     if "enclosure" in tag and "image" in child.attrib.get("type", ""):
@@ -163,12 +208,11 @@ def fetch_rss_feed(feed_url, source_name, category_id, category_label, max_items
                         break
                     elif "thumbnail" in tag and child.attrib.get("url"):
                         img_url = child.attrib.get("url")
-                        # BBC thumbnail optimization
+                        # BBC Ultra-HD (1024px)
                         if "ichef.bbci.co.uk" in img_url:
-                            img_url = re.sub(r'/ws/\d+/', '/ws/800/', img_url)
+                            img_url = re.sub(r'/ws/\d+/', '/ws/1024/', img_url)
                         break
                 
-                # 2. Si no hay en tags, buscar en encoded / description
                 if not img_url:
                     content_encoded = item.find("{http://purl.org/rss/1.0/modules/content/}encoded")
                     text_search = (content_encoded.text or "") + " " + desc_raw
@@ -179,7 +223,6 @@ def fetch_rss_feed(feed_url, source_name, category_id, category_label, max_items
                 if not img_url:
                     continue
                 
-                # Mantener URL original si no hay fallo
                 slug = sanitize_filename(f"{source_name}_{title[:35]}")
                 local_img = download_image(img_url, slug, date_str)
                 
@@ -193,6 +236,9 @@ def fetch_rss_feed(feed_url, source_name, category_id, category_label, max_items
                     "image_url": img_url,
                     "local_image": local_img or img_url,
                     "date": pubDate,
+                    "date_formatted": date_short,
+                    "date_full": date_full,
+                    "timestamp": int(dt_obj.timestamp()),
                     "summary": summary or title
                 })
     except Exception as e:
@@ -200,13 +246,8 @@ def fetch_rss_feed(feed_url, source_name, category_id, category_label, max_items
     return items
 
 def fetch_newspaper_covers(date_str, today_obj):
-    """
-    Obtiene las portadas de diarios de hoy (El Comercio, La República, La Razón, Líbero, El País, NYT)
-    """
     items = []
     print("[*] Obteniendo Portadas de Diarios del Día...")
-    
-    # Formato de fecha para kiosko: YYYY/MM/DD
     kiosko_date = today_obj.strftime("%Y/%m/%d")
     
     portadas = [
@@ -215,10 +256,12 @@ def fetch_newspaper_covers(date_str, today_obj):
         ("Diario Correo (Perú)", f"https://img.kiosko.net/{kiosko_date}/pe/correo_lima.750.jpg", "https://diariocorreo.pe"),
         ("La Razón (Perú)", f"https://img.kiosko.net/{kiosko_date}/pe/pe_larazon.750.jpg", "https://larazon.pe"),
         ("Líbero (Perú)", f"https://img.kiosko.net/{kiosko_date}/pe/pe_libero.750.jpg", "https://libero.pe"),
-        ("El País (España / Global)", f"https://img.kiosko.net/{kiosko_date}/es/elpais.750.jpg", "https://elpais.com"),
-        ("The New York Times (EE.UU.)", f"https://img.kiosko.net/{kiosko_date}/us/nyt.750.jpg", "https://nytimes.com")
+        ("El País (España / Global)", f"https://img.kiosko.net/{kiosko_date}/es/elpais.750.jpg", "https://elpais.com")
     ]
     
+    meses_completos = ['', 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Setiembre', 'Octubre', 'Noviembre', 'Diciembre']
+    fecha_portada = f"{today_obj.day} de {meses_completos[today_obj.month]} de {today_obj.year}"
+
     for name, img_url, web_url in portadas:
         slug = sanitize_filename(f"Portada_{name}")
         local_img = download_image(img_url, slug, date_str)
@@ -233,20 +276,24 @@ def fetch_newspaper_covers(date_str, today_obj):
                 "image_url": img_url,
                 "local_image": local_img,
                 "date": today_obj.strftime("%Y-%m-%d"),
-                "summary": f"Primera plana y portada oficial del diario {name} correspondiente al {today_obj.strftime('%d de %B de %Y')}."
+                "date_formatted": "Hoy • Edición Impresa",
+                "date_full": f"Edición del {fecha_portada}",
+                "timestamp": int(today_obj.timestamp()),
+                "summary": f"Primera plana y portada oficial del diario {name} correspondiente al {fecha_portada}."
             })
             
     return items
 
 def main():
-    # Zona horaria de Perú (UTC-5)
-    peru_tz = timezone(timedelta(hours=-5))
-    now_peru = datetime.now(peru_tz)
+    now_peru = datetime.now(PERU_TZ)
     date_str = now_peru.strftime("%Y-%m-%d")
-    human_date = now_peru.strftime("%d de %B de %Y, %I:%M %p (Hora Perú)")
+    
+    meses_completos = ['', 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Setiembre', 'Octubre', 'Noviembre', 'Diciembre']
+    hora_actual = now_peru.strftime("%I:%M %p").lstrip('0')
+    human_date = f"{now_peru.day} de {meses_completos[now_peru.month]} de {now_peru.year} a las {hora_actual} (Hora Perú)"
     
     print(f"=================================================")
-    print(f" Observatorio para Chabely - Generando Día {date_str}")
+    print(f" Observatorio para Chabely - Actualización {human_date}")
     print(f"=================================================")
     
     all_media = []
@@ -255,34 +302,36 @@ def main():
     portadas = fetch_newspaper_covers(date_str, now_peru)
     all_media.extend(portadas)
     
-    # 2. REGIONAL (PUNO)
-    # NOTA: Radio Onda Azul queda EXCLUIDA como solicitó el usuario.
+    # 2. REGIONAL (PUNO) - EXCLUYE RADIO ONDA AZUL
     puno_sin_fronteras = fetch_wp_posts(
-        "https://diariosinfronteras.com.pe/wp-json/wp/v2/posts?_embed&per_page=8",
+        "https://diariosinfronteras.com.pe/wp-json/wp/v2/posts?_embed&per_page=12",
         "Diario Sin Fronteras (Puno)",
         "regional",
         "Regional (Puno)",
-        max_posts=6,
+        now_peru,
+        max_posts=8,
         date_str=date_str
     )
     all_media.extend(puno_sin_fronteras)
     
     puno_pachamama = fetch_wp_posts(
-        "https://pachamamaradio.org/wp-json/wp/v2/posts?_embed&per_page=8",
+        "https://pachamamaradio.org/wp-json/wp/v2/posts?_embed&per_page=12",
         "Pachamama Radio (Puno)",
         "regional",
         "Regional (Puno)",
-        max_posts=6,
+        now_peru,
+        max_posts=8,
         date_str=date_str
     )
     all_media.extend(puno_pachamama)
     
     puno_los_andes = fetch_wp_posts(
-        "https://losandes.com.pe/wp-json/wp/v2/posts?_embed&per_page=8",
+        "https://losandes.com.pe/wp-json/wp/v2/posts?_embed&per_page=12",
         "Diario Los Andes (Puno)",
         "regional",
         "Regional (Puno)",
-        max_posts=6,
+        now_peru,
+        max_posts=8,
         date_str=date_str
     )
     all_media.extend(puno_los_andes)
@@ -293,7 +342,8 @@ def main():
         "RPP Noticias",
         "nacional",
         "Nacional (Perú)",
-        max_items=8,
+        now_peru,
+        max_items=10,
         date_str=date_str
     )
     all_media.extend(nacional_rpp)
@@ -303,7 +353,8 @@ def main():
         "Agencia Andina",
         "nacional",
         "Nacional (Perú)",
-        max_items=8,
+        now_peru,
+        max_items=10,
         date_str=date_str
     )
     all_media.extend(nacional_andina)
@@ -314,7 +365,8 @@ def main():
         "France 24 en Español",
         "internacional",
         "Internacional",
-        max_items=6,
+        now_peru,
+        max_items=8,
         date_str=date_str
     )
     all_media.extend(inter_france24)
@@ -324,7 +376,8 @@ def main():
         "BBC Mundo",
         "internacional",
         "Internacional",
-        max_items=6,
+        now_peru,
+        max_items=8,
         date_str=date_str
     )
     all_media.extend(inter_bbc)
@@ -334,12 +387,15 @@ def main():
         "El País Internacional",
         "internacional",
         "Internacional",
-        max_items=6,
+        now_peru,
+        max_items=8,
         date_str=date_str
     )
     all_media.extend(inter_elpais)
     
-    # Conteo por categorías
+    # Ordenar por fecha más reciente primero
+    all_media.sort(key=lambda x: x.get("timestamp", 0), reverse=True)
+    
     stats = {
         "total": len(all_media),
         "portadas": len([m for m in all_media if m["category"] == "portadas"]),
@@ -352,28 +408,22 @@ def main():
         "title": "Observatorio para Chabely",
         "date": date_str,
         "updated_at": human_date,
+        "updated_at_iso": now_peru.isoformat(),
         "stats": stats,
         "media": all_media
     }
     
-    # Guardar today.json
     today_file = os.path.join(DATA_DIR, "today.json")
     with open(today_file, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
-    print(f"[OK] Guardado {today_file} con {len(all_media)} fotos y noticias.")
+    print(f"[OK] Guardado {today_file} con {len(all_media)} fotos estrictamente de HOY.")
     
-    # Guardar en archivo histórico por fecha
     archive_file = os.path.join(ARCHIVE_DIR, f"{date_str}.json")
     with open(archive_file, "w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     print(f"[OK] Archivo histórico guardado en {archive_file}")
     
-    print("\nResumen del Observatorio para Chabely:")
-    print(f"- Total fotos recolectadas: {stats['total']}")
-    print(f"- Portadas de Diarios: {stats['portadas']}")
-    print(f"- Regional (Puno): {stats['regional']}")
-    print(f"- Nacional (Perú): {stats['nacional']}")
-    print(f"- Internacional: {stats['internacional']}")
+    return result
 
 if __name__ == "__main__":
     main()

@@ -2,11 +2,15 @@ name: Actualización Diaria del Observatorio
 
 on:
   schedule:
-    # 6:00 AM Hora de Perú (UTC-5) -> 11:00 UTC
-    - cron: '0 11 * * *'
-    # 1:00 PM Hora de Perú (UTC-5) -> 18:00 UTC
-    - cron: '0 18 * * *'
-  workflow_dispatch: # Permite ejecutar manualmente cuando quieras con 1 clic
+    # 7:00 AM Hora de Perú (12:00 UTC) - Portadas del Día
+    - cron: '0 12 * * *'
+    # 8:30 AM Hora de Perú (13:30 UTC) - Antes del turno de Chabely (9:00 AM)
+    - cron: '30 13 * * *'
+    # 11:00 AM Hora de Perú (16:00 UTC) - Mitad de jornada
+    - cron: '0 16 * * *'
+    # 1:30 PM Hora de Perú (18:30 UTC) - Cierre de turno de Chabely (2:00 PM)
+    - cron: '30 18 * * *'
+  workflow_dispatch: # Botón manual en GitHub Actions para actualizar cuando desees
 
 permissions:
   contents: write
@@ -24,7 +28,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Ejecutar Extractor de Medios (Puno, Nacional, Internacional)
+      - name: Instalar dependencias
+        run: |
+          pip install python-dateutil
+
+      - name: Ejecutar Web Scraping Automático de Medios
         run: |
           python scripts/fetch_media.py
 
@@ -34,8 +42,8 @@ jobs:
           git config --global user.email "actions@github.com"
           git add data/ images/today/
           if git diff --staged --quiet; then
-            echo "No hay cambios nuevos para guardar hoy."
+            echo "No hay noticias nuevas en este ciclo."
           else
-            git commit -m "[Auto] Actualización de medios y fotos del día $(date +'%Y-%m-%d')"
+            git commit -m "[Auto] Scraping de medios y fotos del día $(date +'%Y-%m-%d %H:%M')"
             git push
           fi

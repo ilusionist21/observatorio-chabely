@@ -34,8 +34,14 @@
         </div>
       </div>
 
-      <!-- Header Action -->
-      <div class="flex items-center gap-3">
+      <!-- Header Actions -->
+      <div class="flex items-center gap-2 sm:gap-3">
+        <!-- Botón Manual de Scraping / Actualizar -->
+        <button id="btn-manual-refresh" class="apple-btn-secondary px-3.5 py-1.5 text-xs inline-flex items-center gap-1.5 cursor-pointer transition-all" title="Ejecutar scraping manual de noticias y fotos de hoy">
+          <i class="fa-solid fa-arrows-rotate text-[#0071e3]" id="refresh-icon"></i>
+          <span id="refresh-text">Actualizar Ahora</span>
+        </button>
+
         <button id="btn-download-all-zip" class="apple-btn-primary px-4 py-1.5 text-xs inline-flex items-center gap-2 shadow-sm">
           <i class="fa-solid fa-arrow-down-to-bracket text-[11px]"></i>
           <span>Descargar TODO en ZIP</span>
@@ -46,16 +52,19 @@
 
   <!-- Apple Hero Section -->
   <header class="py-12 sm:py-16 text-center max-w-4xl mx-auto px-4">
-    <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#e8e8ed]/80 backdrop-blur text-[11px] font-medium text-[#1d1d1f] mb-4">
+    <!-- Indicador de Última Actualización -->
+    <div class="inline-flex flex-wrap items-center justify-center gap-2 px-4 py-1.5 rounded-full bg-[#e8e8ed]/90 backdrop-blur text-xs font-medium text-[#1d1d1f] mb-4 border border-black/[0.04] shadow-sm">
       <span class="w-2 h-2 rounded-full bg-[#34c759] animate-pulse"></span>
-      <span id="label-updated-time">Actualizado hoy</span>
+      <span id="label-updated-time">Última actualización: Hoy</span>
+      <span class="text-[#86868b]">•</span>
+      <span id="label-relative-time" class="text-[#0071e3] font-semibold">Hace un momento</span>
     </div>
     
     <h1 class="text-3xl sm:text-5xl font-bold tracking-tight text-[#1d1d1f] max-w-3xl mx-auto leading-tight sm:leading-tight">
-      Observatorio de Medios
+      Observatorio para Chabely
     </h1>
     <p class="text-sm sm:text-base text-[#86868b] mt-3 max-w-xl mx-auto font-normal leading-relaxed">
-      Seguimiento fotográfico diario de medios regionales de Puno, prensa nacional e internacional. Descarga fotos individuales en alta resolución o el archivo ZIP completo.
+      Actualización automática de 9:00 AM a 2:00 PM con las portadas y fotografías del día de medios regionales de Puno, prensa nacional e internacional.
     </p>
 
     <!-- Apple Capsule Stats Strip -->

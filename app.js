@@ -1,6 +1,7 @@
 /**
  * Observatorio para Chabely - Frontend Logic
- * Carga de datos, filtrado por categorías, búsqueda, visualización y descargas individuales o ZIP.
+ * Actualización automática para la jornada de 9:00 AM a 2:00 PM.
+ * Soporte de scraping manual bajo demanda, visualización de fecha de noticia y descargas en alta calidad.
  */
 
 let allMediaItems = [];
@@ -8,6 +9,7 @@ let currentCategory = 'all';
 let currentSearchTerm = '';
 let currentModalIndex = -1;
 let filteredItems = [];
+let lastUpdatedIso = null;
 
 // Elementos del DOM
 const mediaGrid = document.getElementById('media-grid');
@@ -18,6 +20,13 @@ const categoryTabs = document.getElementById('category-tabs');
 const btnDownloadAllZip = document.getElementById('btn-download-all-zip');
 const btnDownloadCatZip = document.getElementById('btn-download-cat-zip');
 const btnCatZipText = document.getElementById('btn-cat-zip-text');
+
+// Botón Manual de Scraping y Actualización
+const btnManualRefresh = document.getElementById('btn-manual-refresh');
+const refreshIcon = document.getElementById('refresh-icon');
+const refreshText = document.getElementById('refresh-text');
+const labelUpdatedTime = document.getElementById('label-updated-time');
+const labelRelativeTime = document.getElementById('label-relative-time');
 
 // Modal Lightbox
 const lightboxModal = document.getElementById('lightbox-modal');
@@ -42,9 +51,19 @@ const zipModalSubtitle = document.getElementById('zip-modal-subtitle');
 document.addEventListener('DOMContentLoaded', () => {
   initEventListeners();
   loadObservatoryData();
+  
+  // Actualizar el tiempo relativo cada 60 segundos
+  setInterval(() => {
+    if (lastUpdatedIso) updateRelativeTime(lastUpdatedIso);
+  }, 60000);
 });
 
 function initEventListeners() {
+  // Botón Manual de Scraping / Actualizar
+  if (btnManualRefresh) {
+    btnManualRefresh.addEventListener('click', handleManualRefresh);
+  }
+
   // Cambio de pestañas
   categoryTabs.addEventListener('click', (e) => {
     const btn = e.target.closest('.apple-tab-btn');
@@ -80,7 +99,7 @@ function initEventListeners() {
   btnDownloadAllZip.addEventListener('click', () => {
     if (allMediaItems.length === 0) return;
     const today = new Date().toISOString().split('T')[0];
-    generateZipPackage(allMediaItems, `Observatorio_Chabely_Todas_Fotos_${today}.zip`, "Todas las fotos de hoy");
+    generateZipPackage(allMediaItems, `Observatorio_Chabely_Todas_Fotos_HD_${today}.zip`, "Todas las fotos de hoy");
   });
 
   // Descarga ZIP de categoría / vista actual
@@ -88,7 +107,7 @@ function initEventListeners() {
     if (filteredItems.length === 0) return;
     const catLabel = getCategoryLabel(currentCategory);
     const today = new Date().toISOString().split('T')[0];
-    generateZipPackage(filteredItems, `Observatorio_Chabely_${catLabel.replace(/\s+/g, '_')}_${today}.zip`, catLabel);
+    generateZipPackage(filteredItems, `Observatorio_Chabely_${catLabel.replace(/\s+/g, '_')}_HD_${today}.zip`, catLabel);
   });
 
   // Controles de Lightbox Modal
@@ -111,6 +130,41 @@ function initEventListeners() {
   });
 }
 
+// Acción del Botón Manual de Actualización y Scraping
+async function handleManualRefresh() {
+  if (!btnManualRefresh) return;
+  
+  refreshIcon.classList.add('fa-spin');
+  refreshText.textContent = 'Raspando medios...';
+  btnManualRefresh.disabled = true;
+
+  try {
+    // 1. Intentar endpoint de scraping del servidor local si está corriendo
+    try {
+      const apiResp = await fetch('/api/refresh', { method: 'GET', cache: 'no-store' });
+      if (apiResp.ok) {
+        const apiData = await apiResp.json();
+        console.log('[OK] Scraping manual ejecutado por el servidor:', apiData);
+      }
+    } catch (e) {
+      // Entorno estático (GitHub Pages)
+    }
+
+    // 2. Recargar datos frescos
+    await loadObservatoryData();
+    showAppleToast('¡Observatorio actualizado con las noticias de hoy!');
+  } catch (err) {
+    console.error('Error durante la actualización:', err);
+    showAppleToast('Se recargaron los datos locales.');
+  } finally {
+    setTimeout(() => {
+      refreshIcon.classList.remove('fa-spin');
+      refreshText.textContent = 'Actualizar Ahora';
+      btnManualRefresh.disabled = false;
+    }, 600);
+  }
+}
+
 function updateCatZipButtonText() {
   const label = getCategoryLabel(currentCategory);
   btnCatZipText.textContent = currentCategory === 'all' ? 'ZIP Todas las Fotos' : `ZIP ${label}`;
@@ -129,14 +183,22 @@ function getCategoryLabel(cat) {
 // Carga del archivo data/today.json
 async function loadObservatoryData() {
   try {
-    const res = await fetch('data/today.json?t=' + new Date().getTime());
+    const res = await fetch('data/today.json?t=' + Date.now(), { cache: 'no-store' });
     if (!res.ok) throw new Error('No se pudo cargar data/today.json');
     const data = await res.json();
     
     allMediaItems = data.media || [];
+    lastUpdatedIso = data.updated_at_iso || null;
     
-    // Actualizar fecha y contadores
-    document.getElementById('label-updated-time').textContent = data.updated_at || 'Actualizado hoy';
+    // Actualizar indicador de última actualización
+    if (labelUpdatedTime) {
+      labelUpdatedTime.textContent = data.updated_at ? `Última actualización: ${data.updated_at}` : 'Actualizado hoy';
+    }
+    if (lastUpdatedIso) {
+      updateRelativeTime(lastUpdatedIso);
+    }
+
+    // Actualizar contadores numéricos
     document.getElementById('stat-total').textContent = allMediaItems.length;
     document.getElementById('stat-regional').textContent = data.stats?.regional || 0;
     document.getElementById('stat-nacional').textContent = data.stats?.nacional || 0;
@@ -157,9 +219,30 @@ async function loadObservatoryData() {
     console.error('Error cargando datos:', err);
     loadingState.innerHTML = `
       <div class="text-rose-500 text-3xl mb-2"><i class="fa-solid fa-triangle-exclamation"></i></div>
-      <p class="text-slate-800 font-bold">No se pudieron cargar las noticias de hoy</p>
-      <p class="text-xs text-slate-500 mt-1">Verifica que se haya ejecutado el script o el workflow de GitHub Actions.</p>
+      <p class="text-[#1d1d1f] font-semibold">No se pudieron cargar las noticias de hoy</p>
+      <p class="text-xs text-[#86868b] mt-1">Haz clic en "Actualizar Ahora" o ejecuta el script de scraping.</p>
     `;
+  }
+}
+
+function updateRelativeTime(isoString) {
+  if (!labelRelativeTime || !isoString) return;
+  try {
+    const updatedDate = new Date(isoString);
+    const now = new Date();
+    const diffSecs = Math.max(0, Math.floor((now - updatedDate) / 1000));
+    
+    if (diffSecs < 60) {
+      labelRelativeTime.textContent = 'Hace un momento';
+    } else if (diffSecs < 3600) {
+      const mins = Math.floor(diffSecs / 60);
+      labelRelativeTime.textContent = `Hace ${mins} ${mins === 1 ? 'minuto' : 'minutos'}`;
+    } else {
+      const hours = Math.floor(diffSecs / 3600);
+      labelRelativeTime.textContent = `Hace ${hours} ${hours === 1 ? 'hora' : 'horas'}`;
+    }
+  } catch (e) {
+    labelRelativeTime.textContent = 'Hoy';
   }
 }
 
@@ -171,10 +254,7 @@ function updateTabBadge(cat, count) {
 // Filtrado de noticias y fotos
 function applyFilters() {
   filteredItems = allMediaItems.filter(item => {
-    // Filtro de categoría
     const matchesCat = currentCategory === 'all' || item.category === currentCategory;
-    
-    // Filtro de búsqueda
     const matchesSearch = !currentSearchTerm || 
       item.title.toLowerCase().includes(currentSearchTerm) ||
       item.source.toLowerCase().includes(currentSearchTerm) ||
@@ -186,7 +266,7 @@ function applyFilters() {
   renderGrid(filteredItems);
 }
 
-// Renderizado de tarjetas
+// Renderizado de tarjetas con visualización clara de la fecha
 function renderGrid(items) {
   if (items.length === 0) {
     mediaGrid.innerHTML = '';
@@ -201,9 +281,10 @@ function renderGrid(items) {
   mediaGrid.innerHTML = items.map((item, index) => {
     const badgeClass = getBadgeClass(item.category);
     const imgSrc = item.local_image || item.image_url;
+    const dateLabel = item.date_formatted || item.date || 'Hoy';
     
     return `
-      <article class="apple-card overflow-hidden flex flex-col group p-3">
+      <article class="apple-card overflow-hidden flex flex-col group p-3.5">
         <!-- Contenedor Imagen -->
         <div class="relative overflow-hidden rounded-2xl bg-[#f5f5f7] aspect-[16/10] cursor-pointer" onclick="openLightbox(${index})">
           <img src="${imgSrc}" alt="${escapeHtml(item.title)}" loading="lazy"
@@ -226,7 +307,7 @@ function renderGrid(items) {
 
           <!-- Badge de Fuente -->
           <div class="absolute bottom-2.5 right-2.5">
-            <span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-black/60 text-white backdrop-blur-md">
+            <span class="text-[10px] font-medium px-2.5 py-0.5 rounded-full bg-black/60 text-white backdrop-blur-md">
               ${escapeHtml(item.source)}
             </span>
           </div>
@@ -235,6 +316,15 @@ function renderGrid(items) {
         <!-- Contenido de la Noticia -->
         <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between">
           <div>
+            <!-- FECHA DE LA NOTICIA (Siempre visible) -->
+            <div class="flex items-center gap-1.5 text-[11px] font-medium text-[#86868b] mb-2">
+              <span class="inline-flex items-center gap-1.5 bg-[#f5f5f7] px-2.5 py-0.5 rounded-full border border-black/[0.04]">
+                <i class="fa-regular fa-clock text-[#34c759] text-[10px]"></i>
+                <span class="font-semibold text-[#1d1d1f]">${escapeHtml(dateLabel)}</span>
+              </span>
+            </div>
+
+            <!-- Titular de la Noticia -->
             <h3 class="text-sm sm:text-[15px] font-semibold text-[#1d1d1f] leading-snug line-clamp-2 hover:text-[#0071e3] transition-colors cursor-pointer" onclick="openLightbox(${index})">
               ${escapeHtml(item.title)}
             </h3>
@@ -256,7 +346,7 @@ function renderGrid(items) {
             <!-- Enlace a la Noticia Original -->
             <a href="${item.url}" target="_blank" rel="noopener noreferrer" 
               class="text-xs font-medium text-[#86868b] hover:text-[#1d1d1f] inline-flex items-center gap-1 transition-colors"
-              title="Leer noticia en el medio original">
+              title="Leer noticia completa en el medio original">
               <span>Leer más</span>
               <i class="fa-solid fa-chevron-right text-[9px] text-[#86868b]"></i>
             </a>
@@ -297,19 +387,19 @@ async function downloadSingleImage(item) {
   const fileName = `[HD]_[${categoryTag}]_${cleanTitle}.jpg`;
 
   try {
-    // Intentar descargar como Blob para garantizar el archivo en máxima calidad y nombre exacto
     const response = await fetch(url);
     if (!response.ok) throw new Error('Fallo al obtener blob');
     const blob = await response.blob();
     saveAs(blob, fileName);
+    showAppleToast(`Foto descargada: ${cleanTitle.substring(0, 25)}...`);
   } catch (e) {
-    // Si hubo problema con la URL remota, intentar con la local
     if (item.local_image && url !== item.local_image) {
       try {
         const localResp = await fetch(item.local_image);
         if (localResp.ok) {
           const localBlob = await localResp.blob();
           saveAs(localBlob, fileName);
+          showAppleToast('Foto HD descargada con éxito');
           return;
         }
       } catch (err) {}
@@ -333,7 +423,7 @@ async function generateZipPackage(items, zipFileName, label) {
   const zip = new JSZip();
   zipModal.classList.remove('hidden');
   zipModalTitle.textContent = `Preparando ZIP: ${label}`;
-  zipModalSubtitle.textContent = `Empaquetando ${items.length} fotos...`;
+  zipModalSubtitle.textContent = `Empaquetando ${items.length} fotos en alta resolución...`;
   zipProgressBar.style.width = '0%';
   zipProgressText.textContent = '0%';
 
@@ -342,9 +432,11 @@ async function generateZipPackage(items, zipFileName, label) {
 
   for (let i = 0; i < items.length; i++) {
     const item = items[i];
-    const url = item.local_image || item.image_url;
+    let url = item.local_image || item.image_url;
+    if (item.image_url && item.image_url.includes('ichef.bbci.co.uk')) {
+      url = item.image_url.replace(/\/ws\/\d+\//, '/ws/1024/');
+    }
     
-    // Carpeta interna según categoría
     let folderName = 'Otras';
     if (item.category === 'portadas') folderName = 'Portadas_Diarios';
     else if (item.category === 'regional') folderName = 'Regional_Puno';
@@ -365,7 +457,7 @@ async function generateZipPackage(items, zipFileName, label) {
     }
 
     processed++;
-    const percent = Math.round((processed / total) * 70); // hasta 70% en descarga
+    const percent = Math.round((processed / total) * 70);
     zipProgressBar.style.width = `${percent}%`;
     zipProgressText.textContent = `Descargando fotos: ${processed}/${total} (${percent}%)`;
   }
@@ -380,6 +472,7 @@ async function generateZipPackage(items, zipFileName, label) {
     });
 
     saveAs(zipBlob, zipFileName);
+    showAppleToast('¡Archivo ZIP descargado con éxito!');
   } catch (err) {
     alert('Error al comprimir el archivo ZIP: ' + err.message);
   } finally {
@@ -399,9 +492,12 @@ window.openLightbox = function(index) {
   modalTitle.textContent = item.title;
   modalSummary.textContent = item.summary || 'Sin descripción adicional.';
   modalCategoryBadge.textContent = item.category_label || item.category;
-  modalCategoryBadge.className = `text-xs font-bold px-2.5 py-0.5 rounded-full border ${getBadgeClass(item.category)}`;
+  modalCategoryBadge.className = `text-xs font-semibold px-2.5 py-0.5 rounded-full border ${getBadgeClass(item.category)}`;
   modalSourceLabel.textContent = `Medio: ${item.source}`;
-  modalDate.textContent = item.date ? `Fecha: ${item.date}` : '';
+  
+  // FECHA COMPLETA DE LA NOTICIA EN EL MODAL
+  const fullDate = item.date_full || item.date_formatted || item.date;
+  modalDate.innerHTML = `<span class="inline-flex items-center gap-1.5"><i class="fa-regular fa-clock text-[#34c759]"></i> <span>Fecha: ${escapeHtml(fullDate)}</span></span>`;
   modalArticleLink.href = item.url;
 
   lightboxModal.classList.remove('hidden');
@@ -417,6 +513,25 @@ function navigateLightbox(direction) {
   if (filteredItems.length === 0) return;
   currentModalIndex = (currentModalIndex + direction + filteredItems.length) % filteredItems.length;
   openLightbox(currentModalIndex);
+}
+
+// Notificación Toast elegante estilo Apple
+function showAppleToast(message) {
+  let toast = document.getElementById('apple-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'apple-toast';
+    toast.className = 'fixed bottom-6 right-6 z-50 apple-glass px-4 py-2.5 rounded-2xl shadow-xl text-xs font-semibold text-[#1d1d1f] border border-black/[0.08] flex items-center gap-2 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none';
+    document.body.appendChild(toast);
+  }
+  toast.innerHTML = `<i class="fa-solid fa-circle-check text-[#34c759] text-sm"></i> <span>${escapeHtml(message)}</span>`;
+  toast.classList.remove('translate-y-20', 'opacity-0');
+  toast.classList.add('translate-y-0', 'opacity-100');
+
+  setTimeout(() => {
+    toast.classList.remove('translate-y-0', 'opacity-100');
+    toast.classList.add('translate-y-20', 'opacity-0');
+  }, 3200);
 }
 
 function escapeHtml(str) {
