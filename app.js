@@ -245,12 +245,12 @@ function renderGrid(items) {
 
           <!-- Acciones de la Tarjeta Apple Style -->
           <div class="mt-4 pt-3 border-t border-black/[0.04] flex items-center justify-between gap-2">
-            <!-- Botón de Descarga Directa de Foto (Apple Blue) -->
+            <!-- Botón de Descarga Directa de Foto en Verde Alta Calidad -->
             <button onclick="downloadSingleImageByIndex(${index})" 
-              class="apple-btn-primary px-3 py-1.5 text-xs inline-flex items-center gap-1.5"
-              title="Descargar esta foto en alta resolución">
+              class="apple-btn-green px-3.5 py-1.5 text-xs inline-flex items-center gap-1.5 shadow-sm"
+              title="Descargar esta fotografía en máxima resolución (HD)">
               <i class="fa-solid fa-arrow-down-to-bracket text-[11px]"></i>
-              <span>Descargar Foto</span>
+              <span>Descargar Foto HD</span>
             </button>
 
             <!-- Enlace a la Noticia Original -->
@@ -278,24 +278,44 @@ function getBadgeClass(cat) {
   }
 }
 
-// Descarga individual de una imagen
+// Descarga individual de una imagen en Alta Calidad
 window.downloadSingleImageByIndex = function(index) {
   const item = filteredItems[index];
   if (item) downloadSingleImage(item);
 };
 
 async function downloadSingleImage(item) {
-  const url = item.local_image || item.image_url;
+  let url = item.local_image || item.image_url;
+
+  // Optimización de resolución HD para fuentes reconocidas
+  if (item.image_url && item.image_url.includes('ichef.bbci.co.uk')) {
+    url = item.image_url.replace(/\/ws\/\d+\//, '/ws/1024/');
+  }
+
   const cleanTitle = (item.title || 'foto').replace(/[^a-zA-Z0-9_\u00C0-\u017F\s-]/g, '').trim().substring(0, 50);
-  const fileName = `[${item.category}]_${cleanTitle}.jpg`;
+  const categoryTag = (item.category_label || item.category || 'Medio').replace(/\s+/g, '_');
+  const fileName = `[HD]_[${categoryTag}]_${cleanTitle}.jpg`;
 
   try {
-    // Intentar descargar como Blob para asegurar el nombre exacto
+    // Intentar descargar como Blob para garantizar el archivo en máxima calidad y nombre exacto
     const response = await fetch(url);
+    if (!response.ok) throw new Error('Fallo al obtener blob');
     const blob = await response.blob();
     saveAs(blob, fileName);
   } catch (e) {
-    // Fallback: enlace de descarga clásico
+    // Si hubo problema con la URL remota, intentar con la local
+    if (item.local_image && url !== item.local_image) {
+      try {
+        const localResp = await fetch(item.local_image);
+        if (localResp.ok) {
+          const localBlob = await localResp.blob();
+          saveAs(localBlob, fileName);
+          return;
+        }
+      } catch (err) {}
+    }
+
+    // Fallback directo por enlace
     const a = document.createElement('a');
     a.href = url;
     a.download = fileName;
