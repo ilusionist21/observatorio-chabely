@@ -1,13 +1,13 @@
 {
   "title": "Observatorio para Chabely",
   "date": "2026-10-15",
-  "updated_at": "15 de Octubre de 2026 a las 10:07 PM (Hora Perú)",
-  "updated_at_iso": "2026-10-15T22:07:54.831625-05:00",
+  "updated_at": "15 de Octubre de 2026 a las 10:20 PM (Hora Perú)",
+  "updated_at_iso": "2026-10-15T22:20:17.561624-05:00",
   "stats": {
-    "total": 68,
+    "total": 67,
     "portadas": 5,
     "regional": 24,
-    "nacional": 16,
+    "nacional": 15,
     "internacional": 23
   },
   "media": [
@@ -23,7 +23,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792120074,
+      "timestamp": 1792120817,
       "summary": "Primera plana y portada oficial del diario El Comercio (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -38,7 +38,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792120074,
+      "timestamp": 1792120817,
       "summary": "Primera plana y portada oficial del diario La República (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -53,7 +53,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792120074,
+      "timestamp": 1792120817,
       "summary": "Primera plana y portada oficial del diario La Razón (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -68,7 +68,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792120074,
+      "timestamp": 1792120817,
       "summary": "Primera plana y portada oficial del diario Líbero (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -83,11 +83,41 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792120074,
+      "timestamp": 1792120817,
       "summary": "Primera plana y portada oficial del diario El País (España / Global) correspondiente al 15 de Octubre de 2026."
     },
     {
+      "id": "nacional-1-RPP_Noticias_Martha_Moyan",
+      "title": "Martha Moyano tras controversia por suspensión de debate sobre facultades: \"Ser autoritario no es tan malo\"",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/politica/congreso/martha-moyano-se-pronuncia-en-medio-del-debate-por-las-facultades-legislativas-noticia-1712870",
+      "image_url": "https://f.rpp-noticias.io/2026/10/15/atsapp-video-2026-10-15-at-95847-pm-1919089mp4_1919090.jpg",
+      "local_image": "images/today/2026-10-15_RPP_Noticias_Martha_Moyano_tras_controversia_por.jpg",
+      "date": "Thu, 15 Oct 2026 22:18:10 -0500",
+      "date_formatted": "Hoy • 10:18 PM",
+      "date_full": "15 de Octubre de 2026, 10:18 PM",
+      "timestamp": 1792120690,
+      "summary": "Al respecto, el presidente de la Comisión de Constitución del Senado, Carlos Mesía, sostuvo que su colega de Fuerza Popular se refería a la necesidad de actuar con firmeza y aplicar la ley y el reglamento, tras la suspen..."
+    },
+    {
       "id": "nacional-1-Agencia_Andina_Presidenta",
+      "title": "Presidenta Fujimori anuncia importantes acciones del Gobierno frente al fenómeno El Niño",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-presidenta-fujimori-anuncia-importantes-acciones-del-gobierno-frente-al-fenomeno-nino-1096135.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/15/001323968W.jpg",
+      "local_image": "images/today/2026-10-15_Agencia_Andina_Presidenta_Fujimori_anuncia_importa.jpg",
+      "date": "Thu, 15 Oct 2026 22:14:46 -0500",
+      "date_formatted": "Hoy • 10:14 PM",
+      "date_full": "15 de Octubre de 2026, 10:14 PM",
+      "timestamp": 1792120486,
+      "summary": "La presidenta de la República, Keiko Fujimori, anunció nuevas acciones del Gobierno para fortalecer la preparación del país frente al fenómeno El Niño y garantizó una intervención articulada y simultánea en las regiones ..."
+    },
+    {
+      "id": "nacional-2-Agencia_Andina_Presidenta",
       "title": "Presidenta Fujimori destaca labor de PNP y FFAA tras operativos exitosos contra el crimen",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -117,7 +147,7 @@
       "summary": "BBC Verify ha identificado 254 incidentes de los últimos tres años que el ejército israelí ha declarado estar revisando tras haber sido acusado de causar daños, pero sin informar los resultados."
     },
     {
-      "id": "nacional-1-RPP_Noticias_Universitari",
+      "id": "nacional-2-RPP_Noticias_Universitari",
       "title": "Universitario perdió 1-0 ante Palmeiras en Quito por la fecha 1 de la Copa Libertadores Femenina",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -147,7 +177,7 @@
       "summary": "La muerte de Ronal Coaquira, de 29 años, ocurrida en la comisaría de Rosaspata, en la provincia cusqueña de Canchis, generó indignación"
     },
     {
-      "id": "nacional-2-Agencia_Andina_Trump_cons",
+      "id": "nacional-3-Agencia_Andina_Trump_cons",
       "title": "Trump considera \"una vergüenza\" que Ucrania retome ataques contra refinerías rusas",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -162,22 +192,7 @@
       "summary": "El presidente de Estados Unidos, Donald Trump, consideró como \"una vergüenza\" este jueves los renovados ataques de Ucrania contra refinerías de petróleo rusas."
     },
     {
-      "id": "nacional-6-RPP_Noticias_Luis_Advincu",
-      "title": "Luis Advíncula se olvida de Cristal y envía contundente mensaje sobre Alianza Lima: \"Estamos en el club más grande del Perú\"",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/descentralizado/alianza-lima-luis-advincula-lanzo-firme-arenga-el-club-mas-grande-del-peru-noticia-1712864",
-      "image_url": "https://f.rpp-noticias.io/2026/10/15/475147_1919079.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-15_RPP_Noticias_Luis_Advincula_se_olvida_de_Cristal.jpg",
-      "date": "Thu, 15 Oct 2026 21:33:00 -0500",
-      "date_formatted": "Hoy • 9:33 PM",
-      "date_full": "15 de Octubre de 2026, 9:33 PM",
-      "timestamp": 1792117980,
-      "summary": "Luis Advíncula es uno de los líderes en la interna de Alianza Lima que sueña con ganar el Torneo Clausura."
-    },
-    {
-      "id": "nacional-3-Agencia_Andina_Autoridad_",
+      "id": "nacional-4-Agencia_Andina_Autoridad_",
       "title": "Autoridad Nacional de Infraestructura lidera inversión pública ejecutada en 2024-2025",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -192,7 +207,7 @@
       "summary": "La Autoridad Nacional de Infraestructura (ANIN) indicó hoy que lideró la ejecución de inversión pública en los años 2024 y 2025 tras haber culminado la ejecución de 50 proyectos de alto impacto social y preventivo."
     },
     {
-      "id": "nacional-4-Agencia_Andina_Amazonas_b",
+      "id": "nacional-5-Agencia_Andina_Amazonas_b",
       "title": "Amazonas: bomberos voluntarios controlan incendio forestal cerca de Kuélap",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -207,7 +222,7 @@
       "summary": "La rápida intervención de los bomberos, autoridades locales y pobladores permitió controlar un incendio forestal registrado en las inmediaciones del complejo arqueológico de Kuélap, en la región Amazonas, y evitar que la..."
     },
     {
-      "id": "nacional-4-RPP_Noticias_Se_define_en",
+      "id": "nacional-5-RPP_Noticias_Se_define_en",
       "title": "Se define en Brasil: Estudiantes y Flamengo empataron 0-0 por la semifinal de ida por Copa Libertadores 2026",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -222,7 +237,7 @@
       "summary": "Flamengo y Estudiantes midieron fuerzas en el Estadio UNO de Argentina en el primer partido de 'semis' de la Copa Libertadores 2026."
     },
     {
-      "id": "nacional-5-Agencia_Andina_Minjusdh_m",
+      "id": "nacional-6-Agencia_Andina_Minjusdh_m",
       "title": "Minjusdh: megacampaña contra extorsión brindó orientación legal a más de 17 mil personas",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -282,7 +297,7 @@
       "summary": "El precio del galón de diésel en Estados Unidos tocó máximos este verano y se ha convertido en una de las cartas de juego de los demócratas para arrebatarles votos a los republicanos en las elecciones de medio término de..."
     },
     {
-      "id": "nacional-6-Agencia_Andina_Beca_18_Pr",
+      "id": "nacional-7-Agencia_Andina_Beca_18_Pr",
       "title": "Beca 18: Pronabec ofrece 6000 nuevas vacantes cuya inscripción vence el viernes 16",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -312,7 +327,7 @@
       "summary": "El presidente brasileño, Luiz Inácio Lula da Silva, anunció este jueves 15 de octubre que impulsará una enmienda constitucional para ofrecer transporte gratuito durante los fines de semana, luego de que el Senado aprobar..."
     },
     {
-      "id": "nacional-7-Agencia_Andina_Destacan_l",
+      "id": "nacional-8-Agencia_Andina_Destacan_l",
       "title": "Destacan los beneficios de la vitamina C endovenosa antes y después de las cirugías",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -387,7 +402,7 @@
       "summary": "En medio de su gira por Europa, el presidente ucraniano, Volodímir Zelenski, justificó los ataques de Ucrania contra las refinerías de petróleo rusas a pesar de los llamados de Donald Trump de evitar estos bombardeos y l..."
     },
     {
-      "id": "nacional-8-Agencia_Andina_UNI_ofrece",
+      "id": "nacional-9-Agencia_Andina_UNI_ofrece",
       "title": "UNI ofrece conferencias gratuitas para becas en Francia, Alemania y Brasil: ¿Cuándo?",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -417,7 +432,7 @@
       "summary": "De cara a las midterms, crece la presión sobre el presidente Donald Trump para terminar la guerra en Irán, que cada vez se vuelve más impopular por su duración y alto costo económico . Funcionarios citados por 'CNN' aseg..."
     },
     {
-      "id": "nacional-9-Agencia_Andina_Presidente",
+      "id": "nacional-10-Agencia_Andina_Presidente",
       "title": "Presidente del Congreso inauguró encuentro macrorregional de mypes en el Cusco",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -430,21 +445,6 @@
       "date_full": "15 de Octubre de 2026, 8:32 PM",
       "timestamp": 1792114356,
       "summary": "El presidente del Congreso, Miguel Torres Morales, afirmó hoy que el Parlamento tiene la responsabilidad de contribuir con leyes que respondan a las necesidades del país y ejercer una fiscalización efectiva para que las ..."
-    },
-    {
-      "id": "nacional-10-Agencia_Andina_Prision_pr",
-      "title": "Prisión preventiva para investigado por presunto feminicidio en agravio de enfermera",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-prision-preventiva-para-investigado-presunto-feminicidio-agravio-enfermera-1096123.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/15/001323951W.jpg",
-      "local_image": "images/today/2026-10-15_Agencia_Andina_Prision_preventiva_para_investigado.jpg",
-      "date": "Thu, 15 Oct 2026 20:25:53 -0500",
-      "date_formatted": "Hoy • 8:25 PM",
-      "date_full": "15 de Octubre de 2026, 8:25 PM",
-      "timestamp": 1792113953,
-      "summary": "La Fiscalía Especializada de Violencia Contra las Mujeres y los Integrantes del Grupo Familiar de Utcubamba (Amazonas), liderada por la fiscal provincial Deisy del Rosario Guevara Murillo, logró que se dicte nueve meses ..."
     },
     {
       "id": "regional-3-Diario_Sin_Fronteras_Puno",
@@ -567,7 +567,7 @@
       "summary": "En el marco del Día de la Educación Inclusiva, se realizó una ceremonia de izamiento y desfile en la Plaza Mayor de"
     },
     {
-      "id": "nacional-3-RPP_Noticias_Estados_Unid",
+      "id": "nacional-4-RPP_Noticias_Estados_Unid",
       "title": "Estados Unidos: tres niños y una maestra mueren en tiroteo de Oregón junto al presunto asesino de 16 años",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -610,21 +610,6 @@
       "date_full": "15 de Octubre de 2026, 6:13 PM",
       "timestamp": 1792106039,
       "summary": "David Mendoza pidió respetar la tarifa urbana de S/ 1,50 y rechazó la ruta libre, aunque aseguró que los transportistas aceptan nuevas empresas que cumplan los requisitos legales"
-    },
-    {
-      "id": "nacional-5-RPP_Noticias_Diego_Elias_",
-      "title": "Diego Elías disputará la final del CIB Egyptian Squash Open 2026: fecha, rival y dónde ver el partido",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/multideportes/mas-deportes/diego-elias-vs-asal-en-vivo-final-cib-egyptian-squash-open-a-que-hora-juegan-rival-y-donde-ver-partido-noticia-1712836",
-      "image_url": "https://f.rpp-noticias.io/2026/10/15/153915_1919015.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-15_RPP_Noticias_Diego_Elias_disputara_la_final_del.jpg",
-      "date": "Thu, 15 Oct 2026 18:13:30 -0500",
-      "date_formatted": "Hoy • 6:13 PM",
-      "date_full": "15 de Octubre de 2026, 6:13 PM",
-      "timestamp": 1792106010,
-      "summary": "El peruano Diego Elías buscará un nuevo título en su destacada carrera. Aquí los detalles sobre la final en Egipto."
     },
     {
       "id": "regional-5-Pachamama_Radio_Puno_Alca",
@@ -1002,7 +987,7 @@
       "summary": "El presidente y Cuerpo alejan la idea de un aumento antes de acudir a las urnas pero señalan que se puede hacer en funciones, en diciembre. El Gobierno sí pretende subir el SMI antes de votar"
     },
     {
-      "id": "nacional-2-RPP_Noticias_SENAMHI_Pron",
+      "id": "nacional-3-RPP_Noticias_SENAMHI_Pron",
       "title": "SENAMHI: Pronóstico del clima hoy jueves 15 de octubre 2026",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
