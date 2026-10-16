@@ -25,7 +25,7 @@ class FetchMediaTest(unittest.TestCase):
         rss = b"""<rss><channel><item>
             <title>Noticia sin imagen</title>
             <pubDate>Thu, 15 Oct 2026 12:00:00 -0500</pubDate>
-            <description>Resumen sin imagen</description>
+            <description />
         </item></channel></rss>"""
         response = BytesIO(rss)
         urlopen.return_value = response

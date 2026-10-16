@@ -199,7 +199,7 @@ def fetch_rss_feed(feed_url, source_name, category_id, category_label, now_peru,
                 link = link_elem.text if link_elem is not None else ""
                 
                 desc_elem = item.find("description")
-                desc_raw = desc_elem.text if desc_elem is not None else ""
+                desc_raw = desc_elem.text if desc_elem is not None and desc_elem.text else ""
                 summary = clean_html(desc_raw)
                 if len(summary) > 220:
                     summary = summary[:220] + "..."
