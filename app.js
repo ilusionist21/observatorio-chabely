@@ -47,10 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
 function initEventListeners() {
   // Cambio de pestañas
   categoryTabs.addEventListener('click', (e) => {
-    const btn = e.target.closest('.tab-btn');
+    const btn = e.target.closest('.apple-tab-btn');
     if (!btn) return;
     
-    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.apple-tab-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     
     currentCategory = btn.getAttribute('data-cat');
@@ -69,7 +69,7 @@ function initEventListeners() {
     inputSearch.value = '';
     currentSearchTerm = '';
     currentCategory = 'all';
-    document.querySelectorAll('.tab-btn').forEach(b => {
+    document.querySelectorAll('.apple-tab-btn').forEach(b => {
       b.classList.toggle('active', b.getAttribute('data-cat') === 'all');
     });
     updateCatZipButtonText();
@@ -164,7 +164,7 @@ async function loadObservatoryData() {
 }
 
 function updateTabBadge(cat, count) {
-  const btn = document.querySelector(`.tab-btn[data-cat="${cat}"] .tab-count`);
+  const btn = document.querySelector(`.apple-tab-btn[data-cat="${cat}"] .tab-count`);
   if (btn) btn.textContent = count;
 }
 
@@ -203,61 +203,62 @@ function renderGrid(items) {
     const imgSrc = item.local_image || item.image_url;
     
     return `
-      <article class="bg-white rounded-2xl overflow-hidden border border-slate-200/90 shadow-sm card-hover-effect flex flex-col group">
+      <article class="apple-card overflow-hidden flex flex-col group p-3">
         <!-- Contenedor Imagen -->
-        <div class="relative overflow-hidden bg-slate-100 aspect-[16/10] cursor-pointer" onclick="openLightbox(${index})">
+        <div class="relative overflow-hidden rounded-2xl bg-[#f5f5f7] aspect-[16/10] cursor-pointer" onclick="openLightbox(${index})">
           <img src="${imgSrc}" alt="${escapeHtml(item.title)}" loading="lazy"
             onerror="this.onerror=null; this.src='${item.image_url}';"
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            class="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-500 ease-out">
           
           <!-- Overlay de Hover con Icono Zoom -->
-          <div class="absolute inset-0 bg-slate-900/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-            <span class="w-10 h-10 rounded-full bg-white/90 text-slate-800 flex items-center justify-center shadow-md">
-              <i class="fa-solid fa-expand text-sm"></i>
+          <div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <span class="w-9 h-9 rounded-full bg-white/90 text-[#1d1d1f] flex items-center justify-center shadow-lg backdrop-blur-md">
+              <i class="fa-solid fa-expand text-xs"></i>
             </span>
           </div>
 
-          <!-- Badge de Categoría y Fuente -->
-          <div class="absolute top-3 left-3 flex flex-wrap gap-1.5 items-center">
-            <span class="text-[11px] font-bold px-2.5 py-0.5 rounded-full border shadow-sm backdrop-blur-md ${badgeClass}">
+          <!-- Badge de Categoría Apple Glass -->
+          <div class="absolute top-2.5 left-2.5 flex items-center">
+            <span class="apple-badge-glass text-[11px] font-semibold px-2.5 py-0.5 rounded-full ${badgeClass}">
               ${item.category_label || item.category}
             </span>
           </div>
 
+          <!-- Badge de Fuente -->
           <div class="absolute bottom-2.5 right-2.5">
-            <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-black/70 text-white backdrop-blur-sm">
+            <span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-black/60 text-white backdrop-blur-md">
               ${escapeHtml(item.source)}
             </span>
           </div>
         </div>
 
         <!-- Contenido de la Noticia -->
-        <div class="p-4 sm:p-5 flex-1 flex flex-col justify-between">
+        <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between">
           <div>
-            <h3 class="text-sm sm:text-base font-bold text-slate-900 leading-snug line-clamp-2 hover:text-sky-600 transition-colors cursor-pointer" onclick="openLightbox(${index})">
+            <h3 class="text-sm sm:text-[15px] font-semibold text-[#1d1d1f] leading-snug line-clamp-2 hover:text-[#0071e3] transition-colors cursor-pointer" onclick="openLightbox(${index})">
               ${escapeHtml(item.title)}
             </h3>
-            <p class="text-xs text-slate-500 mt-2 line-clamp-2 leading-relaxed">
+            <p class="text-xs text-[#86868b] mt-1.5 line-clamp-2 leading-relaxed font-normal">
               ${escapeHtml(item.summary || '')}
             </p>
           </div>
 
-          <!-- Acciones de la Tarjeta -->
-          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between gap-2">
-            <!-- Botón de Descarga Directa de Foto -->
+          <!-- Acciones de la Tarjeta Apple Style -->
+          <div class="mt-4 pt-3 border-t border-black/[0.04] flex items-center justify-between gap-2">
+            <!-- Botón de Descarga Directa de Foto (Apple Blue) -->
             <button onclick="downloadSingleImageByIndex(${index})" 
-              class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold text-sky-700 bg-sky-50 hover:bg-sky-100 active:scale-95 transition-all"
+              class="apple-btn-primary px-3 py-1.5 text-xs inline-flex items-center gap-1.5"
               title="Descargar esta foto en alta resolución">
-              <i class="fa-solid fa-arrow-down-to-bracket text-xs"></i>
+              <i class="fa-solid fa-arrow-down-to-bracket text-[11px]"></i>
               <span>Descargar Foto</span>
             </button>
 
             <!-- Enlace a la Noticia Original -->
             <a href="${item.url}" target="_blank" rel="noopener noreferrer" 
-              class="text-xs font-semibold text-slate-400 hover:text-slate-700 inline-flex items-center gap-1 transition-colors"
+              class="text-xs font-medium text-[#86868b] hover:text-[#1d1d1f] inline-flex items-center gap-1 transition-colors"
               title="Leer noticia en el medio original">
               <span>Leer más</span>
-              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              <i class="fa-solid fa-chevron-right text-[9px] text-[#86868b]"></i>
             </a>
           </div>
 

@@ -1,239 +1,190 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="h-full">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Observatorio para Chabely | Medios y Fotos del Día</title>
-  <meta name="description" content="Observatorio de medios de comunicación regional (Puno), nacional e internacional con descarga directa y en ZIP de fotos del día.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📸</text></svg>">
+  <title>Observatorio para Chabely</title>
+  <meta name="description" content="Observatorio de medios de comunicación regional (Puno), nacional e internacional con descarga directa de fotos y empaquetado en ZIP.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <!-- Google Fonts: Inter -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
   
-  <!-- JSZip & FileSaver para empaquetado de fotos en ZIP gratis en el navegador -->
+  <!-- JSZip & FileSaver para empaquetado en ZIP gratuito -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
-            serif: ['"Playfair Display"', 'serif'],
-          },
-          colors: {
-            brand: {
-              50: '#f0f7ff',
-              100: '#e0effe',
-              500: '#0284c7',
-              600: '#0369a1',
-              700: '#075985',
-              900: '#0c4a6e',
-            },
-            puno: {
-              badge: '#7c3aed',
-              bg: '#f5f3ff',
-              text: '#6d28d9',
-            }
-          }
-        }
-      }
-    }
-  </script>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-slate-50 text-slate-850 antialiased min-h-screen flex flex-col font-sans">
+<body class="min-h-full flex flex-col antialiased selection:bg-[#0071e3] selection:text-white">
 
-  <!-- Header Superior -->
-  <header class="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-sm/50 backdrop-blur-md bg-white/95">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-wrap items-center justify-between gap-4">
+  <!-- Apple Navigation Bar (Frosted Glass) -->
+  <nav class="sticky top-0 z-40 apple-glass">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
       <div class="flex items-center gap-3">
-        <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-sky-600 via-indigo-600 to-purple-600 flex items-center justify-center text-white shadow-md shadow-sky-500/20">
-          <i class="fa-solid fa-camera-retro text-xl"></i>
+        <!-- Logo Apple Style Icon -->
+        <div class="w-8 h-8 rounded-full bg-[#1d1d1f] text-white flex items-center justify-center text-xs shadow-sm">
+          <i class="fa-solid fa-camera"></i>
         </div>
-        <div>
-          <h1 class="text-xl sm:text-2xl font-extrabold tracking-tight text-slate-900 font-serif flex items-center gap-2">
-            Observatorio para Chabely
-            <span class="text-xs font-sans font-semibold uppercase px-2.5 py-0.5 rounded-full bg-sky-100 text-sky-800 border border-sky-200 tracking-wider">Hoy</span>
-          </h1>
-          <p class="text-xs text-slate-500 font-medium">Monitoreo Fotográfico de Medios: Regional (Puno), Nacional e Internacional</p>
+        <div class="flex items-center gap-2">
+          <span class="text-sm font-semibold text-[#1d1d1f] tracking-tight">Observatorio para Chabely</span>
+          <span class="text-[11px] font-medium text-[#86868b] bg-[#e8e8ed] px-2 py-0.5 rounded-full">Medios del Día</span>
         </div>
       </div>
 
-      <!-- Acciones Globales del Header -->
-      <div class="flex items-center gap-2 sm:gap-3">
-        <!-- Botón Descargar Todo el Día en ZIP -->
-        <button id="btn-download-all-zip" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold text-white bg-gradient-to-r from-sky-600 to-indigo-600 hover:from-sky-700 hover:to-indigo-700 active:scale-95 transition-all shadow-md shadow-sky-500/25">
-          <i class="fa-solid fa-file-zipper text-base"></i>
+      <!-- Header Action -->
+      <div class="flex items-center gap-3">
+        <button id="btn-download-all-zip" class="apple-btn-primary px-4 py-1.5 text-xs inline-flex items-center gap-2 shadow-sm">
+          <i class="fa-solid fa-arrow-down-to-bracket text-[11px]"></i>
           <span>Descargar TODO en ZIP</span>
         </button>
       </div>
     </div>
-  </header>
+  </nav>
 
-  <!-- Banner Informativo y Estadísticas -->
-  <section class="bg-gradient-to-b from-slate-900 via-slate-850 to-slate-900 text-white py-8 border-b border-slate-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-        <div>
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800 text-sky-400 text-xs font-semibold mb-3 border border-slate-700">
-            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span id="label-updated-time">Actualizado hoy</span>
-          </div>
-          <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white font-serif">
-            Fotoperiodismo y Portadas del Día
-          </h2>
-          <p class="text-sm text-slate-300 max-w-2xl mt-1">
-            Revisión diaria de fotos de portadas, medios regionales de Puno (Diario Sin Fronteras, Pachamama Radio, Diario Los Andes), diarios nacionales e internacionales. Puedes descargar fotos individuales o la colección completa en ZIP.
-          </p>
-        </div>
+  <!-- Apple Hero Section -->
+  <header class="py-12 sm:py-16 text-center max-w-4xl mx-auto px-4">
+    <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#e8e8ed]/80 backdrop-blur text-[11px] font-medium text-[#1d1d1f] mb-4">
+      <span class="w-2 h-2 rounded-full bg-[#34c759] animate-pulse"></span>
+      <span id="label-updated-time">Actualizado hoy</span>
+    </div>
+    
+    <h1 class="text-3xl sm:text-5xl font-bold tracking-tight text-[#1d1d1f] max-w-3xl mx-auto leading-tight sm:leading-tight">
+      Observatorio de Medios
+    </h1>
+    <p class="text-sm sm:text-base text-[#86868b] mt-3 max-w-xl mx-auto font-normal leading-relaxed">
+      Seguimiento fotográfico diario de medios regionales de Puno, prensa nacional e internacional. Descarga fotos individuales en alta resolución o el archivo ZIP completo.
+    </p>
 
-        <!-- Tarjetas de Conteo Rápido -->
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
-          <div class="bg-slate-800/80 backdrop-blur rounded-xl p-3 border border-slate-700/60 text-center">
-            <span class="text-xs text-slate-400 font-medium block">Total Fotos</span>
-            <span id="stat-total" class="text-2xl font-black text-sky-400">0</span>
-          </div>
-          <div class="bg-slate-800/80 backdrop-blur rounded-xl p-3 border border-slate-700/60 text-center">
-            <span class="text-xs text-purple-300 font-medium block">Puno (Regional)</span>
-            <span id="stat-regional" class="text-2xl font-black text-purple-400">0</span>
-          </div>
-          <div class="bg-slate-800/80 backdrop-blur rounded-xl p-3 border border-slate-700/60 text-center">
-            <span class="text-xs text-rose-300 font-medium block">Nacional (Perú)</span>
-            <span id="stat-nacional" class="text-2xl font-black text-rose-400">0</span>
-          </div>
-          <div class="bg-slate-800/80 backdrop-blur rounded-xl p-3 border border-slate-700/60 text-center">
-            <span class="text-xs text-emerald-300 font-medium block">Internacional</span>
-            <span id="stat-internacional" class="text-2xl font-black text-emerald-400">0</span>
-          </div>
-        </div>
+    <!-- Apple Capsule Stats Strip -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-8 max-w-2xl mx-auto">
+      <div class="bg-white rounded-2xl p-3.5 border border-black/[0.04] shadow-[0_2px_12px_rgba(0,0,0,0.03)] text-center">
+        <span class="text-[11px] text-[#86868b] font-medium block">Total Fotos</span>
+        <span id="stat-total" class="text-xl font-bold text-[#1d1d1f] mt-0.5 block">0</span>
+      </div>
+      <div class="bg-white rounded-2xl p-3.5 border border-black/[0.04] shadow-[0_2px_12px_rgba(0,0,0,0.03)] text-center">
+        <span class="text-[11px] text-[#86868b] font-medium block">Regional (Puno)</span>
+        <span id="stat-regional" class="text-xl font-bold text-[#8b5cf6] mt-0.5 block">0</span>
+      </div>
+      <div class="bg-white rounded-2xl p-3.5 border border-black/[0.04] shadow-[0_2px_12px_rgba(0,0,0,0.03)] text-center">
+        <span class="text-[11px] text-[#86868b] font-medium block">Nacional (Perú)</span>
+        <span id="stat-nacional" class="text-xl font-bold text-[#ef4444] mt-0.5 block">0</span>
+      </div>
+      <div class="bg-white rounded-2xl p-3.5 border border-black/[0.04] shadow-[0_2px_12px_rgba(0,0,0,0.03)] text-center">
+        <span class="text-[11px] text-[#86868b] font-medium block">Internacional</span>
+        <span id="stat-internacional" class="text-xl font-bold text-[#10b981] mt-0.5 block">0</span>
       </div>
     </div>
-  </section>
+  </header>
 
-  <!-- Barra de Filtros, Pestañas y Búsqueda -->
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-5 z-20 w-full">
-    <div class="bg-white rounded-2xl shadow-xl shadow-slate-200/60 border border-slate-200/80 p-4">
-      <div class="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4">
-        
-        <!-- Pestañas de Categoría -->
-        <div class="flex items-center gap-1.5 overflow-x-auto pb-1 lg:pb-0 scrollbar-none" id="category-tabs">
-          <button data-cat="all" class="tab-btn active px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap flex items-center gap-1.5">
-            <i class="fa-solid fa-grip"></i>
-            <span>Todas</span>
-            <span class="tab-count bg-slate-200 text-slate-700 text-xs px-1.5 py-0.2 rounded-full font-semibold ml-1">0</span>
-          </button>
-          <button data-cat="portadas" class="tab-btn px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap flex items-center gap-1.5">
-            <i class="fa-regular fa-newspaper"></i>
-            <span>Portadas de Diarios</span>
-            <span class="tab-count bg-slate-200 text-slate-700 text-xs px-1.5 py-0.2 rounded-full font-semibold ml-1">0</span>
-          </button>
-          <button data-cat="regional" class="tab-btn px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap flex items-center gap-1.5">
-            <i class="fa-solid fa-location-dot text-purple-600"></i>
-            <span>Regional (Puno)</span>
-            <span class="tab-count bg-slate-200 text-slate-700 text-xs px-1.5 py-0.2 rounded-full font-semibold ml-1">0</span>
-          </button>
-          <button data-cat="nacional" class="tab-btn px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap flex items-center gap-1.5">
-            <i class="fa-solid fa-flag text-rose-600"></i>
-            <span>Nacional (Perú)</span>
-            <span class="tab-count bg-slate-200 text-slate-700 text-xs px-1.5 py-0.2 rounded-full font-semibold ml-1">0</span>
-          </button>
-          <button data-cat="internacional" class="tab-btn px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap flex items-center gap-1.5">
-            <i class="fa-solid fa-globe text-emerald-600"></i>
-            <span>Internacional</span>
-            <span class="tab-count bg-slate-200 text-slate-700 text-xs px-1.5 py-0.2 rounded-full font-semibold ml-1">0</span>
-          </button>
-        </div>
-
-        <!-- Búsqueda y Botón de Descarga por Categoría Activa -->
-        <div class="flex items-center gap-2.5">
-          <!-- Input de búsqueda -->
-          <div class="relative flex-1 sm:w-64">
-            <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xs"></i>
-            <input type="text" id="input-search" placeholder="Buscar titular o medio..." 
-              class="w-full pl-8 pr-3 py-2 text-xs sm:text-sm rounded-xl border border-slate-200 bg-slate-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent transition-all">
-          </div>
-
-          <!-- Botón de Descargar Categoría Actual en ZIP -->
-          <button id="btn-download-cat-zip" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs sm:text-sm font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 active:scale-95 transition-all whitespace-nowrap" title="Descargar fotos filtradas en ZIP">
-            <i class="fa-solid fa-download text-sky-600"></i>
-            <span id="btn-cat-zip-text">ZIP Vista Actual</span>
-          </button>
-        </div>
-
+  <!-- Apple Floating Filter Bar -->
+  <div class="sticky top-16 z-30 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full mb-8">
+    <div class="apple-glass rounded-2xl p-2.5 shadow-[0_8px_24px_rgba(0,0,0,0.05)] border border-black/[0.06] flex flex-col md:flex-row items-center justify-between gap-3">
+      
+      <!-- Segmented Control (Pills) -->
+      <div class="apple-segmented-container flex items-center overflow-x-auto w-full md:w-auto scrollbar-none" id="category-tabs">
+        <button data-cat="all" class="apple-tab-btn active flex items-center">
+          <span>Todas</span>
+          <span class="tab-count">0</span>
+        </button>
+        <button data-cat="portadas" class="apple-tab-btn flex items-center">
+          <span>Portadas</span>
+          <span class="tab-count">0</span>
+        </button>
+        <button data-cat="regional" class="apple-tab-btn flex items-center">
+          <span>Regional (Puno)</span>
+          <span class="tab-count">0</span>
+        </button>
+        <button data-cat="nacional" class="apple-tab-btn flex items-center">
+          <span>Nacional (Perú)</span>
+          <span class="tab-count">0</span>
+        </button>
+        <button data-cat="internacional" class="apple-tab-btn flex items-center">
+          <span>Internacional</span>
+          <span class="tab-count">0</span>
+        </button>
       </div>
+
+      <!-- Search and Secondary ZIP Button -->
+      <div class="flex items-center gap-2.5 w-full md:w-auto justify-end">
+        <div class="relative flex-1 md:w-56">
+          <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-[#86868b] text-xs"></i>
+          <input type="text" id="input-search" placeholder="Buscar noticia o medio..." 
+            class="apple-search-input w-full pl-9 pr-3 py-1.5 focus:outline-none">
+        </div>
+
+        <button id="btn-download-cat-zip" class="apple-btn-secondary px-3.5 py-1.5 text-xs whitespace-nowrap inline-flex items-center gap-1.5">
+          <i class="fa-solid fa-file-zipper text-[#0071e3]"></i>
+          <span id="btn-cat-zip-text">ZIP Vista Actual</span>
+        </button>
+      </div>
+
     </div>
   </div>
 
-  <!-- Contenedor Principal de la Galería -->
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
+  <!-- Main Content Grid -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 flex-1 w-full">
 
-    <!-- Indicador de Carga / Sin Resultados -->
-    <div id="loading-state" class="text-center py-20">
-      <div class="w-12 h-12 border-4 border-sky-600 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-      <p class="text-slate-600 font-medium text-sm">Cargando fotografías y noticias del observatorio...</p>
+    <!-- Loading State -->
+    <div id="loading-state" class="text-center py-24">
+      <div class="w-8 h-8 border-2 border-[#0071e3] border-t-transparent rounded-full animate-spin mx-auto mb-3"></div>
+      <p class="text-[#86868b] text-xs font-medium">Cargando fotografías del observatorio...</p>
     </div>
 
-    <div id="empty-state" class="hidden text-center py-20">
-      <div class="w-16 h-16 rounded-2xl bg-slate-100 flex items-center justify-center text-slate-400 text-2xl mx-auto mb-3">
-        <i class="fa-regular fa-folder-open"></i>
+    <!-- Empty State -->
+    <div id="empty-state" class="hidden text-center py-24">
+      <div class="w-12 h-12 rounded-full bg-[#e8e8ed] flex items-center justify-center text-[#86868b] text-xl mx-auto mb-3">
+        <i class="fa-regular fa-folder"></i>
       </div>
-      <h3 class="text-lg font-bold text-slate-800">No se encontraron noticias o fotos</h3>
-      <p class="text-sm text-slate-500 mt-1 max-w-sm mx-auto">Prueba con otra palabra clave o selecciona otra categoría.</p>
-      <button id="btn-reset-filters" class="mt-4 px-4 py-2 rounded-xl text-xs font-semibold text-sky-600 bg-sky-50 hover:bg-sky-100">
+      <h3 class="text-base font-semibold text-[#1d1d1f]">Sin resultados</h3>
+      <p class="text-xs text-[#86868b] mt-1 max-w-xs mx-auto">No hay fotografías con ese término en esta categoría.</p>
+      <button id="btn-reset-filters" class="mt-4 apple-btn-secondary px-4 py-1.5 text-xs font-medium">
         Restablecer filtros
       </button>
     </div>
 
-    <!-- Grid de Tarjetas de Fotos -->
-    <div id="media-grid" class="hidden grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
+    <!-- Media Cards Grid -->
+    <div id="media-grid" class="hidden grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       <!-- Inyectado dinámicamente vía app.js -->
     </div>
   </main>
 
-  <!-- Modal Lightbox (Visualizador en Grande) -->
-  <div id="lightbox-modal" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm hidden flex items-center justify-center p-3 sm:p-6 transition-all duration-300">
-    <div class="relative bg-slate-900 text-white rounded-2xl overflow-hidden max-w-4xl w-full max-h-[92vh] flex flex-col shadow-2xl border border-slate-800">
+  <!-- Apple Style Lightbox Modal (macOS Quick Look) -->
+  <div id="lightbox-modal" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-2xl hidden flex items-center justify-center p-3 sm:p-6 transition-all duration-300">
+    <div class="relative apple-glass-dark text-white rounded-3xl overflow-hidden max-w-4xl w-full max-h-[90vh] flex flex-col shadow-[0_24px_64px_rgba(0,0,0,0.5)]">
       
-      <!-- Barra superior del modal -->
-      <div class="flex items-center justify-between px-5 py-3.5 border-b border-slate-800 bg-slate-950/70">
+      <!-- Top Capsule Toolbar -->
+      <div class="flex items-center justify-between px-5 py-3 border-b border-white/10">
         <div class="flex items-center gap-2">
-          <span id="modal-category-badge" class="text-xs font-bold px-2.5 py-0.5 rounded-full bg-sky-900/60 text-sky-300 border border-sky-700/60"></span>
-          <span id="modal-source-label" class="text-xs text-slate-400 font-medium"></span>
+          <span id="modal-category-badge" class="text-[11px] font-semibold px-2.5 py-0.5 rounded-full bg-white/10 text-white border border-white/15"></span>
+          <span id="modal-source-label" class="text-xs text-neutral-400 font-medium"></span>
         </div>
         <div class="flex items-center gap-2">
-          <!-- Botón de descargar desde modal -->
-          <button id="modal-download-btn" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-sky-600 hover:bg-sky-500 text-white transition-all">
-            <i class="fa-solid fa-download"></i>
+          <button id="modal-download-btn" class="apple-btn-primary px-3.5 py-1.5 text-xs inline-flex items-center gap-1.5">
+            <i class="fa-solid fa-arrow-down-to-bracket text-xs"></i>
             <span>Descargar Foto</span>
           </button>
-          <!-- Botón cerrar -->
-          <button id="modal-close-btn" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 flex items-center justify-center transition-all">
+          <button id="modal-close-btn" class="w-7 h-7 rounded-full bg-white/10 hover:bg-white/20 text-neutral-300 flex items-center justify-center transition-all text-xs">
             <i class="fa-solid fa-xmark"></i>
           </button>
         </div>
       </div>
 
-      <!-- Imagen central -->
-      <div class="flex-1 overflow-auto bg-black flex items-center justify-center relative min-h-[300px] max-h-[60vh] p-2">
-        <img id="modal-image" src="" alt="" class="max-w-full max-h-full object-contain rounded select-none">
+      <!-- Image Area -->
+      <div class="flex-1 overflow-auto bg-black/40 flex items-center justify-center min-h-[300px] max-h-[62vh] p-3">
+        <img id="modal-image" src="" alt="" class="max-w-full max-h-full object-contain rounded-xl select-none shadow-lg">
       </div>
 
-      <!-- Pie del modal con titular y enlace -->
-      <div class="p-5 bg-slate-950/90 border-t border-slate-800">
-        <h3 id="modal-title" class="text-base sm:text-lg font-bold text-white font-serif leading-snug"></h3>
-        <p id="modal-summary" class="text-xs sm:text-sm text-slate-300 mt-2 line-clamp-3"></p>
-        <div class="flex items-center justify-between mt-3 pt-3 border-t border-slate-800/60 text-xs text-slate-400">
+      <!-- Bottom Card Details -->
+      <div class="p-5 border-t border-white/10 bg-black/30">
+        <h3 id="modal-title" class="text-base sm:text-lg font-semibold text-white leading-snug"></h3>
+        <p id="modal-summary" class="text-xs sm:text-sm text-neutral-300 mt-2 line-clamp-2 font-normal leading-relaxed"></p>
+        <div class="flex items-center justify-between mt-3 pt-3 border-t border-white/10 text-xs text-neutral-400">
           <span id="modal-date"></span>
-          <a id="modal-article-link" href="#" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 font-semibold inline-flex items-center gap-1">
-            <span>Leer artículo original</span>
+          <a id="modal-article-link" href="#" target="_blank" rel="noopener noreferrer" class="text-[#2997ff] hover:underline font-medium inline-flex items-center gap-1">
+            <span>Ver artículo en fuente original</span>
             <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
           </a>
         </div>
@@ -242,33 +193,33 @@
     </div>
   </div>
 
-  <!-- Modal de Progreso de Descarga ZIP -->
-  <div id="zip-progress-modal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden flex items-center justify-center p-4">
-    <div class="bg-white rounded-2xl p-6 max-w-md w-full shadow-2xl text-center">
-      <div class="w-14 h-14 rounded-2xl bg-sky-50 text-sky-600 flex items-center justify-center text-2xl mx-auto mb-4 animate-bounce">
+  <!-- Apple Style ZIP Progress Sheet -->
+  <div id="zip-progress-modal" class="fixed inset-0 z-50 bg-black/40 backdrop-blur-md hidden flex items-center justify-center p-4">
+    <div class="apple-glass rounded-3xl p-6 max-w-sm w-full shadow-2xl text-center border border-black/[0.08]">
+      <div class="w-12 h-12 rounded-2xl bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center text-xl mx-auto mb-3">
         <i class="fa-solid fa-file-zipper"></i>
       </div>
-      <h3 class="text-lg font-bold text-slate-900" id="zip-modal-title">Generando archivo ZIP...</h3>
-      <p class="text-xs text-slate-500 mt-1" id="zip-modal-subtitle">Descargando y empaquetando fotos del día en tu navegador.</p>
+      <h3 class="text-base font-semibold text-[#1d1d1f]" id="zip-modal-title">Empaquetando en ZIP...</h3>
+      <p class="text-xs text-[#86868b] mt-1" id="zip-modal-subtitle">Procesando fotos directamente en tu navegador.</p>
 
-      <!-- Barra de progreso -->
-      <div class="w-full bg-slate-100 rounded-full h-3 mt-5 overflow-hidden border border-slate-200">
-        <div id="zip-progress-bar" class="bg-gradient-to-r from-sky-500 to-indigo-600 h-3 rounded-full transition-all duration-200" style="width: 0%"></div>
+      <!-- Apple Smooth Progress Bar -->
+      <div class="w-full bg-[#e8e8ed] rounded-full h-2 mt-5 overflow-hidden">
+        <div id="zip-progress-bar" class="bg-[#0071e3] h-2 rounded-full transition-all duration-200" style="width: 0%"></div>
       </div>
-      <span id="zip-progress-text" class="text-xs font-bold text-slate-600 mt-2 block">0%</span>
+      <span id="zip-progress-text" class="text-[11px] font-semibold text-[#86868b] mt-2 block">0%</span>
     </div>
   </div>
 
-  <!-- Pie de página -->
-  <footer class="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500 mt-auto">
-    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+  <!-- Apple Minimal Footer -->
+  <footer class="border-t border-black/[0.06] py-6 text-center text-xs text-[#86868b] mt-auto">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
       <div class="flex items-center gap-2">
-        <span class="font-bold text-slate-700">Observatorio para Chabely</span>
+        <span class="font-semibold text-[#1d1d1f]">Observatorio para Chabely</span>
         <span>•</span>
-        <span>Medios: Regional (Puno), Nacional (Perú), Internacional</span>
+        <span>Puno, Perú y el Mundo</span>
       </div>
-      <div class="text-slate-400">
-        Alojado 100% gratis en GitHub Pages con GitHub Actions Cron
+      <div class="text-[11px]">
+        Diseñado con estilo Apple • Alojado en GitHub Pages
       </div>
     </div>
   </footer>
