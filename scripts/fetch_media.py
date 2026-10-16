@@ -49,6 +49,16 @@ def sanitize_filename(name):
     clean = re.sub(r'_+', '_', clean).strip('._')
     return clean[:60]
 
+def clean_old_images(date_str, images_dir=IMAGES_TODAY_DIR):
+    deleted = 0
+    current_prefix = f"{date_str}_"
+    for entry in os.scandir(images_dir):
+        if entry.is_file() and not entry.name.startswith(current_prefix):
+            os.remove(entry.path)
+            deleted += 1
+    print(f"[OK] Eliminadas {deleted} imágenes de días anteriores.")
+    return deleted
+
 def parse_and_format_date(date_str, now_peru):
     """
     Parsea cualquier formato de fecha y devuelve:
@@ -287,6 +297,7 @@ def fetch_newspaper_covers(date_str, today_obj):
 def main():
     now_peru = datetime.now(PERU_TZ)
     date_str = now_peru.strftime("%Y-%m-%d")
+    clean_old_images(date_str)
     
     meses_completos = ['', 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Setiembre', 'Octubre', 'Noviembre', 'Diciembre']
     hora_actual = now_peru.strftime("%I:%M %p").lstrip('0')
