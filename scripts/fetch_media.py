@@ -49,14 +49,13 @@ def sanitize_filename(name):
     clean = re.sub(r'_+', '_', clean).strip('._')
     return clean[:60]
 
-def clean_old_images(date_str, images_dir=IMAGES_TODAY_DIR):
+def clear_today_images(images_dir=IMAGES_TODAY_DIR):
     deleted = 0
-    current_prefix = f"{date_str}_"
     for entry in os.scandir(images_dir):
-        if entry.is_file() and not entry.name.startswith(current_prefix):
+        if entry.is_file():
             os.remove(entry.path)
             deleted += 1
-    print(f"[OK] Eliminadas {deleted} imágenes de días anteriores.")
+    print(f"[OK] Eliminadas {deleted} imágenes de la actualización anterior.")
     return deleted
 
 def parse_and_format_date(date_str, now_peru):
@@ -225,7 +224,8 @@ def fetch_rss_feed(feed_url, source_name, category_id, category_label, now_peru,
                 
                 if not img_url:
                     content_encoded = item.find("{http://purl.org/rss/1.0/modules/content/}encoded")
-                    text_search = (content_encoded.text or "") + " " + desc_raw
+                    content_text = content_encoded.text if content_encoded is not None and content_encoded.text else ""
+                    text_search = content_text + " " + desc_raw
                     imgs = re.findall(r'https?://[^\s"\'<>]+\.(?:jpg|jpeg|png|webp)', text_search)
                     if imgs:
                         img_url = imgs[0]
@@ -263,7 +263,6 @@ def fetch_newspaper_covers(date_str, today_obj):
     portadas = [
         ("El Comercio (Perú)", f"https://img.kiosko.net/{kiosko_date}/pe/pe_comercio.750.jpg", "https://elcomercio.pe"),
         ("La República (Perú)", f"https://img.kiosko.net/{kiosko_date}/pe/pe_republica.750.jpg", "https://larepublica.pe"),
-        ("Diario Correo (Perú)", f"https://img.kiosko.net/{kiosko_date}/pe/correo_lima.750.jpg", "https://diariocorreo.pe"),
         ("La Razón (Perú)", f"https://img.kiosko.net/{kiosko_date}/pe/pe_larazon.750.jpg", "https://larazon.pe"),
         ("Líbero (Perú)", f"https://img.kiosko.net/{kiosko_date}/pe/pe_libero.750.jpg", "https://libero.pe"),
         ("El País (España / Global)", f"https://img.kiosko.net/{kiosko_date}/es/elpais.750.jpg", "https://elpais.com")
@@ -297,7 +296,7 @@ def fetch_newspaper_covers(date_str, today_obj):
 def main():
     now_peru = datetime.now(PERU_TZ)
     date_str = now_peru.strftime("%Y-%m-%d")
-    clean_old_images(date_str)
+    clear_today_images()
     
     meses_completos = ['', 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Setiembre', 'Octubre', 'Noviembre', 'Diciembre']
     hora_actual = now_peru.strftime("%I:%M %p").lstrip('0')
