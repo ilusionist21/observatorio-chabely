@@ -1,13 +1,13 @@
 {
   "title": "Observatorio para Chabely",
   "date": "2026-10-15",
-  "updated_at": "15 de Octubre de 2026 a las 9:39 PM (Hora Perú)",
-  "updated_at_iso": "2026-10-15T21:39:53.434730-05:00",
+  "updated_at": "15 de Octubre de 2026 a las 10:07 PM (Hora Perú)",
+  "updated_at_iso": "2026-10-15T22:07:54.831625-05:00",
   "stats": {
-    "total": 69,
+    "total": 68,
     "portadas": 5,
     "regional": 24,
-    "nacional": 17,
+    "nacional": 16,
     "internacional": 23
   },
   "media": [
@@ -23,7 +23,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792118393,
+      "timestamp": 1792120074,
       "summary": "Primera plana y portada oficial del diario El Comercio (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -38,7 +38,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792118393,
+      "timestamp": 1792120074,
       "summary": "Primera plana y portada oficial del diario La República (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -53,7 +53,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792118393,
+      "timestamp": 1792120074,
       "summary": "Primera plana y portada oficial del diario La Razón (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -68,7 +68,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792118393,
+      "timestamp": 1792120074,
       "summary": "Primera plana y portada oficial del diario Líbero (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -83,11 +83,71 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792118393,
+      "timestamp": 1792120074,
       "summary": "Primera plana y portada oficial del diario El País (España / Global) correspondiente al 15 de Octubre de 2026."
     },
     {
-      "id": "nacional-1-Agencia_Andina_Trump_cons",
+      "id": "nacional-1-Agencia_Andina_Presidenta",
+      "title": "Presidenta Fujimori destaca labor de PNP y FFAA tras operativos exitosos contra el crimen",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-presidenta-fujimori-destaca-labor-pnp-y-ffaa-tras-operativos-exitosos-contra-crimen-1096133.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/15/001323965W.jpg",
+      "local_image": "images/today/2026-10-15_Agencia_Andina_Presidenta_Fujimori_destaca_labor_d.jpg",
+      "date": "Thu, 15 Oct 2026 22:02:41 -0500",
+      "date_formatted": "Hoy • 10:02 PM",
+      "date_full": "15 de Octubre de 2026, 10:02 PM",
+      "timestamp": 1792119761,
+      "summary": "La presidenta de la república, Keiko Fujimori, destacó hoy la labor conjunta de la Policía Nacional del Perú (PNP) y las Fuerzas Armadas (FFAA) tras la realización de exitosos operativos contra la criminalidad en Lima y ..."
+    },
+    {
+      "id": "internacional-1-BBC_Mundo_Investigacion_B",
+      "title": "Investigación BBC: el ejército de Israel no ha hecho públicos los resultados de cientos de pesquisas por muertos y heridos en Medio Oriente",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c69wzgv94g11o?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/2cd5/live/6628d920-c7e4-11f1-a64c-550be9e3c66b.png",
+      "local_image": "images/today/2026-10-15_BBC_Mundo_Investigacion_BBC_el_ejercito_de_I.jpg",
+      "date": "Fri, 16 Oct 2026 03:01:58 GMT",
+      "date_formatted": "Hoy • 10:01 PM",
+      "date_full": "15 de Octubre de 2026, 10:01 PM",
+      "timestamp": 1792119718,
+      "summary": "BBC Verify ha identificado 254 incidentes de los últimos tres años que el ejército israelí ha declarado estar revisando tras haber sido acusado de causar daños, pero sin informar los resultados."
+    },
+    {
+      "id": "nacional-1-RPP_Noticias_Universitari",
+      "title": "Universitario perdió 1-0 ante Palmeiras en Quito por la fecha 1 de la Copa Libertadores Femenina",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/copa-libertadores/universitario-vs-palmeiras-en-vivo-a-que-hora-y-donde-ver-fecha-1-copa-libertadores-femenina-2026-via-plutotv-y-youtube-partidos-de-hoy-noticia-1712572",
+      "image_url": "https://f.rpp-noticias.io/2026/10/15/322232_1919083.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-15_RPP_Noticias_Universitario_perdio_1-0_ante_Palme.jpg",
+      "date": "Thu, 15 Oct 2026 22:00:38 -0500",
+      "date_formatted": "Hoy • 10:00 PM",
+      "date_full": "15 de Octubre de 2026, 10:00 PM",
+      "timestamp": 1792119638,
+      "summary": "Universitario no pudo ante el poderoso encuentro por el encuentro por la fecha 1 de la Copa Libertadores Femenina."
+    },
+    {
+      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "title": "Cusco: Joven muere en comisaría tras ser detenido y familia exige justicia",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Diario Sin Fronteras (Puno)",
+      "url": "https://diariosinfronteras.com.pe/2026/10/15/cusco-joven-muere-en-comisaria-tras-ser-detenido-y-familia-exige-justicia/",
+      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/10/comisaria-de-Rosaspata.jpg",
+      "local_image": "images/today/2026-10-15_Diario_Sin_Fronteras_Puno_Cusco_Joven_muere_en_comisaria_tra.jpg",
+      "date": "2026-10-15T22:00:12",
+      "date_formatted": "Hoy • 10:00 PM",
+      "date_full": "15 de Octubre de 2026, 10:00 PM",
+      "timestamp": 1792119612,
+      "summary": "La muerte de Ronal Coaquira, de 29 años, ocurrida en la comisaría de Rosaspata, en la provincia cusqueña de Canchis, generó indignación"
+    },
+    {
+      "id": "nacional-2-Agencia_Andina_Trump_cons",
       "title": "Trump considera \"una vergüenza\" que Ucrania retome ataques contra refinerías rusas",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -102,7 +162,7 @@
       "summary": "El presidente de Estados Unidos, Donald Trump, consideró como \"una vergüenza\" este jueves los renovados ataques de Ucrania contra refinerías de petróleo rusas."
     },
     {
-      "id": "nacional-2-RPP_Noticias_Luis_Advincu",
+      "id": "nacional-6-RPP_Noticias_Luis_Advincu",
       "title": "Luis Advíncula se olvida de Cristal y envía contundente mensaje sobre Alianza Lima: \"Estamos en el club más grande del Perú\"",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -117,7 +177,7 @@
       "summary": "Luis Advíncula es uno de los líderes en la interna de Alianza Lima que sueña con ganar el Torneo Clausura."
     },
     {
-      "id": "nacional-2-Agencia_Andina_Autoridad_",
+      "id": "nacional-3-Agencia_Andina_Autoridad_",
       "title": "Autoridad Nacional de Infraestructura lidera inversión pública ejecutada en 2024-2025",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -132,7 +192,7 @@
       "summary": "La Autoridad Nacional de Infraestructura (ANIN) indicó hoy que lideró la ejecución de inversión pública en los años 2024 y 2025 tras haber culminado la ejecución de 50 proyectos de alto impacto social y preventivo."
     },
     {
-      "id": "nacional-3-Agencia_Andina_Amazonas_b",
+      "id": "nacional-4-Agencia_Andina_Amazonas_b",
       "title": "Amazonas: bomberos voluntarios controlan incendio forestal cerca de Kuélap",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -147,7 +207,7 @@
       "summary": "La rápida intervención de los bomberos, autoridades locales y pobladores permitió controlar un incendio forestal registrado en las inmediaciones del complejo arqueológico de Kuélap, en la región Amazonas, y evitar que la..."
     },
     {
-      "id": "nacional-1-RPP_Noticias_Se_define_en",
+      "id": "nacional-4-RPP_Noticias_Se_define_en",
       "title": "Se define en Brasil: Estudiantes y Flamengo empataron 0-0 por la semifinal de ida por Copa Libertadores 2026",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -162,22 +222,7 @@
       "summary": "Flamengo y Estudiantes midieron fuerzas en el Estadio UNO de Argentina en el primer partido de 'semis' de la Copa Libertadores 2026."
     },
     {
-      "id": "nacional-4-RPP_Noticias_Copa_Liberta",
-      "title": "Copa Libertadores: Con un empate entre el Pincha y Flamengo se define el duelo en el partido de vuelta",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/ligas-internacionales/copa-libertadores-estudiantes-y-flamengo-se-enfrentan-por-el-juego-de-ida-en-la-semifinal-noticia-1712614",
-      "image_url": "https://f.rpp-noticias.io/2026/10/16/1919084.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-15_RPP_Noticias_Copa_Libertadores_Con_un_empate_en.jpg",
-      "date": "Thu, 15 Oct 2026 21:30:03 -0500",
-      "date_formatted": "Hoy • 9:30 PM",
-      "date_full": "15 de Octubre de 2026, 9:30 PM",
-      "timestamp": 1792117803,
-      "summary": "Estudiantes vs Flamengo se enfrentaron por la CONMEBOL - Copa Libertadores. Aquí todos los detalles y resumen del encuentro."
-    },
-    {
-      "id": "nacional-4-Agencia_Andina_Minjusdh_m",
+      "id": "nacional-5-Agencia_Andina_Minjusdh_m",
       "title": "Minjusdh: megacampaña contra extorsión brindó orientación legal a más de 17 mil personas",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -192,7 +237,7 @@
       "summary": "El Ministerio de Justicia y Derechos Humanos (Minjusdh), a través de la Defensa Pública, desarrolló la megacampaña nacional “Defensa Pública: Luchando juntos contra la extorsión y el sicariato”, que permitió brindar orie..."
     },
     {
-      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "id": "regional-2-Diario_Sin_Fronteras_Puno",
       "title": "César Acuña anuncia su retiro de la política: “Dedicado a tiempo completo a formar a mis jóvenes”",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -207,7 +252,7 @@
       "summary": "César Acuña anunció su retiro de la actividad política y aseguró que concentrará sus esfuerzos en la formación de jóvenes. “Chau política,"
     },
     {
-      "id": "internacional-1-BBC_Mundo_Un_adolescente_",
+      "id": "internacional-2-BBC_Mundo_Un_adolescente_",
       "title": "Un adolescente de 16 años mata a al menos 3 niños y un maestro en un tiroteo en una escuela primaria de Oregón",
       "category": "internacional",
       "category_label": "Internacional",
@@ -220,51 +265,6 @@
       "date_full": "15 de Octubre de 2026, 9:23 PM",
       "timestamp": 1792117423,
       "summary": "El incidente ocurrió en la escuela Silver Rail de la localidad de Bend alrededor de las 13:00, hora local. El sospechoso fue abatido, indicó la policía."
-    },
-    {
-      "id": "nacional-3-RPP_Noticias_Ministro_de_",
-      "title": "Ministro de Defensa critica al Senado y califica de \"inaudito\" falta de consenso sobre facultades legislativas",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/politica/gobierno/ministro-de-defensa-critica-al-senado-por-falta-de-consenso-sobre-facultades-legislativas-es-innecesario-e-inaudito-noticia-1712868",
-      "image_url": "https://f.rpp-noticias.io/2026/10/15/nistrofacultades-1919081mp4_1919082.jpg",
-      "local_image": "images/today/2026-10-15_RPP_Noticias_Ministro_de_Defensa_critica_al_Sena.jpg",
-      "date": "Thu, 15 Oct 2026 21:16:44 -0500",
-      "date_formatted": "Hoy • 9:16 PM",
-      "date_full": "15 de Octubre de 2026, 9:16 PM",
-      "timestamp": 1792117004,
-      "summary": "Rafael Belaúnde Llosa defendió el pedido del Ejecutivo y señaló que necesita atribuciones para declarar a organizaciones criminales como grupos hostiles y permitir la intervención de las Fuerzas Armadas, así como para as..."
-    },
-    {
-      "id": "nacional-6-RPP_Noticias_Es_un_negoci",
-      "title": "\"Es un negocio\": Zuliet Seminario se sinceró tras quedar fuera del Miss Grand International 2026",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/famosos/farandula/zuliet-seminario-senala-que-miss-grand-international-es-un-negocio-tras-ser-eliminada-noticia-1712865",
-      "image_url": "https://f.rpp-noticias.io/2026/10/15/042904_1919073.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-15_RPP_Noticias_Es_un_negocio_Zuliet_Seminario_s.jpg",
-      "date": "Thu, 15 Oct 2026 21:14:56 -0500",
-      "date_formatted": "Hoy • 9:14 PM",
-      "date_full": "15 de Octubre de 2026, 9:14 PM",
-      "timestamp": 1792116896,
-      "summary": "Luego de no avanzar a las etapas finales del Miss Grand International 2026, la modelo peruana Zuliet Seminario habló de su experiencia en el certamen."
-    },
-    {
-      "id": "nacional-7-RPP_Noticias_Keiko_Fujimo",
-      "title": "Keiko Fujimori anuncia medidas de prevención ante el fenómeno El Niño y reporta un avance del 70 % en limpieza de ríos",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/politica/gobierno/keiko-fujimori-anuncia-medidas-de-prevencion-ante-el-fenomeno-el-nino-y-reporta-un-avance-del-70-en-limpieza-de-rios-noticia-1712867",
-      "image_url": "https://f.rpp-noticias.io/2026/10/15/215521_1919080.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-15_RPP_Noticias_Keiko_Fujimori_anuncia_medidas_de_p.jpg",
-      "date": "Thu, 15 Oct 2026 21:13:55 -0500",
-      "date_formatted": "Hoy • 9:13 PM",
-      "date_full": "15 de Octubre de 2026, 9:13 PM",
-      "timestamp": 1792116835,
-      "summary": "La presidenta de la República informó que se identificaron 1 800 puntos de riesgo en el país, de los cuales 536 fueron priorizados para los trabajos de limpieza de los cauces de los ríos."
     },
     {
       "id": "internacional-1-France_24_en_Espanol_Mas_",
@@ -282,7 +282,7 @@
       "summary": "El precio del galón de diésel en Estados Unidos tocó máximos este verano y se ha convertido en una de las cartas de juego de los demócratas para arrebatarles votos a los republicanos en las elecciones de medio término de..."
     },
     {
-      "id": "nacional-5-Agencia_Andina_Beca_18_Pr",
+      "id": "nacional-6-Agencia_Andina_Beca_18_Pr",
       "title": "Beca 18: Pronabec ofrece 6000 nuevas vacantes cuya inscripción vence el viernes 16",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -312,22 +312,7 @@
       "summary": "El presidente brasileño, Luiz Inácio Lula da Silva, anunció este jueves 15 de octubre que impulsará una enmienda constitucional para ofrecer transporte gratuito durante los fines de semana, luego de que el Senado aprobar..."
     },
     {
-      "id": "nacional-5-RPP_Noticias_Universitari",
-      "title": "Universitario perdió 1-0 ante Palmeiras en Quito por la fecha 1 de la Copa Libertadores Femenina",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/copa-libertadores/universitario-vs-palmeiras-en-vivo-a-que-hora-y-donde-ver-fecha-1-copa-libertadores-femenina-2026-via-plutotv-y-youtube-partidos-de-hoy-noticia-1712572",
-      "image_url": "https://f.rpp-noticias.io/2026/10/15/322232_1919083.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-15_RPP_Noticias_Universitario_perdio_1-0_ante_Palme.jpg",
-      "date": "Thu, 15 Oct 2026 21:00:38 -0500",
-      "date_formatted": "Hoy • 9:00 PM",
-      "date_full": "15 de Octubre de 2026, 9:00 PM",
-      "timestamp": 1792116038,
-      "summary": "Universitario no pudo ante el poderoso encuentro por el encuentro por la fecha 1 de la Copa Libertadores Femenina."
-    },
-    {
-      "id": "nacional-6-Agencia_Andina_Destacan_l",
+      "id": "nacional-7-Agencia_Andina_Destacan_l",
       "title": "Destacan los beneficios de la vitamina C endovenosa antes y después de las cirugías",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -402,7 +387,7 @@
       "summary": "En medio de su gira por Europa, el presidente ucraniano, Volodímir Zelenski, justificó los ataques de Ucrania contra las refinerías de petróleo rusas a pesar de los llamados de Donald Trump de evitar estos bombardeos y l..."
     },
     {
-      "id": "nacional-7-Agencia_Andina_UNI_ofrece",
+      "id": "nacional-8-Agencia_Andina_UNI_ofrece",
       "title": "UNI ofrece conferencias gratuitas para becas en Francia, Alemania y Brasil: ¿Cuándo?",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -432,7 +417,7 @@
       "summary": "De cara a las midterms, crece la presión sobre el presidente Donald Trump para terminar la guerra en Irán, que cada vez se vuelve más impopular por su duración y alto costo económico . Funcionarios citados por 'CNN' aseg..."
     },
     {
-      "id": "nacional-8-Agencia_Andina_Presidente",
+      "id": "nacional-9-Agencia_Andina_Presidente",
       "title": "Presidente del Congreso inauguró encuentro macrorregional de mypes en el Cusco",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -447,7 +432,7 @@
       "summary": "El presidente del Congreso, Miguel Torres Morales, afirmó hoy que el Parlamento tiene la responsabilidad de contribuir con leyes que respondan a las necesidades del país y ejercer una fiscalización efectiva para que las ..."
     },
     {
-      "id": "nacional-9-Agencia_Andina_Prision_pr",
+      "id": "nacional-10-Agencia_Andina_Prision_pr",
       "title": "Prisión preventiva para investigado por presunto feminicidio en agravio de enfermera",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -462,7 +447,7 @@
       "summary": "La Fiscalía Especializada de Violencia Contra las Mujeres y los Integrantes del Grupo Familiar de Utcubamba (Amazonas), liderada por la fiscal provincial Deisy del Rosario Guevara Murillo, logró que se dicte nueve meses ..."
     },
     {
-      "id": "regional-2-Diario_Sin_Fronteras_Puno",
+      "id": "regional-3-Diario_Sin_Fronteras_Puno",
       "title": "Jueces que ordenaron devolver 13 kilos de oro, al borde de la destitución [VIDEO]",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -477,22 +462,7 @@
       "summary": "En la víspera, la Junta Nacional de Justicia (JNE) proyectó el informe de procedimiento disciplinario que concluye con la destitución de los"
     },
     {
-      "id": "nacional-10-Agencia_Andina_Minsa_gara",
-      "title": "Minsa garantiza avance de obra del nuevo centro de salud para la población de Machu Picchu",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-minsa-garantiza-avance-obra-del-nuevo-centro-salud-para-poblacion-machu-picchu-1096122.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/15/001323949W.jpg",
-      "local_image": "images/today/2026-10-15_Agencia_Andina_Minsa_garantiza_avance_de_obra_del.jpg",
-      "date": "Thu, 15 Oct 2026 20:14:07 -0500",
-      "date_formatted": "Hoy • 8:14 PM",
-      "date_full": "15 de Octubre de 2026, 8:14 PM",
-      "timestamp": 1792113247,
-      "summary": "Para fortalecer la atención de salud de los habitantes de Machu Picchu y de los miles de turistas que llegan a este destino, el ministro de Salud, Luis Dyer, supervisó los avances de construcción del Nuevo Centro de Salu..."
-    },
-    {
-      "id": "regional-3-Diario_Sin_Fronteras_Puno",
+      "id": "regional-4-Diario_Sin_Fronteras_Puno",
       "title": "André Martínez gana la etapa 4 de Caminos del Inca 2026",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -507,7 +477,7 @@
       "summary": "André Martínez se adjudicó la victoria en la cuarta etapa del Rally Caminos del Inca 2026, disputada entre Andahuaylas y Cusco. El"
     },
     {
-      "id": "regional-4-Diario_Sin_Fronteras_Puno",
+      "id": "regional-5-Diario_Sin_Fronteras_Puno",
       "title": "Paola Martínez vincula casos de violación a menores con uso de redes sociales",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -522,7 +492,7 @@
       "summary": "La diputada de Renovación Popular, Paola Martínez, relacionó los recientes casos de violación a menores de edad con los riesgos del uso"
     },
     {
-      "id": "regional-5-Diario_Sin_Fronteras_Puno",
+      "id": "regional-6-Diario_Sin_Fronteras_Puno",
       "title": "Puno: Antauta conmemora 125 años de creación política",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -537,7 +507,7 @@
       "summary": "El distrito de Antauta, en la provincia de Melgar, celebró su 125.º aniversario de creación política con una misa, una sesión solemne"
     },
     {
-      "id": "regional-6-Diario_Sin_Fronteras_Puno",
+      "id": "regional-7-Diario_Sin_Fronteras_Puno",
       "title": "Encargan la Red Asistencial Puno al cardiólogo Tomás Arrayán",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -582,7 +552,7 @@
       "summary": "Keiko Fujimori anunció coordinaciones con Delcy Rodríguez para facilitar el retorno de venezolanos indocumentados desde Perú, mediante traslados aéreos ordenados y seguros"
     },
     {
-      "id": "regional-7-Diario_Sin_Fronteras_Puno",
+      "id": "regional-8-Diario_Sin_Fronteras_Puno",
       "title": "Tres diputados celebran el Día de la Educación Inclusiva en Puno",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -595,6 +565,21 @@
       "date_full": "15 de Octubre de 2026, 6:20 PM",
       "timestamp": 1792106430,
       "summary": "En el marco del Día de la Educación Inclusiva, se realizó una ceremonia de izamiento y desfile en la Plaza Mayor de"
+    },
+    {
+      "id": "nacional-3-RPP_Noticias_Estados_Unid",
+      "title": "Estados Unidos: tres niños y una maestra mueren en tiroteo de Oregón junto al presunto asesino de 16 años",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/mundo/actualidad/al-menos-cuatro-muertos-en-un-tiroteo-en-una-escuela-de-primaria-en-oregon-eeuu-noticia-1712846",
+      "image_url": "https://f.rpp-noticias.io/2026/10/15/235223_1919088.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-15_RPP_Noticias_Estados_Unidos_tres_ninos_y_una_ma.jpg",
+      "date": "Thu, 15 Oct 2026 18:19:36 -0500",
+      "date_formatted": "Hoy • 6:19 PM",
+      "date_full": "15 de Octubre de 2026, 6:19 PM",
+      "timestamp": 1792106376,
+      "summary": "El jefe de la Policía de la ciudad de Bend explicó que el sospechoso, residente en la localidad, entró en la escuela primaria Silver Rail disparando contra las puertas cerradas con llave."
     },
     {
       "id": "regional-3-Pachamama_Radio_Puno_Puno",
@@ -627,6 +612,21 @@
       "summary": "David Mendoza pidió respetar la tarifa urbana de S/ 1,50 y rechazó la ruta libre, aunque aseguró que los transportistas aceptan nuevas empresas que cumplan los requisitos legales"
     },
     {
+      "id": "nacional-5-RPP_Noticias_Diego_Elias_",
+      "title": "Diego Elías disputará la final del CIB Egyptian Squash Open 2026: fecha, rival y dónde ver el partido",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/multideportes/mas-deportes/diego-elias-vs-asal-en-vivo-final-cib-egyptian-squash-open-a-que-hora-juegan-rival-y-donde-ver-partido-noticia-1712836",
+      "image_url": "https://f.rpp-noticias.io/2026/10/15/153915_1919015.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-15_RPP_Noticias_Diego_Elias_disputara_la_final_del.jpg",
+      "date": "Thu, 15 Oct 2026 18:13:30 -0500",
+      "date_formatted": "Hoy • 6:13 PM",
+      "date_full": "15 de Octubre de 2026, 6:13 PM",
+      "timestamp": 1792106010,
+      "summary": "El peruano Diego Elías buscará un nuevo título en su destacada carrera. Aquí los detalles sobre la final en Egipto."
+    },
+    {
       "id": "regional-5-Pachamama_Radio_Puno_Alca",
       "title": "Alcalde de Puno respalda incremento de pasaje y propone tarifa menor a S/ 1,50 para el servicio urbano",
       "category": "regional",
@@ -655,21 +655,6 @@
       "date_full": "15 de Octubre de 2026, 6:01 PM",
       "timestamp": 1792105275,
       "summary": "Elard Castillo rechazó la ruta libre por dificultades de fiscalización y propuso subsidiar el combustible, mientras usuarios afrontan el alza de los pasajes urbanos"
-    },
-    {
-      "id": "regional-8-Diario_Sin_Fronteras_Puno",
-      "title": "Keiko Fujimori alerta por el fenómeno El Niño: “Tenemos que priorizar salvar las vidas humanas”",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Diario Sin Fronteras (Puno)",
-      "url": "https://diariosinfronteras.com.pe/2026/10/15/keiko-fujimori-alerta-por-el-fenomeno-el-nino-tenemos-que-priorizar-salvar-las-vidas-humanas/",
-      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/10/keiko-pdte-peru.jpg",
-      "local_image": "images/today/2026-10-15_Diario_Sin_Fronteras_Puno_Keiko_Fujimori_alerta_por_el_fenom.jpg",
-      "date": "2026-10-15T17:56:05",
-      "date_formatted": "Hoy • 5:56 PM",
-      "date_full": "15 de Octubre de 2026, 5:56 PM",
-      "timestamp": 1792104965,
-      "summary": "La presidenta de la República, Keiko Fujimori, aseguró que la llegada del fenómeno El Niño es inminente y advirtió que el país"
     },
     {
       "id": "regional-7-Pachamama_Radio_Puno_Juli",
@@ -762,7 +747,7 @@
       "summary": "La autora chilena, vinculada a Plaza & Janés desde 1982, se hace con el millón de euros para publicar la segunda parte de aquella novela. El finalista es el guionista Sergio Hernández"
     },
     {
-      "id": "internacional-4-BBC_Mundo_Por_que_la_esta",
+      "id": "internacional-5-BBC_Mundo_Por_que_la_esta",
       "title": "Por qué la estafadora Elizabeth Holmes sigue causando fascinación en EE.UU.",
       "category": "internacional",
       "category_label": "Internacional",
@@ -777,7 +762,7 @@
       "summary": "La creadora de Theranos, una compañía que prometía diagnósticos con una sola gota de sangre, es objeto de un nuevo documental."
     },
     {
-      "id": "internacional-3-BBC_Mundo_Soy_completamen",
+      "id": "internacional-4-BBC_Mundo_Soy_completamen",
       "title": "\"Soy completamente inocente\": Nicolás Maduro y Cilia Flores se declaran no culpables de los nuevos cargos de tortura",
       "category": "internacional",
       "category_label": "Internacional",
@@ -882,7 +867,7 @@
       "summary": "El colectivo con sede en Argentina Cedeu sostiene que la decisión implica una discriminación respecto de los sefardíes, los brigadistas internacionales y los residentes en España"
     },
     {
-      "id": "internacional-6-BBC_Mundo_Trump_cancela_l",
+      "id": "internacional-7-BBC_Mundo_Trump_cancela_l",
       "title": "Trump cancela la transmisión en vivo de la ejecución del primer militar que será fusilado en EE.UU. desde la II Guerra Mundial",
       "category": "internacional",
       "category_label": "Internacional",
@@ -942,7 +927,7 @@
       "summary": "A partir del año que viene dejará de ajustarse el segundo bisiesto. El desajuste entre los relojes atómicos y la rotación irregular de la Tierra se solventará cuando la diferencia se acerque a una hora dentro de varios s..."
     },
     {
-      "id": "internacional-2-BBC_Mundo_Los_rancheros_q",
+      "id": "internacional-3-BBC_Mundo_Los_rancheros_q",
       "title": "Los rancheros que se cuestionan haber apoyado a Trump en Nebraska, gran bastión del presidente",
       "category": "internacional",
       "category_label": "Internacional",
@@ -957,7 +942,7 @@
       "summary": "Muchos ganaderos de estados que apoyaron al presidente muestran su descontento a tan solo unas semanas de las cruciales elecciones de mitad de mandato."
     },
     {
-      "id": "internacional-5-BBC_Mundo_Las_potentes_y_",
+      "id": "internacional-6-BBC_Mundo_Las_potentes_y_",
       "title": "Las potentes y conmovedoras imágenes ganadoras del concurso Fotógrafo de Vida Silvestre del Año 2026",
       "category": "internacional",
       "category_label": "Internacional",
@@ -972,7 +957,7 @@
       "summary": "Imágenes impactantes, como la de un coyote urbano y la de un elefante cargando una cría muerta, figuran entre las ganadoras en categorías que van desde menores de 10 años hasta fotoperiodismo."
     },
     {
-      "id": "internacional-7-BBC_Mundo_Quien_es_Katie_",
+      "id": "internacional-8-BBC_Mundo_Quien_es_Katie_",
       "title": "Quién es Katie Zacharia y por qué su designación como secretaria de prensa de Trump ha generado controversia",
       "category": "internacional",
       "category_label": "Internacional",
@@ -1002,21 +987,6 @@
       "summary": "El actor y director estadounidense recibe el gran premio honorífico en la 59ª edición del festival catalán y presenta como productor ‘Drag’"
     },
     {
-      "id": "internacional-8-BBC_Mundo_Por_que_decido_",
-      "title": "Por qué decido regresar ahora a Venezuela tras haber estado preso en el Helicoide y pasar 12 años en el exilio",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cqgk5k0znn0mo?at_medium=RSS&at_campaign=rss",
-      "image_url": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/d1c8/live/cf8e6da0-c89b-11f1-b0a4-81e564f1cfaa.jpg",
-      "local_image": "images/today/2026-10-15_BBC_Mundo_Por_que_decido_regresar_ahora_a_Ven.jpg",
-      "date": "Thu, 15 Oct 2026 11:04:52 GMT",
-      "date_formatted": "Hoy • 6:04 AM",
-      "date_full": "15 de Octubre de 2026, 6:04 AM",
-      "timestamp": 1792062292,
-      "summary": "El activista venezolano Rodrigo Diamanti regresa a Venezuela tras más de una década en el exilio y asegura que existe una ventana de oportunidad para una transición que el país debe aprovechar."
-    },
-    {
       "id": "internacional-4-El_Pais_Internacional_San",
       "title": "Sánchez apunta que las pensiones se subirán justo después de las elecciones",
       "category": "internacional",
@@ -1030,6 +1000,21 @@
       "date_full": "15 de Octubre de 2026, 5:10 AM",
       "timestamp": 1792059057,
       "summary": "El presidente y Cuerpo alejan la idea de un aumento antes de acudir a las urnas pero señalan que se puede hacer en funciones, en diciembre. El Gobierno sí pretende subir el SMI antes de votar"
+    },
+    {
+      "id": "nacional-2-RPP_Noticias_SENAMHI_Pron",
+      "title": "SENAMHI: Pronóstico del clima hoy jueves 15 de octubre 2026",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/peru/actualidad/senamhi-pronostico-del-clima-hoy-jueves-15-de-octubre-2026-noticia-1712693",
+      "image_url": "https://f.rpp-noticias.io/2025/12/03/313331_1818087.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-15_RPP_Noticias_SENAMHI_Pronostico_del_clima_hoy_j.jpg",
+      "date": "Thu, 15 Oct 2026 04:00:45 -0500",
+      "date_formatted": "Hoy • 4:00 AM",
+      "date_full": "15 de Octubre de 2026, 4:00 AM",
+      "timestamp": 1792054845,
+      "summary": "Consulta el pronóstico del clima hoy en Lima y ciudades del Perú: temperatura actual, sensación térmica, radiación UV, probabilidad de lluvia y reporte oficial del Senamhi actualizado."
     },
     {
       "id": "internacional-5-El_Pais_Internacional_Ayu",
