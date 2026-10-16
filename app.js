@@ -1,7 +1,8 @@
 /**
  * Observatorio para Chabely - Frontend Logic
  * Actualización automática para la jornada de 9:00 AM a 2:00 PM.
- * Soporte de scraping manual bajo demanda, visualización de fecha de noticia y descargas en alta calidad.
+ * Scraping manual bajo demanda ("Actualizar Ahora"), visualización de fecha de actualización y fecha de cada noticia.
+ * Descarga individual de fotos en Alta Calidad (HD) con botón verde Apple.
  */
 
 let allMediaItems = [];
@@ -17,16 +18,14 @@ const loadingState = document.getElementById('loading-state');
 const emptyState = document.getElementById('empty-state');
 const inputSearch = document.getElementById('input-search');
 const categoryTabs = document.getElementById('category-tabs');
-const btnDownloadAllZip = document.getElementById('btn-download-all-zip');
-const btnDownloadCatZip = document.getElementById('btn-download-cat-zip');
-const btnCatZipText = document.getElementById('btn-cat-zip-text');
 
-// Botón Manual de Scraping y Actualización
+// Botón Manual de Scraping y Fechas de Actualización
 const btnManualRefresh = document.getElementById('btn-manual-refresh');
 const refreshIcon = document.getElementById('refresh-icon');
 const refreshText = document.getElementById('refresh-text');
 const labelUpdatedTime = document.getElementById('label-updated-time');
 const labelRelativeTime = document.getElementById('label-relative-time');
+const navUpdatedTime = document.getElementById('nav-updated-time');
 
 // Modal Lightbox
 const lightboxModal = document.getElementById('lightbox-modal');
@@ -40,13 +39,6 @@ const modalArticleLink = document.getElementById('modal-article-link');
 const modalCloseBtn = document.getElementById('modal-close-btn');
 const modalDownloadBtn = document.getElementById('modal-download-btn');
 
-// Modal Progreso ZIP
-const zipModal = document.getElementById('zip-progress-modal');
-const zipProgressBar = document.getElementById('zip-progress-bar');
-const zipProgressText = document.getElementById('zip-progress-text');
-const zipModalTitle = document.getElementById('zip-modal-title');
-const zipModalSubtitle = document.getElementById('zip-modal-subtitle');
-
 // Inicialización
 document.addEventListener('DOMContentLoaded', () => {
   initEventListeners();
@@ -59,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function initEventListeners() {
-  // Botón Manual de Scraping / Actualizar
+  // Botón Manual de Scraping / Actualizar Ahora
   if (btnManualRefresh) {
     btnManualRefresh.addEventListener('click', handleManualRefresh);
   }
@@ -73,7 +65,6 @@ function initEventListeners() {
     btn.classList.add('active');
     
     currentCategory = btn.getAttribute('data-cat');
-    updateCatZipButtonText();
     applyFilters();
   });
 
@@ -91,23 +82,7 @@ function initEventListeners() {
     document.querySelectorAll('.apple-tab-btn').forEach(b => {
       b.classList.toggle('active', b.getAttribute('data-cat') === 'all');
     });
-    updateCatZipButtonText();
     applyFilters();
-  });
-
-  // Descarga ZIP completa
-  btnDownloadAllZip.addEventListener('click', () => {
-    if (allMediaItems.length === 0) return;
-    const today = new Date().toISOString().split('T')[0];
-    generateZipPackage(allMediaItems, `Observatorio_Chabely_Todas_Fotos_HD_${today}.zip`, "Todas las fotos de hoy");
-  });
-
-  // Descarga ZIP de categoría / vista actual
-  btnDownloadCatZip.addEventListener('click', () => {
-    if (filteredItems.length === 0) return;
-    const catLabel = getCategoryLabel(currentCategory);
-    const today = new Date().toISOString().split('T')[0];
-    generateZipPackage(filteredItems, `Observatorio_Chabely_${catLabel.replace(/\s+/g, '_')}_HD_${today}.zip`, catLabel);
   });
 
   // Controles de Lightbox Modal
@@ -139,15 +114,15 @@ async function handleManualRefresh() {
   btnManualRefresh.disabled = true;
 
   try {
-    // 1. Intentar endpoint de scraping del servidor local si está corriendo
+    // 1. Intentar endpoint de scraping del servidor local si está activo
     try {
       const apiResp = await fetch('/api/refresh', { method: 'GET', cache: 'no-store' });
       if (apiResp.ok) {
         const apiData = await apiResp.json();
-        console.log('[OK] Scraping manual ejecutado por el servidor:', apiData);
+        console.log('[OK] Scraping manual completado:', apiData);
       }
     } catch (e) {
-      // Entorno estático (GitHub Pages)
+      // Modo estático (GitHub Pages)
     }
 
     // 2. Recargar datos frescos
@@ -155,28 +130,13 @@ async function handleManualRefresh() {
     showAppleToast('¡Observatorio actualizado con las noticias de hoy!');
   } catch (err) {
     console.error('Error durante la actualización:', err);
-    showAppleToast('Se recargaron los datos locales.');
+    showAppleToast('Datos actualizados.');
   } finally {
     setTimeout(() => {
       refreshIcon.classList.remove('fa-spin');
       refreshText.textContent = 'Actualizar Ahora';
       btnManualRefresh.disabled = false;
     }, 600);
-  }
-}
-
-function updateCatZipButtonText() {
-  const label = getCategoryLabel(currentCategory);
-  btnCatZipText.textContent = currentCategory === 'all' ? 'ZIP Todas las Fotos' : `ZIP ${label}`;
-}
-
-function getCategoryLabel(cat) {
-  switch (cat) {
-    case 'portadas': return 'Portadas';
-    case 'regional': return 'Regional Puno';
-    case 'nacional': return 'Nacional Perú';
-    case 'internacional': return 'Internacional';
-    default: return 'Vista Actual';
   }
 }
 
@@ -190,9 +150,13 @@ async function loadObservatoryData() {
     allMediaItems = data.media || [];
     lastUpdatedIso = data.updated_at_iso || null;
     
-    // Actualizar indicador de última actualización
+    // Actualizar indicador de última actualización en Navbar y Hero
     if (labelUpdatedTime) {
       labelUpdatedTime.textContent = data.updated_at ? `Última actualización: ${data.updated_at}` : 'Actualizado hoy';
+    }
+    if (navUpdatedTime) {
+      const timePart = data.updated_at && data.updated_at.includes(' a las ') ? data.updated_at.split(' a las ')[1] : (data.updated_at || 'Hoy');
+      navUpdatedTime.textContent = `Actualizado: ${timePart}`;
     }
     if (lastUpdatedIso) {
       updateRelativeTime(lastUpdatedIso);
@@ -266,7 +230,7 @@ function applyFilters() {
   renderGrid(filteredItems);
 }
 
-// Renderizado de tarjetas con visualización clara de la fecha
+// Renderizado de tarjetas con la FECHA CLARA de la noticia
 function renderGrid(items) {
   if (items.length === 0) {
     mediaGrid.innerHTML = '';
@@ -307,7 +271,7 @@ function renderGrid(items) {
 
           <!-- Badge de Fuente -->
           <div class="absolute bottom-2.5 right-2.5">
-            <span class="text-[10px] font-medium px-2.5 py-0.5 rounded-full bg-black/60 text-white backdrop-blur-md">
+            <span class="text-[10px] font-medium px-2 py-0.5 rounded-full bg-black/60 text-white backdrop-blur-md">
               ${escapeHtml(item.source)}
             </span>
           </div>
@@ -316,7 +280,7 @@ function renderGrid(items) {
         <!-- Contenido de la Noticia -->
         <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between">
           <div>
-            <!-- FECHA DE LA NOTICIA (Siempre visible) -->
+            <!-- FECHA DE LA NOTICIA (Siempre visible con reloj) -->
             <div class="flex items-center gap-1.5 text-[11px] font-medium text-[#86868b] mb-2">
               <span class="inline-flex items-center gap-1.5 bg-[#f5f5f7] px-2.5 py-0.5 rounded-full border border-black/[0.04]">
                 <i class="fa-regular fa-clock text-[#34c759] text-[10px]"></i>
@@ -413,72 +377,6 @@ async function downloadSingleImage(item) {
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
-  }
-}
-
-// Generación y Empaquetado de ZIP usando JSZip en el navegador
-async function generateZipPackage(items, zipFileName, label) {
-  if (!items || items.length === 0) return;
-
-  const zip = new JSZip();
-  zipModal.classList.remove('hidden');
-  zipModalTitle.textContent = `Preparando ZIP: ${label}`;
-  zipModalSubtitle.textContent = `Empaquetando ${items.length} fotos en alta resolución...`;
-  zipProgressBar.style.width = '0%';
-  zipProgressText.textContent = '0%';
-
-  let processed = 0;
-  const total = items.length;
-
-  for (let i = 0; i < items.length; i++) {
-    const item = items[i];
-    let url = item.local_image || item.image_url;
-    if (item.image_url && item.image_url.includes('ichef.bbci.co.uk')) {
-      url = item.image_url.replace(/\/ws\/\d+\//, '/ws/1024/');
-    }
-    
-    let folderName = 'Otras';
-    if (item.category === 'portadas') folderName = 'Portadas_Diarios';
-    else if (item.category === 'regional') folderName = 'Regional_Puno';
-    else if (item.category === 'nacional') folderName = 'Nacional_Peru';
-    else if (item.category === 'internacional') folderName = 'Internacional';
-
-    const cleanTitle = (item.title || `foto_${i+1}`).replace(/[^a-zA-Z0-9_\u00C0-\u017F\s-]/g, '').trim().substring(0, 50);
-    const fileName = `${folderName}/${(i+1).toString().padStart(2, '0')}_${cleanTitle}.jpg`;
-
-    try {
-      const response = await fetch(url);
-      if (response.ok) {
-        const blob = await response.blob();
-        zip.file(fileName, blob);
-      }
-    } catch (err) {
-      console.warn(`No se pudo agregar imagen ${url} al ZIP:`, err);
-    }
-
-    processed++;
-    const percent = Math.round((processed / total) * 70);
-    zipProgressBar.style.width = `${percent}%`;
-    zipProgressText.textContent = `Descargando fotos: ${processed}/${total} (${percent}%)`;
-  }
-
-  zipModalSubtitle.textContent = 'Comprimiendo archivo ZIP final...';
-
-  try {
-    const zipBlob = await zip.generateAsync({ type: 'blob' }, (metadata) => {
-      const percent = 70 + Math.round((metadata.percent / 100) * 30);
-      zipProgressBar.style.width = `${percent}%`;
-      zipProgressText.textContent = `Comprimiendo: ${percent}%`;
-    });
-
-    saveAs(zipBlob, zipFileName);
-    showAppleToast('¡Archivo ZIP descargado con éxito!');
-  } catch (err) {
-    alert('Error al comprimir el archivo ZIP: ' + err.message);
-  } finally {
-    setTimeout(() => {
-      zipModal.classList.add('hidden');
-    }, 600);
   }
 }
 

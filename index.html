@@ -34,17 +34,18 @@
         </div>
       </div>
 
-      <!-- Header Actions -->
+      <!-- Header Actions: Fecha de actualización y Botón Actualizar Ahora -->
       <div class="flex items-center gap-2 sm:gap-3">
-        <!-- Botón Manual de Scraping / Actualizar -->
-        <button id="btn-manual-refresh" class="apple-btn-secondary px-3.5 py-1.5 text-xs inline-flex items-center gap-1.5 cursor-pointer transition-all" title="Ejecutar scraping manual de noticias y fotos de hoy">
-          <i class="fa-solid fa-arrows-rotate text-[#0071e3]" id="refresh-icon"></i>
-          <span id="refresh-text">Actualizar Ahora</span>
-        </button>
+        <!-- Indicador de Fecha de Actualización en Navbar -->
+        <div class="hidden sm:inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#e8e8ed]/90 text-[11px] font-medium text-[#1d1d1f] border border-black/[0.04]">
+          <span class="w-2 h-2 rounded-full bg-[#34c759] animate-pulse"></span>
+          <span id="nav-updated-time">Actualizado hoy</span>
+        </div>
 
-        <button id="btn-download-all-zip" class="apple-btn-primary px-4 py-1.5 text-xs inline-flex items-center gap-2 shadow-sm">
-          <i class="fa-solid fa-arrow-down-to-bracket text-[11px]"></i>
-          <span>Descargar TODO en ZIP</span>
+        <!-- Botón Manual de Scraping / Actualizar Ahora -->
+        <button id="btn-manual-refresh" class="apple-btn-primary px-4 py-1.5 text-xs inline-flex items-center gap-2 shadow-sm cursor-pointer transition-all" title="Ejecutar scraping manual de noticias y fotos de hoy">
+          <i class="fa-solid fa-arrows-rotate text-white text-[11px]" id="refresh-icon"></i>
+          <span id="refresh-text" class="font-semibold">Actualizar Ahora</span>
         </button>
       </div>
     </div>
@@ -116,18 +117,13 @@
         </button>
       </div>
 
-      <!-- Search and Secondary ZIP Button -->
-      <div class="flex items-center gap-2.5 w-full md:w-auto justify-end">
-        <div class="relative flex-1 md:w-56">
+      <!-- Search Input -->
+      <div class="w-full md:w-64">
+        <div class="relative w-full">
           <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-[#86868b] text-xs"></i>
           <input type="text" id="input-search" placeholder="Buscar noticia o medio..." 
             class="apple-search-input w-full pl-9 pr-3 py-1.5 focus:outline-none">
         </div>
-
-        <button id="btn-download-cat-zip" class="apple-btn-secondary px-3.5 py-1.5 text-xs whitespace-nowrap inline-flex items-center gap-1.5">
-          <i class="fa-solid fa-file-zipper text-[#0071e3]"></i>
-          <span id="btn-cat-zip-text">ZIP Vista Actual</span>
-        </button>
       </div>
 
     </div>
@@ -202,22 +198,7 @@
     </div>
   </div>
 
-  <!-- Apple Style ZIP Progress Sheet -->
-  <div id="zip-progress-modal" class="fixed inset-0 z-50 bg-black/40 backdrop-blur-md hidden flex items-center justify-center p-4">
-    <div class="apple-glass rounded-3xl p-6 max-w-sm w-full shadow-2xl text-center border border-black/[0.08]">
-      <div class="w-12 h-12 rounded-2xl bg-[#0071e3]/10 text-[#0071e3] flex items-center justify-center text-xl mx-auto mb-3">
-        <i class="fa-solid fa-file-zipper"></i>
-      </div>
-      <h3 class="text-base font-semibold text-[#1d1d1f]" id="zip-modal-title">Empaquetando en ZIP...</h3>
-      <p class="text-xs text-[#86868b] mt-1" id="zip-modal-subtitle">Procesando fotos directamente en tu navegador.</p>
 
-      <!-- Apple Smooth Progress Bar -->
-      <div class="w-full bg-[#e8e8ed] rounded-full h-2 mt-5 overflow-hidden">
-        <div id="zip-progress-bar" class="bg-[#0071e3] h-2 rounded-full transition-all duration-200" style="width: 0%"></div>
-      </div>
-      <span id="zip-progress-text" class="text-[11px] font-semibold text-[#86868b] mt-2 block">0%</span>
-    </div>
-  </div>
 
   <!-- Apple Minimal Footer -->
   <footer class="border-t border-black/[0.06] py-6 text-center text-xs text-[#86868b] mt-auto">

@@ -10,17 +10,20 @@
 
 ## 🚀 Características Principales
 
-1. **Descarga de Fotos Directa**:
-   - Cada tarjeta de noticia tiene el botón **"⬇️ Descargar Foto"**, que descarga la foto en alta resolución con un nombre limpio y ordenado: `[Regional-Puno] Titular_de_la_noticia.jpg`.
-2. **Descarga Masiva en ZIP**:
-   - Botón **"📦 Descargar TODO en ZIP"**: Comprime todas las fotos de hoy en un único archivo `.zip` organizado en carpetas (`Regional_Puno/`, `Nacional_Peru/`, `Internacional/`, `Portadas_Diarios/`).
-   - Botón **"Descargar ZIP Vista Actual"**: Comprime únicamente las fotos de la categoría o búsqueda que estés viendo.
-3. **Visor de Fotos (Lightbox)**:
+1. **Descarga de Fotos Directa en Alta Calidad (HD)**:
+   - Cada tarjeta de noticia tiene el botón verde Apple **"⬇️ Descargar Foto HD"**, que descarga la foto en su resolución nativa original y sin compresión con un nombre limpio y ordenado: `[HD]_[Regional_Puno]_Titular.jpg`.
+2. **Botón Manual "🔄 Actualizar Ahora"**:
+   - Botón en la barra de navegación para forzar un scraping inmediato de medios y recargar las noticias al instante.
+3. **Indicador de Fecha y Hora de Última Actualización**:
+   - Notificación en tiempo real en la cabecera indicando cuándo fue la última vez que se actualizaron los medios (ej. `Última actualización: 15 de Octubre de 2026, 09:36 PM • Hace 2 minutos`).
+4. **Fecha y Hora Exacta en Cada Noticia**:
+   - Cada noticia cuenta con su propia etiqueta de tiempo con icono de reloj (ej. `🕒 Hoy • 8:18 PM`), para saber exactamente en qué momento del día fue publicada.
+5. **Visor de Fotos (Lightbox estilo macOS Quick Look)**:
    - Haz clic en cualquier imagen para verla en pantalla completa, hacer zoom, navegar con las flechas del teclado y leer el resumen completo.
-4. **100% Gratis en GitHub Pages**:
-   - No requiere servidor de pago ni bases de datos. Todo funciona en el navegador con HTML5, Tailwind CSS y JSZip.
-5. **Actualización Automática Diaria (GitHub Actions Cron)**:
-   - Un Cron Job de GitHub Actions extrae las fotos automáticamente todos los días a las **6:00 AM** y **1:00 PM** (Hora de Perú) y las publica en la web sin costo alguno.
+6. **100% Gratis en GitHub Pages**:
+   - No requiere servidor de pago ni bases de datos. Todo funciona en el navegador con HTML5 y Tailwind CSS.
+7. **Actualización Automática para la Jornada de Chabely (9:00 AM - 2:00 PM)**:
+   - Un Cron Job de GitHub Actions extrae las fotos automáticamente a las **7:00 AM**, **8:30 AM**, **11:00 AM** y **1:30 PM** (Hora de Perú) y las publica en la web sin costo alguno.
 
 ---
 
