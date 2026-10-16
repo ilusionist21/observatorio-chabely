@@ -1,8 +1,8 @@
 {
   "title": "Observatorio para Chabely",
   "date": "2026-10-15",
-  "updated_at": "15 de Octubre de 2026 a las 10:28 PM (Hora Perú)",
-  "updated_at_iso": "2026-10-15T22:28:05.010857-05:00",
+  "updated_at": "15 de Octubre de 2026 a las 10:29 PM (Hora Perú)",
+  "updated_at_iso": "2026-10-15T22:29:39.122439-05:00",
   "stats": {
     "total": 66,
     "portadas": 5,
@@ -23,7 +23,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792121285,
+      "timestamp": 1792121379,
       "summary": "Primera plana y portada oficial del diario El Comercio (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -38,7 +38,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792121285,
+      "timestamp": 1792121379,
       "summary": "Primera plana y portada oficial del diario La República (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -53,7 +53,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792121285,
+      "timestamp": 1792121379,
       "summary": "Primera plana y portada oficial del diario La Razón (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -68,7 +68,7 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792121285,
+      "timestamp": 1792121379,
       "summary": "Primera plana y portada oficial del diario Líbero (Perú) correspondiente al 15 de Octubre de 2026."
     },
     {
@@ -83,11 +83,26 @@
       "date": "2026-10-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Octubre de 2026",
-      "timestamp": 1792121285,
+      "timestamp": 1792121379,
       "summary": "Primera plana y portada oficial del diario El País (España / Global) correspondiente al 15 de Octubre de 2026."
     },
     {
-      "id": "nacional-1-RPP_Noticias_Martha_Moyan",
+      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "title": "DRE Puno y legisladores ponen sobre la mesa las demandas de la educación superior",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Diario Sin Fronteras (Puno)",
+      "url": "https://diariosinfronteras.com.pe/2026/10/15/dre-puno-y-legisladores-ponen-sobre-la-mesa-las-demandas-de-la-educacion-superior/",
+      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/10/IMG_20261015_222626_800_x_533_pixel.jpg",
+      "local_image": "images/today/2026-10-15_Diario_Sin_Fronteras_Puno_DRE_Puno_y_legisladores_ponen_sobr.jpg",
+      "date": "2026-10-15T22:28:59",
+      "date_formatted": "Hoy • 10:28 PM",
+      "date_full": "15 de Octubre de 2026, 10:28 PM",
+      "timestamp": 1792121339,
+      "summary": "La Dirección Regional de Educación (DRE) Puno desarrolló el conversatorio regional “Una Mirada al Futuro de la Educación Superior en Puno: Diálogo,"
+    },
+    {
+      "id": "nacional-2-RPP_Noticias_Martha_Moyan",
       "title": "Martha Moyano tras controversia por suspensión de debate sobre facultades: \"Ser autoritario no es tan malo\"",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -147,7 +162,7 @@
       "summary": "BBC Verify ha identificado 254 incidentes de los últimos tres años que el ejército israelí ha declarado estar revisando tras haber sido acusado de causar daños, pero sin informar los resultados."
     },
     {
-      "id": "nacional-2-RPP_Noticias_Universitari",
+      "id": "nacional-1-RPP_Noticias_Universitari",
       "title": "Universitario perdió 1-0 ante Palmeiras en Quito por la fecha 1 de la Copa Libertadores Femenina",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -162,7 +177,7 @@
       "summary": "Universitario no pudo ante el poderoso encuentro por el encuentro por la fecha 1 de la Copa Libertadores Femenina."
     },
     {
-      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "id": "regional-2-Diario_Sin_Fronteras_Puno",
       "title": "Cusco: Joven muere en comisaría tras ser detenido y familia exige justicia",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -237,7 +252,7 @@
       "summary": "El Ministerio de Justicia y Derechos Humanos (Minjusdh), a través de la Defensa Pública, desarrolló la megacampaña nacional “Defensa Pública: Luchando juntos contra la extorsión y el sicariato”, que permitió brindar orie..."
     },
     {
-      "id": "regional-2-Diario_Sin_Fronteras_Puno",
+      "id": "regional-3-Diario_Sin_Fronteras_Puno",
       "title": "César Acuña anuncia su retiro de la política: “Dedicado a tiempo completo a formar a mis jóvenes”",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -432,7 +447,7 @@
       "summary": "El presidente del Congreso, Miguel Torres Morales, afirmó hoy que el Parlamento tiene la responsabilidad de contribuir con leyes que respondan a las necesidades del país y ejercer una fiscalización efectiva para que las ..."
     },
     {
-      "id": "regional-3-Diario_Sin_Fronteras_Puno",
+      "id": "regional-4-Diario_Sin_Fronteras_Puno",
       "title": "Jueces que ordenaron devolver 13 kilos de oro, al borde de la destitución [VIDEO]",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -447,7 +462,7 @@
       "summary": "En la víspera, la Junta Nacional de Justicia (JNE) proyectó el informe de procedimiento disciplinario que concluye con la destitución de los"
     },
     {
-      "id": "regional-4-Diario_Sin_Fronteras_Puno",
+      "id": "regional-5-Diario_Sin_Fronteras_Puno",
       "title": "André Martínez gana la etapa 4 de Caminos del Inca 2026",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -462,7 +477,7 @@
       "summary": "André Martínez se adjudicó la victoria en la cuarta etapa del Rally Caminos del Inca 2026, disputada entre Andahuaylas y Cusco. El"
     },
     {
-      "id": "regional-5-Diario_Sin_Fronteras_Puno",
+      "id": "regional-6-Diario_Sin_Fronteras_Puno",
       "title": "Paola Martínez vincula casos de violación a menores con uso de redes sociales",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -477,7 +492,7 @@
       "summary": "La diputada de Renovación Popular, Paola Martínez, relacionó los recientes casos de violación a menores de edad con los riesgos del uso"
     },
     {
-      "id": "regional-6-Diario_Sin_Fronteras_Puno",
+      "id": "regional-7-Diario_Sin_Fronteras_Puno",
       "title": "Puno: Antauta conmemora 125 años de creación política",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -492,7 +507,7 @@
       "summary": "El distrito de Antauta, en la provincia de Melgar, celebró su 125.º aniversario de creación política con una misa, una sesión solemne"
     },
     {
-      "id": "regional-7-Diario_Sin_Fronteras_Puno",
+      "id": "regional-8-Diario_Sin_Fronteras_Puno",
       "title": "Encargan la Red Asistencial Puno al cardiólogo Tomás Arrayán",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -535,21 +550,6 @@
       "date_full": "15 de Octubre de 2026, 6:59 PM",
       "timestamp": 1792108774,
       "summary": "Keiko Fujimori anunció coordinaciones con Delcy Rodríguez para facilitar el retorno de venezolanos indocumentados desde Perú, mediante traslados aéreos ordenados y seguros"
-    },
-    {
-      "id": "regional-8-Diario_Sin_Fronteras_Puno",
-      "title": "Tres diputados celebran el Día de la Educación Inclusiva en Puno",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Diario Sin Fronteras (Puno)",
-      "url": "https://diariosinfronteras.com.pe/2026/10/15/tres-diputados-celebran-el-dia-de-la-educacion-inclusiva-en-puno/",
-      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-6.08.36-PM.jpeg",
-      "local_image": "images/today/2026-10-15_Diario_Sin_Fronteras_Puno_Tres_diputados_celebran_el_Dia_de.jpg",
-      "date": "2026-10-15T18:20:30",
-      "date_formatted": "Hoy • 6:20 PM",
-      "date_full": "15 de Octubre de 2026, 6:20 PM",
-      "timestamp": 1792106430,
-      "summary": "En el marco del Día de la Educación Inclusiva, se realizó una ceremonia de izamiento y desfile en la Plaza Mayor de"
     },
     {
       "id": "nacional-4-RPP_Noticias_Estados_Unid",
