@@ -1,13 +1,13 @@
 {
   "title": "Observatorio para Chabely",
   "date": "2026-10-24",
-  "updated_at": "24 de Octubre de 2026 a las 10:15 AM (Hora Perú)",
-  "updated_at_iso": "2026-10-24T10:15:16.543784-05:00",
+  "updated_at": "24 de Octubre de 2026 a las 11:50 AM (Hora Perú)",
+  "updated_at_iso": "2026-10-24T11:50:20.322140-05:00",
   "stats": {
-    "total": 69,
+    "total": 70,
     "portadas": 4,
     "regional": 23,
-    "nacional": 18,
+    "nacional": 19,
     "internacional": 24
   },
   "media": [
@@ -23,7 +23,7 @@
       "date": "2026-10-24",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 24 de Octubre de 2026",
-      "timestamp": 1792854916,
+      "timestamp": 1792860620,
       "summary": "Primera plana y portada oficial del diario El Comercio (Perú) correspondiente al 24 de Octubre de 2026."
     },
     {
@@ -38,7 +38,7 @@
       "date": "2026-10-24",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 24 de Octubre de 2026",
-      "timestamp": 1792854916,
+      "timestamp": 1792860620,
       "summary": "Primera plana y portada oficial del diario La República (Perú) correspondiente al 24 de Octubre de 2026."
     },
     {
@@ -53,7 +53,7 @@
       "date": "2026-10-24",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 24 de Octubre de 2026",
-      "timestamp": 1792854916,
+      "timestamp": 1792860620,
       "summary": "Primera plana y portada oficial del diario Líbero (Perú) correspondiente al 24 de Octubre de 2026."
     },
     {
@@ -68,11 +68,371 @@
       "date": "2026-10-24",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 24 de Octubre de 2026",
-      "timestamp": 1792854916,
+      "timestamp": 1792860620,
       "summary": "Primera plana y portada oficial del diario El País (España / Global) correspondiente al 24 de Octubre de 2026."
     },
     {
-      "id": "internacional-1-France_24_en_Espanol_Star",
+      "id": "nacional-1-Agencia_Andina_Premier_de",
+      "title": "Premier: decretos en temas de seguridad y FEN se presentarán a más tardar en 20 días",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-premier-decretos-temas-seguridad-y-fen-se-presentaran-a-mas-tardar-20-dias-1097195.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/09/21/001316941W.jpg",
+      "local_image": "images/today/2026-10-24_Agencia_Andina_Premier_decretos_en_temas_de_segur.jpg",
+      "date": "Sat, 24 Oct 2026 11:49:17 -0500",
+      "date_formatted": "Hoy • 11:49 AM",
+      "date_full": "24 de Octubre de 2026, 11:49 AM",
+      "timestamp": 1792860557,
+      "summary": "El presidente del Consejo de Ministros, Luis Galarreta Velarde, señaló que los primeros decretos legislativos se presentarán a más tardar en 15 días, en el marco de la ley que delega en el Poder Ejecutivo la facultad de ..."
+    },
+    {
+      "id": "nacional-1-RPP_Noticias_LaLiga_EA_Sp",
+      "title": "LaLiga EA Sports: Rayo Vallecano sufre una humillante derrota por 3 a 0 ante Elche",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/ligas-internacionales/laliga-ea-sports-se-enfrentan-rayo-vallecano-y-elche-por-la-fecha-10-noticia-1714036",
+      "image_url": "https://f.rpp-noticias.io/2026/10/24/1922167.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-24_RPP_Noticias_LaLiga_EA_Sports_Rayo_Vallecano_su.jpg",
+      "date": "Sat, 24 Oct 2026 11:45:04 -0500",
+      "date_formatted": "Hoy • 11:45 AM",
+      "date_full": "24 de Octubre de 2026, 11:45 AM",
+      "timestamp": 1792860304,
+      "summary": "Rayo Vallecano vs Elche se enfrentaron por la España - Primera División. Aquí todos los detalles y resumen del encuentro."
+    },
+    {
+      "id": "internacional-1-France_24_en_Espanol_Lide",
+      "title": "Líder norcoreano Kim Jong-Un reaparece en una visita a China para inaugurar nuevo puente transfronterizo",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "France 24 en Español",
+      "url": "https://www.france24.com/es/asia-pac%C3%ADfico/20261024-l%C3%ADder-norcoreano-kim-jong-un-reaparece-en-una-visita-a-china-para-inaugurar-nuevo-puente-transfronterizo",
+      "image_url": "https://s.france24.com/media/display/c14eae5a-cfc9-11f1-9f80-4b25c96ec90e/w:1024/p:16x9/2026-10-24T062102Z-944458173-RC299OAVSF6R-RTRMADP-3-CHINA-NORTHKOREA.jpg",
+      "local_image": "images/today/2026-10-24_France_24_en_Espanol_Lider_norcoreano_Kim_Jong-Un_reapar.jpg",
+      "date": "Sat, 24 Oct 2026 16:43:33 GMT",
+      "date_formatted": "Hoy • 11:43 AM",
+      "date_full": "24 de Octubre de 2026, 11:43 AM",
+      "timestamp": 1792860213,
+      "summary": "El líder de Corea del Norte, Kim Jong-Un, visitó este sábado 24 de octubre China, donde inauguró un nuevo puente que conecta a ambos países y señaló que espera ampliar la cooperación con su poderoso vecino. Se trata de s..."
+    },
+    {
+      "id": "nacional-2-Agencia_Andina_Cibersegur",
+      "title": "Ciberseguridad se convierte en barrera clave para crecimiento digital de las pymes",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-ciberseguridad-se-convierte-barrera-clave-para-crecimiento-digital-las-pymes-1097217.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2025/04/29/001165472W.webp",
+      "local_image": "images/today/2026-10-24_Agencia_Andina_Ciberseguridad_se_convierte_en_barr.jpg",
+      "date": "Sat, 24 Oct 2026 11:43:12 -0500",
+      "date_formatted": "Hoy • 11:43 AM",
+      "date_full": "24 de Octubre de 2026, 11:43 AM",
+      "timestamp": 1792860192,
+      "summary": "Las pequeñas y medianas empresas (pymes) de América Latina y el Caribe (LAC) han incorporado ampliamente el comercio digital a sus operaciones, pero las preocupaciones sobre la ciberseguridad están surgiendo como el próx..."
+    },
+    {
+      "id": "nacional-2-RPP_Noticias_Tren_Macho_r",
+      "title": "‘Tren Macho’: reactivan tramo ferroviario entre Chilca y Cuenca tras un año de paralización",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/peru/junin/tren-macho-reactivan-tramo-ferroviario-entre-chilca-y-cuenca-tras-un-ano-de-paralizacion-noticia-1714276",
+      "image_url": "https://f.rpp-noticias.io/2026/10/24/192215755609202531-c51792a537-6k.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-24_RPP_Noticias_Tren_Macho_reactivan_tramo_ferro.jpg",
+      "date": "Sat, 24 Oct 2026 11:40:18 -0500",
+      "date_formatted": "Hoy • 11:40 AM",
+      "date_full": "24 de Octubre de 2026, 11:40 AM",
+      "timestamp": 1792860018,
+      "summary": "La presidenta Keiko Fujimori encabezó la ceremonia de reactivación del ‘Tren Macho’ y no descartó planes de ampliación ferroviaria."
+    },
+    {
+      "id": "nacional-3-RPP_Noticias_Serie_A_Bolo",
+      "title": "Serie A: Bologna no da tregua y gana por 2 a 0 sobre Cagliari",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/ligas-internacionales/serie-a-cagliari-y-bologna-se-miden-por-la-fecha-8-noticia-1714038",
+      "image_url": "https://f.rpp-noticias.io/2026/10/24/1922165.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-24_RPP_Noticias_Serie_A_Bologna_no_da_tregua_y_gan.jpg",
+      "date": "Sat, 24 Oct 2026 11:40:03 -0500",
+      "date_formatted": "Hoy • 11:40 AM",
+      "date_full": "24 de Octubre de 2026, 11:40 AM",
+      "timestamp": 1792860003,
+      "summary": "Cagliari vs Bologna se enfrentaron por la Italia - Serie A. Aquí todos los detalles y resumen del encuentro."
+    },
+    {
+      "id": "nacional-4-RPP_Noticias_Serie_A_Dobl",
+      "title": "Serie A: Doblete de Anastasios Douvikas guió el triunfo 2-0 de Como 1907 sobre Sassuolo",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/ligas-internacionales/serie-a-como-1907-y-sassuolo-se-encuentran-en-la-fecha-8-noticia-1714039",
+      "image_url": "https://f.rpp-noticias.io/2026/10/24/1922164.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-24_RPP_Noticias_Serie_A_Doblete_de_Anastasios_Douv.jpg",
+      "date": "Sat, 24 Oct 2026 11:35:04 -0500",
+      "date_formatted": "Hoy • 11:35 AM",
+      "date_full": "24 de Octubre de 2026, 11:35 AM",
+      "timestamp": 1792859704,
+      "summary": "Como 1907 vs Sassuolo se enfrentaron por la Italia - Serie A. Aquí todos los detalles y resumen del encuentro."
+    },
+    {
+      "id": "nacional-3-Agencia_Andina_Tuberculos",
+      "title": "Tuberculosis: Equipos portátiles del Minsa facilitan tamizaje en Amazonía y zonas rurales",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-tuberculosis-equipos-portatiles-del-minsa-facilitan-tamizaje-amazonia-y-zonas-rurales-1097214.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/24/001326148W.jpg",
+      "local_image": "images/today/2026-10-24_Agencia_Andina_Tuberculosis_Equipos_portatiles_de.jpg",
+      "date": "Sat, 24 Oct 2026 11:34:08 -0500",
+      "date_formatted": "Hoy • 11:34 AM",
+      "date_full": "24 de Octubre de 2026, 11:34 AM",
+      "timestamp": 1792859648,
+      "summary": "El Perú da un paso firme hacia la descentralización médica y la innovación tecnológica en la lucha contra la tuberculosis (TB). Con el objetivo de llevar servicios de alta tecnología a las poblaciones más vulnerables, el..."
+    },
+    {
+      "id": "nacional-4-Agencia_Andina_Presidenta",
+      "title": "Presidenta reinicia operaciones del Tren Macho y anuncia rehabilitación de tramo de la vía",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-presidenta-reinicia-operaciones-del-tren-macho-y-anuncia-rehabilitacion-tramo-de-via-1097213.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/24/001326139W.jpg",
+      "local_image": "images/today/2026-10-24_Agencia_Andina_Presidenta_reinicia_operaciones_del.jpg",
+      "date": "Sat, 24 Oct 2026 11:33:12 -0500",
+      "date_formatted": "Hoy • 11:33 AM",
+      "date_full": "24 de Octubre de 2026, 11:33 AM",
+      "timestamp": 1792859592,
+      "summary": "La presidenta de la república, Keiko Fujimori, lideró hoy la puesta en marcha del histórico Ferrocarril Huancayo–Huancavelica, conocido como el Tren Macho, en el tramo Chilca–Cuenca, tras un año de paralización, y anunci..."
+    },
+    {
+      "id": "regional-1-Diario_Los_Andes_Puno_Inc",
+      "title": "Incendios forestales movilizan a jóvenes en Arequipa: exigen investigar las causas y reparar daños",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Diario Los Andes (Puno)",
+      "url": "https://losandes.com.pe/incendios-forestales-movilizan-a-jovenes-en-arequipa-exigen-investigar-las-causas-y-reparar-danos/",
+      "image_url": "https://losandes.com.pe/wp-content/uploads/2026/10/JRC-PORTADA-JUNIO-PLANTILLA-2026-2026-10-24T113043.712.jpg",
+      "local_image": "images/today/2026-10-24_Diario_Los_Andes_Puno_Incendios_forestales_movilizan_a_jo.jpg",
+      "date": "2026-10-24T11:32:59",
+      "date_formatted": "Hoy • 11:32 AM",
+      "date_full": "24 de Octubre de 2026, 11:32 AM",
+      "timestamp": 1792859579,
+      "summary": "El humo no solo deja rastros en los territorios afectados. También pone sobre la mesa preguntas sobre la prevención, la respuesta estatal y la atención a las familias perjudicadas. En Arequipa, jóvenes se movilizan este ..."
+    },
+    {
+      "id": "nacional-5-RPP_Noticias_UNMSM_jovene",
+      "title": "UNMSM: jóvenes rinden examen de admisión para Ciencias de la Salud",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/videos/actualidad/unmsm-jovenes-rinden-examen-de-admision-para-ciencias-de-la-salud-noticia-1714275",
+      "image_url": "https://f.rpp-noticias.io/2026/10/24/msm-2026-10-24-11-25-35-14812-1922155mp4_1922156.jpg",
+      "local_image": "images/today/2026-10-24_RPP_Noticias_UNMSM_jovenes_rinden_examen_de_adm.jpg",
+      "date": "Sat, 24 Oct 2026 11:30:38 -0500",
+      "date_formatted": "Hoy • 11:30 AM",
+      "date_full": "24 de Octubre de 2026, 11:30 AM",
+      "timestamp": 1792859438,
+      "summary": "La evaluación de este sábado está dirigida a los postulantes de todas las carreras de dicha área, a excepción de Medicina Humana, la cual se llevará a cabo este 25 de octubre."
+    },
+    {
+      "id": "nacional-6-RPP_Noticias_Premier_Leag",
+      "title": "Premier League: Arsenal marcó dos veces en la victoria ante Everton en el Emirates Stadium",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/ligas-internacionales/premier-league-arsenal-va-en-busca-de-un-triunfo-ante-everton-para-trepar-a-la-punta-noticia-1714042",
+      "image_url": "https://f.rpp-noticias.io/2026/10/24/1922152.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-24_RPP_Noticias_Premier_League_Arsenal_marco_dos_v.jpg",
+      "date": "Sat, 24 Oct 2026 11:30:04 -0500",
+      "date_formatted": "Hoy • 11:30 AM",
+      "date_full": "24 de Octubre de 2026, 11:30 AM",
+      "timestamp": 1792859404,
+      "summary": "Arsenal vs Everton se enfrentaron por la Inglaterra - Premier League. Aquí todos los detalles y resumen del encuentro."
+    },
+    {
+      "id": "nacional-5-Agencia_Andina_EsSalud_im",
+      "title": "EsSalud implanta un marcapasos a un bebé de 20 días y le da una nueva oportunidad de vida",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-essalud-implanta-un-marcapasos-a-un-bebe-20-dias-y-le-da-una-nueva-oportunidad-vida-1097208.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/24/001326147W.jpg",
+      "local_image": "images/today/2026-10-24_Agencia_Andina_EsSalud_implanta_un_marcapasos_a_un.jpg",
+      "date": "Sat, 24 Oct 2026 11:30:00 -0500",
+      "date_formatted": "Hoy • 11:30 AM",
+      "date_full": "24 de Octubre de 2026, 11:30 AM",
+      "timestamp": 1792859400,
+      "summary": "Con apenas 20 días de nacido, un bebé procedente de Arequipa recibió una nueva oportunidad de vida en el Instituto Nacional Cardiovascular (INCOR) de EsSalud, donde un equipo de especialistas le implantó un marcapasos de..."
+    },
+    {
+      "id": "nacional-7-RPP_Noticias_Premier_Leag",
+      "title": "Premier League: Oscar Bobb le dio la victoria a Fulham ante Coventry City",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/ligas-internacionales/premier-league-se-enfrentan-coventry-city-y-fulham-por-la-fecha-8-noticia-1714043",
+      "image_url": "https://f.rpp-noticias.io/2026/10/24/1922150.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-24_RPP_Noticias_Premier_League_Oscar_Bobb_le_dio_l.jpg",
+      "date": "Sat, 24 Oct 2026 11:25:06 -0500",
+      "date_formatted": "Hoy • 11:25 AM",
+      "date_full": "24 de Octubre de 2026, 11:25 AM",
+      "timestamp": 1792859106,
+      "summary": "Coventry City vs Fulham se enfrentaron por la Inglaterra - Premier League. Aquí todos los detalles y resumen del encuentro."
+    },
+    {
+      "id": "nacional-6-Agencia_Andina_El_Peru_re",
+      "title": "El Perú reafirma compromiso con las Naciones Unidas en su 81.º aniversario",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-el-peru-reafirma-compromiso-las-naciones-unidas-su-81%C2%BA-aniversario-1097212.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia/Thumbnail/2015/11/06/000323475W.jpg",
+      "local_image": "images/today/2026-10-24_Agencia_Andina_El_Peru_reafirma_compromiso_con_las.jpg",
+      "date": "Sat, 24 Oct 2026 11:20:33 -0500",
+      "date_formatted": "Hoy • 11:20 AM",
+      "date_full": "24 de Octubre de 2026, 11:20 AM",
+      "timestamp": 1792858833,
+      "summary": "En el Día de las Naciones Unidas, al conmemorarse el 81.º aniversario de la entrada en vigor de su Carta, Perú saluda a la Organización y reafirma su compromiso con sus propósitos y principios, así como con sus tres pila..."
+    },
+    {
+      "id": "nacional-8-RPP_Noticias_LaLiga_EA_Sp",
+      "title": "LaLiga EA Sports: Racing Santander supera por 2-1 a Espanyol tras dar vuelta el partido",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/ligas-internacionales/laliga-ea-sports-espanyol-visita-a-racing-santander-por-la-fecha-10-noticia-1714044",
+      "image_url": "https://f.rpp-noticias.io/2026/10/24/1922149.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-24_RPP_Noticias_LaLiga_EA_Sports_Racing_Santander.jpg",
+      "date": "Sat, 24 Oct 2026 11:20:05 -0500",
+      "date_formatted": "Hoy • 11:20 AM",
+      "date_full": "24 de Octubre de 2026, 11:20 AM",
+      "timestamp": 1792858805,
+      "summary": "Racing Santander vs Espanyol se enfrentaron por la España - Primera División. Aquí todos los detalles y resumen del encuentro."
+    },
+    {
+      "id": "nacional-7-Agencia_Andina_Conoce_a_l",
+      "title": "Conoce a los virtuales alcaldes de Lima con el 100 % de actas contabilizadas por ONPE",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-conoce-a-los-virtuales-alcaldes-lima-con-100-actas-contabilizadas-onpe-1097140.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/04/001320855W.jpg",
+      "local_image": "images/today/2026-10-24_Agencia_Andina_Conoce_a_los_virtuales_alcaldes_de.jpg",
+      "date": "Sat, 24 Oct 2026 11:05:47 -0500",
+      "date_formatted": "Hoy • 11:05 AM",
+      "date_full": "24 de Octubre de 2026, 11:05 AM",
+      "timestamp": 1792857947,
+      "summary": "La Oficina Nacional de Procesos Electorales (ONPE) concluyó con el procesamiento de las actas de diecinueve distritos de Lima Metropolitana, con lo cual estas jurisdicciones ya tienen definido quiénes son sus virtuales a..."
+    },
+    {
+      "id": "nacional-8-Agencia_Andina_ExpoAmazon",
+      "title": "ExpoAmazónica Ucayali 2026:Congreso de emprendedores analiza retos económicos y desarrollo",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-expoamazonica-ucayali-2026congreso-emprendedores-analiza-retos-economicos-y-desarrollo-1097210.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/24/001326133W.jpg",
+      "local_image": "images/today/2026-10-24_Agencia_Andina_ExpoAmazonica_Ucayali_2026_Congreso.jpg",
+      "date": "Sat, 24 Oct 2026 11:00:01 -0500",
+      "date_formatted": "Hoy • 11:00 AM",
+      "date_full": "24 de Octubre de 2026, 11:00 AM",
+      "timestamp": 1792857601,
+      "summary": "El VII Congreso de Emprendedores Amazónicos (CEA 2026) empezó con la presentación del presidente del Banco Central de Reserva del Perú (BCR), Julio Velarde, en el marco de la XV Edición de la ExpoAmazónica Ucayali 2026, ..."
+    },
+    {
+      "id": "internacional-1-El_Pais_Internacional_Par",
+      "title": "París, Marsella y Estrasburgo viven los primeros altercados de una nueva jornada de protesta en Francia",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "El País Internacional",
+      "url": "https://elpais.com/internacional/2026-10-24/francia-contiene-el-aliento-ante-una-nueva-jornada-de-protestas.html",
+      "image_url": "https://www.youtube.com/watch?v=oM6vGVzjbOY",
+      "local_image": "https://www.youtube.com/watch?v=oM6vGVzjbOY",
+      "date": "Sat, 24 Oct 2026 15:53:34 GMT",
+      "date_formatted": "Hoy • 10:53 AM",
+      "date_full": "24 de Octubre de 2026, 10:53 AM",
+      "timestamp": 1792857214,
+      "summary": "Unas 410.000 personas, según el ministerio del Interior, se manifiestan en todo el país pese a que el Gobierno lo había prohibido en la mayoría de ciudades"
+    },
+    {
+      "id": "nacional-9-Agencia_Andina_Suscriben_",
+      "title": "Suscriben modificación de contrato con Petroperú y Cheiron para reactivar Lote 192",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-suscriben-modificacion-contrato-petroperu-y-cheiron-para-reactivar-lote-192-1097209.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/24/001326129W.jpg",
+      "local_image": "images/today/2026-10-24_Agencia_Andina_Suscriben_modificacion_de_contrato.jpg",
+      "date": "Sat, 24 Oct 2026 10:48:42 -0500",
+      "date_formatted": "Hoy • 10:48 AM",
+      "date_full": "24 de Octubre de 2026, 10:48 AM",
+      "timestamp": 1792856922,
+      "summary": "Tras la promulgación del octubre el Decreto Supremo N° 023-2026-EM y en estricto cumplimiento del marco legal, Perupetro suscribió la modificación del Contrato de Licencia para la Explotación de Hidrocarburos en el Lote ..."
+    },
+    {
+      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "title": "Dos muertos y 12 heridos deja triple choque en la carretera Central",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Diario Sin Fronteras (Puno)",
+      "url": "https://diariosinfronteras.com.pe/2026/10/24/dos-muertos-y-12-heridos-deja-triple-choque-en-la-carretera-central/",
+      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/10/choque.jpg",
+      "local_image": "images/today/2026-10-24_Diario_Sin_Fronteras_Puno_Dos_muertos_y_12_heridos_deja_trip.jpg",
+      "date": "2026-10-24T10:44:21",
+      "date_formatted": "Hoy • 10:44 AM",
+      "date_full": "24 de Octubre de 2026, 10:44 AM",
+      "timestamp": 1792856661,
+      "summary": "Un violento accidente de tránsito dejó dos personas fallecidas y otras 12 heridas tras un triple choque ocurrido en la carretera Central,"
+    },
+    {
+      "id": "internacional-3-BBC_Mundo_Mas_de_130_arre",
+      "title": "Más de 130 arrestos en Francia donde miles de personas salen a las calles a protestar",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cqwy7x0dg1lzo?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/20ba/live/7a368270-cfbc-11f1-9012-0172b9f73a72.png",
+      "local_image": "images/today/2026-10-24_BBC_Mundo_Mas_de_130_arrestos_en_Francia_dond.jpg",
+      "date": "Sat, 24 Oct 2026 15:40:39 GMT",
+      "date_formatted": "Hoy • 10:40 AM",
+      "date_full": "24 de Octubre de 2026, 10:40 AM",
+      "timestamp": 1792856439,
+      "summary": "Por segundo sábado consecutivo, miles de personas se han movilizado en varias ciudades de Francia para protestar por el costo de la vida así como también por una mejora en la educación, entre otros motivos."
+    },
+    {
+      "id": "nacional-10-Agencia_Andina_October_Bi",
+      "title": "October Big Day 2026: Perú es el segundo país con más especies de aves registradas",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-october-big-day-2026-peru-es-segundo-pais-mas-especies-aves-registradas-1097207.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2023/05/12/000957347W.webp",
+      "local_image": "images/today/2026-10-24_Agencia_Andina_October_Big_Day_2026_Peru_es_el_se.jpg",
+      "date": "Sat, 24 Oct 2026 10:36:17 -0500",
+      "date_formatted": "Hoy • 10:36 AM",
+      "date_full": "24 de Octubre de 2026, 10:36 AM",
+      "timestamp": 1792856177,
+      "summary": "El Ministerio de Comercio Exterior y Turismo (Mincetur) informó que el Perú mantuvo su posicionamiento como el segundo país del mundo con mayor número de especies de aves registradas durante el October Big Day 2026, al r..."
+    },
+    {
+      "id": "regional-1-Pachamama_Radio_Puno_Fari",
+      "title": "Farid Kahhat advierte influencia de Trump en elecciones de América Latina mediante amenazas económicas",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Pachamama Radio (Puno)",
+      "url": "https://pachamamaradio.org/farid-kahhat-advierte-influencia-de-trump-en-elecciones-de-america-latina-mediante-amenazas-economicas/",
+      "image_url": "https://pachamamaradio.org/wp-content/uploads/2026/10/Farid-Kahhat-advierte-influencia-de-Trump-en-elecciones-de-America-Latina-CPR.avif",
+      "local_image": "images/today/2026-10-24_Pachamama_Radio_Puno_Farid_Kahhat_advierte_influencia_de.jpg",
+      "date": "2026-10-24T10:30:57",
+      "date_formatted": "Hoy • 10:30 AM",
+      "date_full": "24 de Octubre de 2026, 10:30 AM",
+      "timestamp": 1792855857,
+      "summary": "Farid Kahhat sostiene que Trump condiciona remesas y un intercambio de monedas de 20 000 millones de dólares para influir en elecciones de la región"
+    },
+    {
+      "id": "internacional-2-France_24_en_Espanol_Star",
       "title": "Starlink vuelve a funcionar sin restricciones en Ucrania; Kiev ataca planta petroquímica en Rusia",
       "category": "internacional",
       "category_label": "Internacional",
@@ -87,82 +447,7 @@
       "summary": "El presidente de Ucrania, Volodímir Zelenski, confirmó que el sistema de satélites Starlink y su versión de uso militar Starshield recuperaron este sábado 24 de octubre su velocidad habitual, luego de más de una semana d..."
     },
     {
-      "id": "nacional-1-RPP_Noticias_LaLiga_EA_Sp",
-      "title": "LaLiga EA Sports: Barcelona y Real Madrid se enfrentan en el Clásico",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/ligas-internacionales/laliga-ea-sports-barcelona-y-real-madrid-se-enfrentan-en-el-clasico-noticia-1714269",
-      "image_url": "https://f.rpp-noticias.io/2026/10/24/1922133.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-24_RPP_Noticias_LaLiga_EA_Sports_Barcelona_y_Real.jpg",
-      "date": "Sat, 24 Oct 2026 10:09:58 -0500",
-      "date_formatted": "Hoy • 10:09 AM",
-      "date_full": "24 de Octubre de 2026, 10:09 AM",
-      "timestamp": 1792854598,
-      "summary": "Todos los detalles de la previa del partido entre Barcelona y Real Madrid, que se jugará el domingo 25 de octubre desde las 15:00 horas en el estadio Camp Nou."
-    },
-    {
-      "id": "nacional-1-Agencia_Andina_Presidenta",
-      "title": "Presidenta reafirma su llamado a la unidad para trabajar en beneficio de los ciudadanos",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-presidenta-reafirma-su-llamado-a-unidad-para-trabajar-beneficio-los-ciudadanos-1097201.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/24/001326109W.jpg",
-      "local_image": "images/today/2026-10-24_Agencia_Andina_Presidenta_reafirma_su_llamado_a_la.jpg",
-      "date": "Sat, 24 Oct 2026 10:04:17 -0500",
-      "date_formatted": "Hoy • 10:04 AM",
-      "date_full": "24 de Octubre de 2026, 10:04 AM",
-      "timestamp": 1792854257,
-      "summary": "La presidenta de la república, Keiko Fujimori, reiteró que el objetivo de su gestión es trabajar junto a las autoridades de todos los niveles de gobierno para atender las necesidades de la población."
-    },
-    {
-      "id": "nacional-2-Agencia_Andina_Envios_de_",
-      "title": "Envíos de dinero desde Perú crecen 22% y muestran ciudadanos cada vez más globales",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-envios-dinero-desde-peru-crecen-22-y-muestran-ciudadanos-cada-vez-mas-globales-1097198.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2024/05/17/001065054W.webp",
-      "local_image": "images/today/2026-10-24_Agencia_Andina_Envios_de_dinero_desde_Peru_crecen.jpg",
-      "date": "Sat, 24 Oct 2026 10:00:00 -0500",
-      "date_formatted": "Hoy • 10:00 AM",
-      "date_full": "24 de Octubre de 2026, 10:00 AM",
-      "timestamp": 1792854000,
-      "summary": "Viajar, apoyar a familiares, estudiar y hacer negocios en otros países forman parte de la conexión de los peruanos con el mundo. Según el Instituto Nacional de Estadística e Informática (INEI), en 2025 se registraron 4.1..."
-    },
-    {
-      "id": "nacional-3-Agencia_Andina_Tacna_Pron",
-      "title": "Tacna:Pronis coordina acciones para impulsar el futuro hospital docente y de investigación",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-tacnapronis-coordina-acciones-para-impulsar-futuro-hospital-docente-y-investigacion-1097202.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/24/001326112W.jpg",
-      "local_image": "images/today/2026-10-24_Agencia_Andina_Tacna_Pronis_coordina_acciones_para.jpg",
-      "date": "Sat, 24 Oct 2026 10:00:00 -0500",
-      "date_formatted": "Hoy • 10:00 AM",
-      "date_full": "24 de Octubre de 2026, 10:00 AM",
-      "timestamp": 1792854000,
-      "summary": "El Programa Nacional de Inversiones en Salud (Pronis), del Ministerio de Salud, coordina con el Gobierno Regional de Tacna, ZofraTacna y la Universidad Nacional Jorge Basadre Grohmann (UNJBG) las acciones necesarias para..."
-    },
-    {
-      "id": "nacional-5-RPP_Noticias_Serie_A_Udin",
-      "title": "Serie A: Udinese quiere volver a festejar frente a Milan",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/ligas-internacionales/serie-a-udinese-quiere-volver-a-festejar-frente-a-milan-noticia-1714266",
-      "image_url": "https://f.rpp-noticias.io/2026/10/24/1922130.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-24_RPP_Noticias_Serie_A_Udinese_quiere_volver_a_fe.jpg",
-      "date": "Sat, 24 Oct 2026 09:49:40 -0500",
-      "date_formatted": "Hoy • 9:49 AM",
-      "date_full": "24 de Octubre de 2026, 9:49 AM",
-      "timestamp": 1792853380,
-      "summary": "La previa del choque de Udinese ante Milan, a disputarse  en el estadio Stadio Friuli el domingo 25 de octubre desde las 14:45 horas. El árbitro será Matteo Marcenaro."
-    },
-    {
-      "id": "nacional-4-RPP_Noticias_Luis_Galarre",
+      "id": "nacional-9-RPP_Noticias_Luis_Galarre",
       "title": "Luis Galarreta sobre facultades legislativas: \"Ha habido mezquindad de un sector minoritario en el Congreso\"",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -192,22 +477,7 @@
       "summary": "La policía alemana detiene a un sospechoso. El fiscal apunta a que puede sufrir problemas psiquiátricos"
     },
     {
-      "id": "nacional-4-Agencia_Andina_SJL_Megafe",
-      "title": "SJL: Megaferia del Ministerio de Trabajo ofrecerá más de 5 mil empleos formales",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-sjl-megaferia-del-ministerio-trabajo-ofrecera-mas-5-mil-empleos-formales-1097199.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/24/001326111W.jpg",
-      "local_image": "images/today/2026-10-24_Agencia_Andina_SJL_Megaferia_del_Ministerio_de_Tr.jpg",
-      "date": "Sat, 24 Oct 2026 09:41:16 -0500",
-      "date_formatted": "Hoy • 9:41 AM",
-      "date_full": "24 de Octubre de 2026, 9:41 AM",
-      "timestamp": 1792852876,
-      "summary": "Más de 5 mil oportunidades de empleo formal estarán al alcance de la población este lunes 26 y martes 27 de octubre durante la Megaferia del Empleo que realizará el Ministerio de Trabajo y Promoción del Empleo (MTPE) en ..."
-    },
-    {
-      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "id": "regional-2-Diario_Sin_Fronteras_Puno",
       "title": "Juliaca: Exceso de alcohol deja jóvenes inconscientes tras serenata por los 100 años de San Román",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -222,22 +492,7 @@
       "summary": "Alcohol y descontrol. La serenata por los 100 años de la provincia de San Román – Juliaca, terminó con varios jóvenes dormidos"
     },
     {
-      "id": "nacional-3-RPP_Noticias_Jean_Deza_fi",
-      "title": "Jean Deza fichó por Domingo Dianderas de la Copa Perú: \"¿Me estaban esperando?\"",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/copa-peru/jean-deza-ficho-por-domingo-dianderas-de-copa-peru-noticia-1714261",
-      "image_url": "https://f.rpp-noticias.io/2026/10/24/002500_1922122.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-24_RPP_Noticias_Jean_Deza_ficho_por_Domingo_Diander.jpg",
-      "date": "Sat, 24 Oct 2026 09:40:06 -0500",
-      "date_formatted": "Hoy • 9:40 AM",
-      "date_full": "24 de Octubre de 2026, 9:40 AM",
-      "timestamp": 1792852806,
-      "summary": "Jean Deza vuelve a las canchas con el Domingo Dianderas que es una de las sensaciones de la Copa Perú."
-    },
-    {
-      "id": "internacional-2-France_24_en_Espanol_El_G",
+      "id": "internacional-3-France_24_en_Espanol_El_G",
       "title": "El Gobierno de Trump demanda para bloquear una posible victoria demócrata en la contienda por el Senado en Alaska",
       "category": "internacional",
       "category_label": "Internacional",
@@ -252,37 +507,7 @@
       "summary": "El presidente de Estados Unidos, Donald Trump, declaró que dio instrucciones a su Administración para presentar una demanda con el fin de bloquear la certificación de los resultados de la elección al Senado en Alaska, en..."
     },
     {
-      "id": "nacional-6-RPP_Noticias_Friaje_en_Pe",
-      "title": "Friaje en Perú: fenómeno se aproxima al territorio nacional y alterará decididamente el clima en varias regiones",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/peru/actualidad/friaje-en-peru-fenomeno-se-aproxima-al-territorio-nacional-y-alterara-decididamente-el-clima-en-varias-regiones-noticia-1714264",
-      "image_url": "https://f.rpp-noticias.io/2026/10/24/303230_1922123.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-24_RPP_Noticias_Friaje_en_Peru_fenomeno_se_aproxim.jpg",
-      "date": "Sat, 24 Oct 2026 09:30:06 -0500",
-      "date_formatted": "Hoy • 9:30 AM",
-      "date_full": "24 de Octubre de 2026, 9:30 AM",
-      "timestamp": 1792852206,
-      "summary": "El Senamhi reportó que el decimotercer friaje del año -que iniciará este domingo- estará acompañado de lluvias, descargas eléctricas, incremento del viento y el descenso de temperaturas. Conoce las regiones afectadas."
-    },
-    {
-      "id": "nacional-5-Agencia_Andina_Piura_Ango",
-      "title": "Piura: Angola busca fortalecer lazos culturales con la comunidad afroperuana de Yapatera",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-piura-angola-busca-fortalecer-lazos-culturales-con-comunidad-afroperuana-yapatera-1097200.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/24/001326105W.jpg",
-      "local_image": "images/today/2026-10-24_Agencia_Andina_Piura_Angola_busca_fortalecer_lazo.jpg",
-      "date": "Sat, 24 Oct 2026 09:30:00 -0500",
-      "date_formatted": "Hoy • 9:30 AM",
-      "date_full": "24 de Octubre de 2026, 9:30 AM",
-      "timestamp": 1792852200,
-      "summary": "Una delegación diplomática de Angola visitó Yapatera, en el distrito de Chulucanas, provincia de Morropón, los días 21 y 22 de octubre, para fortalecer los vínculos culturales con la comunidad afroperuana y explorar opor..."
-    },
-    {
-      "id": "regional-2-Diario_Sin_Fronteras_Puno",
+      "id": "regional-3-Diario_Sin_Fronteras_Puno",
       "title": "Puno: Camioneta se despista en la carretera Interoceánica, en San Antón",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -297,22 +522,7 @@
       "summary": "Un nuevo accidente de tránsito se registró la madrugada de este sábado 24 de octubre en la carretera Interoceánica, a la altura"
     },
     {
-      "id": "nacional-6-Agencia_Andina_Fenomeno_E",
-      "title": "Fenómeno El Niño: Gobierno pone a prueba su capacidad de respuesta ante desastres",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-fenomeno-nino-gobierno-pone-a-prueba-su-capacidad-respuesta-ante-desastres-1097190.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/24/001326092W.jpg",
-      "local_image": "images/today/2026-10-24_Agencia_Andina_Fenomeno_El_Nino_Gobierno_pone_a_p.jpg",
-      "date": "Sat, 24 Oct 2026 09:27:15 -0500",
-      "date_formatted": "Hoy • 9:27 AM",
-      "date_full": "24 de Octubre de 2026, 9:27 AM",
-      "timestamp": 1792852035,
-      "summary": "Ante el riesgo de inundaciones y otras emergencias asociadas al fenómeno El Niño, el Ministerio de Defensa, a través de Instituto Nacional de Defensa Civil (Indeci), realizó una simulación de nivel 5 de emergencia, un es..."
-    },
-    {
-      "id": "internacional-3-BBC_Mundo_Desde_informant",
+      "id": "internacional-6-BBC_Mundo_Desde_informant",
       "title": "Desde informantes hasta acusaciones de sabotaje: los rusos que dicen ayudar a Ucrania dentro de Rusia",
       "category": "internacional",
       "category_label": "Internacional",
@@ -327,82 +537,7 @@
       "summary": "Un documental de BBC Eye tuvo acceso a rusos que aseguran estar ayudando a Ucrania realizando operaciones dentro de Rusia."
     },
     {
-      "id": "nacional-7-RPP_Noticias_Lula_o_Flavi",
-      "title": "Lula o Flávio Bolsonaro: Brasil decide su futuro en una segunda vuelta muy reñida",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/mundo/latinoamerica/lula-o-flavio-bolsonaro-brasil-decide-su-futuro-en-una-segunda-vuelta-muy-renida-noticia-1714259",
-      "image_url": "https://f.rpp-noticias.io/2026/10/24/491049_1922121.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-24_RPP_Noticias_Lula_o_Flavio_Bolsonaro_Brasil_dec.jpg",
-      "date": "Sat, 24 Oct 2026 09:15:51 -0500",
-      "date_formatted": "Hoy • 9:15 AM",
-      "date_full": "24 de Octubre de 2026, 9:15 AM",
-      "timestamp": 1792851351,
-      "summary": "Brasil se enfrenta a una elección crucial este domingo, con Lula y Flávio Bolsonaro en un reñido balotaje. Según el último sondeo, divulgado el jueves por la firma demoscópica Datafolha, ambos aspirantes están empatados ..."
-    },
-    {
-      "id": "nacional-7-Agencia_Andina_Cientifico",
-      "title": "Científicos de la UNI desarrollan plantas autónomas que llevan agua segura a zonas rurales",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-cientificos-de-uni-desarrollan-plantas-autonomas-llevan-agua-segura-a-zonas-rurales-1096674.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/20/001325040W.jpg",
-      "local_image": "images/today/2026-10-24_Agencia_Andina_Cientificos_de_la_UNI_desarrollan_p.jpg",
-      "date": "Sat, 24 Oct 2026 09:15:00 -0500",
-      "date_formatted": "Hoy • 9:15 AM",
-      "date_full": "24 de Octubre de 2026, 9:15 AM",
-      "timestamp": 1792851300,
-      "summary": "Un equipo de científicos de la Universidad Nacional de Ingeniería (UNI) desarrolló plantas modulares autónomas de tratamiento de agua que actualmente abastecen con éxito de este recurso vital, libre de cualquier tipo de ..."
-    },
-    {
-      "id": "nacional-8-Agencia_Andina_Provincia_",
-      "title": "Provincia de San Román celebra su centenario con homenajes culturales, cívicos y oficiales",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-provincia-san-roman-celebra-su-centenario-homenajes-culturales-civicos-y-oficiales-1097197.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/24/001326102W.jpg",
-      "local_image": "images/today/2026-10-24_Agencia_Andina_Provincia_de_San_Roman_celebra_su_c.jpg",
-      "date": "Sat, 24 Oct 2026 09:07:03 -0500",
-      "date_formatted": "Hoy • 9:07 AM",
-      "date_full": "24 de Octubre de 2026, 9:07 AM",
-      "timestamp": 1792850823,
-      "summary": "La provincia de San Román conmemora hoy sábado 24 de octubre sus 100 años de creación política con actividades culturales como pasacalles y actos oficiales."
-    },
-    {
-      "id": "nacional-8-RPP_Noticias_Sport_Huanca",
-      "title": "Sport Huancayo vs. Alianza Atlético: ¿a qué hora juegan y cómo ver en vivo el Clausura 2026?",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/descentralizado/sport-huancayo-vs-alianza-atletico-en-vivo-a-que-hora-juegan-y-como-ver-fecha-13-torneo-clausura-2026-via-l1max-partidos-de-hoy-noticia-1714129",
-      "image_url": "https://f.rpp-noticias.io/2026/10/23/490449_1921793.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-24_RPP_Noticias_Sport_Huancayo_vs_Alianza_Atletico.jpg",
-      "date": "Sat, 24 Oct 2026 09:00:35 -0500",
-      "date_formatted": "Hoy • 9:00 AM",
-      "date_full": "24 de Octubre de 2026, 9:00 AM",
-      "timestamp": 1792850435,
-      "summary": "Sport Huancayo vs. Alianza Atlético EN VIVO: sigue el partido por la fecha 13 del Torneo Clausura 2026."
-    },
-    {
-      "id": "nacional-9-Agencia_Andina_Puedo_reci",
-      "title": "¿Puedo recibir más de una pensión si estoy en la ONP?",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-puedo-recibir-mas-una-pension-si-estoy-la-onp-1097196.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/03/19/001264007W.webp",
-      "local_image": "images/today/2026-10-24_Agencia_Andina_Puedo_recibir_mas_de_una_pension_s.jpg",
-      "date": "Sat, 24 Oct 2026 09:00:01 -0500",
-      "date_formatted": "Hoy • 9:00 AM",
-      "date_full": "24 de Octubre de 2026, 9:00 AM",
-      "timestamp": 1792850401,
-      "summary": "Si un pensionista de jubilación o invalidez del Sistema Nacional de Pensiones (SNP) pierde a su cónyuge o conviviente puede solicitar una pensión de viudez si cumple con los requisitos establecidos."
-    },
-    {
-      "id": "regional-1-Pachamama_Radio_Puno_Juan",
+      "id": "regional-2-Pachamama_Radio_Puno_Juan",
       "title": "Juan de la Puente advierte ruptura del equilibrio político con nueva mayoría oficialista en el Senado peruano",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -417,7 +552,7 @@
       "summary": "El politólogo Juan de la Puente sostiene que el oficialismo logró mayoría de 35 votos en el Senado y rompió el equilibrio surgido de las elecciones"
     },
     {
-      "id": "internacional-3-France_24_en_Espanol_Hebr",
+      "id": "internacional-4-France_24_en_Espanol_Hebr",
       "title": "Hebrón, bajo ataque: 1.200 palestinos desplazados a tres días de las elecciones en Israel",
       "category": "internacional",
       "category_label": "Internacional",
@@ -432,29 +567,14 @@
       "summary": "La ofensiva militar israelí en la ciudad palestina de Hebrón, en Cisjordania ocupada, deja cerca de 1.200 personas desplazadas, según un funcionario palestino, y amenaza con expulsar de sus hogares a otras 1.300. La ofen..."
     },
     {
-      "id": "nacional-10-Agencia_Andina_PNP_desart",
-      "title": "PNP desarticula banda que extorsionaba a mototaxistas en San Martín de Porres",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-pnp-desarticula-banda-extorsionaba-a-mototaxistas-san-martin-porres-1097194.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/24/001326098W.jpg",
-      "local_image": "images/today/2026-10-24_Agencia_Andina_PNP_desarticula_banda_que_extorsion.jpg",
-      "date": "Sat, 24 Oct 2026 08:52:06 -0500",
-      "date_formatted": "Hoy • 8:52 AM",
-      "date_full": "24 de Octubre de 2026, 8:52 AM",
-      "timestamp": 1792849926,
-      "summary": "La Policía Nacional del Perú (PNP) desarticuló la banda criminal “Los Temerarios de Pocitos”, dedicada al cobro de cupos a mototaxistas en las inmediaciones del mercado Zarumilla, en San Martín de Porres. La acción polic..."
-    },
-    {
-      "id": "internacional-2-El_Pais_Internacional_Fei",
+      "id": "internacional-5-El_Pais_Internacional_Fei",
       "title": "Feijóo advierte al PSOE de que no va a “indultar corruptos” si gobierna: “Me encargaré de que paguen por todo”",
       "category": "internacional",
       "category_label": "Internacional",
       "source": "El País Internacional",
       "url": "https://elpais.com/espana/2026-10-24/feijoo-advierte-al-psoe-de-que-no-va-a-indultar-corruptos-si-gobierna-me-encargare-de-que-paguen-por-todo.html",
-      "image_url": "https://imagenes.elpais.com/resizer/v2/PYREJMCWWNDKNIJLRIBBPTB42U.jpg?auth=11b850194e3040f7518ac9685c36d60ccd880fa421af389327a584d4b8170521",
-      "local_image": "images/today/2026-10-24_El_Pais_Internacional_Feijoo_advierte_al_PSOE_de_que_no_v.jpg",
+      "image_url": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261024/1229452_153853_video_1800.mp4",
+      "local_image": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261024/1229452_153853_video_1800.mp4",
       "date": "Sat, 24 Oct 2026 13:51:25 GMT",
       "date_formatted": "Hoy • 8:51 AM",
       "date_full": "24 de Octubre de 2026, 8:51 AM",
@@ -462,7 +582,7 @@
       "summary": "El presidente del PP hace recuento en Vigo de los “17 sumarios” y “131 imputados” del PSOE y exige a Zapatero que “pida perdón a los españoles”"
     },
     {
-      "id": "internacional-4-France_24_en_Espanol_Chil",
+      "id": "internacional-5-France_24_en_Espanol_Chil",
       "title": "Chile supera los 2.000 deportados y endurece su política migratoria",
       "category": "internacional",
       "category_label": "Internacional",
@@ -477,7 +597,7 @@
       "summary": "Chile alcanzó las 2.000 expulsiones de extranjeros durante 2026, una cifra récord que supera los registros anuales de los últimos años. El dato fue confirmado por las autoridades tras la realización del undécimo vuelo de..."
     },
     {
-      "id": "internacional-5-France_24_en_Espanol_Isra",
+      "id": "internacional-6-France_24_en_Espanol_Isra",
       "title": "Israel derriba edificios de viviendas en Hebrón durante operación en Cisjordania ocupada",
       "category": "internacional",
       "category_label": "Internacional",
@@ -492,7 +612,7 @@
       "summary": "Las fuerzas israelíes llevaron a cabo la demolición de edificios residenciales en la zona de Hebrón, en la Cisjordania ocupada, en el marco de una operación militar lanzada tras un reciente ataque armado contra soldados ..."
     },
     {
-      "id": "internacional-6-France_24_en_Espanol_Prot",
+      "id": "internacional-7-France_24_en_Espanol_Prot",
       "title": "Protestas de docentes sacuden Bolivia: exigen mayor presupuesto para la educación",
       "category": "internacional",
       "category_label": "Internacional",
@@ -507,7 +627,7 @@
       "summary": "Miles de docentes protagonizaron una jornada de protestas en Bolivia. Los maestros reclaman mejoras salariales, mayor presupuesto para educación, más plazas docentes y rechazan el plan gubernamental de transferir la admi..."
     },
     {
-      "id": "internacional-7-France_24_en_Espanol_Info",
+      "id": "internacional-8-France_24_en_Espanol_Info",
       "title": "Informe desde París: más de 70.000 policías desplegados en nueva jornada de protestas en Francia",
       "category": "internacional",
       "category_label": "Internacional",
@@ -522,37 +642,7 @@
       "summary": "Francia vive una nueva jornada de protestas marcada por un amplio despliegue de seguridad. Las movilizaciones, convocadas por estudiantes y sindicatos, se producen en medio del descontento en el ámbito educativo. Según l..."
     },
     {
-      "id": "internacional-8-France_24_en_Espanol_En_d",
-      "title": "En directo I 135 detenidos y 70.000 agentes desplegados en las protestas de este sábado en Francia",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "France 24 en Español",
-      "url": "https://www.france24.com/es/francia/20261024-en-directo-i-135-detenidos-e-incautaci%C3%B3n-de-armas-en-protestas-de-este-s%C3%A1bado-ministerio-del-interior-franc%C3%A9s",
-      "image_url": "https://s.france24.com/media/display/a76aaa96-cfbc-11f1-aa60-bdb9616e85cf/w:1024/p:16x9/2026-10-24T150612Z-584268135-RC2Q9OA7NIM6-RTRMADP-3-FRANCE-PROTEST.jpg",
-      "local_image": "images/today/2026-10-24_France_24_en_Espanol_En_directo_I_135_detenidos_y_70_000.jpg",
-      "date": "Sat, 24 Oct 2026 12:46:10 GMT",
-      "date_formatted": "Hoy • 7:46 AM",
-      "date_full": "24 de Octubre de 2026, 7:46 AM",
-      "timestamp": 1792845970,
-      "summary": "El movimiento ‘chalecos amarillos’, los sindicatos y los estudiantes protestan este sábado 24 de octubre en una nueva jornada marcada por las tensiones y bajo un dispositivo de seguridad con 70 000 policías y gendarmes. ..."
-    },
-    {
-      "id": "internacional-7-El_Pais_Internacional_Fra",
-      "title": "Francia contiene el aliento ante una nueva jornada de protestas",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "El País Internacional",
-      "url": "https://elpais.com/internacional/2026-10-24/francia-contiene-el-aliento-ante-una-nueva-jornada-de-protestas.html",
-      "image_url": "https://www.youtube.com/watch?v=oM6vGVzjbOY",
-      "local_image": "https://www.youtube.com/watch?v=oM6vGVzjbOY",
-      "date": "Sat, 24 Oct 2026 12:03:34 GMT",
-      "date_formatted": "Hoy • 7:03 AM",
-      "date_full": "24 de Octubre de 2026, 7:03 AM",
-      "timestamp": 1792843414,
-      "summary": "El Gobierno, que ha prohibido las manifestaciones en la mayoría de ciudades, ha desplegado 70.000 efectivos para evitar nuevos incidentes en París"
-    },
-    {
-      "id": "internacional-3-El_Pais_Internacional_Mon",
+      "id": "internacional-6-El_Pais_Internacional_Mon",
       "title": "Montero y Rufián: “Una izquierda que se presenta en la misma papeleta con el PSOE no va a arreglar los problemas”",
       "category": "internacional",
       "category_label": "Internacional",
@@ -567,7 +657,7 @@
       "summary": "La plana mayor de ERC y Podemos arropan a sus candidatos en su primer acto de precampaña en Barcelona"
     },
     {
-      "id": "internacional-1-El_Pais_Internacional_San",
+      "id": "internacional-4-El_Pais_Internacional_San",
       "title": "Sánchez reivindica “la España de Lorca” frente a la “involución” del PP y Vox",
       "category": "internacional",
       "category_label": "Internacional",
@@ -582,7 +672,7 @@
       "summary": "El candidato socialista se compromete desde Granada a reforzar la protección del aborto, a defender la cultura de los vetos del “club de la motosierra” y a llegar “antes” y “más lejos” en sus medidas sobre vivienda"
     },
     {
-      "id": "internacional-5-El_Pais_Internacional_Mil",
+      "id": "internacional-3-El_Pais_Internacional_Mil",
       "title": "Miles de personas se manifiestan en Madrid en defensa del sistema de pensiones: “¡No se venden!”",
       "category": "internacional",
       "category_label": "Internacional",
@@ -597,7 +687,7 @@
       "summary": "La marcha se celebra todos los años en octubre, pero esta vez ha doblado la afluencia, según los convocantes, por el protagonismo de estas prestaciones en la campaña electoral"
     },
     {
-      "id": "internacional-6-BBC_Mundo_El_presidente_J",
+      "id": "internacional-7-BBC_Mundo_El_presidente_J",
       "title": "El presidente Javier Milei y su hermana Karina son sobreseídos por la Justicia argentina en el escándalo de la criptomenada $LIBRA",
       "category": "internacional",
       "category_label": "Internacional",
@@ -610,21 +700,6 @@
       "date_full": "24 de Octubre de 2026, 5:37 AM",
       "timestamp": 1792838251,
       "summary": "El mandatario había apoyado en 2025 el lanzamiento de una criptomoneda que luego fracasó. Milei siempre insistió que fue un tema entre privados, sin ninguna intervención del Estado argentino."
-    },
-    {
-      "id": "nacional-2-RPP_Noticias_SENAMHI_Pron",
-      "title": "SENAMHI: Pronóstico del clima hoy sábado 24 de octubre 2026",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/peru/actualidad/senamhi-pronostico-del-clima-hoy-sabado-24-de-octubre-2026-noticia-1714224",
-      "image_url": "https://f.rpp-noticias.io/2025/12/03/543554_1818092.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-24_RPP_Noticias_SENAMHI_Pronostico_del_clima_hoy_s.jpg",
-      "date": "Sat, 24 Oct 2026 04:00:45 -0500",
-      "date_formatted": "Hoy • 4:00 AM",
-      "date_full": "24 de Octubre de 2026, 4:00 AM",
-      "timestamp": 1792832445,
-      "summary": "Consulta el pronóstico del clima hoy en Lima y ciudades del Perú: temperatura actual, sensación térmica, radiación UV, probabilidad de lluvia y reporte oficial del Senamhi actualizado."
     },
     {
       "id": "internacional-4-BBC_Mundo_Mi_hermano_comp",
@@ -657,7 +732,7 @@
       "summary": "Un superviviente del naufragio que inspiró la novela \"Moby Dick\" tenía una teoría sobre cómo un cachalote podía destruir un barco que lo multiplicaba en tamaño; 200 años después, se demostró que tenía razón."
     },
     {
-      "id": "internacional-7-BBC_Mundo_Arrestan_a_una_",
+      "id": "internacional-8-BBC_Mundo_Arrestan_a_una_",
       "title": "Arrestan a una persona tras el incendio en el refugio \"Nido del Águila\" de Adolf Hitler",
       "category": "internacional",
       "category_label": "Internacional",
@@ -672,7 +747,7 @@
       "summary": "Alrededor de 200 efectivos de emergencia han sido desplegados para combatir el incendio en la residencia alpina del dictador nazi en Alemania."
     },
     {
-      "id": "regional-1-Diario_Los_Andes_Puno_DIA",
+      "id": "regional-2-Diario_Los_Andes_Puno_DIA",
       "title": "DIARIO LOS ANDES PUNO: 24/10/26",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -687,13 +762,13 @@
       "summary": "DIARIO LOS ANDES PUNO: 24/10/26"
     },
     {
-      "id": "regional-2-Diario_Los_Andes_Puno_DIA",
+      "id": "regional-3-Diario_Los_Andes_Puno_DIA",
       "title": "DIARIO LOS ANDES AREQUIPA: 24/10/26",
       "category": "regional",
       "category_label": "Regional (Puno)",
       "source": "Diario Los Andes (Puno)",
       "url": "https://losandes.com.pe/diario-los-andes-arequipa-24-10-26/",
-      "image_url": "https://losandes.com.pe/wp-content/uploads/2026/10/AQP-21-scaled.jpg",
+      "image_url": "https://losandes.com.pe/wp-content/uploads/2026/10/AQP-22-scaled.jpg",
       "local_image": "images/today/2026-10-24_Diario_Los_Andes_Puno_DIARIO_LOS_ANDES_AREQUIPA_24_10_26.jpg",
       "date": "2026-10-24T00:51:09",
       "date_formatted": "Hoy • 12:51 AM",
@@ -717,22 +792,7 @@
       "summary": "¿Logrará Fatima El Mansouri impulsar los derechos de las mujeres en medio de barreras religiosas y políticas?"
     },
     {
-      "id": "internacional-4-El_Pais_Internacional_Com",
-      "title": "¿Cómo no entender a Felipe González?",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "El País Internacional",
-      "url": "https://elpais.com/opinion/2026-10-24/como-no-entender-a-felipe-gonzalez.html",
-      "image_url": "https://imagenes.elpais.com/resizer/v2/774KL4TEPNM2JIYPQIKN6FFZ64.jpg?auth=95fedc43864f7874ef9b4031430e72623bd7c326bffd2ff459ce1dcfeb92e6f3",
-      "local_image": "images/today/2026-10-24_El_Pais_Internacional_Como_no_entender_a_Felipe_Gonzalez.jpg",
-      "date": "Sat, 24 Oct 2026 03:30:01 GMT",
-      "date_formatted": "23 Oct • 10:30 PM",
-      "date_full": "23 de Octubre de 2026, 10:30 PM",
-      "timestamp": 1792812601,
-      "summary": "Habrá que votar con pinzas en la nariz, como cuando se presentó él. Que no nacimos ayer"
-    },
-    {
-      "id": "internacional-6-El_Pais_Internacional_Don",
+      "id": "internacional-2-El_Pais_Internacional_Don",
       "title": "¿Dónde y por qué se protesta en Europa? Las reivindicaciones de los jóvenes de cada país",
       "category": "internacional",
       "category_label": "Internacional",
@@ -747,7 +807,22 @@
       "summary": "Estudiantes, sindicatos y vecinos han convocado más de 170 manifestaciones en poco más de un mes en todo el continente. Sus motivos a menudo coinciden"
     },
     {
-      "id": "regional-3-Diario_Sin_Fronteras_Puno",
+      "id": "internacional-7-El_Pais_Internacional_Com",
+      "title": "¿Cómo no entender a Felipe González?",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "El País Internacional",
+      "url": "https://elpais.com/opinion/2026-10-24/como-no-entender-a-felipe-gonzalez.html",
+      "image_url": "https://imagenes.elpais.com/resizer/v2/774KL4TEPNM2JIYPQIKN6FFZ64.jpg?auth=95fedc43864f7874ef9b4031430e72623bd7c326bffd2ff459ce1dcfeb92e6f3",
+      "local_image": "images/today/2026-10-24_El_Pais_Internacional_Como_no_entender_a_Felipe_Gonzalez.jpg",
+      "date": "Sat, 24 Oct 2026 03:30:01 GMT",
+      "date_formatted": "23 Oct • 10:30 PM",
+      "date_full": "23 de Octubre de 2026, 10:30 PM",
+      "timestamp": 1792812601,
+      "summary": "Habrá que votar con pinzas en la nariz, como cuando se presentó él. Que no nacimos ayer"
+    },
+    {
+      "id": "regional-4-Diario_Sin_Fronteras_Puno",
       "title": "SUSALUD interviene tras denuncia de madre que esperaba gemelas y recibió solo una bebé",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -762,7 +837,7 @@
       "summary": "Una grave denuncia se encuentra bajo investigación en el Callao, luego de que María Elena Siccha Granados acudiera al Hospital Nacional Daniel"
     },
     {
-      "id": "regional-4-Diario_Sin_Fronteras_Puno",
+      "id": "regional-5-Diario_Sin_Fronteras_Puno",
       "title": "Diario Sin Fronteras reconoce a Fernando Alarcón por su cuarto lugar en Caminos del Inca",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -777,7 +852,7 @@
       "summary": "Diario Sin Fronteras reconoció al piloto arequipeño Fernando Alarcón, quien obtuvo el cuarto lugar en la categoría Camionetas y fue el competidor"
     },
     {
-      "id": "regional-5-Diario_Sin_Fronteras_Puno",
+      "id": "regional-6-Diario_Sin_Fronteras_Puno",
       "title": "Tacna reúne a expertos internacionales para debatir el futuro de la comunicación",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -792,7 +867,7 @@
       "summary": "Investigadores, docentes y especialistas nacionales e internacionales participan este viernes 23 de octubre en la segunda jornada del VIII Congreso Internacional de"
     },
     {
-      "id": "regional-2-Pachamama_Radio_Puno_Puno",
+      "id": "regional-3-Pachamama_Radio_Puno_Puno",
       "title": "Puno: Instan a padres a cuidar la salud bucal infantil para prevenir enfermedades",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -807,7 +882,7 @@
       "summary": "Redes de salud de Puno promueven el cepillado dental y advierten que las caries infantiles causan dolor y dificultan la alimentación de los niños"
     },
     {
-      "id": "regional-3-Pachamama_Radio_Puno_Capi",
+      "id": "regional-4-Pachamama_Radio_Puno_Capi",
       "title": "Capitán de Puerto pide a los Uros adquirir motobombas tras incendio",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -822,7 +897,7 @@
       "summary": "El capitán Erick Gutiérrez pide a las autoridades de Los Uros adquirir motobombas tras incendios que dañaron cuatro hospedajes turísticos y pastizales"
     },
     {
-      "id": "regional-6-Diario_Sin_Fronteras_Puno",
+      "id": "regional-7-Diario_Sin_Fronteras_Puno",
       "title": "Juliaca firma contrato para ejecutar obra de agua potable por S/ 887 millones",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -837,7 +912,7 @@
       "summary": "El ministro de Vivienda, Construcción y Saneamiento, Mauricio Arnillas, encabezó la firma del contrato para ejecutar la cuarta etapa del Proyecto Integral"
     },
     {
-      "id": "regional-4-Pachamama_Radio_Puno_Puno",
+      "id": "regional-5-Pachamama_Radio_Puno_Puno",
       "title": "Puno: retomaría la próxima semana mesa técnica por alza del pasaje urbano",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -852,7 +927,7 @@
       "summary": "La Municipalidad de Puno evalúa reanudar la mesa técnica la próxima semana para abordar el pasaje de S/ 1.50 tras el paro de transportistas y el rechazo ciudadano"
     },
     {
-      "id": "regional-7-Diario_Sin_Fronteras_Puno",
+      "id": "regional-8-Diario_Sin_Fronteras_Puno",
       "title": "Puno: Trabajador administrativo de la UNAP muere en choque frontal en Azángaro",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -867,22 +942,7 @@
       "summary": "Un choque frontal entre una combi de la Universidad Nacional del Altiplano de Puno (UNAP) y una camioneta 4×4 dejó un fallecido"
     },
     {
-      "id": "regional-8-Diario_Sin_Fronteras_Puno",
-      "title": "Puno recibirá más de S/ 76 millones por canon minero y enfrenta el reto de invertir eficientemente tales recursos",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Diario Sin Fronteras (Puno)",
-      "url": "https://diariosinfronteras.com.pe/2026/10/23/puno-recibira-mas-de-s-76-millones-por-canon-minero-y-enfrenta-el-reto-de-invertir-eficientemente-tales-recursos/",
-      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-23-at-5.47.44-PM.jpeg",
-      "local_image": "images/today/2026-10-24_Diario_Sin_Fronteras_Puno_Puno_recibira_mas_de_S_76_millones.jpg",
-      "date": "2026-10-23T17:51:32",
-      "date_formatted": "23 Oct • 5:51 PM",
-      "date_full": "23 de Octubre de 2026, 5:51 PM",
-      "timestamp": 1792795892,
-      "summary": "Esta transferencia forma parte del incremento de los aportes generados por la minería formal, cuya recaudación fiscal nacional aumentó en 62.8 %"
-    },
-    {
-      "id": "regional-5-Pachamama_Radio_Puno_Puno",
+      "id": "regional-6-Pachamama_Radio_Puno_Puno",
       "title": "Puno: Dirigente afirma que la población se impuso a transportistas y que rechazan alza de pasaje",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -897,7 +957,7 @@
       "summary": "Rodolfo Cutipa respalda el rechazo ciudadano al pasaje de S/ 1.50 en Puno y pide a transportistas reducir la tarifa o sustentar técnicamente el alza"
     },
     {
-      "id": "regional-6-Pachamama_Radio_Puno_Sere",
+      "id": "regional-7-Pachamama_Radio_Puno_Sere",
       "title": "Serenos de Juliaca rescatan a mascota que se encontraba atrapada dos días entre paredes",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -912,7 +972,7 @@
       "summary": "Richard Hancco atribuye al MINSA la falta de presupuesto para hospitales de Juli, Huancané e Ilave y anuncia gestiones para obtener fondos en 2027"
     },
     {
-      "id": "regional-7-Pachamama_Radio_Puno_Que_",
+      "id": "regional-8-Pachamama_Radio_Puno_Que_",
       "title": "“Que reclamen a Lima” Richard Hancco se deslinda de responsabilidad por falta de presupuesto para hospitales",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -927,7 +987,7 @@
       "summary": "Richard Hancco atribuye al MINSA la falta de presupuesto para hospitales de Juli, Huancané e Ilave y anuncia gestiones para obtener fondos en 2027"
     },
     {
-      "id": "regional-3-Diario_Los_Andes_Puno_Mul",
+      "id": "regional-4-Diario_Los_Andes_Puno_Mul",
       "title": "¿Multas por estacionar en las veredas? Proponen exigir cochera antes de comprar un auto",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -942,22 +1002,7 @@
       "summary": "Estacionar sobre las veredas se ha convertido en un problema que afecta el tránsito peatonal y obliga a muchas personas a caminar por la calzada. Esta situación representa un riesgo, especialmente para adultos mayores, p..."
     },
     {
-      "id": "regional-8-Pachamama_Radio_Puno_Empr",
-      "title": "Empresas que inculpan con pagar beneficios de fin de año se enfrentaran a sanciones pecuniarias",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Pachamama Radio (Puno)",
-      "url": "https://pachamamaradio.org/empresas-que-inculpan-con-pagar-beneficios-de-fin-de-ano-se-enfrentaran-a-sanciones-pecuniarias/",
-      "image_url": "https://pachamamaradio.org/wp-content/uploads/2026/10/Moises-Callasaca-Callasaca-IRCS.avif",
-      "local_image": "images/today/2026-10-24_Pachamama_Radio_Puno_Empresas_que_inculpan_con_pagar_ben.jpg",
-      "date": "2026-10-23T16:51:47",
-      "date_formatted": "23 Oct • 4:51 PM",
-      "date_full": "23 de Octubre de 2026, 4:51 PM",
-      "timestamp": 1792792307,
-      "summary": "El incumplimiento de gratificaciones navideñas puede generar multas, advierte Moisés Callasaca; trabajadores pueden denunciar ante Sunafil para exigir sus derechos laborales"
-    },
-    {
-      "id": "regional-4-Diario_Los_Andes_Puno_Lla",
+      "id": "regional-5-Diario_Los_Andes_Puno_Lla",
       "title": "Llamkasun Perú: más de 35 mil empleos  en 693 distritos",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -987,7 +1032,7 @@
       "summary": "El presidente Nayib Bukele había instado previamente a las organizaciones criminales haitianas a liberar a los \"rehenes\" que formaban parte de una misión multinacional de la ONU."
     },
     {
-      "id": "regional-5-Diario_Los_Andes_Puno_BON",
+      "id": "regional-6-Diario_Los_Andes_Puno_BON",
       "title": "BONO DE S/ 200 PARA JUBILADOS DE LA ONP: ¿ALIVIO ECONÓMICO O AYUDA INSUFICIENTE?",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -1002,7 +1047,7 @@
       "summary": "El ministro de Economía y Finanzas, Elmer Cuba, anunció un bono excepcional de casi S/ 200 para alrededor de 800 mil jubilados de la ONP, cuyo pago está previsto para diciembre de 2026. La medida busca mitigar el impacto..."
     },
     {
-      "id": "regional-6-Diario_Los_Andes_Puno_Sus",
+      "id": "regional-7-Diario_Los_Andes_Puno_Sus",
       "title": "Suspenden simulacro de admisión en Macusani tras accidente de comitiva de la UNA Puno",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -1015,36 +1060,6 @@
       "date_full": "23 de Octubre de 2026, 12:28 PM",
       "timestamp": 1792776502,
       "summary": "El choque entre una camioneta y una combi de la Universidad Nacional del Altiplano (UNA), registrada la mañana de este viernes 23 de octubre, en la vía Interoceánica, a la altura de San Antón, motivó la suspensión del si..."
-    },
-    {
-      "id": "regional-7-Diario_Los_Andes_Puno_Inc",
-      "title": "Incautan mercadería valorizada en más de S/2.5 millones en Chucuito-Juli",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Diario Los Andes (Puno)",
-      "url": "https://losandes.com.pe/incautan-mercaderia-valorizada-en-mas-de-s-2-5-millones-en-chucuito-juli/",
-      "image_url": "https://losandes.com.pe/wp-content/uploads/2026/10/Copia-de-ORIGINAL-PORTADA-JUNIO-PLANTILLA-2026-6-6.jpg",
-      "local_image": "images/today/2026-10-24_Diario_Los_Andes_Puno_Incautan_mercaderia_valorizada_en_m.jpg",
-      "date": "2026-10-23T12:10:58",
-      "date_formatted": "23 Oct • 12:10 PM",
-      "date_full": "23 de Octubre de 2026, 12:10 PM",
-      "timestamp": 1792775458,
-      "summary": "Mercancía de procedencia extranjera fue incautada por la Policía Nacional del Perú durante una intervención en el desvío Huacasuma–Pisacoma, en la provincia de Chucuito-Juli. Al advertir la presencia policial, los conduc..."
-    },
-    {
-      "id": "internacional-8-BBC_Mundo_3_claves_que_ex",
-      "title": "3 claves que explican por qué el duelo final entre Flávio Bolsonaro y Lula en Brasil es crucial para América Latina (y para Trump en EE.UU.)",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cqrkyj450rmlo?at_medium=RSS&at_campaign=rss",
-      "image_url": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/9bb2/live/43c807c0-ced3-11f1-8507-45cb00a1c41c.jpg",
-      "local_image": "images/today/2026-10-24_BBC_Mundo_3_claves_que_explican_por_que_el_du.jpg",
-      "date": "Fri, 23 Oct 2026 11:14:47 GMT",
-      "date_formatted": "23 Oct • 6:14 AM",
-      "date_full": "23 de Octubre de 2026, 6:14 AM",
-      "timestamp": 1792754087,
-      "summary": "La segunda vuelta que disputarán el domingo el senador derechista y el presidente de izquierda puede tener consecuencias en geopolítica, seguridad o incluso el medioambiente de la región, según expertos."
     }
   ]
 }
