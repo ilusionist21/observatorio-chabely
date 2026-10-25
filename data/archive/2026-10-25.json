@@ -1,14 +1,14 @@
 {
   "title": "Observatorio para Chabely",
   "date": "2026-10-25",
-  "updated_at": "25 de Octubre de 2026 a las 12:10 PM (Hora Perú)",
-  "updated_at_iso": "2026-10-25T12:10:57.353546-05:00",
+  "updated_at": "25 de Octubre de 2026 a las 1:35 PM (Hora Perú)",
+  "updated_at_iso": "2026-10-25T13:35:20.231070-05:00",
   "stats": {
-    "total": 64,
+    "total": 66,
     "portadas": 3,
     "regional": 22,
-    "nacional": 18,
-    "internacional": 21
+    "nacional": 19,
+    "internacional": 22
   },
   "media": [
     {
@@ -23,7 +23,7 @@
       "date": "2026-10-25",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 25 de Octubre de 2026",
-      "timestamp": 1792948257,
+      "timestamp": 1792953320,
       "summary": "Primera plana y portada oficial del diario El Comercio (Perú) correspondiente al 25 de Octubre de 2026."
     },
     {
@@ -38,7 +38,7 @@
       "date": "2026-10-25",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 25 de Octubre de 2026",
-      "timestamp": 1792948257,
+      "timestamp": 1792953320,
       "summary": "Primera plana y portada oficial del diario Líbero (Perú) correspondiente al 25 de Octubre de 2026."
     },
     {
@@ -53,8 +53,368 @@
       "date": "2026-10-25",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 25 de Octubre de 2026",
-      "timestamp": 1792948257,
+      "timestamp": 1792953320,
       "summary": "Primera plana y portada oficial del diario El País (España / Global) correspondiente al 25 de Octubre de 2026."
+    },
+    {
+      "id": "internacional-1-BBC_Mundo_Lula_y_Bolsonar",
+      "title": "Lula y Bolsonaro se enfrentan voto a voto en la cerrada segunda vuelta por la presidencia de Brasil",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "BBC Mundo",
+      "url": "https://www.bbc.co.uk/mundo/live/cm5ynp5y1871t?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d7f2/live/5af33290-cd88-11f1-9a39-31b474234113.png",
+      "local_image": "images/today/2026-10-25_BBC_Mundo_Lula_y_Bolsonaro_se_enfrentan_voto.jpg",
+      "date": "",
+      "date_formatted": "Hoy • 01:35 PM",
+      "date_full": "25 de October de 2026, 01:35 PM",
+      "timestamp": 1792953320,
+      "summary": "Luiz Inácio Lula da Silva y Flávio Bolsonaro, hijo del expresidente Jair, disputan el balotaje en la democracia más grande de América Latina. Sigue en vivo los resultados de esta jornada electoral clave para la región."
+    },
+    {
+      "id": "nacional-1-Agencia_Andina_Resultados",
+      "title": "Resultados San Marcos: link oficial para saber quiénes ingresaron a Medicina Humana",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-resultados-san-marcos-link-oficial-para-saber-quienes-ingresaron-a-medicina-humana-1097299.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/25/001326328W.jpg",
+      "local_image": "images/today/2026-10-25_Agencia_Andina_Resultados_San_Marcos_link_oficial.jpg",
+      "date": "Sun, 25 Oct 2026 13:31:55 -0500",
+      "date_formatted": "Hoy • 1:31 PM",
+      "date_full": "25 de Octubre de 2026, 1:31 PM",
+      "timestamp": 1792953115,
+      "summary": "La Universidad Nacional Mayor de San Marcos (UNMSM) concluyó hoy domingo 25 de octubre su proceso de admisión 2027-I, que ofrece 2,581 vacantes. Esta mañana rindieron el examen los postulantes a la carrera de Medicina Hu..."
+    },
+    {
+      "id": "internacional-2-BBC_Mundo_Estoy_aqui_Con_",
+      "title": "\"Estoy aquí. Con ustedes\": la líder opositora María Corina Machado regresa a Venezuela 10 meses después",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c62ke94w14x2o?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/494e/live/9a74fdb0-d09c-11f1-aeb2-977af36708cb.png",
+      "local_image": "images/today/2026-10-25_BBC_Mundo_Estoy_aqui_Con_ustedes_la_lider.jpg",
+      "date": "Sun, 25 Oct 2026 18:31:08 GMT",
+      "date_formatted": "Hoy • 1:31 PM",
+      "date_full": "25 de Octubre de 2026, 1:31 PM",
+      "timestamp": 1792953068,
+      "summary": "María Corina Machado, Premio Nobel de la Paz y líder opositora, regresó a Venezuela según anunció, el domingo, en la red social X. Edmundo González lo confirmó por esa misma vía."
+    },
+    {
+      "id": "nacional-2-RPP_Noticias_Liga_de_Fran",
+      "title": "Liga de Francia: Derrota de Le Havre AC ante Olympique de Marsella a pesar del doblete de Josh Maja",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/ligas-internacionales/liga-de-francia-le-havre-ac-busca-dejar-el-fondo-de-la-tabla-ante-olympique-de-marsella-noticia-1714235",
+      "image_url": "https://f.rpp-noticias.io/2026/10/25/1922472.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-25_RPP_Noticias_Liga_de_Francia_Derrota_de_Le_Havr.jpg",
+      "date": "Sun, 25 Oct 2026 13:25:01 -0500",
+      "date_formatted": "Hoy • 1:25 PM",
+      "date_full": "25 de Octubre de 2026, 1:25 PM",
+      "timestamp": 1792952701,
+      "summary": "Olympique de Marsella vs Le Havre AC se enfrentaron por la Francia - Primera División. Aquí todos los detalles y resumen del encuentro."
+    },
+    {
+      "id": "nacional-1-RPP_Noticias_Familia_lo_p",
+      "title": "Familia lo pierde todo en incendio de grandes proporciones en Ventanilla: “Gracias a Dios mis hijos están bien”, señala madre",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/peru/callao/ventanilla-familia-pierde-su-vivienda-en-incendio-de-grandes-proporciones-y-pide-ayuda-para-reconstruirla-noticia-1714414",
+      "image_url": "https://f.rpp-noticias.io/2026/10/25/lsoincendio-20261025073429-video-convertercom-1-1922461mp4_1922462.jpg",
+      "local_image": "images/today/2026-10-25_RPP_Noticias_Familia_lo_pierde_todo_en_incendio.jpg",
+      "date": "Sun, 25 Oct 2026 13:23:22 -0500",
+      "date_formatted": "Hoy • 1:23 PM",
+      "date_full": "25 de Octubre de 2026, 1:23 PM",
+      "timestamp": 1792952602,
+      "summary": "Una familia de Ventanilla perdió su vivienda y todas sus pertenencias tras un incendio de grandes proporciones registrado la noche del sábado en Pachacútec. La madre de familia contó que sus tres hijos lograron ponerse a..."
+    },
+    {
+      "id": "nacional-4-RPP_Noticias_Liga_de_Fran",
+      "title": "Liga de Francia: Sebastian Szymanski impulsó la victoria 3-0 de Stade Rennes frente a RC Strasbourg con dos goles",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/ligas-internacionales/liga-de-francia-stade-rennes-busca-derrotar-a-rc-strasbourg-para-posicionarse-en-la-cima-del-torneo-noticia-1714237",
+      "image_url": "https://f.rpp-noticias.io/2026/10/25/1922471.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-25_RPP_Noticias_Liga_de_Francia_Sebastian_Szymansk.jpg",
+      "date": "Sun, 25 Oct 2026 13:20:05 -0500",
+      "date_formatted": "Hoy • 1:20 PM",
+      "date_full": "25 de Octubre de 2026, 1:20 PM",
+      "timestamp": 1792952405,
+      "summary": "Stade Rennes vs RC Strasbourg se enfrentaron por la Francia - Primera División. Aquí todos los detalles y resumen del encuentro."
+    },
+    {
+      "id": "nacional-3-RPP_Noticias_Liga_de_Fran",
+      "title": "Liga de Francia: Auxerre no pudo en casa ante Le Mans y empataron 1-1",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/ligas-internacionales/liga-de-francia-auxerre-se-enfrenta-ante-la-visita-le-mans-por-la-fecha-8-noticia-1714238",
+      "image_url": "https://f.rpp-noticias.io/2026/10/25/1922470.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-25_RPP_Noticias_Liga_de_Francia_Auxerre_no_pudo_en.jpg",
+      "date": "Sun, 25 Oct 2026 13:20:04 -0500",
+      "date_formatted": "Hoy • 1:20 PM",
+      "date_full": "25 de Octubre de 2026, 1:20 PM",
+      "timestamp": 1792952404,
+      "summary": "Auxerre vs Le Mans se enfrentaron por la Francia - Primera División. Aquí todos los detalles y resumen del encuentro."
+    },
+    {
+      "id": "nacional-5-RPP_Noticias_Liga_de_Fran",
+      "title": "Liga de Francia: Sin muchas emociones, Toulouse y Troyes empataron 0-0",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/ligas-internacionales/liga-de-francia-troyes-tiene-la-necesidad-de-cortar-su-racha-negativa-frente-a-toulouse-noticia-1714048",
+      "image_url": "https://f.rpp-noticias.io/2026/10/25/1922469.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-25_RPP_Noticias_Liga_de_Francia_Sin_muchas_emocion.jpg",
+      "date": "Sun, 25 Oct 2026 13:15:05 -0500",
+      "date_formatted": "Hoy • 1:15 PM",
+      "date_full": "25 de Octubre de 2026, 1:15 PM",
+      "timestamp": 1792952105,
+      "summary": "Toulouse vs Troyes se enfrentaron por la Francia - Primera División. Aquí todos los detalles y resumen del encuentro."
+    },
+    {
+      "id": "nacional-6-RPP_Noticias_Liga_de_Fran",
+      "title": "Liga de Francia: Angers no pudo con Lorient y empataron sin goles",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/ligas-internacionales/liga-de-francia-lorient-necesita-sumar-de-a-3-para-escalar-a-la-cima-noticia-1714236",
+      "image_url": "https://f.rpp-noticias.io/2026/10/25/1922468.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-25_RPP_Noticias_Liga_de_Francia_Angers_no_pudo_con.jpg",
+      "date": "Sun, 25 Oct 2026 13:15:04 -0500",
+      "date_formatted": "Hoy • 1:15 PM",
+      "date_full": "25 de Octubre de 2026, 1:15 PM",
+      "timestamp": 1792952104,
+      "summary": "Angers vs Lorient se enfrentaron por la Francia - Primera División. Aquí todos los detalles y resumen del encuentro."
+    },
+    {
+      "id": "nacional-7-RPP_Noticias_Tabla_Torneo",
+      "title": "Tabla Torneo Clausura 2026 y Acumulado de Liga1 EN VIVO: las posiciones en la fecha 13",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/descentralizado/tabla-de-posiciones-del-torneo-clausura-y-del-acumulado-de-la-liga1-te-apuesto-2026-resutados-posiciones-universitario-alianza-lima-sporting-cristal-noticia-1697586",
+      "image_url": "https://f.rpp-noticias.io/2026/07/16/270627_1887649.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-25_RPP_Noticias_Tabla_Torneo_Clausura_2026_y_Acumul.jpg",
+      "date": "Sun, 25 Oct 2026 13:11:39 -0500",
+      "date_formatted": "Hoy • 1:11 PM",
+      "date_full": "25 de Octubre de 2026, 1:11 PM",
+      "timestamp": 1792951899,
+      "summary": "Conoce cómo se mueve la tabla del Torneo Clausura y del Acumulado disputada cada una de las jornadas del campeonato."
+    },
+    {
+      "id": "regional-1-Pachamama_Radio_Puno_Clas",
+      "title": "Clases en la UANCV continuarán solo hasta 31 de diciembre 2026 en marco del cierre de esta casa superior de estudios",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Pachamama Radio (Puno)",
+      "url": "https://pachamamaradio.org/clases-en-la-uancv-continuaran-solo-hasta-31-de-diciembre-2026-en-marco-del-cierre-de-esta-casa-superior-de-estudios/",
+      "image_url": "https://pachamamaradio.org/wp-content/uploads/2026/10/Universidad-Andina-Nestor-Caceres-Velasquez-UANCV-DF.avif",
+      "local_image": "images/today/2026-10-25_Pachamama_Radio_Puno_Clases_en_la_UANCV_continuaran_solo.jpg",
+      "date": "2026-10-25T13:08:41",
+      "date_formatted": "Hoy • 1:08 PM",
+      "date_full": "25 de Octubre de 2026, 1:08 PM",
+      "timestamp": 1792951721,
+      "summary": "UANCV atenderá a egresados en Juliaca durante 2027 y 2028 para tramitar grados y títulos, tras respuesta de SUNEDU que descarta ampliar el cese académico"
+    },
+    {
+      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "title": "Ejecutivo prorroga estado de emergencia en Lima y Callao por 60 días",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Diario Sin Fronteras (Puno)",
+      "url": "https://diariosinfronteras.com.pe/2026/10/25/ejecutivo-prorroga-estado-de-emergencia-en-lima-y-callao-por-60-dias/",
+      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/10/FOTOS-NOTAS-DSF-2026-10-25T130507.096.jpg",
+      "local_image": "images/today/2026-10-25_Diario_Sin_Fronteras_Puno_Ejecutivo_prorroga_estado_de_emerg.jpg",
+      "date": "2026-10-25T13:05:43",
+      "date_formatted": "Hoy • 1:05 PM",
+      "date_full": "25 de Octubre de 2026, 1:05 PM",
+      "timestamp": 1792951543,
+      "summary": "El Ejecutivo prorrogó por 60 días calendario el estado de emergencia en Lima Metropolitana y la provincia constitucional del Callao, mediante el"
+    },
+    {
+      "id": "nacional-8-RPP_Noticias_Dos_goles_en",
+      "title": "Dos goles en el descuento y polémica: Comerciantes Unidos derrotó 3-1 a Cienciano [VIDEO]",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/descentralizado/comerciantes-unidos-vs-cienciano-en-vivo-a-que-hora-juegan-y-que-canal-pasa-fecha-13-torneo-clausura-2026-partidos-de-hoy-noticia-1714320",
+      "image_url": "https://f.rpp-noticias.io/2026/10/25/514051_1922458.jpg?imgdimension=look",
+      "local_image": "images/today/2026-10-25_RPP_Noticias_Dos_goles_en_el_descuento_y_polemic.jpg",
+      "date": "Sun, 25 Oct 2026 13:05:39 -0500",
+      "date_formatted": "Hoy • 1:05 PM",
+      "date_full": "25 de Octubre de 2026, 1:05 PM",
+      "timestamp": 1792951539,
+      "summary": "Comerciantes Unidos se impuso por 3-1 a Cienciano en un partido que se definió en el tiempo añadido, con un tercer gol que desató la polémica."
+    },
+    {
+      "id": "internacional-2-El_Pais_Internacional_El_",
+      "title": "El regreso de María Corina Machado a Venezuela, en vivo | María Corina Machado hará tres paradas en su camino hacia Caracas",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "El País Internacional",
+      "url": "https://elpais.com/america/2026-10-25/el-regreso-de-maria-corina-machado-a-venezuela-en-vivo.html",
+      "image_url": "https://imagenes.elpais.com/resizer/v2/P7MRIPG2G5BOLE6B4S6R7CRRX4.jpeg?auth=e9ecbdb56864ffc47e846dd7190cc65d16fe87666ad490f26f6e9dd9ef4ec00c",
+      "local_image": "images/today/2026-10-25_El_Pais_Internacional_El_regreso_de_Maria_Corina_Machado.jpg",
+      "date": "Sun, 25 Oct 2026 18:05:02 GMT",
+      "date_formatted": "Hoy • 1:05 PM",
+      "date_full": "25 de Octubre de 2026, 1:05 PM",
+      "timestamp": 1792951502,
+      "summary": "La líder opositora vuelve a su país después de casi diez meses y reta con su presencia en Caracas al chavismo | Trump: “Espero que esté a salvo, es una mujer muy agradable” |Marco Rubio: “Las condiciones que permiten el ..."
+    },
+    {
+      "id": "nacional-2-Agencia_Andina_Cajamarca_",
+      "title": "Cajamarca: culmina segundo recorrido de procesión del Señor de los Milagros",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-cajamarca-culmina-segundo-recorrido-procesion-del-senor-los-milagros-1097295.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/25/001326312W.jpg",
+      "local_image": "images/today/2026-10-25_Agencia_Andina_Cajamarca_culmina_segundo_recorrid.jpg",
+      "date": "Sun, 25 Oct 2026 13:01:35 -0500",
+      "date_formatted": "Hoy • 1:01 PM",
+      "date_full": "25 de Octubre de 2026, 1:01 PM",
+      "timestamp": 1792951295,
+      "summary": "La imagen del Señor de los Milagros ingresó esta madrugada al convento San Antonio de Padua, ubicado en la plaza de Armas de Cajamarca, acompañada por una multitud de fieles que participó en su segundo recorrido procesio..."
+    },
+    {
+      "id": "internacional-1-France_24_en_Espanol_Neta",
+      "title": "Netanyahu afronta elecciones bajo tensión: ofensiva en Hebrón, polémica por criptomonedas y amenazas contra Irán",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "France 24 en Español",
+      "url": "https://www.france24.com/es/medio-oriente/20261025-netanyahu-afronta-elecciones-bajo-tensi%C3%B3n-ofensiva-en-hebr%C3%B3n-pol%C3%A9mica-por-criptomonedas-y-amenazas-contra-ir%C3%A1n",
+      "image_url": "https://s.france24.com/media/display/30dabc2c-d09d-11f1-a1eb-4d317af013fd/w:1024/p:16x9/2026-10-24T174015Z-1419027181-RC2T9OAZQPTJ-RTRMADP-3-ISRAEL-ELECTION-RALLY.jpg",
+      "local_image": "images/today/2026-10-25_France_24_en_Espanol_Netanyahu_afronta_elecciones_bajo_t.jpg",
+      "date": "Sun, 25 Oct 2026 18:01:35 GMT",
+      "date_formatted": "Hoy • 1:01 PM",
+      "date_full": "25 de Octubre de 2026, 1:01 PM",
+      "timestamp": 1792951295,
+      "summary": "La campaña electoral israelí llega a las urnas el martes 27 de octubre en un clima de creciente tensión política, militar y económica, con el primer ministro Benjamin Netanyahu defendiendo su gestión de seguridad mientra..."
+    },
+    {
+      "id": "nacional-3-Agencia_Andina_JNJ_public",
+      "title": "JNJ publica conclusiones de informes de evaluación y ratificación de 281 jueces y fiscales",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-jnj-publica-conclusiones-informes-evaluacion-y-ratificacion-281-jueces-y-fiscales-1097296.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/24/001326250W.jpg",
+      "local_image": "images/today/2026-10-25_Agencia_Andina_JNJ_publica_conclusiones_de_informe.jpg",
+      "date": "Sun, 25 Oct 2026 12:59:45 -0500",
+      "date_formatted": "Hoy • 12:59 PM",
+      "date_full": "25 de Octubre de 2026, 12:59 PM",
+      "timestamp": 1792951185,
+      "summary": "La Junta Nacional de Justicia (JNJ) publicó las conclusiones de los Informes Individuales de Evaluación Integral y Ratificación de la convocatoria n.° 001-2025-RATIFICACIÓN/JNJ, emitidos y suscritos por la Comisión Perma..."
+    },
+    {
+      "id": "internacional-3-El_Pais_Internacional_El_",
+      "title": "El regreso de María Corina Machado busca acelerar la transición y retar al chavismo",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "El País Internacional",
+      "url": "https://elpais.com/america/2026-10-25/el-regreso-de-maria-corina-machado-busca-acelerar-la-transicion-y-retar-al-chavismo.html",
+      "image_url": "https://imagenes.elpais.com/resizer/v2/CQFWTGP2IFAZXBOTEZKZEP7RBM.jpeg?auth=55a62574efdfe2a4c58ded9e7a62ebf6b1b8071bd4e5a05d5e18169a10a38f78",
+      "local_image": "images/today/2026-10-25_El_Pais_Internacional_El_regreso_de_Maria_Corina_Machado.jpg",
+      "date": "Sun, 25 Oct 2026 17:54:04 GMT",
+      "date_formatted": "Hoy • 12:54 PM",
+      "date_full": "25 de Octubre de 2026, 12:54 PM",
+      "timestamp": 1792950844,
+      "summary": "La líder opositora regresa en plena negociación de un sector de la oposición con el Gobierno y tras prometer movilizaciones en todo el país"
+    },
+    {
+      "id": "nacional-4-Agencia_Andina_Municipio_",
+      "title": "Municipio de Lima desplegará drones y cámaras para proteger fieles en penúltima procesión",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-municipio-lima-desplegara-drones-y-camaras-para-proteger-fieles-penultima-procesion-1097276.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/18/001324457W.jpg",
+      "local_image": "images/today/2026-10-25_Agencia_Andina_Municipio_de_Lima_desplegara_drones.jpg",
+      "date": "Sun, 25 Oct 2026 12:50:50 -0500",
+      "date_formatted": "Hoy • 12:50 PM",
+      "date_full": "25 de Octubre de 2026, 12:50 PM",
+      "timestamp": 1792950650,
+      "summary": "La Municipalidad de Lima desplegará drones, cámaras corporales (bodycams) y cámaras de videovigilancia como parte del plan de seguridad \"Mes Morado en Lima\", que contará con más de mil trabajadores municipales para resgu..."
+    },
+    {
+      "id": "internacional-2-France_24_en_Espanol_Que_",
+      "title": "¿Qué representa la oficialización de la candidatura de Marine Le Pen para Francia?",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "France 24 en Español",
+      "url": "https://www.france24.com/es/video/20261025-qu%C3%A9-representa-la-oficializaci%C3%B3n-de-la-candidatura-de-marine-le-pen-para-francia",
+      "image_url": "https://s.france24.com/media/display/e349d7a6-d09a-11f1-aa3f-bba4eee3dc72/w:1024/p:16x9/ES-20261025-111325-112122-CS.jpg",
+      "local_image": "images/today/2026-10-25_France_24_en_Espanol_Que_representa_la_oficializacion_d.jpg",
+      "date": "Sun, 25 Oct 2026 17:48:14 GMT",
+      "date_formatted": "Hoy • 12:48 PM",
+      "date_full": "25 de Octubre de 2026, 12:48 PM",
+      "timestamp": 1792950494,
+      "summary": "La política francesa entra en una nueva etapa con la oficialización de la candidatura de Marine Le Pen para las elecciones presidenciales de 2027. Durante un gran mitin en la ciudad de Orléans, la líder de Agrupación Nac..."
+    },
+    {
+      "id": "internacional-3-France_24_en_Espanol_Mari",
+      "title": "Marien Le Pen: \"Francia no está en este estado por su pueblo sino por sus líderes\"",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "France 24 en Español",
+      "url": "https://www.france24.com/es/video/20261025-marien-le-pen-francia-no-est%C3%A1-en-este-estado-por-su-pueblo-sino-por-sus-l%C3%ADderes",
+      "image_url": "https://s.france24.com/media/display/c594d158-d099-11f1-9425-5b4a75578ebb/w:1024/p:16x9/ES-20261025-103026-104928-CS.jpg",
+      "local_image": "images/today/2026-10-25_France_24_en_Espanol_Marien_Le_Pen_Francia_no_esta_en.jpg",
+      "date": "Sun, 25 Oct 2026 17:46:55 GMT",
+      "date_formatted": "Hoy • 12:46 PM",
+      "date_full": "25 de Octubre de 2026, 12:46 PM",
+      "timestamp": 1792950415,
+      "summary": "Marine Le Pen lanzó oficialmente su campaña presidencial para las elecciones de 2027 durante un gran mitin en la ciudad de Orléans, donde presentó su propuesta bajo el lema del \"renacimiento\" de Francia. La líder del par..."
+    },
+    {
+      "id": "nacional-5-Agencia_Andina_BCR_se_ace",
+      "title": "BCR: se acelera crecimiento de la construcción y PBI no primario crece 4.3% en agosto",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-bcr-se-acelera-crecimiento-de-construccion-y-pbi-no-primario-crece-43-agosto-1097294.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2023/05/12/000957303W.webp",
+      "local_image": "images/today/2026-10-25_Agencia_Andina_BCR_se_acelera_crecimiento_de_la_c.jpg",
+      "date": "Sun, 25 Oct 2026 12:45:28 -0500",
+      "date_formatted": "Hoy • 12:45 PM",
+      "date_full": "25 de Octubre de 2026, 12:45 PM",
+      "timestamp": 1792950328,
+      "summary": "El Producto Bruto Interno (PBI) creció 3.2% interanual en agosto del 2026 y acumuló un crecimiento de 3.1% en los ocho primeros meses del año, según el último Resumen Informativo Semanal del Banco Central de Reserva (BCR..."
+    },
+    {
+      "id": "regional-2-Pachamama_Radio_Puno_Yung",
+      "title": "Yunguyo lideró concurso regional Sikuris Zampoña de Oro 2026 con dos agrupaciones ganadoras",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Pachamama Radio (Puno)",
+      "url": "https://pachamamaradio.org/yunguyo-lidero-concurso-regional-sikuris-zampona-de-oro-2026-con-dos-agrupaciones-ganadoras/",
+      "image_url": "https://pachamamaradio.org/wp-content/uploads/2026/10/Zamponada-Juventud-Micaelina-CPR.avif",
+      "local_image": "images/today/2026-10-25_Pachamama_Radio_Puno_Yunguyo_lidero_concurso_regional_Si.jpg",
+      "date": "2026-10-25T12:23:31",
+      "date_formatted": "Hoy • 12:23 PM",
+      "date_full": "25 de Octubre de 2026, 12:23 PM",
+      "timestamp": 1792949011,
+      "summary": "Dos agrupaciones de Yunguyo ganaron primaria y secundaria en el V Concurso Regional Zampoña de Oro 2026, con 86.34 y 86.15 puntos, destacando el talento escolar"
+    },
+    {
+      "id": "nacional-6-Agencia_Andina_Ucayali_Pr",
+      "title": "Ucayali: Presentan plan para recuperar laguna Yarinacocha y mejorar vigilancia forestal",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-ucayali-presentan-plan-para-recuperar-laguna-yarinacocha-y-mejorar-vigilancia-forestal-1097293.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/25/001326300W.jpg",
+      "local_image": "images/today/2026-10-25_Agencia_Andina_Ucayali_Presentan_plan_para_recupe.jpg",
+      "date": "Sun, 25 Oct 2026 12:21:15 -0500",
+      "date_formatted": "Hoy • 12:21 PM",
+      "date_full": "25 de Octubre de 2026, 12:21 PM",
+      "timestamp": 1792948875,
+      "summary": "A fin de reducir la contaminación de las aguas de la laguna Yarinacocha, en Ucayali. y recuperar este ecosistema natural, turístico y cultural, el Ministerio del Ambiente presentó una propuesta de acción y recuperación."
     },
     {
       "id": "internacional-1-El_Pais_Internacional_Mar",
@@ -63,8 +423,8 @@
       "category_label": "Internacional",
       "source": "El País Internacional",
       "url": "https://elpais.com/america/2026-10-25/maria-corina-machado-regresa-a-venezuela.html",
-      "image_url": "https://imagenes.elpais.com/resizer/v2/IH7X7BFBYRAQ5GSQGEFSFZFO7A.jpg?auth=cc8cc62cf66c5e0dd7270e0382ab4828b3c883fc3ecd44d17f7906bc6000bffc",
-      "local_image": "images/today/2026-10-25_El_Pais_Internacional_Maria_Corina_Machado_regresa_a_Vene.jpg",
+      "image_url": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261025/1229730_171702_video_1800.mp4",
+      "local_image": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261025/1229730_171702_video_1800.mp4",
       "date": "Sun, 25 Oct 2026 17:10:12 GMT",
       "date_formatted": "Hoy • 12:10 PM",
       "date_full": "25 de Octubre de 2026, 12:10 PM",
@@ -72,29 +432,14 @@
       "summary": "La dirigente opositora, después de varios intentos y casi 10 meses fuera del país, logra regresar y reta con su presencia al chavismo"
     },
     {
-      "id": "internacional-2-El_Pais_Internacional_El_",
-      "title": "El regreso de María Corina Machado a Venezuela, en vivo | Trump: “Espero que esté a salvo, es una mujer muy agradable”",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "El País Internacional",
-      "url": "https://elpais.com/america/2026-10-25/el-regreso-de-maria-corina-machado-a-venezuela-en-vivo.html",
-      "image_url": "https://imagenes.elpais.com/resizer/v2/P7MRIPG2G5BOLE6B4S6R7CRRX4.jpeg?auth=e9ecbdb56864ffc47e846dd7190cc65d16fe87666ad490f26f6e9dd9ef4ec00c",
-      "local_image": "images/today/2026-10-25_El_Pais_Internacional_El_regreso_de_Maria_Corina_Machado.jpg",
-      "date": "Sun, 25 Oct 2026 17:09:44 GMT",
-      "date_formatted": "Hoy • 12:09 PM",
-      "date_full": "25 de Octubre de 2026, 12:09 PM",
-      "timestamp": 1792948184,
-      "summary": "La líder opositora vuelve a su país después de casi diez meses y reta con su presencia en Caracas al chavismo"
-    },
-    {
-      "id": "nacional-1-Agencia_Andina_CTS_de_nov",
-      "title": "CTS de noviembre: sepa quiénes la reciben, cómo se calcula y hasta cuándo se puede retirar",
+      "id": "nacional-7-Agencia_Andina_CTS_de_nov",
+      "title": "CTS de noviembre: mira quiénes la reciben, cómo se calcula y hasta cuándo se puede retirar",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
       "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-cts-noviembre-sepa-quienes-reciben-como-se-calcula-y-hasta-cuando-se-puede-retirar-1097292.aspx",
+      "url": "https://andina.pe/agencia/noticia-cts-noviembre-mira-quienes-reciben-como-se-calcula-y-hasta-cuando-se-puede-retirar-1097292.aspx",
       "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2025/10/28/001219809W.webp",
-      "local_image": "images/today/2026-10-25_Agencia_Andina_CTS_de_noviembre_sepa_quienes_la_r.jpg",
+      "local_image": "images/today/2026-10-25_Agencia_Andina_CTS_de_noviembre_mira_quienes_la_r.jpg",
       "date": "Sun, 25 Oct 2026 12:09:35 -0500",
       "date_formatted": "Hoy • 12:09 PM",
       "date_full": "25 de Octubre de 2026, 12:09 PM",
@@ -102,7 +447,7 @@
       "summary": "Las empresas del régimen laboral general tienen plazo hasta el lunes 16 de noviembre para depositar la Compensación por Tiempo de Servicios (CTS) correspondiente al período semestral mayo-octubre de 2026."
     },
     {
-      "id": "regional-1-Pachamama_Radio_Puno_MTC_",
+      "id": "regional-3-Pachamama_Radio_Puno_MTC_",
       "title": "MTC destraba carretera Checca–Mazocruz y abogado anticorrupción propone reactivar contrato para evitar otro concurso",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -117,7 +462,7 @@
       "summary": "El MTC dejó sin efecto las restricciones que impedían convocar y adjudicar el saldo de obra de la carretera Checca–Mazocruz, vía clave para El Collao, en Puno"
     },
     {
-      "id": "regional-2-Pachamama_Radio_Puno_Ince",
+      "id": "regional-4-Pachamama_Radio_Puno_Ince",
       "title": "Incendios en los Uros evidencian falta de prevención y ponen en riesgo el turismo en el Titicaca",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -132,7 +477,7 @@
       "summary": "Un experto alertó que la quema de totorales por dos noches seguidas en los Uros, lago Titicaca, revela prevención insuficiente y amenaza el turismo de la zona"
     },
     {
-      "id": "nacional-2-Agencia_Andina_Leon_XIV_e",
+      "id": "nacional-8-Agencia_Andina_Leon_XIV_e",
       "title": "León XIV: entrada para misa y encuentro con jóvenes será digital, gratis y sin reservas",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -147,52 +492,7 @@
       "summary": "Las entradas para el encuentro del papa León XIV con los jóvenes en el Estadio Nacional y la multitudinaria misa en la base aérea Las Palmas se obtendrán de manera digital y serán gratuitas y sin reservas, adelantó hoy e..."
     },
     {
-      "id": "nacional-1-RPP_Noticias_Leon_XIV_en_",
-      "title": "León XIV en Perú: este lunes darán a conocer cómo adquirir entradas para el encuentro con jóvenes y misa en Las Palmas",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/videos/actualidad/leon-xiv-en-peru-este-lunes-daran-a-conocer-como-adquirir-entradas-para-el-encuentro-con-jovenes-y-misa-en-las-palmas-noticia-1714407",
-      "image_url": "https://f.rpp-noticias.io/2026/10/25/pa-dos-2026-10-25-11-48-09-27473-video-convertercom-1-1922451mp4_1922452.jpg",
-      "local_image": "images/today/2026-10-25_RPP_Noticias_Leon_XIV_en_Peru_este_lunes_daran.jpg",
-      "date": "Sun, 25 Oct 2026 11:51:17 -0500",
-      "date_formatted": "Hoy • 11:51 AM",
-      "date_full": "25 de Octubre de 2026, 11:51 AM",
-      "timestamp": 1792947077,
-      "summary": "En diálogo con RPP, el padre Juan Bytton, secretario general de la visita del papa León XIV a Lima, anunció que el Arzobispado de Lima ofrecerá mañana, lunes, una conferencia de prensa en la que se darán a conocer los de..."
-    },
-    {
-      "id": "nacional-6-RPP_Noticias_inPERU_inici",
-      "title": "inPERU inicia en Nueva York reuniones con grandes bancos de inversión para atraer capitales",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/economia/economia/inperu-inicia-en-nueva-york-reuniones-con-grandes-bancos-de-inversion-para-atraer-capitales-noticia-1714406",
-      "image_url": "https://f.rpp-noticias.io/2026/10/25/515651_1922450.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-25_RPP_Noticias_inPERU_inicia_en_Nueva_York_reunion.jpg",
-      "date": "Sun, 25 Oct 2026 11:50:07 -0500",
-      "date_formatted": "Hoy • 11:50 AM",
-      "date_full": "25 de Octubre de 2026, 11:50 AM",
-      "timestamp": 1792947007,
-      "summary": "El ministro de Economía, Elmer Cuba, y el titular del Banco Central de Reserva, Julio Velarde, participan de la comitiva y tendrán conferencias. La agenda también incluye encuentros organizados por J.P. Morgan, Goldman S..."
-    },
-    {
-      "id": "nacional-4-RPP_Noticias_Madre_de_Dio",
-      "title": "Madre de Dios: dos detenidos durante operativo contra minería ilegal en Tambopata",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/peru/madre-de-dios/madre-de-dios-dos-detenidos-durante-operativo-contra-mineria-ilegal-en-tambopata-noticia-1714401",
-      "image_url": "https://f.rpp-noticias.io/2026/10/25/26-10-25-10-58-03-6989-1922439mp4_1922440.jpg",
-      "local_image": "images/today/2026-10-25_RPP_Noticias_Madre_de_Dios_dos_detenidos_durant.jpg",
-      "date": "Sun, 25 Oct 2026 11:43:03 -0500",
-      "date_formatted": "Hoy • 11:43 AM",
-      "date_full": "25 de Octubre de 2026, 11:43 AM",
-      "timestamp": 1792946583,
-      "summary": "El operativo culminó con la destrucción de tres motores de succión, tres campamentos mineros ilegales, ocho generadores de energía eléctrica y otros implementos utilizados para la extracción ilegal de oro."
-    },
-    {
-      "id": "nacional-3-Agencia_Andina_FAP_desple",
+      "id": "nacional-9-Agencia_Andina_FAP_desple",
       "title": "FAP desplegará sistema antidron para proteger al papa León XIV durante visita al Perú",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -207,37 +507,7 @@
       "summary": "La Fuerza Aérea del Perú (FAP) desplegará equipos antidron para garantizar la seguridad del papa León XIV durante su visita a Lima, Chiclayo, Cusco y Pucallpa entre el 11 y el 16 de noviembre."
     },
     {
-      "id": "nacional-7-RPP_Noticias_Como_en_los_",
-      "title": "Como en los 80: Gisela Valcárcel volvió con 'Aló Gisela' a través de sus redes sociales",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/famosos/farandula/gisela-valcarcel-volvio-con-alo-gisela-a-traves-de-sus-redes-sociales-video-noticia-1714402",
-      "image_url": "https://f.rpp-noticias.io/2026/10/25/351135_1922433.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-25_RPP_Noticias_Como_en_los_80_Gisela_Valcarcel_vo.jpg",
-      "date": "Sun, 25 Oct 2026 11:37:39 -0500",
-      "date_formatted": "Hoy • 11:37 AM",
-      "date_full": "25 de Octubre de 2026, 11:37 AM",
-      "timestamp": 1792946259,
-      "summary": "La 'Señito' sorprendió a sus seguidores con una transmisión en vivo y propuso un juego para regalar mil soles."
-    },
-    {
-      "id": "internacional-1-BBC_Mundo_Estoy_aqui_Con_",
-      "title": "\"Estoy aquí. Con ustedes\": María Corina Machado y Edmundo González anuncian que la líder opositora regresó a Venezuela",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/c62ke94w14x2o?at_medium=RSS&at_campaign=rss",
-      "image_url": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/349c/live/c489ec30-d08f-11f1-92f6-357f3b0f345f.jpg",
-      "local_image": "images/today/2026-10-25_BBC_Mundo_Estoy_aqui_Con_ustedes_Maria_Co.jpg",
-      "date": "Sun, 25 Oct 2026 16:35:49 GMT",
-      "date_formatted": "Hoy • 11:35 AM",
-      "date_full": "25 de Octubre de 2026, 11:35 AM",
-      "timestamp": 1792946149,
-      "summary": "María Corina Machado, Premio Nobel de la Paz y líder opositora, regresó a Venezuela según anunció, el domingo, en la red social X. Edmundo González lo confirmó por esa misma vía."
-    },
-    {
-      "id": "nacional-4-Agencia_Andina_Empresas_b",
+      "id": "nacional-10-Agencia_Andina_Empresas_b",
       "title": "Empresas buscarán personal en San Juan de Lurigancho: conoce los puestos disponibles",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -252,7 +522,7 @@
       "summary": "Más de 115 empresas privadas llegarán a San Juan de Lurigancho en busca de personal durante la Megaferia del Empleo que realizará el Ministerio de Trabajo y Promoción del Empleo (MTPE). En un mismo espacio, quienes busca..."
     },
     {
-      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "id": "regional-2-Diario_Sin_Fronteras_Puno",
       "title": "Ministro de Vivienda pide a familias abandonar torrenteras ante riesgo de desbordes por El Niño",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -267,7 +537,7 @@
       "summary": "El ministro de Vivienda, Mauricio Arnillas, exhortó a las familias que viven en torrenteras y cauces de ríos a dejar estas zonas"
     },
     {
-      "id": "internacional-6-El_Pais_Internacional_El_",
+      "id": "internacional-7-El_Pais_Internacional_El_",
       "title": "El delegado del Gobierno en Madrid dimite tras quedarse fuera de las listas del PSOE para el 29-N",
       "category": "internacional",
       "category_label": "Internacional",
@@ -282,22 +552,7 @@
       "summary": "La renuncia de Francisco Martín, que apoyó de forma tácita a Enma López en las primarias de Madrid, se produce a cinco semanas de las elecciones"
     },
     {
-      "id": "nacional-8-RPP_Noticias_Lopez-Chau_c",
-      "title": "López-Chau cree que coalición opositora debe mantenerse pese a diferencias en pedido de facultades: \"Quisiera que siga en pie\"",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/politica/congreso/lopez-chau-cree-que-coalicion-opositora-debe-mantenerse-pese-a-diferencias-en-pedido-de-facultades-quisiera-que-siga-en-pie-noticia-1714403",
-      "image_url": "https://f.rpp-noticias.io/2026/10/25/pez-chau-2-2026-10-25-09-51-34-29972-1-video-converterco-1922432mp4_1922434.jpg",
-      "local_image": "images/today/2026-10-25_RPP_Noticias_Lopez-Chau_cree_que_coalicion_oposi.jpg",
-      "date": "Sun, 25 Oct 2026 11:26:48 -0500",
-      "date_formatted": "Hoy • 11:26 AM",
-      "date_full": "25 de Octubre de 2026, 11:26 AM",
-      "timestamp": 1792945608,
-      "summary": "Alfonso López-Chau consideró que la coalición de Ahora Nación, Buen Gobierno, Juntos por el Perú y Obras se ha resquebrajado tras la votación del pedido de facultades legislativas."
-    },
-    {
-      "id": "regional-3-Pachamama_Radio_Puno_Prov",
+      "id": "regional-5-Pachamama_Radio_Puno_Prov",
       "title": "Provincia de San Román celebra su centenario entre homenajes culturales y promesas inconclusas",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -312,52 +567,7 @@
       "summary": "San Román conmemoró su centenario en Juliaca con danzas y actos oficiales, mientras persisten expectativas por obras y servicios básicos pendientes para la población"
     },
     {
-      "id": "nacional-5-Agencia_Andina_CD_Moquegu",
-      "title": "CD Moquegua vs. Alianza Lima: Hora y canal para ver partido de los blanquiazules",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-cd-moquegua-vs-alianza-lima-hora-y-canal-para-ver-partido-los-blanquiazules-1097286.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/25/001326303W.jpg",
-      "local_image": "images/today/2026-10-25_Agencia_Andina_CD_Moquegua_vs_Alianza_Lima_Hora.jpg",
-      "date": "Sun, 25 Oct 2026 11:22:02 -0500",
-      "date_formatted": "Hoy • 11:22 AM",
-      "date_full": "25 de Octubre de 2026, 11:22 AM",
-      "timestamp": 1792945322,
-      "summary": "Alianza Lima visitará el Estadio 25 de Noviembre de Moquegua (13:15 horas) con la consigna de sumar tres puntos que le permitan seguir en la disputa por el título del Torneo Clausura, donde los íntimos se encuentran a se..."
-    },
-    {
-      "id": "nacional-6-Agencia_Andina_Presidenta",
-      "title": "Presidenta Keiko Fujimori asiste a misa en Santuario de Las Nazarenas",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-presidenta-keiko-fujimori-asiste-a-misa-santuario-las-nazarenas-1097288.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/25/001326306W.jpg",
-      "local_image": "images/today/2026-10-25_Agencia_Andina_Presidenta_Keiko_Fujimori_asiste_a.jpg",
-      "date": "Sun, 25 Oct 2026 11:21:44 -0500",
-      "date_formatted": "Hoy • 11:21 AM",
-      "date_full": "25 de Octubre de 2026, 11:21 AM",
-      "timestamp": 1792945304,
-      "summary": "La jefa del Estado, Keiko Fujimori Higuchi, asiste a la misa correspondiente al trigésimo domingo del Tiempo Ordinario, que se celebra en el Santuario de Las Nazarenas y es presidida por el arzobispo de Lima, cardenal Ca..."
-    },
-    {
-      "id": "nacional-5-RPP_Noticias_Chile_vs_Esp",
-      "title": "Chile vs. España EN VIVO: juegan por la fecha 3 del Mundial Femenino Sub 17",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/futbol-mundial/chile-vs-espana-en-vivo-a-que-hora-juegan-y-donde-ver-fecha-3-mundial-femenino-sub-17-2026-via-chilevision-partidos-de-hoy-noticia-1714303",
-      "image_url": "https://f.rpp-noticias.io/2026/10/25/292129_1922438.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-25_RPP_Noticias_Chile_vs_Espana_EN_VIVO_juegan_po.jpg",
-      "date": "Sun, 25 Oct 2026 11:20:35 -0500",
-      "date_formatted": "Hoy • 11:20 AM",
-      "date_full": "25 de Octubre de 2026, 11:20 AM",
-      "timestamp": 1792945235,
-      "summary": "Chile vs. España EN VIVO: sigue el partido por la fecha 3 del Mundial Femenino Sub 16 2026."
-    },
-    {
-      "id": "internacional-1-France_24_en_Espanol_Esto",
+      "id": "internacional-4-France_24_en_Espanol_Esto",
       "title": "“Estoy aquí”: María Corina Machado regresa a Venezuela tras casi un año fuera del país",
       "category": "internacional",
       "category_label": "Internacional",
@@ -372,7 +582,7 @@
       "summary": "La líder de la oposición venezolana, María Corina Machado, anunció este domingo 25 de octubre que regresó a su país tras casi un año de haber salido en una operación con ayuda de Estados Unidos."
     },
     {
-      "id": "internacional-6-BBC_Mundo_Como_una_mansio",
+      "id": "internacional-4-BBC_Mundo_Como_una_mansio",
       "title": "Cómo una mansión de California se convirtió en la \"casa de los horrores\", en la que se investiga el abuso a 14 niños surrogados",
       "category": "internacional",
       "category_label": "Internacional",
@@ -385,51 +595,6 @@
       "date_full": "25 de Octubre de 2026, 11:04 AM",
       "timestamp": 1792944252,
       "summary": "Silvia Zhang y Guojun Xuan están siendo acusados de maltrato infantil por las condiciones y violencia contra una docena de niños que tenían en su mansión del este de Los Ángeles."
-    },
-    {
-      "id": "nacional-7-Agencia_Andina_Puno_dos_a",
-      "title": "Puno: dos agrupaciones escolares de Yunguyo ganaron Concurso Regional de Sikuris",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-puno-dos-agrupaciones-escolares-yunguyo-ganaron-concurso-regional-sikuris-1097285.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/25/001326295W.jpg",
-      "local_image": "images/today/2026-10-25_Agencia_Andina_Puno_dos_agrupaciones_escolares_de.jpg",
-      "date": "Sun, 25 Oct 2026 11:03:16 -0500",
-      "date_formatted": "Hoy • 11:03 AM",
-      "date_full": "25 de Octubre de 2026, 11:03 AM",
-      "timestamp": 1792944196,
-      "summary": "Dos agrupaciones de zampoñada de la provincia de Yunguyo ganaron en sus respectivas categorías el Quinto Concurso Regional de Sikuris Zampoña de Oro 2026, con 86.34 y 86.15 puntos en primaria y secundaria, respectivament..."
-    },
-    {
-      "id": "nacional-8-Agencia_Andina_Minem_impu",
-      "title": "Minem impulsa actividad minera responsable en el sur en la Expo Titikaka Minero 2026",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-minem-impulsa-actividad-minera-responsable-el-sur-la-expo-titikaka-minero-2026-1097287.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/25/001326304W.jpg",
-      "local_image": "images/today/2026-10-25_Agencia_Andina_Minem_impulsa_actividad_minera_resp.jpg",
-      "date": "Sun, 25 Oct 2026 11:02:10 -0500",
-      "date_formatted": "Hoy • 11:02 AM",
-      "date_full": "25 de Octubre de 2026, 11:02 AM",
-      "timestamp": 1792944130,
-      "summary": "El Ministerio de Energía y Minas (Minem) participa en la Expo Titikaka Minero 2026, el evento minero más importante del sur del Perú, con el objetivo de impulsar y fortalecer la formalización minera, la inversión respons..."
-    },
-    {
-      "id": "nacional-9-Agencia_Andina_Te_fractur",
-      "title": "¿Te fracturaste con una caída leve? Podría ser una señal de osteoporosis",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-te-fracturaste-una-caida-leve-podria-ser-una-senal-osteoporosis-1096917.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/22/001325543W.jpg",
-      "local_image": "images/today/2026-10-25_Agencia_Andina_Te_fracturaste_con_una_caida_leve.jpg",
-      "date": "Sun, 25 Oct 2026 11:00:00 -0500",
-      "date_formatted": "Hoy • 11:00 AM",
-      "date_full": "25 de Octubre de 2026, 11:00 AM",
-      "timestamp": 1792944000,
-      "summary": "Más de 500 millones de personas en el mundo viven con osteoporosis, una enfermedad silenciosa que debilita los huesos y aumenta el riesgo de fracturas, según la Fundación Internacional de Osteoporosis (IOF). En el marco ..."
     },
     {
       "id": "internacional-3-BBC_Mundo_Fuerza_internac",
@@ -447,22 +612,7 @@
       "summary": "El presidente de El Salvador rechazó que, como publicó The New York TImes, sus militares desaparecidos hubieran sido encontrados en Puerto Príncipe."
     },
     {
-      "id": "nacional-10-Agencia_Andina_Quesos_de_",
-      "title": "¡Quesos de cabra peruanos conquistan medallas en concurso internacional de Uruguay!",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-quesos-cabra-peruanos-conquistan-medallas-concurso-internacional-uruguay-1097284.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/25/001326301W.jpg",
-      "local_image": "images/today/2026-10-25_Agencia_Andina_Quesos_de_cabra_peruanos_conquista.jpg",
-      "date": "Sun, 25 Oct 2026 10:40:47 -0500",
-      "date_formatted": "Hoy • 10:40 AM",
-      "date_full": "25 de Octubre de 2026, 10:40 AM",
-      "timestamp": 1792942847,
-      "summary": "¡El talento de las productoras peruanas cruza fronteras! Los quesos de leche de cabra elaborados por emprendedoras del valle del Chillón, beneficiarias del proyecto caprino Procap del Instituto Nacional de Innovación Agr..."
-    },
-    {
-      "id": "internacional-2-France_24_en_Espanol_Neta",
+      "id": "internacional-5-France_24_en_Espanol_Neta",
       "title": "Netanyahu alarma a los israelíes con \"sanciones bancarias\" y una \"bomba nuclear sobre Tel Aviv\"",
       "category": "internacional",
       "category_label": "Internacional",
@@ -477,7 +627,7 @@
       "summary": "La campaña electoral en Israel entra en su fase decisiva en medio de una fuerte polémica. El primer ministro Benjamin Netanyahu manifestó que si no es reelecto \"habrá un segundo holocausto\" y caerá una \"bomba sobre Israe..."
     },
     {
-      "id": "internacional-3-France_24_en_Espanol_Serb",
+      "id": "internacional-6-France_24_en_Espanol_Serb",
       "title": "Serbia vota: los estudiantes desafían el poder de Vucic en las elecciones parlamentarias",
       "category": "internacional",
       "category_label": "Internacional",
@@ -492,7 +642,7 @@
       "summary": "Tras casi dos años de protestas desencadenadas por la tragedia de Novi Sad, donde el colapso de una estructura en una estación ferroviaria dejó 16 muertos, Serbia vive unas elecciones legislativas clave. El movimiento es..."
     },
     {
-      "id": "internacional-4-France_24_en_Espanol_Elec",
+      "id": "internacional-7-France_24_en_Espanol_Elec",
       "title": "Elecciones clave en Serbia: los estudiantes disputan el liderazgo de 12 años de Vucic",
       "category": "internacional",
       "category_label": "Internacional",
@@ -507,7 +657,7 @@
       "summary": "Luego de dos años de protestas contra Aleksandar Vucic, el movimiento social liderado por estudiantes busca desbancar al gobernante Partido Progresista Serbio (SNS), que presenta como cabeza de lista al expresidente, qui..."
     },
     {
-      "id": "regional-4-Pachamama_Radio_Puno_Grie",
+      "id": "regional-6-Pachamama_Radio_Puno_Grie",
       "title": "Grietas, erosión y cambios sin aprobación en mantenimiento de carretera de La Mar por S/8.7 millones",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -522,7 +672,7 @@
       "summary": "La Contraloría General de la República identificó seis situaciones adversas en el mantenimiento de la carretera AY-101, en la provincia de La Mar, tras una inspección realizada entre el 29…"
     },
     {
-      "id": "regional-5-Pachamama_Radio_Puno_Emer",
+      "id": "regional-7-Pachamama_Radio_Puno_Emer",
       "title": "Emerson Nolasco, alcalde electo de Huancayo, va a juicio oral en 2028 por presunta corrupción",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -537,7 +687,7 @@
       "summary": "El alcalde electo de Huancayo, Emerson Nolasco Delgado, afrontará un juicio oral por presuntas irregularidades en una obra pública ejecutada cuando era gerente municipal de Huaribamba, en la provincia de…"
     },
     {
-      "id": "regional-2-Diario_Sin_Fronteras_Puno",
+      "id": "regional-3-Diario_Sin_Fronteras_Puno",
       "title": "Siete vehículos chocan en la vía Juliaca – Azángaro y un hombre muere",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -552,7 +702,7 @@
       "summary": "Azángaro. ¡Terrible accidente! Un accidente de tránsito con múltiples choques dejó un hombre de 76 años muerto y varias personas heridas la"
     },
     {
-      "id": "regional-6-Pachamama_Radio_Puno_Mach",
+      "id": "regional-8-Pachamama_Radio_Puno_Mach",
       "title": "Machu Picchu registra 1.3 millones de visitantes en lo que va del 2026 y aún no recupera sus cifras prepandemia",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -567,37 +717,7 @@
       "summary": "El gerente de Turismo de la Municipalidad de Machu Picchu, Saúl Caipani, señaló que en lo que va del 2026, hasta la fecha, Machu Picchu ha recibido aproximadamente 1.3 millones…"
     },
     {
-      "id": "regional-7-Pachamama_Radio_Puno_Jove",
-      "title": "¡Jóvenes en las calles!: Protesta nacional en rechazo a Keiko Fujimori y a su gobierno (VIDEO)",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Pachamama Radio (Puno)",
-      "url": "https://pachamamaradio.org/jovenes-en-las-calles-protesta-nacional-en-rechazo-a-keiko-fujimori-y-a-su-gobierno-video/",
-      "image_url": "https://pachamamaradio.org/wp-content/uploads/2026/10/incendios-forestales-keiko-fujimori-marchanacional-protesta-peru-fenomeno-del-nino.avif",
-      "local_image": "images/today/2026-10-25_Pachamama_Radio_Puno_Jovenes_en_las_calles_Protesta_n.jpg",
-      "date": "2026-10-25T09:32:45",
-      "date_formatted": "Hoy • 9:32 AM",
-      "date_full": "25 de Octubre de 2026, 9:32 AM",
-      "timestamp": 1792938765,
-      "summary": "Diversas regiones del país mostraron imágenes de manifestaciones en rechazo al gobierno de Keiko Fujimori, exigiendo mayor atención ante la llegada del fenómeno de El Niño. Asimismo, medidas concretas para…"
-    },
-    {
-      "id": "internacional-5-France_24_en_Espanol_Bast",
-      "title": "“¡Basta ya!”: Obama irrumpe en campaña de las midterms y acusa a Trump de “caos, crueldad y corrupción”",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "France 24 en Español",
-      "url": "https://www.france24.com/es/ee-uu-y-canad%C3%A1/20261025-basta-ya-obama-irrumpe-en-campa%C3%B1a-de-las-midterms-y-acusa-a-trump-de-caos-crueldad-y-corrupci%C3%B3n",
-      "image_url": "https://s.france24.com/media/display/b7fde170-d07f-11f1-8d0a-bba4eee3dc72/w:1024/p:16x9/2026-10-25T023011Z-1900781006-RC2Z9OAUN8QQ-RTRMADP-3-USA-ELECTION-OBAMA.jpg",
-      "local_image": "images/today/2026-10-25_France_24_en_Espanol_Basta_ya_Obama_irrumpe_en_camp.jpg",
-      "date": "Sun, 25 Oct 2026 14:24:59 GMT",
-      "date_formatted": "Hoy • 9:24 AM",
-      "date_full": "25 de Octubre de 2026, 9:24 AM",
-      "timestamp": 1792938299,
-      "summary": "El popular expresidente de EE. UU., Barack Obama, regresó este fin de semana a la primera línea de la campaña electoral con una ofensiva contra Donald Trump y sus aliados republicanos. El demócrata los acusó de promover ..."
-    },
-    {
-      "id": "internacional-7-El_Pais_Internacional_Fei",
+      "id": "internacional-8-El_Pais_Internacional_Fei",
       "title": "Feijóo señala a Sánchez por los disturbios en Barcelona: “Está jugando con fuego”",
       "category": "internacional",
       "category_label": "Internacional",
@@ -612,22 +732,7 @@
       "summary": "El líder del PP carga contra el presidente del Gobierno en un acto en Salamanca para presentar a los cabeza de lista de su partido al Congreso"
     },
     {
-      "id": "nacional-3-RPP_Noticias_Corte_de_agu",
-      "title": "Corte de agua en Lima hoy 25 de octubre: Distritos y horarios afectados",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/lima/obras/corte-de-agua-en-lima-hoy-25-de-octubre-distritos-y-horarios-afectados-noticia-1714389",
-      "image_url": "https://f.rpp-noticias.io/2025/03/06/122912_1714110.jpg?imgdimension=look",
-      "local_image": "images/today/2026-10-25_RPP_Noticias_Corte_de_agua_en_Lima_hoy_25_de_oct.jpg",
-      "date": "Sun, 25 Oct 2026 09:00:38 -0500",
-      "date_formatted": "Hoy • 9:00 AM",
-      "date_full": "25 de Octubre de 2026, 9:00 AM",
-      "timestamp": 1792936838,
-      "summary": "EN VIVO Consulta aquí los distritos de Lima y horarios afectados por el corte de agua programado por el Servicio de Agua Potable y Alcantarillado de Lima (Sedapal) para hoy."
-    },
-    {
-      "id": "internacional-5-El_Pais_Internacional_Det",
+      "id": "internacional-6-El_Pais_Internacional_Det",
       "title": "Detenido en la acampada de Sol un hombre de 26 años por agredir sexualmente a una mujer de 22",
       "category": "internacional",
       "category_label": "Internacional",
@@ -642,37 +747,7 @@
       "summary": "El joven atacó a la víctima en el interior de una tienda de campaña, según la versión de la policía"
     },
     {
-      "id": "internacional-6-France_24_en_Espanol_Info",
-      "title": "Informe desde São Paulo: ¿por qué este estado es clave en la elección presidencial?",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "France 24 en Español",
-      "url": "https://www.france24.com/es/video/20261025-informe-desde-s%C3%A3o-paulo-por-qu%C3%A9-este-estado-es-clave-en-la-elecci%C3%B3n-presidencial",
-      "image_url": "https://s.france24.com/media/display/4f960da4-d077-11f1-aeab-4d317af013fd/w:1024/p:16x9/ES-20261025-080221-080700-CS.jpg",
-      "local_image": "images/today/2026-10-25_France_24_en_Espanol_Informe_desde_Sao_Paulo_por_que_e.jpg",
-      "date": "Sun, 25 Oct 2026 13:46:19 GMT",
-      "date_formatted": "Hoy • 8:46 AM",
-      "date_full": "25 de Octubre de 2026, 8:46 AM",
-      "timestamp": 1792935979,
-      "summary": "Desde São Paulo se reporta buena afluencia en los centros de votación pese a que la jornada ha estado marcada por las lluvias. La definición llega después de una primera vuelta en la que ninguno de los candidatos logró s..."
-    },
-    {
-      "id": "internacional-7-France_24_en_Espanol_Info",
-      "title": "Informe desde Río de Janeiro: avanza con normalidad la jornada electoral a pesar de las lluvias",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "France 24 en Español",
-      "url": "https://www.france24.com/es/video/20261025-informe-desde-r%C3%ADo-de-janeiro-avanza-con-normalidad-la-jornada-electoral-a-pesar-de-las-lluvias",
-      "image_url": "https://s.france24.com/media/display/92622076-d074-11f1-9163-5b4a75578ebb/w:1024/p:16x9/ES-20261025-070212-070509-CS.jpg",
-      "local_image": "images/today/2026-10-25_France_24_en_Espanol_Informe_desde_Rio_de_Janeiro_avanz.jpg",
-      "date": "Sun, 25 Oct 2026 13:42:04 GMT",
-      "date_formatted": "Hoy • 8:42 AM",
-      "date_full": "25 de Octubre de 2026, 8:42 AM",
-      "timestamp": 1792935724,
-      "summary": "Brasil vive una jornada decisiva con la segunda vuelta de las elecciones presidenciales de 2026. Los ciudadanos acuden nuevamente a las urnas para elegir entre el actual presidente, Luiz Inácio Lula da Silva, candidato d..."
-    },
-    {
-      "id": "internacional-4-El_Pais_Internacional_Sol",
+      "id": "internacional-5-El_Pais_Internacional_Sol",
       "title": "Sol prepara su adiós: comienza a desmontarse el campamento a falta de un anuncio oficial",
       "category": "internacional",
       "category_label": "Internacional",
@@ -687,7 +762,7 @@
       "summary": "Los jóvenes deben retirar las lonas y las tiendas para dejar la plaza “exactamente como estaba antes”"
     },
     {
-      "id": "internacional-4-BBC_Mundo_De_nino_me_ense",
+      "id": "internacional-5-BBC_Mundo_De_nino_me_ense",
       "title": "\"De niño me enseñaron a reconocer a los policías encubiertos entre la multitud\": cómo fue mi infancia huyendo del FBI",
       "category": "internacional",
       "category_label": "Internacional",
@@ -702,7 +777,7 @@
       "summary": "Los padres de Zayd eran miembros de Weather Underground, un grupo radical que buscaba visibilizar la desigualdad y la injusticia racial en EE.UU. colocando explosivos en edificios gubernamentales."
     },
     {
-      "id": "regional-3-Diario_Sin_Fronteras_Puno",
+      "id": "regional-4-Diario_Sin_Fronteras_Puno",
       "title": "Adiós a la TV tradicional: Streaming y contenido interactivo conquistan el mercado peruano",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -717,7 +792,7 @@
       "summary": "La TV paga pierde terreno en Perú: ¿Qué están viendo ahora los usuarios? El declive de la TV por cable: Nuevas tendencias"
     },
     {
-      "id": "internacional-5-BBC_Mundo_Momias_congelad",
+      "id": "internacional-7-BBC_Mundo_Momias_congelad",
       "title": "Momias congeladas y rutas vikingas: los secretos que está revelando el derretimiento de los hielos",
       "category": "internacional",
       "category_label": "Internacional",
@@ -732,7 +807,7 @@
       "summary": "El mundo está experimentando un rápido deshielo debido al cambio climático, lo que está dejando al descubierto artefactos antiguos que se han conservado perfectamente durante miles de años."
     },
     {
-      "id": "nacional-2-RPP_Noticias_SENAMHI_Pron",
+      "id": "nacional-9-RPP_Noticias_SENAMHI_Pron",
       "title": "SENAMHI: Pronóstico del clima hoy domingo 25 de octubre 2026",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -745,21 +820,6 @@
       "date_full": "25 de Octubre de 2026, 4:00 AM",
       "timestamp": 1792918845,
       "summary": "Consulta el pronóstico del clima hoy en Lima y ciudades del Perú: temperatura actual, sensación térmica, radiación UV, probabilidad de lluvia y reporte oficial del Senamhi actualizado."
-    },
-    {
-      "id": "internacional-8-El_Pais_Internacional_Los",
-      "title": "Los jóvenes que provocaron altercados en Barcelona se convocaron por TikTok y organizaron por grupos de Telegram y Whatsapp",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "El País Internacional",
-      "url": "https://elpais.com/espana/catalunya/2026-10-25/los-jovenes-que-provocaron-altercados-en-barcelona-se-convocaron-por-tiktok-y-organizaron-por-grupos-de-telegram-y-whatsapp.html",
-      "image_url": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261024/1229524_201707_video_1800.mp4",
-      "local_image": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261024/1229524_201707_video_1800.mp4",
-      "date": "Sun, 25 Oct 2026 07:32:10 GMT",
-      "date_formatted": "Hoy • 2:32 AM",
-      "date_full": "25 de Octubre de 2026, 2:32 AM",
-      "timestamp": 1792913530,
-      "summary": "Los Mossos d’Esquadra detienen a 128 personas, de las cuales 72 son menores de edad"
     },
     {
       "id": "regional-1-Diario_Los_Andes_Puno_DIA",
@@ -792,7 +852,7 @@
       "summary": "DIARIO LOS ANDES PUNO: 25/10/26"
     },
     {
-      "id": "internacional-3-El_Pais_Internacional_Ped",
+      "id": "internacional-4-El_Pais_Internacional_Ped",
       "title": "Pedro Sánchez: “Un Gobierno del PP con Vox no es alternancia, es retroceder 50 años”",
       "category": "internacional",
       "category_label": "Internacional",
@@ -807,22 +867,7 @@
       "summary": "En entrevista con EL PAÍS, el presidente del Gobierno y candidato del PSOE confía en lograr una mayoría “más amplia” el 29-N y afirma que su mayor error fue “no haber visto la corrupción de Ábalos”"
     },
     {
-      "id": "regional-8-Pachamama_Radio_Puno_Data",
-      "title": "Dataciones de radiocarbono revelan que el imperio inca surgió décadas antes de 1438",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Pachamama Radio (Puno)",
-      "url": "https://pachamamaradio.org/dataciones-de-radiocarbono-revelan-que-el-imperio-inca-surgio-decadas-antes-de-1438/",
-      "image_url": "https://pachamamaradio.org/wp-content/uploads/2026/10/Las-imponentes-murallas-en-zigzag-de-Saqsaywaman-DPST-Newscom.avif",
-      "local_image": "images/today/2026-10-25_Pachamama_Radio_Puno_Dataciones_de_radiocarbono_revelan.jpg",
-      "date": "2026-10-24T23:11:18",
-      "date_formatted": "24 Oct • 11:11 PM",
-      "date_full": "24 de Octubre de 2026, 11:11 PM",
-      "timestamp": 1792901478,
-      "summary": "Investigadores andinos acordaron descartar la cronología tradicional y datan con radiocarbono sitios incas de Cusco, Ecuador, Argentina y Chile"
-    },
-    {
-      "id": "internacional-2-BBC_Mundo_Quien_es_Gadi_E",
+      "id": "internacional-6-BBC_Mundo_Quien_es_Gadi_E",
       "title": "Quién es Gadi Eisenkot, el general retirado que perdió un hijo en Gaza y desafía a Netanyahu en las primeras elecciones en Israel desde el ataque del 7 de octubre",
       "category": "internacional",
       "category_label": "Internacional",
@@ -837,7 +882,7 @@
       "summary": "El excomandante supone la mayor amenaza política para el primer ministro Benjamin Netanyahu en las próximas elecciones generales."
     },
     {
-      "id": "regional-4-Diario_Sin_Fronteras_Puno",
+      "id": "regional-5-Diario_Sin_Fronteras_Puno",
       "title": "Puno: conjuntos yunguyeños lideran concurso regional de sikuris",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -852,7 +897,7 @@
       "summary": "Dos agrupaciones de Yunguyo destacaron en el V Concurso Regional de Sikuris Zampoña de Oro 2026. La Zampoñada Querubines, de la IEP"
     },
     {
-      "id": "regional-5-Diario_Sin_Fronteras_Puno",
+      "id": "regional-6-Diario_Sin_Fronteras_Puno",
       "title": "El impacto de las IAs y los simuladores de rendimiento deportivo",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -867,7 +912,7 @@
       "summary": "El fútbol peruano siempre tuvo ese halo inexplicable: una mezcla de tierra, altura, pasión y, por qué no, misterio. En la Liga"
     },
     {
-      "id": "regional-6-Diario_Sin_Fronteras_Puno",
+      "id": "regional-7-Diario_Sin_Fronteras_Puno",
       "title": "Juliaca: Ministro de Vivienda pide reunirse con familiares de las víctimas del 9 de enero",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -882,7 +927,7 @@
       "summary": "El ministro de Vivienda, Construcción y Saneamiento, Mauricio Arnillas Gonzáles, participó en las actividades centrales por el centenario de la provincia de"
     },
     {
-      "id": "regional-7-Diario_Sin_Fronteras_Puno",
+      "id": "regional-8-Diario_Sin_Fronteras_Puno",
       "title": "Keiko Fujimori reinicia operaciones del Tren Macho y anuncia rehabilitación de más de 120 km de vía férrea",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -940,21 +985,6 @@
       "date_full": "24 de Octubre de 2026, 1:08 PM",
       "timestamp": 1792865334,
       "summary": "Vecinos de Paucarpata alertaron sobre presuntos robos de carteras cometidos desde un vehículo en movimiento. Según la información proporcionada, los pobladores captaron a un conductor y a su acompañante mientras, presunt..."
-    },
-    {
-      "id": "regional-8-Diario_Sin_Fronteras_Puno",
-      "title": "Fieles acuden a Las Nazarenas para rendir homenaje al Señor de los Milagros",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Diario Sin Fronteras (Puno)",
-      "url": "https://diariosinfronteras.com.pe/2026/10/24/fieles-acuden-a-las-nazarenas-para-rendir-homenaje-al-senor-de-los-milagros/",
-      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/10/Las-Nazarenas-para-rendir-homenaje-al-Senor-de-los-Milagros.jpg",
-      "local_image": "images/today/2026-10-25_Diario_Sin_Fronteras_Puno_Fieles_acuden_a_Las_Nazarenas_para.jpg",
-      "date": "2026-10-24T12:14:56",
-      "date_formatted": "24 Oct • 12:14 PM",
-      "date_full": "24 de Octubre de 2026, 12:14 PM",
-      "timestamp": 1792862096,
-      "summary": "Fieles católicos acudieron este sábado 24 de octubre a la iglesia Las Nazarenas, en el Cercado de Lima, para expresar su devoción"
     },
     {
       "id": "regional-6-Diario_Los_Andes_Puno_Inc",
