@@ -1,13 +1,13 @@
 {
   "title": "Observatorio para Chabely",
   "date": "2026-11-05",
-  "updated_at": "5 de Noviembre de 2026 a las 3:46 PM (Hora Perú)",
-  "updated_at_iso": "2026-11-05T15:46:15.863014-05:00",
+  "updated_at": "5 de Noviembre de 2026 a las 4:37 PM (Hora Perú)",
+  "updated_at_iso": "2026-11-05T16:37:46.925095-05:00",
   "stats": {
-    "total": 69,
+    "total": 70,
     "portadas": 5,
     "regional": 24,
-    "nacional": 18,
+    "nacional": 19,
     "internacional": 22
   },
   "media": [
@@ -23,7 +23,7 @@
       "date": "2026-11-05",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 5 de Noviembre de 2026",
-      "timestamp": 1793911575,
+      "timestamp": 1793914666,
       "summary": "Primera plana y portada oficial del diario El Comercio (Perú) correspondiente al 5 de Noviembre de 2026."
     },
     {
@@ -38,7 +38,7 @@
       "date": "2026-11-05",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 5 de Noviembre de 2026",
-      "timestamp": 1793911575,
+      "timestamp": 1793914666,
       "summary": "Primera plana y portada oficial del diario La República (Perú) correspondiente al 5 de Noviembre de 2026."
     },
     {
@@ -53,7 +53,7 @@
       "date": "2026-11-05",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 5 de Noviembre de 2026",
-      "timestamp": 1793911575,
+      "timestamp": 1793914666,
       "summary": "Primera plana y portada oficial del diario La Razón (Perú) correspondiente al 5 de Noviembre de 2026."
     },
     {
@@ -68,7 +68,7 @@
       "date": "2026-11-05",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 5 de Noviembre de 2026",
-      "timestamp": 1793911575,
+      "timestamp": 1793914666,
       "summary": "Primera plana y portada oficial del diario Líbero (Perú) correspondiente al 5 de Noviembre de 2026."
     },
     {
@@ -83,26 +83,341 @@
       "date": "2026-11-05",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 5 de Noviembre de 2026",
-      "timestamp": 1793911575,
+      "timestamp": 1793914666,
       "summary": "Primera plana y portada oficial del diario El País (España / Global) correspondiente al 5 de Noviembre de 2026."
     },
     {
       "id": "internacional-1-BBC_Mundo_Crisis_en_Parag",
-      "title": "Crisis en Paraguay: renuncia el presidente Santiago Peña por el escándalo de Ueno Bank",
+      "title": "Crisis en Paraguay: el Congreso decide si acepta la renuncia del presidente Santiago Peña o sigue con el juicio político",
       "category": "internacional",
       "category_label": "Internacional",
       "source": "BBC Mundo",
       "url": "https://www.bbc.co.uk/mundo/live/cmgr8vrv5w55t?at_medium=RSS&at_campaign=rss",
       "image_url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f750/live/21f39400-d948-11f1-93e1-3b657b665bcf.jpg",
-      "local_image": "images/today/2026-11-05_BBC_Mundo_Crisis_en_Paraguay_renuncia_el_pre.jpg",
+      "local_image": "images/today/2026-11-05_BBC_Mundo_Crisis_en_Paraguay_el_Congreso_dec.jpg",
       "date": "",
-      "date_formatted": "Hoy • 03:46 PM",
-      "date_full": "05 de November de 2026, 03:46 PM",
-      "timestamp": 1793911575,
-      "summary": "El presidente de Paraguay dimitió en medio de la crisis desatada por la intervención de Ueno Bank. La Cámara de Diputados aprobó por unanimidad el juicio político. Si el Senado ahora decide no seguir con el proceso y ace..."
+      "date_formatted": "Hoy • 04:37 PM",
+      "date_full": "05 de November de 2026, 04:37 PM",
+      "timestamp": 1793914666,
+      "summary": "El presidente de Paraguay dimitió en medio de la crisis desatada por la intervención de Ueno Bank. El Congreso decide ahora si sigue con el juicio político o acepta la renuncia. En este último caso, Peña conserva los fue..."
     },
     {
-      "id": "nacional-1-Agencia_Andina_Papa_Leon_",
+      "id": "nacional-1-Agencia_Andina_Escritores",
+      "title": "Escritores, artistas y pensadores participan desde hoy en el Hay Festival Arequipa 2026",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-escritores-artistas-y-pensadores-participan-desde-hoy-el-hay-festival-arequipa-2026-1098782.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/05/001329616W.jpg",
+      "local_image": "images/today/2026-11-05_Agencia_Andina_Escritores_artistas_y_pensadores_p.jpg",
+      "date": "Thu, 05 Nov 2026 16:31:29 -0500",
+      "date_formatted": "Hoy • 4:31 PM",
+      "date_full": "5 de Noviembre de 2026, 4:31 PM",
+      "timestamp": 1793914289,
+      "summary": "Más de 150 escritores, artistas, científicos, periodistas y pensadores nacionales e internacionales ya se encuentran en Arequipa para participar de la 12⁰ edición del Hay Festival 2026 que inició esta tarde."
+    },
+    {
+      "id": "nacional-2-Agencia_Andina_Comando_Un",
+      "title": "Comando Unificado desarticula red de extorsión que exigía S/ 80,000 a empresa de salud",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-comando-unificado-desarticula-red-extorsion-exigia-s-80000-a-empresa-salud-1098784.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/05/001329612W.jpg",
+      "local_image": "images/today/2026-11-05_Agencia_Andina_Comando_Unificado_desarticula_red_d.jpg",
+      "date": "Thu, 05 Nov 2026 16:30:02 -0500",
+      "date_formatted": "Hoy • 4:30 PM",
+      "date_full": "5 de Noviembre de 2026, 4:30 PM",
+      "timestamp": 1793914202,
+      "summary": "La Policía Nacional del Perú (PNP) ejecutó un operativo simultáneo en distintos puntos de Lima Metropolitana que permitió detener a cinco presuntos integrantes de la banda criminal “Los Remanentes de los Injertos del Rím..."
+    },
+    {
+      "id": "internacional-1-France_24_en_Espanol_Del_",
+      "title": "Del vino a las bebidas sin alcohol: la nueva era de los sommeliers",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "France 24 en Español",
+      "url": "https://www.france24.com/es/programas/francia-en-foco/20261105-del-vino-a-las-bebidas-sin-alcohol-la-nueva-era-de-los-sommeliers",
+      "image_url": "https://s.france24.com/media/display/fd76e0dc-cc68-11f1-a173-2d1c143cdef3/w:1024/p:16x9/vin-2.jpg",
+      "local_image": "images/today/2026-11-05_France_24_en_Espanol_Del_vino_a_las_bebidas_sin_alcohol.jpg",
+      "date": "Thu, 05 Nov 2026 21:26:52 GMT",
+      "date_formatted": "Hoy • 4:26 PM",
+      "date_full": "5 de Noviembre de 2026, 4:26 PM",
+      "timestamp": 1793914012,
+      "summary": "Una nueva generación de sommeliers franceses redefine los códigos de una profesión en plena transformación, marcada por los cambios en los hábitos de consumo y el auge de las bebidas sin alcohol. En esta emisión, los per..."
+    },
+    {
+      "id": "nacional-1-RPP_Noticias_Denuncian_la",
+      "title": "Denuncian la detención de la periodista Yoani Sánchez en La Habana",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/mundo/latinoamerica/denuncian-la-detencion-de-la-periodista-independiente-yoani-sanchez-en-la-habana-noticia-1716171",
+      "image_url": "https://f.rpp-noticias.io/2026/11/05/471747_1926135.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-05_RPP_Noticias_Denuncian_la_detencion_de_la_period.jpg",
+      "date": "Thu, 05 Nov 2026 16:26:45 -0500",
+      "date_formatted": "Hoy • 4:26 PM",
+      "date_full": "5 de Noviembre de 2026, 4:26 PM",
+      "timestamp": 1793914005,
+      "summary": "Sánchez fue detenida por la policía política cuando salía esta mañana de su vivienda, ubicada en el barrio Nuevo Vedado, para hacer compras en el mercado del barrio, según relato 14Ymedio, el portal de noticias que dirig..."
+    },
+    {
+      "id": "nacional-3-RPP_Noticias_Gustavo_Petr",
+      "title": "Gustavo Petro señala a Santiago Peña de haber \"quebrado\" a Paraguay por la crisis de Ueno bank",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/mundo/latinoamerica/gustavo-petro-senala-a-santiago-pena-de-haber-quebrado-a-paraguay-por-la-crisis-de-ueno-bank-noticia-1716169",
+      "image_url": "https://f.rpp-noticias.io/2026/11/05/581658_1926134.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-05_RPP_Noticias_Gustavo_Petro_senala_a_Santiago_Pen.jpg",
+      "date": "Thu, 05 Nov 2026 16:26:18 -0500",
+      "date_formatted": "Hoy • 4:26 PM",
+      "date_full": "5 de Noviembre de 2026, 4:26 PM",
+      "timestamp": 1793913978,
+      "summary": "Gustavo Petro criticó la renuncia de Santiago Peña, expresidente de Paraguay, por la crisis de Ueno bank y su gestión económica. La Cámara de Diputados aprobó el juicio político."
+    },
+    {
+      "id": "nacional-3-Agencia_Andina_Senamhi_pr",
+      "title": "Senamhi pronostica nuevas lloviznas en Lima durante esta semana",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-senamhi-pronostica-nuevas-lloviznas-lima-durante-esta-semana-1098765.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/03/001328668W.jpg",
+      "local_image": "images/today/2026-11-05_Agencia_Andina_Senamhi_pronostica_nuevas_lloviznas.jpg",
+      "date": "Thu, 05 Nov 2026 16:24:58 -0500",
+      "date_formatted": "Hoy • 4:24 PM",
+      "date_full": "5 de Noviembre de 2026, 4:24 PM",
+      "timestamp": 1793913898,
+      "summary": "La jefa del Servicio Nacional de Meteorología e Hidrología (Senamhi), Grinia Ávalos, informó que las intensas lloviznas registradas en los últimos días en Lima sur no tienen antecedentes históricos y no descartó que vuel..."
+    },
+    {
+      "id": "internacional-2-El_Pais_Internacional_Ult",
+      "title": "Última hora de la actualidad política, en directo | Cuerpo, sobre la línea de alta velocidad Madrid-Barcelona: “No hay ninguna previsión de cerrarla, quiero dejar esto claro”",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "El País Internacional",
+      "url": "https://elpais.com/espana/2026-11-05/ultima-hora-de-la-actualidad-politica-en-directo.html",
+      "image_url": "https://imagenes.elpais.com/resizer/v2/QHZ5IYNW6JIHHDWXBCM2EP74JE.jpg?auth=f59232f1d8297469ac478d39badc43c91a1d74999704259c9d5c5bb30e8b8832",
+      "local_image": "images/today/2026-11-05_El_Pais_Internacional_Ultima_hora_de_la_actualidad_politi.jpg",
+      "date": "Thu, 05 Nov 2026 21:22:49 GMT",
+      "date_formatted": "Hoy • 4:22 PM",
+      "date_full": "5 de Noviembre de 2026, 4:22 PM",
+      "timestamp": 1793913769,
+      "summary": "Sánchez exige a Feijóo explicaciones sobre si el PP ofreció dinero a Koldo por información para derribar al Gobierno | Abascal acudirá a ‘La Revuelta’ el próximo lunes | La Guardia Civil ha dejado en libertad a las seis ..."
+    },
+    {
+      "id": "nacional-2-RPP_Noticias_RPP_en_Roma_",
+      "title": "RPP en Roma: todo listo para el inicio del viaje apostólico del papa León XIV a Sudamérica",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/videos/mundo/papa-leon-xiv-todo-listo-para-el-inicio-del-viaje-apostolico-a-sudamerica-noticia-1716176",
+      "image_url": "https://f.rpp-noticias.io/2026/11/05/2-1926138mp4_1926139.jpg",
+      "local_image": "images/today/2026-11-05_RPP_Noticias_RPP_en_Roma_todo_listo_para_el_ini.jpg",
+      "date": "Thu, 05 Nov 2026 16:22:27 -0500",
+      "date_formatted": "Hoy • 4:22 PM",
+      "date_full": "5 de Noviembre de 2026, 4:22 PM",
+      "timestamp": 1793913747,
+      "summary": "El enviado especial Carlos Villarreal reporta desde la Plaza Navona el inicio de la cuenta regresiva para el viaje papal que incluirá paradas en Uruguay, Argentina y el Perú, bajo un estricto resguardo de seguridad."
+    },
+    {
+      "id": "nacional-4-Agencia_Andina_Real_Socie",
+      "title": "Real Sociedad empata con Lyon y sigue su marcha irregular en la UEFA Europa League",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-real-sociedad-empata-lyon-y-sigue-su-marcha-irregular-la-uefa-europa-league-1098783.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/05/001329614W.jpg",
+      "local_image": "images/today/2026-11-05_Agencia_Andina_Real_Sociedad_empata_con_Lyon_y_sig.jpg",
+      "date": "Thu, 05 Nov 2026 16:20:35 -0500",
+      "date_formatted": "Hoy • 4:20 PM",
+      "date_full": "5 de Noviembre de 2026, 4:20 PM",
+      "timestamp": 1793913635,
+      "summary": "La Real Sociedad solo pudo empatar 1-1 en casa ante el Lyon este jueves en la cuarta jornada de la Europa League, torneo en el que el conjunto vasco sólo ha ganado un partido."
+    },
+    {
+      "id": "regional-1-Pachamama_Radio_Puno_San_",
+      "title": "San Román: partidos ganan 4 alcaldías distritales en 2026",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Pachamama Radio (Puno)",
+      "url": "https://pachamamaradio.org/san-roman-partidos-ganan-4-alcaldias-distritales-en-2026/",
+      "image_url": "https://pachamamaradio.org/wp-content/uploads/2026/11/partidos-ganan-4-alcaldias-distritales-en-2026-DF.avif",
+      "local_image": "images/today/2026-11-05_Pachamama_Radio_Puno_San_Roman_partidos_ganan_4_alcaldi.jpg",
+      "date": "2026-11-05T16:19:32",
+      "date_formatted": "Hoy • 4:19 PM",
+      "date_full": "5 de Noviembre de 2026, 4:19 PM",
+      "timestamp": 1793913572,
+      "summary": "Ahora Nación y Juntos por el Perú ganaron cuatro alcaldías distritales de San Román; ambas agrupaciones obtuvieron dos municipios cada una en los comicios oficiales"
+    },
+    {
+      "id": "nacional-6-RPP_Noticias_Yo_soy_Rocky",
+      "title": "'Yo soy Rocky': Anthony Ippolito revive la historia de superación de Sylvester Stallone 50 años después",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/famosos/celebridades/yo-soy-rocky-anthony-ippolito-revive-la-historia-de-superacion-de-sylvester-stallone-50-anos-despues-noticia-1716042",
+      "image_url": "https://f.rpp-noticias.io/2026/11/05/492949_1925910.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-05_RPP_Noticias_Yo_soy_Rocky_Anthony_Ippolito_re.jpg",
+      "date": "Thu, 05 Nov 2026 16:17:28 -0500",
+      "date_formatted": "Hoy • 4:17 PM",
+      "date_full": "5 de Noviembre de 2026, 4:17 PM",
+      "timestamp": 1793913448,
+      "summary": "La película biográfica reconstruye la lucha del actor por protagonizar Rocky, el guion que él mismo escribió, y los sacrificios que hizo para convertirlo en un clásico de Hollywood."
+    },
+    {
+      "id": "nacional-5-RPP_Noticias_Delincuentes",
+      "title": "Delincuentes amenazan al director y jefe de seguridad del penal de Socabaya para que no adopten medidas contra tres internos",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/peru/arequipa/delincuentes-amenazan-de-muerte-al-director-y-jefe-de-seguridad-del-penal-de-socabaya-noticia-1716170",
+      "image_url": "https://f.rpp-noticias.io/2026/11/05/d-20261101-wa0270-1-20261105092331-1926130mp4_1926131.jpg",
+      "local_image": "images/today/2026-11-05_RPP_Noticias_Delincuentes_amenazan_al_director_y.jpg",
+      "date": "Thu, 05 Nov 2026 16:16:58 -0500",
+      "date_formatted": "Hoy • 4:16 PM",
+      "date_full": "5 de Noviembre de 2026, 4:16 PM",
+      "timestamp": 1793913418,
+      "summary": "Los delincuentes amenazaron a los funcionarios y exigieron que no se adopten medidas contra tres internos."
+    },
+    {
+      "id": "nacional-7-RPP_Noticias_La_Arquidioc",
+      "title": "La Arquidiócesis de Nueva York pagará 800 millones de dólares a víctimas de abuso sexual",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/mundo/estados-unidos/la-arquidiocesis-de-nueva-york-pagara-800-millones-de-dolares-a-victimas-de-abuso-sexual-noticia-1716168",
+      "image_url": "https://f.rpp-noticias.io/2026/11/05/010301_1926123.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-05_RPP_Noticias_La_Arquidiocesis_de_Nueva_York_paga.jpg",
+      "date": "Thu, 05 Nov 2026 16:16:32 -0500",
+      "date_formatted": "Hoy • 4:16 PM",
+      "date_full": "5 de Noviembre de 2026, 4:16 PM",
+      "timestamp": 1793913392,
+      "summary": "Como parte del acuerdo, la Arquidiócesis deberá publicar en su sitio web los nombres de los miembros del clero y los líderes laicos acusados ​​de manera creíble de abuso sexual, y actualizar la lista con futuras denuncia..."
+    },
+    {
+      "id": "nacional-8-RPP_Noticias_La_edad_dora",
+      "title": "'La edad dorada' alcanza su estreno más visto con el lanzamiento de su cuarta temporada",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/tv/streaming/la-edad-dorada-alcanza-su-estreno-mas-visto-con-el-lanzamiento-de-su-cuarta-temporada-noticia-1716161",
+      "image_url": "https://f.rpp-noticias.io/2026/11/05/125912_1926119.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-05_RPP_Noticias_La_edad_dorada_alcanza_su_estreno.jpg",
+      "date": "Thu, 05 Nov 2026 16:15:50 -0500",
+      "date_formatted": "Hoy • 4:15 PM",
+      "date_full": "5 de Noviembre de 2026, 4:15 PM",
+      "timestamp": 1793913350,
+      "summary": "La serie creada por Julian Fellowes consiguió casi 4 millones de espectadores en sus primeros tres días de estreno, un 25 % más que el debut de su tercera temporada. El primer episodio ya está disponible en HBO Max."
+    },
+    {
+      "id": "regional-2-Pachamama_Radio_Puno_Resu",
+      "title": "Resultados electorales en Puno 2026 y ganadores distritales",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Pachamama Radio (Puno)",
+      "url": "https://pachamamaradio.org/resultados-electorales-en-puno-2026-y-ganadores-distritales/",
+      "image_url": "https://pachamamaradio.org/wp-content/uploads/2026/11/Resultados-electorales-en-Puno-2026-DF.avif",
+      "local_image": "images/today/2026-11-05_Pachamama_Radio_Puno_Resultados_electorales_en_Puno_2026.jpg",
+      "date": "2026-11-05T16:15:49",
+      "date_formatted": "Hoy • 4:15 PM",
+      "date_full": "5 de Noviembre de 2026, 4:15 PM",
+      "timestamp": 1793913349,
+      "summary": "El JEEP oficializó los resultados municipales distritales de Puno y confirmó a las organizaciones ganadoras, con respaldos de hasta 61,778 % en Amantaní"
+    },
+    {
+      "id": "nacional-5-Agencia_Andina_Conoce_el_",
+      "title": "Conoce el ranking de tasas de interés de préstamos para las microempresas",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-conoce-ranking-tasas-interes-prestamos-para-las-microempresas-1033963.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2020/10/24/000720964W.webp",
+      "local_image": "images/today/2026-11-05_Agencia_Andina_Conoce_el_ranking_de_tasas_de_inter.jpg",
+      "date": "Thu, 05 Nov 2026 16:10:23 -0500",
+      "date_formatted": "Hoy • 4:10 PM",
+      "date_full": "5 de Noviembre de 2026, 4:10 PM",
+      "timestamp": 1793913023,
+      "summary": "Los préstamos a cuota fija se han convertido en una alternativa cada vez más demandada por las microempresas que buscan acceder a financiamiento con condiciones claras y previsibles en el sistema financiero."
+    },
+    {
+      "id": "nacional-6-Agencia_Andina_Papa_Leon_",
+      "title": "Papa León XIV en Pucallpa: desde esta tarde habilitan entradas gratuitas para 2 encuentros",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-papa-leon-xiv-pucallpa-desde-esta-tarde-habilitan-entradas-gratuitas-para-2-encuentros-1098777.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/05/001329597W.jpg",
+      "local_image": "images/today/2026-11-05_Agencia_Andina_Papa_Leon_XIV_en_Pucallpa_desde_es.jpg",
+      "date": "Thu, 05 Nov 2026 16:01:35 -0500",
+      "date_formatted": "Hoy • 4:01 PM",
+      "date_full": "5 de Noviembre de 2026, 4:01 PM",
+      "timestamp": 1793912495,
+      "summary": "El Vicariato Apostólico de Pucallpa anunció que las entradas gratuitas para participar de los encuentros del papa León XIV en Ucayali, previstos para el domingo 15 de noviembre, estarán disponibles desde las 18:00 horas ..."
+    },
+    {
+      "id": "regional-1-Diario_Los_Andes_Puno_Rob",
+      "title": "Robacasas llegan en camioneta y asaltan vivienda en Juliaca",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Diario Los Andes (Puno)",
+      "url": "https://losandes.com.pe/robacasas-llegan-en-camioneta-y-asaltan-vivienda-en-juliaca/",
+      "image_url": "https://losandes.com.pe/wp-content/uploads/2026/11/Copia-de-ORIGINAL-PORTADA-JUNIO-PLANTILLA-2026-7-1.jpg",
+      "local_image": "images/today/2026-11-05_Diario_Los_Andes_Puno_Robacasas_llegan_en_camioneta_y_asa.jpg",
+      "date": "2026-11-05T16:01:22",
+      "date_formatted": "Hoy • 4:01 PM",
+      "date_full": "5 de Noviembre de 2026, 4:01 PM",
+      "timestamp": 1793912482,
+      "summary": "Un segundo robo domiciliario se reportó la noche del miércoles 4 de noviembre, aproximadamente a las 9:30 p. m., en la avenida Banchero, en la intersección con la avenida Universal, de la urbanización Juan el Bueno, en J..."
+    },
+    {
+      "id": "nacional-7-Agencia_Andina_Peru_obtuv",
+      "title": "Perú obtuvo medalla de oro en los Juegos Panamericanos de Taekwon-Do ITF 2026",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-peru-obtuvo-medalla-oro-los-juegos-panamericanos-taekwondo-itf-2026-1098780.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/05/001329599W.jpg",
+      "local_image": "images/today/2026-11-05_Agencia_Andina_Peru_obtuvo_medalla_de_oro_en_los_J.jpg",
+      "date": "Thu, 05 Nov 2026 16:01:22 -0500",
+      "date_formatted": "Hoy • 4:01 PM",
+      "date_full": "5 de Noviembre de 2026, 4:01 PM",
+      "timestamp": 1793912482,
+      "summary": "La selección peruana obtuvo la  medalla de oro en Tul por equipos, modalidad formas, en los XVII Juegos Panamericanos de Taekwon-Do ITF, que se disputó en la ciudad Barranquilla (Colombia), registro que le permite al equ..."
+    },
+    {
+      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "title": "Arequipa: Extranjero muere tras ataque a balazos frente a la Universidad Continental",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Diario Sin Fronteras (Puno)",
+      "url": "https://diariosinfronteras.com.pe/2026/11/05/arequipa-extranjero-muere-tras-ataque-a-balazos-frente-a-la-universidad-continental/",
+      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/11/IMG_20261105_154147_800_x_533_pixel.jpg",
+      "local_image": "images/today/2026-11-05_Diario_Sin_Fronteras_Puno_Arequipa_Extranjero_muere_tras_ata.jpg",
+      "date": "2026-11-05T15:46:50",
+      "date_formatted": "Hoy • 3:46 PM",
+      "date_full": "5 de Noviembre de 2026, 3:46 PM",
+      "timestamp": 1793911610,
+      "summary": "Un ciudadano de nacionalidad venezolana falleció la tarde tras ser atacado con arma de fuego en la avenida Los Incas, frente a"
+    },
+    {
+      "id": "nacional-4-RPP_Noticias_Comas_buscan",
+      "title": "Comas: buscan a mujer con discapacidad intelectual que desapareció hace un día",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/rotafono/servicios-a-la-comunidad/comas-buscan-a-mujer-con-discapacidad-intelectual-que-desaparecio-hace-un-dia-noticia-1716167",
+      "image_url": "https://f.rpp-noticias.io/2026/11/05/360936_1926126.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-05_RPP_Noticias_Comas_buscan_a_mujer_con_discapaci.jpg",
+      "date": "Thu, 05 Nov 2026 15:41:28 -0500",
+      "date_formatted": "Hoy • 3:41 PM",
+      "date_full": "5 de Noviembre de 2026, 3:41 PM",
+      "timestamp": 1793911288,
+      "summary": "Rotafono de RPP | Yenci Karina Rivera, de 36 años, sufre de epilepsia. Su familia de Collique, en el distrito limeño de Comas, pide ayuda para localizarla."
+    },
+    {
+      "id": "nacional-8-Agencia_Andina_Papa_Leon_",
       "title": "Papa León XIV en Cusco: comenzó la instalación de estructuras metálicas en Sacsayhuamán",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -114,15 +429,15 @@
       "date_formatted": "Hoy • 3:38 PM",
       "date_full": "5 de Noviembre de 2026, 3:38 PM",
       "timestamp": 1793911139,
-      "summary": "El Arzobispado de Cusco confirmó el inicio de la instalación de estructuras metálicas en la explanada del parque arqueológico de Sacsayhuaman y la plaza de armas ante la proximidad de la visita pastoral y mensaje a fiele..."
+      "summary": "El Arzobispado de Cusco confirmó el inicio de la instalación de estructuras metálicas en la explanada del parque arqueológico de Sacsayhuamán y la plaza de armas ante la proximidad de la visita pastoral y mensaje a fiele..."
     },
     {
-      "id": "nacional-2-Agencia_Andina_Vozinha_qu",
-      "title": "Vozinha, quien está cerca de ser campeón en Chile, quiene jugar la Copa Libertadores",
+      "id": "nacional-9-Agencia_Andina_Vozinha_qu",
+      "title": "Vozinha, quien está cerca de ser campeón en Chile, quiere jugar la Copa Libertadores",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
       "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-vozinha-quien-esta-cerca-ser-campeon-chile-quiene-jugar-copa-libertadores-1098776.aspx",
+      "url": "https://andina.pe/agencia/noticia-vozinha-quien-esta-cerca-ser-campeon-chile-quiere-jugar-copa-libertadores-1098776.aspx",
       "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/05/001329578W.jpg",
       "local_image": "images/today/2026-11-05_Agencia_Andina_Vozinha_quien_esta_cerca_de_ser_ca.jpg",
       "date": "Thu, 05 Nov 2026 15:37:27 -0500",
@@ -130,21 +445,6 @@
       "date_full": "5 de Noviembre de 2026, 3:37 PM",
       "timestamp": 1793911047,
       "summary": "El portero mundialista de Cabo Verde Josimar José Évora Dias 'Vozinha' manifestó este jueves su deseo de jugar la próxima Copa Libertadores, en la antesala a un partido decisivo en el que Colo Colo podría conquistar su t..."
-    },
-    {
-      "id": "internacional-2-El_Pais_Internacional_Ult",
-      "title": "Última hora de la Cumbre Iberoamericana, en directo | Sánchez afirma que la dimisión de Puente fue “por empatía por las víctimas y para restablecer la confianza” en el sistema ferroviario",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "El País Internacional",
-      "url": "https://elpais.com/espana/2026-11-05/ultima-hora-de-la-cumbre-iberoamericana-de-madrid-en-directo.html",
-      "image_url": "https://imagenes.elpais.com/resizer/v2/TVD37S57PFD57IIQUAKOPI5K2I.jpg?auth=d778fd9abebe996f36e267fa5982cdff39828d0e557beff0e7645baa4527fd02",
-      "local_image": "images/today/2026-11-05_El_Pais_Internacional_Ultima_hora_de_la_Cumbre_Iberoameri.jpg",
-      "date": "Thu, 05 Nov 2026 20:36:09 GMT",
-      "date_formatted": "Hoy • 3:36 PM",
-      "date_full": "5 de Noviembre de 2026, 3:36 PM",
-      "timestamp": 1793910969,
-      "summary": "El presidente, sobre Milei: “El insulto no forma parte de mi forma de hacer política” | Felipe VI: “Somos el contrapunto a un tiempo marcado por los bloques, los frentes y la rivalidad”"
     },
     {
       "id": "internacional-6-BBC_Mundo_El_gobernador_G",
@@ -162,7 +462,7 @@
       "summary": "Históricamente, California ha tenido la mayor población de presos condenados a muerte en Estados Unidos."
     },
     {
-      "id": "nacional-3-Agencia_Andina_Papa_Leon_",
+      "id": "nacional-10-Agencia_Andina_Papa_Leon_",
       "title": "Papa León XIV: 1,000 cámaras de videovigilancia y drones complementarán seguridad en Lima",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -177,37 +477,7 @@
       "summary": "A pocos días de la llegada del papa León XIV al Perú, el alcalde de Lima, Renzo Reggiardo, informó que alrededor de 1,000 agentes municipales, drones y cámaras de videovigilancia reforzarán la seguridad durante las activ..."
     },
     {
-      "id": "nacional-4-Agencia_Andina_Ancash_dir",
-      "title": "Áncash: dirigente fallece tras enfrentamiento durante diligencia en laguna Yanacocha",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-ancash-dirigente-fallece-tras-enfrentamiento-durante-diligencia-laguna-yanacocha-1098773.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/05/001329574W.jpg",
-      "local_image": "images/today/2026-11-05_Agencia_Andina_Ancash_dirigente_fallece_tras_enfr.jpg",
-      "date": "Thu, 05 Nov 2026 15:24:11 -0500",
-      "date_formatted": "Hoy • 3:24 PM",
-      "date_full": "5 de Noviembre de 2026, 3:24 PM",
-      "timestamp": 1793910251,
-      "summary": "Un dirigente comunal falleció tras los actos de violencia registrados durante una diligencia de verificación de denuncias por presunta contaminación ambiental en la laguna Yanacocha, ubicada en la provincia de Antonio Ra..."
-    },
-    {
-      "id": "nacional-5-Agencia_Andina_El_Peru_li",
-      "title": "El Perú listo para albergar el Mundial de Surf en el CAR Punta Rocas del IPD",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-el-peru-listo-para-albergar-mundial-surf-el-car-punta-rocas-del-ipd-1098774.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/05/001329575W.jpg",
-      "local_image": "images/today/2026-11-05_Agencia_Andina_El_Peru_listo_para_albergar_el_Mund.jpg",
-      "date": "Thu, 05 Nov 2026 15:21:24 -0500",
-      "date_formatted": "Hoy • 3:21 PM",
-      "date_full": "5 de Noviembre de 2026, 3:21 PM",
-      "timestamp": 1793910084,
-      "summary": "El Perú volverá a estar en los ojos del planeta, con la realización de los ISA World Surfing Games Perú 2026, el  Mundial de Surf, que con el respaldo del Instituto Peruano del Deporte (IPD), se realizará desde este vier..."
-    },
-    {
-      "id": "regional-1-Diario_Los_Andes_Puno_Fis",
+      "id": "regional-2-Diario_Los_Andes_Puno_Fis",
       "title": "Fiscalía pide archivar proceso contra César Hinostroza por caso Cuellos Blancos",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -222,52 +492,7 @@
       "summary": "El Ministerio Público solicitó al Poder Judicial archivar definitivamente el proceso penal contra el exjuez supremo César Hinostroza Pariachi y el expresidente del CNM, Orlando Velásquez Benites, por presuntos delitos de..."
     },
     {
-      "id": "nacional-6-Agencia_Andina_Productore",
-      "title": "Productores agrarios cuentan con Seguro Agrícola Catastrófico: cubre S/1,000 por hectárea",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-productores-agrarios-cuentan-seguro-agricola-catastrofico-cubre-s1000-hectarea-1066126.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/01/02/001239735W.webp",
-      "local_image": "images/today/2026-11-05_Agencia_Andina_Productores_agrarios_cuentan_con_Se.jpg",
-      "date": "Thu, 05 Nov 2026 15:12:30 -0500",
-      "date_formatted": "Hoy • 3:12 PM",
-      "date_full": "5 de Noviembre de 2026, 3:12 PM",
-      "timestamp": 1793909550,
-      "summary": "El Ministerio de Desarrollo Agrario y Riego (Midagri) informó que está a disposición del sector agrario el Seguro Agrícola Catastrófico (SAC), medida de protección social del Estado."
-    },
-    {
-      "id": "nacional-2-RPP_Noticias_Liga_MX_FC_J",
-      "title": "Liga MX: FC Juárez enfrenta a Atl. de San Luis buscando salir del último puesto",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/ligas-internacionales/liga-mx-fc-juarez-enfrenta-a-atl-de-san-luis-buscando-salir-del-ultimo-puesto-noticia-1716154",
-      "image_url": "https://f.rpp-noticias.io/2026/11/05/1926098.1742511041?imgdimension=look",
-      "local_image": "images/today/2026-11-05_RPP_Noticias_Liga_MX_FC_Juarez_enfrenta_a_Atl.jpg",
-      "date": "Thu, 05 Nov 2026 15:09:40 -0500",
-      "date_formatted": "Hoy • 3:09 PM",
-      "date_full": "5 de Noviembre de 2026, 3:09 PM",
-      "timestamp": 1793909380,
-      "summary": "Todos los detalles de la previa del partido entre Atl. de San Luis y FC Juárez, que se jugará mañana desde las 20:00 horas en Alfonso Lastras Ramírez."
-    },
-    {
-      "id": "nacional-3-RPP_Noticias_Liga_MX_Neca",
-      "title": "Liga MX: Necaxa recibirá a Tijuana por la fecha 16",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/ligas-internacionales/liga-mx-necaxa-recibira-a-tijuana-por-la-fecha-16-noticia-1716153",
-      "image_url": "https://f.rpp-noticias.io/2026/11/05/1926096.1770244858?imgdimension=look",
-      "local_image": "images/today/2026-11-05_RPP_Noticias_Liga_MX_Necaxa_recibira_a_Tijuana.jpg",
-      "date": "Thu, 05 Nov 2026 15:09:39 -0500",
-      "date_formatted": "Hoy • 3:09 PM",
-      "date_full": "5 de Noviembre de 2026, 3:09 PM",
-      "timestamp": 1793909379,
-      "summary": "Te contamos la previa del duelo Necaxa vs Tijuana, que se enfrentarán en el estadio Victoria mañana a las 20:00 horas."
-    },
-    {
-      "id": "internacional-1-France_24_en_Espanol_Isra",
+      "id": "internacional-2-France_24_en_Espanol_Isra",
       "title": "Israel: Gadi Eisenkot busca consolidar sus apoyos para formar Gobierno tras las elecciones",
       "category": "internacional",
       "category_label": "Internacional",
@@ -280,21 +505,6 @@
       "date_full": "5 de Noviembre de 2026, 3:05 PM",
       "timestamp": 1793909116,
       "summary": "El bloque de oposición israelí, encabezado por Gadi Eisenkot, busca reunir los apoyos necesarios para formar una mayoría parlamentaria tras las elecciones legislativas del 27 de octubre, que no dejaron un vencedor claro...."
-    },
-    {
-      "id": "nacional-7-Agencia_Andina_Papa_Leon_",
-      "title": "Papa León XIV: internos del penal de Pucallpa elaboran sillas destinadas para el pontífice",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-papa-leon-xiv-internos-del-penal-pucallpa-elaboran-sillas-destinadas-para-pontifice-1098770.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/05/001329564W.jpg",
-      "local_image": "images/today/2026-11-05_Agencia_Andina_Papa_Leon_XIV_internos_del_penal_d.jpg",
-      "date": "Thu, 05 Nov 2026 15:04:20 -0500",
-      "date_formatted": "Hoy • 3:04 PM",
-      "date_full": "5 de Noviembre de 2026, 3:04 PM",
-      "timestamp": 1793909060,
-      "summary": "Internos del establecimiento penitenciario de Pucallpa elaboraron dos sillas de madera destinadas a la visita del papa León XIV, prevista para el domingo 15 de noviembre en la capital de Ucayali. Una de las piezas será u..."
     },
     {
       "id": "internacional-2-BBC_Mundo_Santiago_Pena_r",
@@ -312,66 +522,6 @@
       "summary": "La decisión llega después de que legisladores de la oposición y de su propio partido impulsaran un juicio político para destituirlo."
     },
     {
-      "id": "nacional-5-RPP_Noticias_Paraguay_dip",
-      "title": "Paraguay: diputados rechazan juicio político a vicepresidente que sería el posible sucesor de Santiago Peña",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/mundo/latinoamerica/paraguay-diputados-rechazan-juicio-politico-a-vicepresidente-que-seria-el-posible-sucesor-de-santiago-pena-noticia-1716144",
-      "image_url": "https://f.rpp-noticias.io/2026/11/05/455545_1926086.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-05_RPP_Noticias_Paraguay_diputados_rechazan_juicio.jpg",
-      "date": "Thu, 05 Nov 2026 15:03:11 -0500",
-      "date_formatted": "Hoy • 3:03 PM",
-      "date_full": "5 de Noviembre de 2026, 3:03 PM",
-      "timestamp": 1793908991,
-      "summary": "El vicepresidente Pedro Alliana envueltos en la tormenta que se desató en el país tras el procedimiento de disolución de Ueno, que congeló los recursos de miles de clientes, en su mayoría personas del común y distintas e..."
-    },
-    {
-      "id": "nacional-8-RPP_Noticias_Natalia_Sala",
-      "title": "Natalia Salas celebra sus bodas de papel con fotos inéditas y una romántica dedicatoria a su esposo",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/famosos/farandula/natalia-salas-celebra-sus-bodas-de-papel-con-fotos-ineditas-y-una-romantica-dedicatoria-a-su-esposo-noticia-1716138",
-      "image_url": "https://f.rpp-noticias.io/2026/11/05/055105_1926082.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-05_RPP_Noticias_Natalia_Salas_celebra_sus_bodas_de.jpg",
-      "date": "Thu, 05 Nov 2026 15:00:18 -0500",
-      "date_formatted": "Hoy • 3:00 PM",
-      "date_full": "5 de Noviembre de 2026, 3:00 PM",
-      "timestamp": 1793908818,
-      "summary": "En octubre de 2025, Natalia Salas anunció que el cáncer de mama que enfrentaba había reaparecido en una de sus vértebras, con metástasis; pese a este diagnóstico, la actriz decidió continuar con sus planes de matrimonio."
-    },
-    {
-      "id": "nacional-8-Agencia_Andina_Congreso_i",
-      "title": "Congreso inaugura módulo de voluntariado para canalizar ayuda a población vulnerable",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-congreso-inaugura-modulo-voluntariado-para-canalizar-ayuda-a-poblacion-vulnerable-1098767.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/05/001329551W.jpg",
-      "local_image": "images/today/2026-11-05_Agencia_Andina_Congreso_inaugura_modulo_de_volunta.jpg",
-      "date": "Thu, 05 Nov 2026 14:45:17 -0500",
-      "date_formatted": "Hoy • 2:45 PM",
-      "date_full": "5 de Noviembre de 2026, 2:45 PM",
-      "timestamp": 1793907917,
-      "summary": "El presidente del Congreso, Miguel Ángel Torres Morales, inauguró el módulo de la Oficina de Voluntariado, ubicado en la Sala Luna Pizarro del Palacio Legislativo, con el objetivo de promover la participación ciudadana y..."
-    },
-    {
-      "id": "nacional-9-Agencia_Andina_Felaban_Ya",
-      "title": "Felaban: Yape plantea que regulación debe priorizar ciberseguridad del sistema financiero",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-felaban-yape-plantea-regulacion-debe-priorizar-ciberseguridad-del-sistema-financiero-1098751.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/05/001329487W.jpg",
-      "local_image": "images/today/2026-11-05_Agencia_Andina_Felaban_Yape_plantea_que_regulacio.jpg",
-      "date": "Thu, 05 Nov 2026 14:41:46 -0500",
-      "date_formatted": "Hoy • 2:41 PM",
-      "date_full": "5 de Noviembre de 2026, 2:41 PM",
-      "timestamp": 1793907706,
-      "summary": "El líder de la billetera digital Yape, Rufino Arribas, sostuvo hoy que las normas de regulación deben priorizar la ciberseguridad de todo el ecosistema financiero."
-    },
-    {
       "id": "internacional-4-El_Pais_Internacional_San",
       "title": "Santiago Abascal acudirá este lunes a ‘La revuelta’ mientras que Ada Colau lo hará el martes",
       "category": "internacional",
@@ -387,7 +537,7 @@
       "summary": "El líder de Vox y la política catalana han aceptado la oferta de David Broncano y serán los invitados estrella del programa de La 1 la próxima semana"
     },
     {
-      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "id": "regional-2-Diario_Sin_Fronteras_Puno",
       "title": "Hoy inicia el Hay Festival Arequipa con más de 156 invitados de 20 países",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -402,7 +552,7 @@
       "summary": "El Hay Festival Arequipa inicia hoy su programación cultural, que se extenderá hasta el domingo y reunirá a más de 156 escritores,"
     },
     {
-      "id": "internacional-2-France_24_en_Espanol_Cuat",
+      "id": "internacional-3-France_24_en_Espanol_Cuat",
       "title": "Cuatro países rompen el consenso en la Cumbre XXX Iberoamericana de Madrid",
       "category": "internacional",
       "category_label": "Internacional",
@@ -417,7 +567,7 @@
       "summary": "En España finalizó la XXX Cumbre Iberoamericana con diferencias entre los líderes políticos de la región, divididos por sus orillas ideológicas: Argentina, Colombia, Costa Rica y Paraguay se desmarcaron del consenso en l..."
     },
     {
-      "id": "internacional-3-France_24_en_Espanol_Acti",
+      "id": "internacional-4-France_24_en_Espanol_Acti",
       "title": "Activista de Hong Kong condenado a 10 años más de prisión por colusión con fuerzas extranjeras",
       "category": "internacional",
       "category_label": "Internacional",
@@ -432,7 +582,7 @@
       "summary": "El activista prodemocracia de Hong Kong Joshua Wong fue condenado este jueves a 10 años más de prisión por colusión con potencias extranjeras, la segunda vez que recibe una pena bajo la ley de seguridad nacional de la ci..."
     },
     {
-      "id": "internacional-4-France_24_en_Espanol_Lleg",
+      "id": "internacional-5-France_24_en_Espanol_Lleg",
       "title": "\"Llegó el día de devolver la camiseta número siete\": Cristiano Ronaldo se retira de Portugal",
       "category": "internacional",
       "category_label": "Internacional",
@@ -447,7 +597,7 @@
       "summary": "Cristiano Ronaldo anunció este 5 de noviembre su retirada definitiva de la selección de Portugal, con la que disputó 234 partidos y marcó 146 goles. A los 41 años, el delantero puso fin a una trayectoria de 23 años en la..."
     },
     {
-      "id": "internacional-5-France_24_en_Espanol_Huel",
+      "id": "internacional-6-France_24_en_Espanol_Huel",
       "title": "Huelga general en Francia por el alto costo de la vida: así avanza la jornada",
       "category": "internacional",
       "category_label": "Internacional",
@@ -462,7 +612,7 @@
       "summary": "Con un minuto de silencio, los manifestantes en Francia recordaron a las víctimas del acto racista de Trappes e iniciaron la huelga general convocada para este 5 de noviembre. El movimiento fue convocado por los sindicat..."
     },
     {
-      "id": "internacional-6-France_24_en_Espanol_Quie",
+      "id": "internacional-7-France_24_en_Espanol_Quie",
       "title": "¿Quién pagará la derrota?: Recrudece la lucha interna en el Partido Republicano tras las midterms",
       "category": "internacional",
       "category_label": "Internacional",
@@ -477,51 +627,6 @@
       "summary": "En nuestra sección En Contexto analizamos las luchas internas y diferencias en la Administración de Donald Trump a partir de las elecciones de mitad de mandato del martes. El vicepresidente J.D. Vance responsabiliza a la..."
     },
     {
-      "id": "nacional-10-Agencia_Andina_Seleccion_",
-      "title": "Selección Peruana: \"Renato Tapia será considerado a partir de marzo\", dice Mano Menezes",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-seleccion-peruana-renato-tapia-sera-considerado-a-partir-marzo-dice-mano-menezes-1098764.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2025/03/18/001153137W.webp",
-      "local_image": "images/today/2026-11-05_Agencia_Andina_Seleccion_Peruana_Renato_Tapia_se.jpg",
-      "date": "Thu, 05 Nov 2026 14:34:06 -0500",
-      "date_formatted": "Hoy • 2:34 PM",
-      "date_full": "5 de Noviembre de 2026, 2:34 PM",
-      "timestamp": 1793907246,
-      "summary": "Mano Menezes, entrenador de la selección peruana, afirmó que Renato Tapia volverá a ser considerado en una lista de convocados desde marzo del siguiente año, despejando así las dudas acerca del regreso del 'Cabezón' al c..."
-    },
-    {
-      "id": "internacional-7-France_24_en_Espanol_Esto",
-      "title": "Esto sabemos del escándalo del Ueno Bank, la crisis que tumbó al presidente paraguayo Santiago Peña",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "France 24 en Español",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261105-esto-sabemos-del-esc%C3%A1ndalo-del-ueno-bank-la-crisis-que-tumb%C3%B3-al-presidente-paraguayo-santiago-pe%C3%B1a",
-      "image_url": "https://s.france24.com/media/display/6d08a08c-d945-11f1-b580-bf1914cabd52/w:1024/p:16x9/FOTO-PORTADA-PARAGUAY-SANTIAGO-PEN%CC%83A-RENUNCIA.jpg",
-      "local_image": "images/today/2026-11-05_France_24_en_Espanol_Esto_sabemos_del_escandalo_del_Ueno.jpg",
-      "date": "Thu, 05 Nov 2026 18:55:09 GMT",
-      "date_formatted": "Hoy • 1:55 PM",
-      "date_full": "5 de Noviembre de 2026, 1:55 PM",
-      "timestamp": 1793904909,
-      "summary": "La disolución por insolvencia financiera del Ueno Bank, uno de los principales bancos digitales de Paraguay y de estrechos vínculos con el presidente Santiago Peña, ha desencadenado una crisis financiera y un terremoto p..."
-    },
-    {
-      "id": "nacional-7-RPP_Noticias_Stake_apuest",
-      "title": "Stake apuestas deportivas Perú 2026: mercados, funciones y opiniones",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/apuestas-deportivas/publirreportaje/stake-apuestas-deportivas-mercados-nuestra-opinion-peru-noticia-1716039",
-      "image_url": "https://f.rpp-noticias.io/2026/11/05/401740_1925905.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-05_RPP_Noticias_Stake_apuestas_deportivas_Peru_2026.jpg",
-      "date": "Thu, 05 Nov 2026 13:51:17 -0500",
-      "date_formatted": "Hoy • 1:51 PM",
-      "date_full": "5 de Noviembre de 2026, 1:51 PM",
-      "timestamp": 1793904677,
-      "summary": "Probamos las apuestas deportivas de Stake en Perú: mercados, Múltiple en el mismo juego, funciones, seguridad y nuestra opinión en 2026."
-    },
-    {
       "id": "internacional-5-El_Pais_Internacional_La_",
       "title": "La UCO registra la casa de Ábalos en Valencia en un nuevo operativo del ‘caso Koldo’ con seis detenidos",
       "category": "internacional",
@@ -534,10 +639,10 @@
       "date_formatted": "Hoy • 1:36 PM",
       "date_full": "5 de Noviembre de 2026, 1:36 PM",
       "timestamp": 1793903817,
-      "summary": "El juez Moreno, que abrió este miércoles una pieza secreta tras un informe de la Guardia Civil, autoriza entradas en domicilios de Madrid, Sevilla y Córdoba y pide información a Adif y una constructora"
+      "summary": "El juez Moreno, que abrió este martes una pieza secreta tras un informe de la Guardia Civil, autoriza entradas en domicilios de Madrid, Sevilla y Córdoba y pide información a Adif y una constructora"
     },
     {
-      "id": "regional-2-Diario_Sin_Fronteras_Puno",
+      "id": "regional-3-Diario_Sin_Fronteras_Puno",
       "title": "Puno: Detienen a hombre por presunto hurto durante el Puno Fest",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -552,22 +657,7 @@
       "summary": "Un hombre de 34 años fue detenido por efectivos policiales, tras ser acusado de sustraer una billetera durante el evento “Puno Fest»"
     },
     {
-      "id": "nacional-1-RPP_Noticias_Reeleccion_e",
-      "title": "Reelección encubierta: ¿quiénes son los segundos regidores detrás de las listas ganadoras?",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/politica/elecciones/reeleccion-encubierta-quienes-son-los-segundos-regidores-detras-de-las-listas-ganadoras-noticia-1713643",
-      "image_url": "https://f.rpp-noticias.io/2026/10/20/200420_1920836.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-05_RPP_Noticias_Reeleccion_encubierta_quienes_son.jpg",
-      "date": "Thu, 05 Nov 2026 13:28:40 -0500",
-      "date_formatted": "Hoy • 1:28 PM",
-      "date_full": "5 de Noviembre de 2026, 1:28 PM",
-      "timestamp": 1793903320,
-      "summary": "Los Jurados Electorales Especiales han adoptado distintos criterios al proclamar a las autoridades en casos de posible reelección encubierta. Mientras el conteo en Lima Metropolitana aún no concluye, conoce quiénes son l..."
-    },
-    {
-      "id": "regional-1-Pachamama_Radio_Puno_Wilm",
+      "id": "regional-3-Pachamama_Radio_Puno_Wilm",
       "title": "Wilmer Limache dedica canciones a la cultura y costumbres de Puno",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -597,7 +687,7 @@
       "summary": "La intervención de Ueno Bank, una de las mayores entidades financieras de Paraguay, ha sacudido al sistema bancario del país y su cúpula política. El presidente del país enfrenta un juicio político que podría aprobarse e..."
     },
     {
-      "id": "regional-2-Diario_Los_Andes_Puno_Cla",
+      "id": "regional-3-Diario_Los_Andes_Puno_Cla",
       "title": "Clausuran chicharronerías en Ilave por arrojar aguas con grasa a la vía pública",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -612,7 +702,7 @@
       "summary": "El vertimiento de aguas residuales con contenido de grasa directamente sobre las veredas y la vía pública fue uno de los problemas detectados durante un operativo de fiscalización a chicharronerías de la avenida Puno, en..."
     },
     {
-      "id": "regional-3-Diario_Sin_Fronteras_Puno",
+      "id": "regional-4-Diario_Sin_Fronteras_Puno",
       "title": "Asillo: Suspenden obra de colegio inicial por falta de pagos",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -627,7 +717,7 @@
       "summary": "La construcción de la Institución Educativa Inicial N.° 058 del centro poblado de Progreso, distrito de Asillo, provincia de Azángaro, permanece suspendida"
     },
     {
-      "id": "regional-2-Pachamama_Radio_Puno_Puno",
+      "id": "regional-4-Pachamama_Radio_Puno_Puno",
       "title": "Puno: Precios suben 0,78% en octubre y afectan transporte y alimentos",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -642,7 +732,7 @@
       "summary": "INEI reporta que los precios en Puno subieron 0,78% en octubre de 2026; transporte aumentó 3,61% y alimentos 0,88%, afectando el gasto familiar"
     },
     {
-      "id": "regional-3-Diario_Los_Andes_Puno_Obr",
+      "id": "regional-4-Diario_Los_Andes_Puno_Obr",
       "title": "Obra de colegio inicial en Asillo permanece paralizada por falta de pago de valorizaciones",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -672,7 +762,7 @@
       "summary": "Tres aeronaves han tenido origen o destino en Madrid. Bruselas pide colaboración a los Estados para aclarar la incidencia, similar a la registrada el martes en otros siete vuelos"
     },
     {
-      "id": "regional-4-Diario_Los_Andes_Puno_TC_",
+      "id": "regional-5-Diario_Los_Andes_Puno_TC_",
       "title": "TC admite demanda contra pensión de S/ 3.500 para maestros jubilados",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -687,7 +777,7 @@
       "summary": "El Tribunal Constitucional (TC) admitió a trámite la demanda de inconstitucionalidad presentada por el Colegio de Economistas de Lima contra la Ley 32581, que establece una pensión de hasta S/ 3.500 para los maestros jub..."
     },
     {
-      "id": "regional-5-Diario_Los_Andes_Puno_Det",
+      "id": "regional-6-Diario_Los_Andes_Puno_Det",
       "title": "Detienen a sujeto por presunto hurto de billetera durante el Puno Fest",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -702,7 +792,7 @@
       "summary": "Un hombre de 34 años, identificado como C.A.T.C., fue detenido por su presunta participación en el hurto de una billetera durante las actividades por el 358.º aniversario de Puno. La intervención se realizó en la platafo..."
     },
     {
-      "id": "regional-6-Diario_Los_Andes_Puno_Ale",
+      "id": "regional-7-Diario_Los_Andes_Puno_Ale",
       "title": "Alertan lluvias, granizo y nevadas en siete provincias de Puno",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -717,7 +807,7 @@
       "summary": "El Servicio Nacional de Meteorología e Hidrología (Senamhi) emitió el aviso meteorológico N.° 455-103, que advierte la ocurrencia de precipitaciones de moderada a fuerte intensidad en el altiplano de Puno, desde el viern..."
     },
     {
-      "id": "regional-3-Pachamama_Radio_Puno_Azan",
+      "id": "regional-5-Pachamama_Radio_Puno_Azan",
       "title": "Azángaro: Obra de inicial en Asillo sigue paralizada y registra 58,92% de avance",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -732,7 +822,7 @@
       "summary": "El diputado César Hugo Tito Rojas afirma que dialogaría con Keiko Fujimori para exigir inversión en Puno y pide disculpas públicas al senador Edgar Mancha Pineda"
     },
     {
-      "id": "regional-7-Diario_Los_Andes_Puno_Dos",
+      "id": "regional-8-Diario_Los_Andes_Puno_Dos",
       "title": "Dos heridos tras choque entre motocarga y automóvil en la vía Juliaca-Huata",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -747,7 +837,7 @@
       "summary": "Un accidente de tránsito entre una motocarga y un automóvil dejó dos personas heridas cerca de las 6:40 de la tarde del miércoles 4 de noviembre, en la vía Juliaca-Huata. Ambas fueron auxiliadas por personal de Serenazgo..."
     },
     {
-      "id": "regional-4-Pachamama_Radio_Puno_Azan",
+      "id": "regional-6-Pachamama_Radio_Puno_Azan",
       "title": "Azángaro: Obra de inicial en Asillo sigue paralizada y registra 58,92% de avance",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -762,7 +852,7 @@
       "summary": "Contraloría alertó que la obra del colegio de Progreso, Asillo, sigue paralizada desde junio; registra 58,92% de avance, debe S/ 297 458 y afecta ya a escolares"
     },
     {
-      "id": "regional-5-Pachamama_Radio_Puno_Rest",
+      "id": "regional-7-Pachamama_Radio_Puno_Rest",
       "title": "Restituyen restos de 33 víctimas del conflicto armado interno en Ayacucho tras décadas de espera",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -792,7 +882,7 @@
       "summary": "El relevo al frente del espacio satírico de La Sexta supondrá la salida de Gonzo de ‘Salvados’, aunque aún no se ha elegido su sustituto"
     },
     {
-      "id": "regional-6-Pachamama_Radio_Puno_Anto",
+      "id": "regional-8-Pachamama_Radio_Puno_Anto",
       "title": "Antonio Gamero cuestiona envío de gas en camiones a Puno",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -807,37 +897,7 @@
       "summary": "Antonio Gamero cuestionó el transporte de gas en camiones hacia siete regiones y pidió culminar el Gasoducto Sur Peruano para garantizar abastecimiento al sur"
     },
     {
-      "id": "regional-7-Pachamama_Radio_Puno_Juni",
-      "title": "Junín: Alertan riesgo ambiental por deficiente tratamiento de aguas residuales del IREN Centro",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Pachamama Radio (Puno)",
-      "url": "https://pachamamaradio.org/junin-alertan-riesgo-ambiental-por-deficiente-tratamiento-de-aguas-residuales-del-iren-centro/",
-      "image_url": "https://pachamamaradio.org/wp-content/uploads/2026/11/Imagen-muestra-camaras-vacias-de-la-planta-de-tratamieto-de-aguas-residuales-del-Iren-Centro.avif",
-      "local_image": "images/today/2026-11-05_Pachamama_Radio_Puno_Junin_Alertan_riesgo_ambiental_por.jpg",
-      "date": "2026-11-05T11:46:05",
-      "date_formatted": "Hoy • 11:46 AM",
-      "date_full": "5 de Noviembre de 2026, 11:46 AM",
-      "timestamp": 1793897165,
-      "summary": "La planta de tratamiento de aguas residuales del Instituto Regional de Enfermedades Neoplásicas (IREN) Centro, ubicado en el sector Palo Seco, en la provincia de Concepción, presenta problemas en su…"
-    },
-    {
-      "id": "regional-8-Pachamama_Radio_Puno_Jaen",
-      "title": "Jaén presente en la FICAFÉ Cusco 2026 con lo mejor de su producción cafetalera",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Pachamama Radio (Puno)",
-      "url": "https://pachamamaradio.org/jaen-presente-en-la-ficafe-cusco-2026-con-lo-mejor-de-su-produccion-cafetalera/",
-      "image_url": "https://pachamamaradio.org/wp-content/uploads/2026/11/Copia-de-POST-50-ANOS-15.avif",
-      "local_image": "images/today/2026-11-05_Pachamama_Radio_Puno_Jaen_presente_en_la_FICAFE_Cusco_20.jpg",
-      "date": "2026-11-05T11:44:08",
-      "date_formatted": "Hoy • 11:44 AM",
-      "date_full": "5 de Noviembre de 2026, 11:44 AM",
-      "timestamp": 1793897048,
-      "summary": "La ciudad del Cusco inauguró la X Feria Internacional de Cafés Especiales (FICAFÉ 2026), un evento que reúne a productores de 17 regiones del país y busca posicionar el café…"
-    },
-    {
-      "id": "regional-4-Diario_Sin_Fronteras_Puno",
+      "id": "regional-5-Diario_Sin_Fronteras_Puno",
       "title": "INPE traslada a 30 integrantes de Los Pulpos, La Jauría y Chicago Bulls a penales de máxima seguridad",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -867,7 +927,7 @@
       "summary": "Tras conocerse el veredicto, el juez Joel Bennathan anunció que el hombre de 51 años quedaría en prisión preventiva."
     },
     {
-      "id": "regional-5-Diario_Sin_Fronteras_Puno",
+      "id": "regional-6-Diario_Sin_Fronteras_Puno",
       "title": "Ananea: Capturan a presunto autor del homicidio de teniente gobernador auxiliar",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -882,7 +942,7 @@
       "summary": "Un hombre identificado como Jesús Ramos Mamani fue detenido por efectivos de la Policía Nacional en el distrito de Ananea, provincia de"
     },
     {
-      "id": "regional-6-Diario_Sin_Fronteras_Puno",
+      "id": "regional-7-Diario_Sin_Fronteras_Puno",
       "title": "Bob Dylan se reúne con el papa León XIV en una audiencia privada en el Vaticano",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -942,21 +1002,6 @@
       "summary": "La contundente valoración que hizo el vicepresidente de la derrota electoral republicana marcó una de las rupturas más marcadas con un presidente en ejercicio en la historia reciente."
     },
     {
-      "id": "nacional-4-RPP_Noticias_Precio_del_d",
-      "title": "Precio del dólar Perú y tipo de cambio hoy 05 de noviembre del 2026",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/economia/economia/precio-del-dolar-peru-y-tipo-de-cambio-hoy-05-de-noviembre-del-2026-noticia-1716025",
-      "image_url": "https://f.rpp-noticias.io/2025/08/25/213221_1784715.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-05_RPP_Noticias_Precio_del_dolar_Peru_y_tipo_de_cam.jpg",
-      "date": "Thu, 05 Nov 2026 06:05:39 -0500",
-      "date_formatted": "Hoy • 6:05 AM",
-      "date_full": "5 de Noviembre de 2026, 6:05 AM",
-      "timestamp": 1793876739,
-      "summary": "En Perú, el tipo de cambio para hoy jueves 05 de noviembre es de  S/3.45 según el Banco Central de Reserva Del Perú."
-    },
-    {
       "id": "internacional-5-BBC_Mundo_No_sabia_que_te",
       "title": "\"No sabía que tenía deficiencia de vitamina D hasta que me desmayé en el trabajo\"",
       "category": "internacional",
@@ -972,7 +1017,7 @@
       "summary": "Los médicos están constatando que la deficiencia de vitamina D está cada vez más extendida en Reino Unido, especialmente entre los jóvenes. Sin embargo, los síntomas son difíciles de detectar y pueden pasar desapercibido..."
     },
     {
-      "id": "nacional-6-RPP_Noticias_SENAMHI_Pron",
+      "id": "nacional-9-RPP_Noticias_SENAMHI_Pron",
       "title": "SENAMHI: Pronóstico del clima hoy jueves 05 de noviembre 2026",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -985,21 +1030,6 @@
       "date_full": "5 de Noviembre de 2026, 4:00 AM",
       "timestamp": 1793869245,
       "summary": "Consulta el pronóstico del clima hoy en Lima y ciudades del Perú: temperatura actual, sensación térmica, radiación UV, probabilidad de lluvia y reporte oficial del Senamhi actualizado."
-    },
-    {
-      "id": "regional-8-Diario_Los_Andes_Puno_Ecu",
-      "title": "Ecuador alerta por fuertes lluvias de El Niño y advierte riesgo de nuevas inundaciones",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Diario Los Andes (Puno)",
-      "url": "https://losandes.com.pe/ecuador-alerta-por-fuertes-lluvias-de-el-nino-y-advierte-riesgo-de-nuevas-inundaciones/",
-      "image_url": "https://losandes.com.pe/wp-content/uploads/2026/11/JRC-PORTADA-JUNIO-PLANTILLA-2026-25.jpg",
-      "local_image": "images/today/2026-11-05_Diario_Los_Andes_Puno_Ecuador_alerta_por_fuertes_lluvias.jpg",
-      "date": "2026-11-05T01:38:48",
-      "date_formatted": "Hoy • 1:38 AM",
-      "date_full": "5 de Noviembre de 2026, 1:38 AM",
-      "timestamp": 1793860728,
-      "summary": "El Comité de Operaciones de Emergencia (COE) Nacional de Ecuador pidió a la población extremar las precauciones ante el pronóstico de fuertes lluvias durante la noche del miércoles 4 de noviembre. Las precipitaciones est..."
     },
     {
       "id": "internacional-3-El_Pais_Internacional_Las",
@@ -1017,7 +1047,7 @@
       "summary": "Tras una semana de identificaciones y certificaciones, estas son las víctimas del trágico accidente de tren que ha conmocionado a España"
     },
     {
-      "id": "regional-7-Diario_Sin_Fronteras_Puno",
+      "id": "regional-8-Diario_Sin_Fronteras_Puno",
       "title": "Fiscalía solicita archivar investigación contra César Hinostroza por caso Los Cuellos Blancos del Puerto",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -1030,21 +1060,6 @@
       "date_full": "4 de Noviembre de 2026, 10:47 PM",
       "timestamp": 1793850460,
       "summary": "El Ministerio Público solicitó al Poder Judicial archivar definitivamente la investigación contra el exjuez supremo César Hinostroza Pariachi y el expresidente del"
-    },
-    {
-      "id": "regional-8-Diario_Sin_Fronteras_Puno",
-      "title": "Deb Haaland hace historia al convertirse en la primera mujer indígena elegida gobernadora en Estados Unidos",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Diario Sin Fronteras (Puno)",
-      "url": "https://diariosinfronteras.com.pe/2026/11/04/deb-haaland-hace-historia-al-convertirse-en-la-primera-mujer-indigena-elegida-gobernadora-en-estados-unidos/",
-      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/11/FOTOS-NOTAS-DSF-2026-11-04T223843.561.jpg",
-      "local_image": "images/today/2026-11-05_Diario_Sin_Fronteras_Puno_Deb_Haaland_hace_historia_al_conve.jpg",
-      "date": "2026-11-04T22:39:20",
-      "date_formatted": "4 Nov • 10:39 PM",
-      "date_full": "4 de Noviembre de 2026, 10:39 PM",
-      "timestamp": 1793849960,
-      "summary": "La demócrata Deb Haaland ganó las elecciones a la gobernación de Nuevo México y se convertirá en la primera mujer indígena estadounidense"
     }
   ]
 }
