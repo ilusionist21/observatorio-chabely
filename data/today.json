@@ -1,14 +1,14 @@
 {
   "title": "Observatorio para Chabely",
   "date": "2026-11-09",
-  "updated_at": "9 de Noviembre de 2026 a las 6:06 PM (Hora Perú)",
-  "updated_at_iso": "2026-11-09T18:06:14.463374-05:00",
+  "updated_at": "9 de Noviembre de 2026 a las 6:52 PM (Hora Perú)",
+  "updated_at_iso": "2026-11-09T18:52:43.459562-05:00",
   "stats": {
-    "total": 68,
+    "total": 70,
     "portadas": 4,
     "regional": 24,
-    "nacional": 18,
-    "internacional": 22
+    "nacional": 19,
+    "internacional": 23
   },
   "media": [
     {
@@ -23,7 +23,7 @@
       "date": "2026-11-09",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 9 de Noviembre de 2026",
-      "timestamp": 1794265574,
+      "timestamp": 1794268363,
       "summary": "Primera plana y portada oficial del diario El Comercio (Perú) correspondiente al 9 de Noviembre de 2026."
     },
     {
@@ -38,7 +38,7 @@
       "date": "2026-11-09",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 9 de Noviembre de 2026",
-      "timestamp": 1794265574,
+      "timestamp": 1794268363,
       "summary": "Primera plana y portada oficial del diario La República (Perú) correspondiente al 9 de Noviembre de 2026."
     },
     {
@@ -53,7 +53,7 @@
       "date": "2026-11-09",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 9 de Noviembre de 2026",
-      "timestamp": 1794265574,
+      "timestamp": 1794268363,
       "summary": "Primera plana y portada oficial del diario Líbero (Perú) correspondiente al 9 de Noviembre de 2026."
     },
     {
@@ -68,11 +68,191 @@
       "date": "2026-11-09",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 9 de Noviembre de 2026",
-      "timestamp": 1794265574,
+      "timestamp": 1794268363,
       "summary": "Primera plana y portada oficial del diario El País (España / Global) correspondiente al 9 de Noviembre de 2026."
     },
     {
-      "id": "nacional-2-RPP_Noticias_Union_Europe",
+      "id": "nacional-1-Agencia_Andina_Aeronave_C",
+      "title": "Aeronave Cessna SkyCourier contribuirá a fortalecer conectividad aérea de la Amazonía",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-aeronave-cessna-skycourier-contribuira-a-fortalecer-conectividad-aerea-de-amazonia-1099249.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/09/001330663W.jpg",
+      "local_image": "images/today/2026-11-09_Agencia_Andina_Aeronave_Cessna_SkyCourier_contribu.jpg",
+      "date": "Mon, 09 Nov 2026 18:48:19 -0500",
+      "date_formatted": "Hoy • 6:48 PM",
+      "date_full": "9 de Noviembre de 2026, 6:48 PM",
+      "timestamp": 1794268099,
+      "summary": "La aeronave Cessna SkyCourier, de la empresa Servicios Aéreos Tarapoto (SAETA Perú), realizada en la ciudad de Tarapoto, región San Martín, representa un avance en la modernización de la flota aérea nacional y contribuir..."
+    },
+    {
+      "id": "nacional-2-Agencia_Andina_Ministro_A",
+      "title": "Ministro Astudillo: tecnología e inteligencia fortalecen lucha de la PNP contra el crimen",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-ministro-astudillo-tecnologia-e-inteligencia-fortalecen-lucha-de-pnp-contra-crimen-1099250.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/09/001330627W.jpg",
+      "local_image": "images/today/2026-11-09_Agencia_Andina_Ministro_Astudillo_tecnologia_e_in.jpg",
+      "date": "Mon, 09 Nov 2026 18:45:27 -0500",
+      "date_formatted": "Hoy • 6:45 PM",
+      "date_full": "9 de Noviembre de 2026, 6:45 PM",
+      "timestamp": 1794267927,
+      "summary": "La tecnología se ha convertido en una herramienta estratégica decisiva para anticipar el delito, identificar a las organizaciones criminales y fortalecer la capacidad de respuesta de la Policía Nacional del Perú (PNP). A..."
+    },
+    {
+      "id": "nacional-1-RPP_Noticias_Develan_esta",
+      "title": "Develan estatua de 14 metros en honor al papa León XIV en el Callao",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/videos/peru/papa-leon-xiv-en-peru-develan-estatua-de-14-metros-en-el-callao-noticia-1716894",
+      "image_url": "https://f.rpp-noticias.io/2026/11/09/tatua-1927527mp4_1927528.jpg",
+      "local_image": "images/today/2026-11-09_RPP_Noticias_Develan_estatua_de_14_metros_en_hon.jpg",
+      "date": "Mon, 09 Nov 2026 18:43:54 -0500",
+      "date_formatted": "Hoy • 6:43 PM",
+      "date_full": "9 de Noviembre de 2026, 6:43 PM",
+      "timestamp": 1794267834,
+      "summary": "La estatua que rinde homenaje al sumo pontífice está ubicada en el parque Niño Gaelito y se convertirá en uno de los principales atractivos turísticos de la zona."
+    },
+    {
+      "id": "nacional-3-Agencia_Andina_Midagri_su",
+      "title": "Midagri supervisa instalación de dos nuevas barreras dinámicas en Santa Eulalia y Chosica",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-midagri-supervisa-instalacion-dos-nuevas-barreras-dinamicas-santa-eulalia-y-chosica-1099251.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/09/001330664W.jpg",
+      "local_image": "images/today/2026-11-09_Agencia_Andina_Midagri_supervisa_instalacion_de_do.jpg",
+      "date": "Mon, 09 Nov 2026 18:42:28 -0500",
+      "date_formatted": "Hoy • 6:42 PM",
+      "date_full": "9 de Noviembre de 2026, 6:42 PM",
+      "timestamp": 1794267748,
+      "summary": "Como parte de la preparación ante el Fenómeno El Niño, el Ministerio de Desarrollo Agrario y Riego (Midagri) supervisó los trabajos finales de instalación de dos nuevas barreras dinámicas en las quebradas Huayaringa y La..."
+    },
+    {
+      "id": "nacional-4-Agencia_Andina_Congreso_p",
+      "title": "Congreso: proponen ampliar libre disponibilidad de la CTS hasta diciembre de 2028",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-congreso-proponen-ampliar-libre-disponibilidad-de-cts-hasta-diciembre-2028-1099245.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2025/12/17/001235635W.webp",
+      "local_image": "images/today/2026-11-09_Agencia_Andina_Congreso_proponen_ampliar_libre_di.jpg",
+      "date": "Mon, 09 Nov 2026 18:42:01 -0500",
+      "date_formatted": "Hoy • 6:42 PM",
+      "date_full": "9 de Noviembre de 2026, 6:42 PM",
+      "timestamp": 1794267721,
+      "summary": "En la Cámara de Diputados del Congreso de la República se presentó un proyecto de ley que plantea ampliar el plazo para la libre disponibilidad de la Compensación por Tiempo de Servicios (CTS) hasta diciembre del año 202..."
+    },
+    {
+      "id": "internacional-1-France_24_en_Espanol_Hegs",
+      "title": "Hegseth en la cuerda floja: ¿saldrá el jefe del Pentágono del Gobierno de Trump?",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "France 24 en Español",
+      "url": "https://www.france24.com/es/ee-uu-y-canad%C3%A1/20261109-hegseth-en-la-cuerda-floja-saldr%C3%A1-el-jefe-del-pent%C3%A1gono-del-gobierno-de-trump",
+      "image_url": "https://s.france24.com/media/display/0de11626-2d28-11f1-ab0a-005056a90284/w:1024/p:16x9/2026-03-31T124143Z-763626332-RC2OFKAD4VQ8-RTRMADP-3-IRAN-CRISIS-USA.jpg",
+      "local_image": "images/today/2026-11-09_France_24_en_Espanol_Hegseth_en_la_cuerda_floja_saldra.jpg",
+      "date": "Mon, 09 Nov 2026 23:37:37 GMT",
+      "date_formatted": "Hoy • 6:37 PM",
+      "date_full": "9 de Noviembre de 2026, 6:37 PM",
+      "timestamp": 1794267457,
+      "summary": "El congresista republicano Thomas Massie activó este lunes 9 de noviembre un proceso para destituir al secretario de Defensa, Pete Hegseth. Entre los argumentos están el \"haber iniciado la guerra con Irán sin la autoriza..."
+    },
+    {
+      "id": "internacional-3-BBC_Mundo_Quien_es_la_sup",
+      "title": "Quién es la supuesta espía china que tuvo una relación con el director de Nvidia, el gigante tecnológico de la IA (y otras claves del caso)",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cked3dy4ynjxo?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/a745/live/1232b0e0-dc37-11f1-95cf-a38331e6cb4b.jpg",
+      "local_image": "images/today/2026-11-09_BBC_Mundo_Quien_es_la_supuesta_espia_china_qu.jpg",
+      "date": "Mon, 09 Nov 2026 23:31:27 GMT",
+      "date_formatted": "Hoy • 6:31 PM",
+      "date_full": "9 de Noviembre de 2026, 6:31 PM",
+      "timestamp": 1794267087,
+      "summary": "El multimillonario de la industria tecnológica está inmerso en un escándalo de seguridad personal y nacional."
+    },
+    {
+      "id": "nacional-3-RPP_Noticias_Gas_de_Canda",
+      "title": "Gas de Candamo en la Amazonía divide al Estado: Sernanp advierte que no se puede explotar el Parque Bahuaja Sonene y para Perupetro \"es lo más urgente\"",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/economia/economia/gas-de-candamo-en-la-amazonia-divide-al-estado-sernanp-advierte-que-no-se-puede-explotar-el-parque-bahuaja-sonene-para-perupetro-es-lo-mas-urgente-noticia-1716869",
+      "image_url": "https://f.rpp-noticias.io/2026/11/09/493349_1927502.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-09_RPP_Noticias_Gas_de_Candamo_en_la_Amazonia_divid.jpg",
+      "date": "Mon, 09 Nov 2026 18:30:36 -0500",
+      "date_formatted": "Hoy • 6:30 PM",
+      "date_full": "9 de Noviembre de 2026, 6:30 PM",
+      "timestamp": 1794267036,
+      "summary": "Frente a la necesidad de encontrar nuevas fuentes de gas natural, Perupetro estimó que Candamo podría extender 10 años este recurso y el Sernanp recordó que el parque nacional donde se encuentra no permite actividades de..."
+    },
+    {
+      "id": "internacional-5-El_Pais_Internacional_El_",
+      "title": "El público de Vox, menos “chistecitos”, la falta de “huevos”... Cinco momentos de Santiago Abascal en ‘La revuelta’",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "El País Internacional",
+      "url": "https://elpais.com/television/2026-11-09/el-publico-de-vox-menos-chistecitos-la-falta-de-huevos-cinco-momentos-de-santiago-abascal-en-la-revuelta.html",
+      "image_url": "https://imagenes.elpais.com/resizer/v2/US3WIAKOQFHWDG4VVYWX3PSLOM.jpg?auth=5c2ac7f7ce2519aaabf25fafa1ca35bf9168f536663bb35023ab29417bf2bc43",
+      "local_image": "images/today/2026-11-09_El_Pais_Internacional_El_publico_de_Vox_menos_chistecit.jpg",
+      "date": "Mon, 09 Nov 2026 23:24:47 GMT",
+      "date_formatted": "Hoy • 6:24 PM",
+      "date_full": "9 de Noviembre de 2026, 6:24 PM",
+      "timestamp": 1794266687,
+      "summary": "David Broncano se enfrenta a su entrevista más incómoda con frases largas, tartamudeando y poniendo frente al líder de Vox todo con lo que está en desacuerdo"
+    },
+    {
+      "id": "internacional-3-El_Pais_Internacional_Bro",
+      "title": "Broncano y Abascal, deconstrucción sin éxito",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "El País Internacional",
+      "url": "https://elpais.com/espana/2026-11-09/broncano-y-abascal-deconstruccion-sin-exito.html",
+      "image_url": "https://imagenes.elpais.com/resizer/v2/GVWR3NUCNBEJ7BELIIB67GMBDI.jpg?auth=383509ce123ac87737beb6264911fac3cf0b109ebb82a05d7e277ff9da658838",
+      "local_image": "images/today/2026-11-09_El_Pais_Internacional_Broncano_y_Abascal_deconstruccion.jpg",
+      "date": "Mon, 09 Nov 2026 23:21:03 GMT",
+      "date_formatted": "Hoy • 6:21 PM",
+      "date_full": "9 de Noviembre de 2026, 6:21 PM",
+      "timestamp": 1794266463,
+      "summary": "Iba a entrar el líder de Vox en TVE con motosierra y lanzallamas, y lo ha hecho desde la oposición mientras le gritaban “presidente, presidente” y le hacían la ola. Cosas de la dictadura"
+    },
+    {
+      "id": "internacional-4-El_Pais_Internacional_Aba",
+      "title": "Abascal califica a Sánchez de “dictador” en el programa estrella de la televisión pública",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "El País Internacional",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-09/abascal-califica-a-sanchez-de-dictador-en-el-el-programa-estrella-de-la-television-publica.html",
+      "image_url": "https://imagenes.elpais.com/resizer/v2/6CRHX6L5UBDPHC5HW4LGWWA33Y.jpg?auth=c37af5bcff166d45de4b99889b313017f2a1f27a30043799da5fce4b758b126a",
+      "local_image": "images/today/2026-11-09_El_Pais_Internacional_Abascal_califica_a_Sanchez_de_dict.jpg",
+      "date": "Mon, 09 Nov 2026 23:11:34 GMT",
+      "date_formatted": "Hoy • 6:11 PM",
+      "date_full": "9 de Noviembre de 2026, 6:11 PM",
+      "timestamp": 1794265894,
+      "summary": "El líder de Vox asegura que la ley de violencia de género “tiene que ser revisada”"
+    },
+    {
+      "id": "nacional-4-RPP_Noticias_Pleno_de_Dip",
+      "title": "Pleno de Diputados debatirá suspensión de 120 días para Julián Pérez Mallqui el 23 de noviembre",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/politica/congreso/suspension-de-julian-perez-mallqui-pleno-debatira-sancion-de-120-dias-el-23-de-noviembre-noticia-1716885",
+      "image_url": "https://f.rpp-noticias.io/2026/11/09/270427_1927507.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-09_RPP_Noticias_Pleno_de_Diputados_debatira_suspens.jpg",
+      "date": "Mon, 09 Nov 2026 18:07:32 -0500",
+      "date_formatted": "Hoy • 6:07 PM",
+      "date_full": "9 de Noviembre de 2026, 6:07 PM",
+      "timestamp": 1794265652,
+      "summary": "La Junta de Portavoces de la Cámara de Diputados acordó por unanimidad votar este mes el informe de Ética que recomienda la sanción al parlamentario por presunta agresión contra su expareja."
+    },
+    {
+      "id": "nacional-6-RPP_Noticias_Union_Europe",
       "title": "Unión Europea pide a Israel permitir el \"acceso total\" de ayuda para Gaza ante inundaciones",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -102,7 +282,7 @@
       "summary": "La Asociación de Presidentes de Conjuntos Folclóricos proyecta presentar la festividad en Lima y Juliaca e incorporar un concurso coreográfico"
     },
     {
-      "id": "nacional-1-RPP_Noticias_Tiene_una_an",
+      "id": "nacional-5-RPP_Noticias_Tiene_una_an",
       "title": "¿Tiene una antena de telecomunicaciones en su propiedad? Así puede convertir el alquiler en capital para sus proyectos",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -117,7 +297,7 @@
       "summary": "Telecom Infrastructure Partners ofrece a propietarios con contratos de alquiler de antenas vigentes una oportunidad para obtener capital inmediato, sin vender sus inmuebles ni asumir nuevas deudas. Conozca cómo funciona."
     },
     {
-      "id": "nacional-1-Agencia_Andina_Ministro_d",
+      "id": "nacional-5-Agencia_Andina_Ministro_d",
       "title": "Ministro del Ambiente anuncia inversiones sostenibles por más de S/ 20,000 millones",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -132,7 +312,7 @@
       "summary": "El Ministerio del Ambiente (Minam), a través del Servicio Nacional de Certificación Ambiental para las Inversiones Sostenibles (Senace), aprobó 63 expedientes ambientales de proyectos de inversión desde el 28 de julio, l..."
     },
     {
-      "id": "nacional-2-Agencia_Andina_Congreso_C",
+      "id": "nacional-6-Agencia_Andina_Congreso_C",
       "title": "Congreso: Constitución aprueba creación de cuatro nuevas ligas parlamentarias de amistad",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -147,7 +327,7 @@
       "summary": "La Comisión de Constitución, Reglamento y Relaciones Exteriores de la Cámara de Diputados, que preside Giannina Avendaño (Juntos por el Perú), aprobó la creación de cuatro nuevas ligas parlamentarias de amistad, con el p..."
     },
     {
-      "id": "nacional-3-Agencia_Andina_Minedu_cap",
+      "id": "nacional-8-Agencia_Andina_Minedu_cap",
       "title": "Minedu capacita especialistas para mejorar aprendizajes en escuelas rurales y bilingües",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -162,7 +342,7 @@
       "summary": "El Ministerio de Educación (Minedu) reunió a 630 especialistas de las Direcciones Regionales de Educación (DRE) y Unidades de Gestión Educativa Local (UGEL) como parte de la asistencia técnica del sector para mejorar los..."
     },
     {
-      "id": "nacional-4-Agencia_Andina_EsSalud_re",
+      "id": "nacional-7-Agencia_Andina_EsSalud_re",
       "title": "EsSalud refuerza atención médica y vacunación en el norte del país ante dengue y lluvias",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -207,6 +387,21 @@
       "summary": "Salvador Hancco exige a la comisión de aniversario y al ejecutivo municipal detallar gastos superiores a S/ 100 mil por actividades del aniversario de Puno"
     },
     {
+      "id": "nacional-8-RPP_Noticias_Juan_Pablo_V",
+      "title": "Juan Pablo Varillas vs Tomás Barrios EN VIVO: ¿a qué hora juegan y dónde ver la primera ronda del Challenger de Lima?",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/tenis/mas-tenis/juan-pablo-varillas-vs-tomas-barrios-en-vivo-a-que-hora-juegan-y-donde-ver-primera-ronda-challenger-de-lima-2026-via-atp-tour-noticia-1716882",
+      "image_url": "https://f.rpp-noticias.io/2026/11/09/502050_1927514.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-09_RPP_Noticias_Juan_Pablo_Varillas_vs_Tomas_Barrio.jpg",
+      "date": "Mon, 09 Nov 2026 17:52:25 -0500",
+      "date_formatted": "Hoy • 5:52 PM",
+      "date_full": "9 de Noviembre de 2026, 5:52 PM",
+      "timestamp": 1794264745,
+      "summary": "Juan Pablo Varillas vs Tomás Barrios EN VIVO: se enfrentan por la primera ronda del Challenger de Lima."
+    },
+    {
       "id": "regional-3-Pachamama_Radio_Puno_Quin",
       "title": "Quince proyectos escolares de Juliaca recibirán S/ 5,000 para impulsar emprendimientos",
       "category": "regional",
@@ -237,6 +432,36 @@
       "summary": "Es probable que el intento fracase, pero el representante Thomas Massie quiere presionar a Trump para que despida a Hegseth antes de que los demócratas puedan iniciar su propio proceso de destitución."
     },
     {
+      "id": "internacional-2-France_24_en_Espanol_Cier",
+      "title": "Cierra 'Novaya Gazeta', uno de los pocos medios en Rusia que hablaba contra la guerra en Ucrania",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "France 24 en Español",
+      "url": "https://www.france24.com/es/video/20261109-cierra-novaya-gazeta-uno-de-los-pocos-medios-en-rusia-que-hablaba-contra-la-guerra-en-ucrania",
+      "image_url": "https://s.france24.com/media/display/6e7425f8-dc7f-11f1-8a85-1beafce15fea/w:1024/p:16x9/ES-20261109-114245-114431-CS.jpg",
+      "local_image": "images/today/2026-11-09_France_24_en_Espanol_Cierra_Novaya_Gazeta_uno_de_los.jpg",
+      "date": "Mon, 09 Nov 2026 22:46:01 GMT",
+      "date_formatted": "Hoy • 5:46 PM",
+      "date_full": "9 de Noviembre de 2026, 5:46 PM",
+      "timestamp": 1794264361,
+      "summary": "Este 9 de noviembre, el periódico Novaya Gazeta cierra su redacción luego de que \"las autoridades rusas y los servicios especiales rusos han obligado a poner fin a su trabajo\". Mientras el Kremlin asegura que el \"panoram..."
+    },
+    {
+      "id": "internacional-3-France_24_en_Espanol_Empi",
+      "title": "Empieza la COP31 en Turquía con un complejo panorama climático en el mundo y crisis de combustible",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "France 24 en Español",
+      "url": "https://www.france24.com/es/video/20261109-empieza-la-cop31-en-turqu%C3%ADa-con-un-complejo-panorama-clim%C3%A1tico-en-el-mundo-y-crisis-de-combustible",
+      "image_url": "https://s.france24.com/media/display/080f4f8c-dc7e-11f1-8595-1beafce15fea/w:1024/p:16x9/ES-20261109-113902-114053-CS.jpg",
+      "local_image": "images/today/2026-11-09_France_24_en_Espanol_Empieza_la_COP31_en_Turquia_con_un.jpg",
+      "date": "Mon, 09 Nov 2026 22:44:33 GMT",
+      "date_formatted": "Hoy • 5:44 PM",
+      "date_full": "9 de Noviembre de 2026, 5:44 PM",
+      "timestamp": 1794264273,
+      "summary": "Turquía acoge la COP31, el encuentro climático que busca llegar a acuerdos para hacer frente al cambio climático. Este año, el panorama es más desalentador que en ediciones anteriores, con un mensaje inédito de urgencia ..."
+    },
+    {
       "id": "regional-4-Pachamama_Radio_Puno_Puno",
       "title": "Puno: Ciudadano acusa al PAR Bellavista de no recibir su denuncia contra su expareja",
       "category": "regional",
@@ -252,7 +477,7 @@
       "summary": "Luis Fernando Zuca Pérez denuncia que policías del PAR Bellavista de Puno rechazaron inicialmente su denuncia contra su expareja por presunta agresión familiar"
     },
     {
-      "id": "nacional-5-Agencia_Andina_La_47_a_Fe",
+      "id": "nacional-9-Agencia_Andina_La_47_a_Fe",
       "title": "La 47.ª Feria del Libro Ricardo Palma ofrecerá más de 200 actividades culturales",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -265,21 +490,6 @@
       "date_full": "9 de Noviembre de 2026, 5:39 PM",
       "timestamp": 1794263982,
       "summary": "Con homenajes al escritor Harry Belevan y al arqueólogo Federico Kauffmann Doig, y la presencia de invitados internacionales como América Rodas, Florencia Etcheves y Esteban Castromán, la Feria del Libro Ricardo Palma, v..."
-    },
-    {
-      "id": "internacional-3-El_Pais_Internacional_Ult",
-      "title": "Última hora de la actualidad política, en directo | Abascal atribuye la crisis de la vivienda a la llegada de migrantes y asegura que “el principal fondo buitre es el Gobierno”",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "El País Internacional",
-      "url": "https://elpais.com/espana/2026-11-09/ultima-hora-de-la-actualidad-politica-en-directo.html",
-      "image_url": "https://imagenes.elpais.com/resizer/v2/7S7V3U4ULJNTRBDVTX442BHXTE.jpg?auth=7fb82a4312f3dcd1529496d343571ac7ee30bed39343724f7f611b4f9045e19d",
-      "local_image": "images/today/2026-11-09_El_Pais_Internacional_Ultima_hora_de_la_actualidad_politi.jpg",
-      "date": "Mon, 09 Nov 2026 22:37:49 GMT",
-      "date_formatted": "Hoy • 5:37 PM",
-      "date_full": "9 de Noviembre de 2026, 5:37 PM",
-      "timestamp": 1794263869,
-      "summary": "Pedro Sánchez augura “una movilización histórica” el 29-N | Feijóo ofrece en Palma “orden, seguridad y vivienda” y se compromete a “recuperar el control de las fronteras” | El PP acepta que los debates sean organizados p..."
     },
     {
       "id": "regional-5-Pachamama_Radio_Puno_Juan",
@@ -342,7 +552,7 @@
       "summary": "A un mes de finalizada la Feria Internacional del Libro Arequipa 2026, la organización presentó el balance general del evento, con cifras"
     },
     {
-      "id": "nacional-6-Agencia_Andina_Leon_XIV_s",
+      "id": "nacional-10-Agencia_Andina_Leon_XIV_s",
       "title": "León XIV será custodiado por 37 mil policías, 500 motocicletas, 9 helicópteros y 3 aviones",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -357,7 +567,7 @@
       "summary": "La Policía Nacional del Perú (PNP) desplegará alrededor de 37 mil efectivos durante la visita del papa León XIV al país, del 11 al 16 de noviembre, un despliegue de seguridad pocas veces visto para recibir a un mandatari..."
     },
     {
-      "id": "internacional-1-France_24_en_Espanol_Trum",
+      "id": "internacional-4-France_24_en_Espanol_Trum",
       "title": "Trump ve \"un impulso positivo hacia el fin del conflicto\" con Irán y descarta una acción militar por ahora",
       "category": "internacional",
       "category_label": "Internacional",
@@ -387,36 +597,6 @@
       "summary": "María Rodríguez solicitará al subgerente Cristian Chile informar al Concejo de Puno sobre las elecciones de Salcedo y los pedidos de nulidad por votos golondrinos"
     },
     {
-      "id": "nacional-7-Agencia_Andina_Sunarp_gar",
-      "title": "Sunarp garantiza la protección patrimonial de la Catedral de Chiclayo",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-sunarp-garantiza-proteccion-patrimonial-de-catedral-chiclayo-1099241.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/09/001330625W.jpg",
-      "local_image": "images/today/2026-11-09_Agencia_Andina_Sunarp_garantiza_la_proteccion_patr.jpg",
-      "date": "Mon, 09 Nov 2026 17:17:47 -0500",
-      "date_formatted": "Hoy • 5:17 PM",
-      "date_full": "9 de Noviembre de 2026, 5:17 PM",
-      "timestamp": 1794262667,
-      "summary": "La emblemática Catedral de Chiclayo o Santa María Catedral, uno de los mayores símbolos de fe e identidad del norte peruano, cuenta hoy con un respaldo jurídico inalterable al estar debidamente inscrita ante la Superinte..."
-    },
-    {
-      "id": "nacional-8-Agencia_Andina_Titular_de",
-      "title": "Titular del PJ tomó juramento a tres miembros del directorio del Banco Central de Reserva",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-titular-del-pj-tomo-juramento-a-tres-miembros-del-directorio-del-banco-central-reserva-1099239.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/09/001330615W.jpg",
-      "local_image": "images/today/2026-11-09_Agencia_Andina_Titular_del_PJ_tomo_juramento_a_tre.jpg",
-      "date": "Mon, 09 Nov 2026 17:12:29 -0500",
-      "date_formatted": "Hoy • 5:12 PM",
-      "date_full": "9 de Noviembre de 2026, 5:12 PM",
-      "timestamp": 1794262349,
-      "summary": "La presidenta del Poder Judicial, Janet Tello Gilardi, tomó juramento a Oswaldo Molina Campodónico, José Ricardo Stok Capella y Juan José Marthans León como nuevos integrantes del Directorio del Banco Central de Reserva ..."
-    },
-    {
       "id": "regional-8-Pachamama_Radio_Puno_Puno",
       "title": "Puno: Dirigente pide anular elecciones en Alto Puno por más de 100 votos golondrinos",
       "category": "regional",
@@ -432,67 +612,7 @@
       "summary": "Pobladores de Alto Puno exigen anular las elecciones tras detectar más de 100 presuntos votos golondrinos, según Rodolfo Cutipa, dirigente vecinal local"
     },
     {
-      "id": "nacional-7-RPP_Noticias_Final_confir",
-      "title": "¡Final confirmada! Universitario remontó la semifinal y se enfrentará a Alianza Lima por el título del Clausura",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/descentralizado/universitario-remonto-la-semifinal-y-se-enfrentara-a-alianza-lima-por-el-titulo-del-clausura-noticia-1716872",
-      "image_url": "https://f.rpp-noticias.io/2026/11/09/235023_1927494.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-09_RPP_Noticias_Final_confirmada_Universitario_re.jpg",
-      "date": "Mon, 09 Nov 2026 17:08:37 -0500",
-      "date_formatted": "Hoy • 5:08 PM",
-      "date_full": "9 de Noviembre de 2026, 5:08 PM",
-      "timestamp": 1794262117,
-      "summary": "Universitario volteó un 3-0 en la ida ante Melgar y se medirá ante Alianza Lima por el campeonato del segundo torneo corto del año."
-    },
-    {
-      "id": "nacional-6-RPP_Noticias_El_papa_Leon",
-      "title": "El papa León XIV advierte que la inteligencia artificial \"no puede sustituir el discernimiento humano ni el esfuerzo del trabajador\"",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/mundo/actualidad/el-papa-leon-xiv-advierte-que-la-inteligencia-artificial-no-puede-sustituir-el-discernimiento-humano-ni-el-esfuerzo-del-trabajador-noticia-1716873",
-      "image_url": "https://f.rpp-noticias.io/2026/11/09/pa11-2026-11-09-16-51-54-32330-1927497mp4_1927498.jpg",
-      "local_image": "images/today/2026-11-09_RPP_Noticias_El_papa_Leon_XIV_advierte_que_la_in.jpg",
-      "date": "Mon, 09 Nov 2026 17:08:18 -0500",
-      "date_formatted": "Hoy • 5:08 PM",
-      "date_full": "9 de Noviembre de 2026, 5:08 PM",
-      "timestamp": 1794262098,
-      "summary": "El papa León XIV acudió al encuentro con sindicatos, movimientos sociales y empresarios en la Universidad Católica de Buenos Aires para hablar sobre la situación del mundo del trabajo y los peligros de la tecnología."
-    },
-    {
-      "id": "nacional-9-Agencia_Andina_OEFA_reali",
-      "title": "OEFA realizó 1,332 supervisiones ambientales e impuso multas por S/ 110.5 millones",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-oefa-realizo-1332-supervisiones-ambientales-e-impuso-multas-s-1105-millones-1099240.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/09/001330624W.jpg",
-      "local_image": "images/today/2026-11-09_Agencia_Andina_OEFA_realizo_1_332_supervisiones_am.jpg",
-      "date": "Mon, 09 Nov 2026 17:04:02 -0500",
-      "date_formatted": "Hoy • 5:04 PM",
-      "date_full": "9 de Noviembre de 2026, 5:04 PM",
-      "timestamp": 1794261842,
-      "summary": "En el marco de los primeros 100 días de gestión, el Organismo de Evaluación y Fiscalización Ambiental (OEFA) realizó 1,332 acciones de supervisión e impuso multas por S/ 110.5 millones por incumplimiento de obligaciones ..."
-    },
-    {
-      "id": "nacional-5-RPP_Noticias_Visita_del_p",
-      "title": "Visita del papa León XIV al Perú: Sunat duplicará personal de Aduanas ante llegada de 50 mil turistas extranjeros",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/economia/economia/visita-del-papa-leon-xiv-al-peru-sunat-duplicara-personal-de-aduanas-ante-llegada-de-50-mil-turistas-extranjeros-noticia-1716875",
-      "image_url": "https://f.rpp-noticias.io/2026/11/09/350835_1927499.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-09_RPP_Noticias_Visita_del_papa_Leon_XIV_al_Peru_S.jpg",
-      "date": "Mon, 09 Nov 2026 17:03:11 -0500",
-      "date_formatted": "Hoy • 5:03 PM",
-      "date_full": "9 de Noviembre de 2026, 5:03 PM",
-      "timestamp": 1794261791,
-      "summary": "La entidad reforzará la atención en Lima, Callao, Chiclayo, Cajamarca, Cusco y Pucallpa, y coordinará con Migraciones y la Policía Nacional para agilizar el ingreso de delegaciones, turistas y periodistas. Además, record..."
-    },
-    {
-      "id": "internacional-2-France_24_en_Espanol_Fran",
+      "id": "internacional-5-France_24_en_Espanol_Fran",
       "title": "Francia adelanta la subida del salario mínimo ante las protestas y la presión sindical",
       "category": "internacional",
       "category_label": "Internacional",
@@ -505,21 +625,6 @@
       "date_full": "9 de Noviembre de 2026, 4:53 PM",
       "timestamp": 1794261223,
       "summary": "El Gobierno francés aumentará un 1,6% el salario mínimo a partir de diciembre, un mes antes de lo previsto, para intentar contener el malestar social. La medida elevará los ingresos mínimos hasta los 1.502 euros netos me..."
-    },
-    {
-      "id": "nacional-10-Agencia_Andina_Que_tenden",
-      "title": "¿Qué tendencia muestran las tasas de interés preferenciales en los últimos meses?",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-que-tendencia-muestran-las-tasas-interes-preferenciales-los-ultimos-meses-1098739.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/07/22/001300413W.webp",
-      "local_image": "images/today/2026-11-09_Agencia_Andina_Que_tendencia_muestran_las_tasas_d.jpg",
-      "date": "Mon, 09 Nov 2026 16:50:50 -0500",
-      "date_formatted": "Hoy • 4:50 PM",
-      "date_full": "9 de Noviembre de 2026, 4:50 PM",
-      "timestamp": 1794261050,
-      "summary": "La tasa de interés interbancaria promedio en soles fue de 4.25% anual entre el 15 y el 21 de octubre del 2026, mientras que en dólares se ubicó en 4% anual, de acuerdo con información del boletín semanal del Banco Centra..."
     },
     {
       "id": "internacional-7-BBC_Mundo_Condenan_a_mas_",
@@ -567,21 +672,6 @@
       "summary": "El Ejército peruano intensifica sus preparativos de seguridad ante la próxima visita del papa León XIV. Como parte de estas acciones, la"
     },
     {
-      "id": "internacional-7-El_Pais_Internacional_Nvi",
-      "title": "Nvidia sufre en Bolsa tras iniciar una investigación por la relación de su consejero delegado con una supuesta espía",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "El País Internacional",
-      "url": "https://elpais.com/economia/2026-11-09/nvidia-se-desploma-en-bolsa-tras-confirmar-una-investigacion-sobre-la-relacion-extramatrimonial-de-su-ceo-con-una-presunta-espia-china.html",
-      "image_url": "https://www.youtube.com/watch?v=_yDHO2OAiPc",
-      "local_image": "https://www.youtube.com/watch?v=_yDHO2OAiPc",
-      "date": "Mon, 09 Nov 2026 21:18:03 GMT",
-      "date_formatted": "Hoy • 4:18 PM",
-      "date_full": "9 de Noviembre de 2026, 4:18 PM",
-      "timestamp": 1794259083,
-      "summary": "Los títulos llegan a caer más de un 8% ante las dudas sobre el futuro de Jensen Huang, mayor figura actual de la industria tecnológica y clave en el éxito de la compañía en los últimos años"
-    },
-    {
       "id": "regional-2-Diario_Los_Andes_Puno_bre",
       "title": "brero de 47 años muere en accidente laboral en una vivienda de Huancané",
       "category": "regional",
@@ -612,7 +702,7 @@
       "summary": "La Municipalidad Provincial de Azángaro inició la ejecución de la resolución que declara la nulidad de la autorización otorgada a la empresa"
     },
     {
-      "id": "internacional-3-France_24_en_Espanol_Leon",
+      "id": "internacional-6-France_24_en_Espanol_Leon",
       "title": "León XIV en Argentina: familia, eje de la misa a la que asistieron más de dos millones de personas",
       "category": "internacional",
       "category_label": "Internacional",
@@ -627,7 +717,7 @@
       "summary": "Durante su primera homilía en el país, celebrada este lunes ante más de dos millones de personas en el Monumento de los Españoles, en Palermo, el papa León XIV puso el foco en el papel de las familias frente a las dificu..."
     },
     {
-      "id": "internacional-4-France_24_en_Espanol_Arab",
+      "id": "internacional-7-France_24_en_Espanol_Arab",
       "title": "Árabes, ultraortodoxos o Netanyahu: los escenarios de Eisenkot para formar gobierno en Israel",
       "category": "internacional",
       "category_label": "Internacional",
@@ -640,21 +730,6 @@
       "date_full": "9 de Noviembre de 2026, 3:58 PM",
       "timestamp": 1794257901,
       "summary": "Terminaron las consultas y este lunes 9 de noviembre arrancó el plazo de 28 días que tiene Gadi Eisenkot para intentar formar un gobierno en Israel. Hay varios escenarios: aliarse con los árabes, con los partidos ultraor..."
-    },
-    {
-      "id": "internacional-5-France_24_en_Espanol_Dire",
-      "title": "Directo Latam y el impacto en México de la victoria demócrata en Estados Unidos",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "France 24 en Español",
-      "url": "https://www.france24.com/es/video/20261109-directo-latam-y-el-impacto-en-m%C3%A9xico-de-la-victoria-dem%C3%B3crata-en-estados-unidos",
-      "image_url": "https://s.france24.com/media/display/643b4ae4-dc7a-11f1-b61e-bf1914cabd52/w:1024/p:16x9/ES-20261109-074358-074916-CS.jpg",
-      "local_image": "images/today/2026-11-09_France_24_en_Espanol_Directo_Latam_y_el_impacto_en_Mexic.jpg",
-      "date": "Mon, 09 Nov 2026 20:51:28 GMT",
-      "date_formatted": "Hoy • 3:51 PM",
-      "date_full": "9 de Noviembre de 2026, 3:51 PM",
-      "timestamp": 1794257488,
-      "summary": "Tras el resultado de las elecciones de medio mandato en Estados Unidos, los analistas estiman que la victoria demócrata en las urnas no será tan beneficiosa para México como se esperaría. A pesar de que el nuevo Congreso..."
     },
     {
       "id": "regional-4-Diario_Sin_Fronteras_Puno",
@@ -687,7 +762,7 @@
       "summary": "El diputado Juan A. Villanueva Calderón, presentó un proyecto de ley que plantea restablecer los 70 años como edad límite para ejercer la docencia ordinaria en universidades públicas y privadas. La iniciativa propone mod..."
     },
     {
-      "id": "internacional-5-El_Pais_Internacional_Un_",
+      "id": "internacional-7-El_Pais_Internacional_Un_",
       "title": "Un escándalo de espías y seducción en el gigante tecnológico Nvidia compromete a Donald Trump",
       "category": "internacional",
       "category_label": "Internacional",
@@ -715,36 +790,6 @@
       "date_full": "9 de Noviembre de 2026, 3:23 PM",
       "timestamp": 1794255832,
       "summary": "El Poder Ejecutivo oficializó el Decreto Legislativo N.° 1744, que establece sanciones penales para las personas que faciliten sus cuentas bancarias, billeteras digitales u otros servicios financieros para recibir o tran..."
-    },
-    {
-      "id": "internacional-6-France_24_en_Espanol_Asce",
-      "title": "Ascenso y caída: Russell Brand y su condena a más de 10 años de prisión por violación y agresión sexual",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "France 24 en Español",
-      "url": "https://www.france24.com/es/ee-uu-y-canad%C3%A1/20261109-russell-brand-es-condenado-a-10-a%C3%B1os-y-6-meses-de-prisi%C3%B3n-por-violaci%C3%B3n-y-agresi%C3%B3n-sexual",
-      "image_url": "https://s.france24.com/media/display/e1bdfe66-c7cc-11f1-bd3a-3774aeac812a/w:1024/p:16x9/81ca75b9bab2e94829efb4e25d44f00ac6d86a73.jpg",
-      "local_image": "images/today/2026-11-09_France_24_en_Espanol_Ascenso_y_caida_Russell_Brand_y_su.jpg",
-      "date": "Mon, 09 Nov 2026 20:23:40 GMT",
-      "date_formatted": "Hoy • 3:23 PM",
-      "date_full": "9 de Noviembre de 2026, 3:23 PM",
-      "timestamp": 1794255820,
-      "summary": "El humorista Russell Brand, que en su día fue uno de los presentadores más destacados de Reino Unido, fue condenado el lunes 9 de noviembre a diez años y medio de prisión tras ser declarado culpable de violar a una mujer..."
-    },
-    {
-      "id": "nacional-8-RPP_Noticias_Buenaventura",
-      "title": "Buenaventura dio el campanazo por sus 30 años en la Bolsa de Nueva York: \"mantenerse ha requerido mucha disciplina”, afirma Roque Benavides",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/economia/economia/buenaventura-dio-el-campanazo-por-sus-30-anos-en-la-bolsa-de-nueva-york-mantenerse-ha-requerido-mucha-disciplina-afirma-roque-benavides-noticia-1716845",
-      "image_url": "https://f.rpp-noticias.io/2026/11/09/271827_1927473.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-09_RPP_Noticias_Buenaventura_dio_el_campanazo_por_s.jpg",
-      "date": "Mon, 09 Nov 2026 15:22:45 -0500",
-      "date_formatted": "Hoy • 3:22 PM",
-      "date_full": "9 de Noviembre de 2026, 3:22 PM",
-      "timestamp": 1794255765,
-      "summary": "La empresa peruana lleva tres décadas de cotización continua en Wall Street. En 1996 se convirtió en la primera compañía minera latinoamericana en listar la totalidad de sus acciones en este mercado y captó aproximadamen..."
     },
     {
       "id": "regional-5-Diario_Sin_Fronteras_Puno",
@@ -790,21 +835,6 @@
       "date_full": "9 de Noviembre de 2026, 3:14 PM",
       "timestamp": 1794255270,
       "summary": "El Banco Central de Reserva del Perú (BCRP) puso a la venta dos medallas conmemorativas por la próxima visita del papa León XIV al país. Las piezas, elaboradas en plata y alpaca, estarán disponibles desde este lunes 9 de..."
-    },
-    {
-      "id": "internacional-7-France_24_en_Espanol_Infi",
-      "title": "Infidelidad y presunto espionaje, el escándalo en el que está involucrado el CEO de Nvidia",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "France 24 en Español",
-      "url": "https://www.france24.com/es/video/20261109-infidelidad-y-presunto-espionaje-el-esc%C3%A1ndalo-en-el-que-est%C3%A1-involucrado-el-ceo-de-nvidia-1",
-      "image_url": "https://s.france24.com/media/display/3384a90c-dc77-11f1-ac48-a575454bc579/w:1024/p:16x9/FORMATO-1-3-1.png",
-      "local_image": "images/today/2026-11-09_France_24_en_Espanol_Infidelidad_y_presunto_espionaje_e.jpg",
-      "date": "Mon, 09 Nov 2026 20:11:07 GMT",
-      "date_formatted": "Hoy • 3:11 PM",
-      "date_full": "9 de Noviembre de 2026, 3:11 PM",
-      "timestamp": 1794255067,
-      "summary": "El gigante estadounidense de los microprocesadores abrió una investigación independiente por una presunta operación de inteligencia china dirigida contra su presidente ejecutivo, Jensen Huang. El CEO aceptó estar en una ..."
     },
     {
       "id": "regional-7-Diario_Los_Andes_Puno_Are",
@@ -867,22 +897,7 @@
       "summary": "El incremento del precio del GLP vehicular empieza a generar preocupación entre los conductores de Tacna, principalmente entre quienes utilizan sus vehículos"
     },
     {
-      "id": "internacional-4-BBC_Mundo_Quien_es_la_sup",
-      "title": "Quién es la supuesta espía china que tuvo una relación con el director de Nvidia, el gigante tecnológico de la IA (y otras claves del caso)",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cked3dy4ynjxo?at_medium=RSS&at_campaign=rss",
-      "image_url": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/a745/live/1232b0e0-dc37-11f1-95cf-a38331e6cb4b.jpg",
-      "local_image": "images/today/2026-11-09_BBC_Mundo_Quien_es_la_supuesta_espia_china_qu.jpg",
-      "date": "Mon, 09 Nov 2026 18:25:47 GMT",
-      "date_formatted": "Hoy • 1:25 PM",
-      "date_full": "9 de Noviembre de 2026, 1:25 PM",
-      "timestamp": 1794248747,
-      "summary": "El multimillonario de la industria tecnológica está inmerso en un escándalo de seguridad personal y nacional."
-    },
-    {
-      "id": "internacional-6-El_Pais_Internacional_Ali",
+      "id": "internacional-8-El_Pais_Internacional_Ali",
       "title": "Alice Huang, la espía china de pasado misterioso que llegó hasta el consejero delegado de Nvidia",
       "category": "internacional",
       "category_label": "Internacional",
@@ -942,6 +957,21 @@
       "summary": "Los canales privados se quedan sin los duelos por la disputa entre los dos principales partidos sobre TVE"
     },
     {
+      "id": "nacional-2-RPP_Noticias_Accede_a_un_",
+      "title": "Accede a un préstamo de S/ 100 mil para la construcción de tu casa soñada",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/campanas/publirreportaje/accede-a-un-prestamo-de-s-100-mil-para-la-construccion-de-tu-casa-sonada-noticia-1716796",
+      "image_url": "https://f.rpp-noticias.io/2026/11/09/380938_1927362.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-09_RPP_Noticias_Accede_a_un_prestamo_de_S_100_mil.jpg",
+      "date": "Mon, 09 Nov 2026 10:30:22 -0500",
+      "date_formatted": "Hoy • 10:30 AM",
+      "date_full": "9 de Noviembre de 2026, 10:30 AM",
+      "timestamp": 1794238222,
+      "summary": "¿Pensando en construir, ampliar o terminar tu vivienda? Conoce cómo acceder a un préstamo para construcción con tasas competitivas, plazos flexibles y opciones de financiamiento incluso para quienes están en Infocorp."
+    },
+    {
       "id": "internacional-1-BBC_Mundo_Las_4_investiga",
       "title": "Las 4 investigaciones que los demócratas pueden abrir contra el gobierno de Trump tras tomar control del Congreso de EE.UU.",
       "category": "internacional",
@@ -957,7 +987,7 @@
       "summary": "Los demócratas prometieron una oleada de investigaciones contra la administración Trump si recuperaban el control de la Cámara de Representantes, la cual ocurrió."
     },
     {
-      "id": "internacional-3-BBC_Mundo_El_progreso_de_",
+      "id": "internacional-4-BBC_Mundo_El_progreso_de_",
       "title": "\"El progreso de una nación se mide por la acogida que da a los discapacitados\": por qué es tan simbólica la visita de León XIV al Pequeño Cottolengo Don Orione",
       "category": "internacional",
       "category_label": "Internacional",
@@ -972,7 +1002,7 @@
       "summary": "La histórica institución asistencial figura entre las entidades que se han visto afectadas por los recortes aplicados por el gobierno del libertario Javier Milei en los últimos años."
     },
     {
-      "id": "nacional-4-RPP_Noticias_Leon_XIV_pid",
+      "id": "nacional-9-RPP_Noticias_Leon_XIV_pid",
       "title": "León XIV pide proteger la familia en su multitudinaria misa en Argentina: \"Representa un pilar entre las muchas precariedades de nuestra época\"",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -1002,7 +1032,7 @@
       "summary": "La energía solar, debido a sus costos bajos, se ha convertido en una principales fuentes de energía en varios países del mundo."
     },
     {
-      "id": "nacional-3-RPP_Noticias_SENAMHI_Pron",
+      "id": "nacional-7-RPP_Noticias_SENAMHI_Pron",
       "title": "SENAMHI: Pronóstico del clima hoy lunes 09 de noviembre 2026",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -1017,7 +1047,7 @@
       "summary": "Consulta el pronóstico del clima hoy en Lima y ciudades del Perú: temperatura actual, sensación térmica, radiación UV, probabilidad de lluvia y reporte oficial del Senamhi actualizado."
     },
     {
-      "id": "internacional-4-El_Pais_Internacional_La_",
+      "id": "internacional-6-El_Pais_Internacional_La_",
       "title": "La huelga divide a los españoles y más de la mitad rechaza las acampadas",
       "category": "internacional",
       "category_label": "Internacional",
