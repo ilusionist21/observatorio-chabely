@@ -1,14 +1,14 @@
 {
   "title": "Observatorio para Chabely",
   "date": "2026-11-15",
-  "updated_at": "15 de Noviembre de 2026 a las 2:27 PM (Hora Perú)",
-  "updated_at_iso": "2026-11-15T14:27:01.322880-05:00",
+  "updated_at": "15 de Noviembre de 2026 a las 3:38 PM (Hora Perú)",
+  "updated_at_iso": "2026-11-15T15:38:09.162970-05:00",
   "stats": {
-    "total": 61,
+    "total": 65,
     "portadas": 4,
-    "regional": 16,
-    "nacional": 18,
-    "internacional": 23
+    "regional": 18,
+    "nacional": 19,
+    "internacional": 24
   },
   "media": [
     {
@@ -23,7 +23,7 @@
       "date": "2026-11-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Noviembre de 2026",
-      "timestamp": 1794770821,
+      "timestamp": 1794775089,
       "summary": "Primera plana y portada oficial del diario El Comercio (Perú) correspondiente al 15 de Noviembre de 2026."
     },
     {
@@ -38,7 +38,7 @@
       "date": "2026-11-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Noviembre de 2026",
-      "timestamp": 1794770821,
+      "timestamp": 1794775089,
       "summary": "Primera plana y portada oficial del diario La República (Perú) correspondiente al 15 de Noviembre de 2026."
     },
     {
@@ -53,7 +53,7 @@
       "date": "2026-11-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Noviembre de 2026",
-      "timestamp": 1794770821,
+      "timestamp": 1794775089,
       "summary": "Primera plana y portada oficial del diario Líbero (Perú) correspondiente al 15 de Noviembre de 2026."
     },
     {
@@ -68,8 +68,248 @@
       "date": "2026-11-15",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 15 de Noviembre de 2026",
-      "timestamp": 1794770821,
+      "timestamp": 1794775089,
       "summary": "Primera plana y portada oficial del diario El País (España / Global) correspondiente al 15 de Noviembre de 2026."
+    },
+    {
+      "id": "nacional-1-RPP_Noticias_Fixture_comp",
+      "title": "Fixture completo de la Liga Peruana de Vóley 2026-2027",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/voley/mas-voley/liga-peruana-de-voley-2026-27-fixture-calendario-formato-y-donde-ver-por-tv-partidos-alianza-lima-regatas-universitario-noticia-1711655",
+      "image_url": "https://f.rpp-noticias.io/2026/10/09/023902_1916580.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-15_RPP_Noticias_Fixture_completo_de_la_Liga_Peruana.jpg",
+      "date": "Sun, 15 Nov 2026 15:30:43 -0500",
+      "date_formatted": "Hoy • 3:30 PM",
+      "date_full": "15 de Noviembre de 2026, 3:30 PM",
+      "timestamp": 1794774643,
+      "summary": "Conoce el calendario completo de la primera fase de la Liga Peruana de Vóley 2026-2027."
+    },
+    {
+      "id": "nacional-1-Agencia_Andina_Ministerio",
+      "title": "Ministerio de Cultura: papa León XIV apreció la enorme riqueza cultural peruana",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-ministerio-cultura-papa-leon-xiv-aprecio-enorme-riqueza-cultural-peruana-1100121.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/13/001331935W.jpg",
+      "local_image": "images/today/2026-11-15_Agencia_Andina_Ministerio_de_Cultura_papa_Leon_XI.jpg",
+      "date": "Sun, 15 Nov 2026 15:22:41 -0500",
+      "date_formatted": "Hoy • 3:22 PM",
+      "date_full": "15 de Noviembre de 2026, 3:22 PM",
+      "timestamp": 1794774161,
+      "summary": "El ministro de Cultura, Alberto Beingolea, sostuvo hoy que el papa León XIV le transmitió su agrado con la exhibición de la riqueza cultural peruana que ha podido apreciar en Cusco, Chiclayo, Santa Cruz de Succhabamba, Z..."
+    },
+    {
+      "id": "nacional-2-Agencia_Andina_Fortalecen",
+      "title": "Fortalecen preparación de destinos turísticos ante emergencias por visita de León XIV",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-fortalecen-preparacion-destinos-turisticos-ante-emergencias-visita-leon-xiv-1100108.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/15/001332358W.jpg",
+      "local_image": "images/today/2026-11-15_Agencia_Andina_Fortalecen_preparacion_de_destinos.jpg",
+      "date": "Sun, 15 Nov 2026 15:16:45 -0500",
+      "date_formatted": "Hoy • 3:16 PM",
+      "date_full": "15 de Noviembre de 2026, 3:16 PM",
+      "timestamp": 1794773805,
+      "summary": "El Ministerio de Comercio Exterior y Turismo (Mincetur) capacitó a más de 120 prestadores de servicios turísticos en prevención y respuesta ante emergencias y desastres, como parte de las acciones de preparación para la ..."
+    },
+    {
+      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "title": "Perú es declarado «Tierra del papa León XIV» y Chiclayo recibe el título de «Pueblo Fiel»",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Diario Sin Fronteras (Puno)",
+      "url": "https://diariosinfronteras.com.pe/2026/11/15/peru-es-declarado-tierra-del-papa-leon-xiv-y-chiclayo-recibe-el-titulo-de-pueblo-fiel/",
+      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/11/FOTOS-NOTAS-DSF-2026-11-15T151157.899.jpg",
+      "local_image": "images/today/2026-11-15_Diario_Sin_Fronteras_Puno_Peru_es_declarado_Tierra_del_papa.jpg",
+      "date": "2026-11-15T15:12:37",
+      "date_formatted": "Hoy • 3:12 PM",
+      "date_full": "15 de Noviembre de 2026, 3:12 PM",
+      "timestamp": 1794773557,
+      "summary": "El Gobierno declaró oficialmente al Perú como «Tierra del papa León XIV» y otorgó a Chiclayo el título honorífico de «Pueblo Fiel»,"
+    },
+    {
+      "id": "nacional-3-Agencia_Andina_Seleccion_",
+      "title": "Selección peruana de surf clasificó a los Juegos Olímpicos de Los Ángeles 2028",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-seleccion-peruana-surf-clasifico-a-los-juegos-olimpicos-los-angeles-2028-1100120.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/15/001332353W.jpg",
+      "local_image": "images/today/2026-11-15_Agencia_Andina_Seleccion_peruana_de_surf_clasifico.jpg",
+      "date": "Sun, 15 Nov 2026 15:07:04 -0500",
+      "date_formatted": "Hoy • 3:07 PM",
+      "date_full": "15 de Noviembre de 2026, 3:07 PM",
+      "timestamp": 1794773224,
+      "summary": "Perú ganó este domingo la competición masculina por equipos del Mundial de Surf de la Asociación Internacional de Surf (ISA), celebrada en la playa peruana de Punta Rocas, y logró un cupo para los Juegos Olímpicos de Los..."
+    },
+    {
+      "id": "nacional-3-RPP_Noticias_Me_impacto_l",
+      "title": "\"Me impactó la acogida del pueblo chiclayano\": Cardenal Pietro Parolin quedó impresionado por acogida al papa León XIV",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/peru/actualidad/leon-xiv-pietro-parolin-queda-impactado-por-recibimiento-al-santo-padre-del-pueblo-peruano-noticia-1717918",
+      "image_url": "https://f.rpp-noticias.io/2026/11/15/trevista-2026-11-15-14-33-47-13423-1929490mp4_1929491.jpg",
+      "local_image": "images/today/2026-11-15_RPP_Noticias_Me_impacto_la_acogida_del_pueblo_c.jpg",
+      "date": "Sun, 15 Nov 2026 15:06:41 -0500",
+      "date_formatted": "Hoy • 3:06 PM",
+      "date_full": "15 de Noviembre de 2026, 3:06 PM",
+      "timestamp": 1794773201,
+      "summary": "En exclusiva, RPP pudo conversar con el Secretario de Estado de la Santa Sede sobre el recibimiento que ha tenido el Santo Padre durante su visita apostólica en el país."
+    },
+    {
+      "id": "nacional-5-RPP_Noticias_Partido_llen",
+      "title": "Partido lleno de goles: Comerciantes Unidos y Sport Boys empataron 3-3 por la última fecha del Torneo Clausura 2026",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/descentralizado/comerciantes-unidos-vs-sport-boys-en-vivo-a-que-hora-juegan-y-donde-ver-fecha-17-torneo-clausura-2026-via-l1max-partidos-de-hoy-noticia-1717814",
+      "image_url": "https://f.rpp-noticias.io/2026/11/15/585258_1929489.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-15_RPP_Noticias_Partido_lleno_de_goles_Comerciante.jpg",
+      "date": "Sun, 15 Nov 2026 15:00:30 -0500",
+      "date_formatted": "Hoy • 3:00 PM",
+      "date_full": "15 de Noviembre de 2026, 3:00 PM",
+      "timestamp": 1794772830,
+      "summary": "Comerciantes Unidos y Sport Boys cerraron su participación en la Liga1 2026 con una igualdad en Cutervo."
+    },
+    {
+      "id": "nacional-8-RPP_Noticias_Alianza_Lima",
+      "title": "Alianza Lima presentó su lista de convocadas para el Mundial de Clubes de Vóley 2026",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/voley/mas-voley/alianza-lima-presento-su-lista-de-convocadas-para-el-mundial-de-clubes-de-voley-2026-clarivett-yllescas-noticia-1717911",
+      "image_url": "https://f.rpp-noticias.io/2026/11/15/323432_1929487.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-15_RPP_Noticias_Alianza_Lima_presento_su_lista_de_c.jpg",
+      "date": "Sun, 15 Nov 2026 14:57:51 -0500",
+      "date_formatted": "Hoy • 2:57 PM",
+      "date_full": "15 de Noviembre de 2026, 2:57 PM",
+      "timestamp": 1794772671,
+      "summary": "El Mundial de Clubes de Vóley 2026 se disputará en Sao Paulo, Brasil, en el mes de diciembre."
+    },
+    {
+      "id": "internacional-6-El_Pais_Internacional_San",
+      "title": "Sánchez y Chelo García Cortés para las campanadas de La Séptima o ‘La Peter’ en ‘Fuera de Control’",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "El País Internacional",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-15/sanchez-y-chelo-garcia-cortes-para-las-campanadas-de-la-septima-o-la-peter-en-fuera-de-control.html",
+      "image_url": "https://imagenes.elpais.com/resizer/v2/55NSY5TQGFE5BO5IW5OUBLVM2Y.jpg?auth=f18f55479353141deb858df1586b3d4f759fa1b122a698551f1f1449e88acdae",
+      "local_image": "images/today/2026-11-15_El_Pais_Internacional_Sanchez_y_Chelo_Garcia_Cortes_para.jpg",
+      "date": "Sun, 15 Nov 2026 19:56:07 GMT",
+      "date_formatted": "Hoy • 2:56 PM",
+      "date_full": "15 de Noviembre de 2026, 2:56 PM",
+      "timestamp": 1794772567,
+      "summary": "El presidente del Gobierno habla de su papel como suegro y de cómo conoció a su esposa, Begoña Gómez"
+    },
+    {
+      "id": "nacional-4-Agencia_Andina_Papa_Leon_",
+      "title": "Papa León XIV en Perú: sigue MINUTO A MINUTO sus actividades este domingo 15 [EN VIVO]",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-papa-leon-xiv-peru-sigue-minuto-a-minuto-sus-actividades-este-domingo-15-vivo-1100058.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/14/001332132W.jpg",
+      "local_image": "images/today/2026-11-15_Agencia_Andina_Papa_Leon_XIV_en_Peru_sigue_MINUTO.jpg",
+      "date": "Sun, 15 Nov 2026 14:52:52 -0500",
+      "date_formatted": "Hoy • 2:52 PM",
+      "date_full": "15 de Noviembre de 2026, 2:52 PM",
+      "timestamp": 1794772372,
+      "summary": "El papa León XIV continúa este domingo con su agenda de trabajo de visita por las regiones del Peru. Sigue todos los detalles minuto a minuto de sus actividades en esta nota."
+    },
+    {
+      "id": "nacional-9-RPP_Noticias_Francia_vs_T",
+      "title": "Francia vs Turquía EN VIVO: hoy juegan en Burdeos por la fecha 6 de la UEFA Nations League",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/futbol-mundial/francia-vs-turquia-en-vivo-a-que-hora-juegan-y-que-canal-de-tv-transmite-la-fecha-6-de-la-uefa-nations-league-2026-via-espn-partidos-de-hoy-noticia-1717844",
+      "image_url": "https://f.rpp-noticias.io/2026/11/14/381038_1929332.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-15_RPP_Noticias_Francia_vs_Turquia_EN_VIVO_hoy_jue.jpg",
+      "date": "Sun, 15 Nov 2026 14:49:05 -0500",
+      "date_formatted": "Hoy • 2:49 PM",
+      "date_full": "15 de Noviembre de 2026, 2:49 PM",
+      "timestamp": 1794772145,
+      "summary": "Francia vs Turquía EN VIVO: sigue el partido en el Estadio Matmut Atlantique por la fecha 6 de la UEFA Nations League."
+    },
+    {
+      "id": "nacional-5-Agencia_Andina_Papa_Leon_",
+      "title": "Papa León XIV arriba a Pucallpa para reunirse con pueblos indígenas y celebrar santa misa",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-papa-leon-xiv-arriba-a-pucallpa-para-reunirse-pueblos-indigenas-y-celebrar-santa-misa-1100117.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/15/001332383W.jpg",
+      "local_image": "images/today/2026-11-15_Agencia_Andina_Papa_Leon_XIV_arriba_a_Pucallpa_par.jpg",
+      "date": "Sun, 15 Nov 2026 14:48:53 -0500",
+      "date_formatted": "Hoy • 2:48 PM",
+      "date_full": "15 de Noviembre de 2026, 2:48 PM",
+      "timestamp": 1794772133,
+      "summary": "Cinco minutos antes de lo previsto aterrizó en el aeropuerto internacional Capital FAP David Armando Abensur Rengifo de Pucallpa el avión que trasladó el papa León XIV desde la ciudad de Cusco."
+    },
+    {
+      "id": "nacional-4-RPP_Noticias_Tabla_Torneo",
+      "title": "Tabla Torneo Clausura 2026 y Acumulado de Liga1 EN VIVO: así van las posiciones en la fecha 17",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/descentralizado/tabla-de-posiciones-del-torneo-clausura-y-del-acumulado-de-la-liga1-te-apuesto-2026-resutados-posiciones-universitario-alianza-lima-sporting-cristal-noticia-1697586",
+      "image_url": "https://f.rpp-noticias.io/2026/07/16/270627_1887649.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-15_RPP_Noticias_Tabla_Torneo_Clausura_2026_y_Acumul.jpg",
+      "date": "Sun, 15 Nov 2026 14:45:39 -0500",
+      "date_formatted": "Hoy • 2:45 PM",
+      "date_full": "15 de Noviembre de 2026, 2:45 PM",
+      "timestamp": 1794771939,
+      "summary": "Conoce cómo se mueve la tabla del Torneo Clausura y del Acumulado disputada cada una de las jornadas del campeonato."
+    },
+    {
+      "id": "regional-1-Pachamama_Radio_Puno_Huan",
+      "title": "Huancané: Gas nacional sube hasta S/ 21 y preocupa a amas de casa",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Pachamama Radio (Puno)",
+      "url": "https://pachamamaradio.org/huancane-gas-nacional-sube-hasta-s-21-y-preocupa-a-amas-de-casa/",
+      "image_url": "https://pachamamaradio.org/wp-content/uploads/2026/11/gas-nacional-Primax-DF.avif",
+      "local_image": "images/today/2026-11-15_Pachamama_Radio_Puno_Huancane_Gas_nacional_sube_hasta_S.jpg",
+      "date": "2026-11-15T14:43:55",
+      "date_formatted": "Hoy • 2:43 PM",
+      "date_full": "15 de Noviembre de 2026, 2:43 PM",
+      "timestamp": 1794771835,
+      "summary": "Precio del gas en Huancané subió hasta S/ 21: el balón Primax llegó a S/ 77 y el boliviano a S/ 48, afectando a las familias"
+    },
+    {
+      "id": "nacional-6-Agencia_Andina_Senor_de_l",
+      "title": "Señor de los Milagros ya se encuentra en base aérea Las Palmas",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-senor-los-milagros-ya-se-encuentra-base-aerea-las-palmas-1100115.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/15/001332365W.jpg",
+      "local_image": "images/today/2026-11-15_Agencia_Andina_Senor_de_los_Milagros_ya_se_encuent.jpg",
+      "date": "Sun, 15 Nov 2026 14:37:48 -0500",
+      "date_formatted": "Hoy • 2:37 PM",
+      "date_full": "15 de Noviembre de 2026, 2:37 PM",
+      "timestamp": 1794771468,
+      "summary": "La imagen del Señor de los Milagros llegó esta tarde a la base aérea Las Palmas, Surco, donde este lunes 16, a las 10:30 a. m., el papa León XIV celebrará una multitudinaria misa de despedida del viaje apostólico en Perú..."
+    },
+    {
+      "id": "regional-2-Pachamama_Radio_Puno_Huan",
+      "title": "Huancané: policías asisten a adulta mayor sola y postrada en casa",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Pachamama Radio (Puno)",
+      "url": "https://pachamamaradio.org/huancane-policias-asisten-a-adulta-mayor-sola-y-postrada-en-casa/",
+      "image_url": "https://pachamamaradio.org/wp-content/uploads/2026/11/policias-asisten-a-adulta-mayor-sola-DF.avif",
+      "local_image": "images/today/2026-11-15_Pachamama_Radio_Puno_Huancane_policias_asisten_a_adulta.jpg",
+      "date": "2026-11-15T14:32:22",
+      "date_formatted": "Hoy • 2:32 PM",
+      "date_full": "15 de Noviembre de 2026, 2:32 PM",
+      "timestamp": 1794771142,
+      "summary": "Adulta mayor de 72 años fue auxiliada por policías y personal de salud tras ser hallada postrada y sola en una vivienda de Huancané"
     },
     {
       "id": "internacional-1-El_Pais_Internacional_El_",
@@ -80,14 +320,44 @@
       "url": "https://elpais.com/espana/elecciones-generales/2026-11-15/el-psoe-propone-destinar-el-1-del-pib-a-vivienda-social-y-crear-una-prestacion-estatal-por-crianza.html",
       "image_url": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261115/1238027_153027_video_1800.mp4",
       "local_image": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261115/1238027_153027_video_1800.mp4",
-      "date": "Sun, 15 Nov 2026 19:24:24 GMT",
-      "date_formatted": "Hoy • 2:24 PM",
-      "date_full": "15 de Noviembre de 2026, 2:24 PM",
-      "timestamp": 1794770664,
+      "date": "Sun, 15 Nov 2026 19:30:47 GMT",
+      "date_formatted": "Hoy • 2:30 PM",
+      "date_full": "15 de Noviembre de 2026, 2:30 PM",
+      "timestamp": 1794771047,
       "summary": "El programa electoral de los socialistas incorpora un nuevo impuesto “contra la especulación” de los fondos buitre y grandes propietarios, y defiende el impulso de las renovables para alcanzar el 81% de generación eléctr..."
     },
     {
-      "id": "regional-1-Pachamama_Radio_Puno_Puno",
+      "id": "nacional-7-Agencia_Andina_CCL_gremio",
+      "title": "CCL: gremios y gobierno articulan acciones para mejorar acceso de productos a EE.UU.",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-ccl-gremios-y-gobierno-articulan-acciones-para-mejorar-acceso-productos-a-eeuu-1100109.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/05/31/001285008W.webp",
+      "local_image": "images/today/2026-11-15_Agencia_Andina_CCL_gremios_y_gobierno_articulan_a.jpg",
+      "date": "Sun, 15 Nov 2026 14:30:00 -0500",
+      "date_formatted": "Hoy • 2:30 PM",
+      "date_full": "15 de Noviembre de 2026, 2:30 PM",
+      "timestamp": 1794771000,
+      "summary": "La creación de dos grupos de trabajo especializados entre el sector público y privado para defender la competitividad de las exportaciones peruanas en Estados Unidos fue uno de los principales acuerdos alcanzados en la r..."
+    },
+    {
+      "id": "internacional-1-France_24_en_Espanol_Espa",
+      "title": "España registra cifras récord en las Islas Canarias con llegada masiva de migrantes",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "France 24 en Español",
+      "url": "https://www.france24.com/es/video/20261115-espa%C3%B1a-registra-cifras-r%C3%A9cord-en-las-islas-canarias-con-llegada-masiva-de-migrantes",
+      "image_url": "https://s.france24.com/media/display/4da913fa-e121-11f1-aec7-5f54d898a954/w:1024/p:16x9/ES-20261115-130147-130342-CS.jpg",
+      "local_image": "images/today/2026-11-15_France_24_en_Espanol_Espana_registra_cifras_record_en_la.jpg",
+      "date": "Sun, 15 Nov 2026 19:28:27 GMT",
+      "date_formatted": "Hoy • 2:28 PM",
+      "date_full": "15 de Noviembre de 2026, 2:28 PM",
+      "timestamp": 1794770907,
+      "summary": "Las Islas Canarias han vivido uno de los fines de semana de mayor intensidad migratoria de su historia reciente. Solo durante el sábado, los servicios de Salvamento Marítimo rescataron inicialmente a 1.488 personas que v..."
+    },
+    {
+      "id": "regional-3-Pachamama_Radio_Puno_Puno",
       "title": "Puno: Fuga de agua deja a vecinos sin servicio en Laykakota desde hace dos días",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -102,7 +372,7 @@
       "summary": "Fuga de agua en Laykakota desperdicia gran caudal y deja sin servicio potable a vecinos mientras EMSA Puno continúa los trabajos de reparación"
     },
     {
-      "id": "regional-2-Pachamama_Radio_Puno_Macu",
+      "id": "regional-4-Pachamama_Radio_Puno_Macu",
       "title": "Macusani: Asegurados denuncian abandono en la posta de San Gabán",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -117,8 +387,8 @@
       "summary": "Asegurados de Carabaya denuncian que la posta médica de San Gabán carece de laboratorio, ecografías y rayos X para atender a pacientes"
     },
     {
-      "id": "internacional-2-BBC_Mundo_Zelensky_pide_a",
-      "title": "Zelensky pide a EE.UU. y a Elon Musk y reestablecer el acceso total de Ucrania a Starlink para frenar los ataques rusos",
+      "id": "internacional-1-BBC_Mundo_Zelensky_pide_a",
+      "title": "Zelensky pide a EE.UU. y a Elon Musk reestablecer el acceso total de Ucrania a Starlink para frenar los ataques rusos",
       "category": "internacional",
       "category_label": "Internacional",
       "source": "BBC Mundo",
@@ -132,7 +402,7 @@
       "summary": "El presidente ucraniano afirma que las restricciones siguen vigentes y dificultan las operaciones defensivas de su ejército."
     },
     {
-      "id": "internacional-1-France_24_en_Espanol_Un_t",
+      "id": "internacional-2-France_24_en_Espanol_Un_t",
       "title": "Un terremoto, incógnitas sobre las ayudas y una ola terrorista: los 100 días de gobierno de De la Espriella",
       "category": "internacional",
       "category_label": "Internacional",
@@ -147,22 +417,7 @@
       "summary": "Abelardo de la Espriella cumple este domingo 15 de noviembre 100 días al mando de Colombia en medio de un clima de violencia por otra ola de atentados, una lenta reconstrucción tras el terremoto de agosto y señalamientos..."
     },
     {
-      "id": "nacional-1-RPP_Noticias_Francia_vs_T",
-      "title": "Francia vs Turquía EN VIVO: hoy juegan en Burdeos por la fecha 6 de la UEFA Nations League",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/futbol-mundial/francia-vs-turquia-en-vivo-a-que-hora-juegan-y-que-canal-de-tv-transmite-la-fecha-6-de-la-uefa-nations-league-2026-via-espn-partidos-de-hoy-noticia-1717844",
-      "image_url": "https://f.rpp-noticias.io/2026/11/14/381038_1929332.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-15_RPP_Noticias_Francia_vs_Turquia_EN_VIVO_hoy_jue.jpg",
-      "date": "Sun, 15 Nov 2026 14:10:05 -0500",
-      "date_formatted": "Hoy • 2:10 PM",
-      "date_full": "15 de Noviembre de 2026, 2:10 PM",
-      "timestamp": 1794769805,
-      "summary": "Francia vs Turquía EN VIVO: sigue el partido en el Estadio Matmut Atlantique por la fecha 6 de la UEFA Nations League."
-    },
-    {
-      "id": "nacional-1-Agencia_Andina_Gran_expec",
+      "id": "nacional-8-Agencia_Andina_Gran_expec",
       "title": "Gran expectativa en Pucallpa a la espera de la llegada del papa León XIV",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -177,7 +432,7 @@
       "summary": "Una creciente y desbordante expectativa se vive en las calles de Pucallpa ante la llegada del papa León XIV que pasada las 13:23 horas partió del aeropuerto internacional Teniente Alejandro Velasco Astete de Cusco."
     },
     {
-      "id": "regional-3-Pachamama_Radio_Puno_Loro",
+      "id": "regional-5-Pachamama_Radio_Puno_Loro",
       "title": "Loros y guacamayos, no contaban con documentos que acreditaran su procedencia legal en Puno",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -192,7 +447,7 @@
       "summary": "SERFOR recuperó siete aves silvestres exhibidas en un centro recreacional de Juliaca tras detectar su presunta tenencia ilegal"
     },
     {
-      "id": "nacional-2-Agencia_Andina_Sudario_pa",
+      "id": "nacional-9-Agencia_Andina_Sudario_pa",
       "title": "“Sudario para el Señor de los Temblores es caricia del papa a un pueblo con esperanza\"",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -207,37 +462,7 @@
       "summary": "“Con amor filial, voy a ofrecer un sudario para que sea colocado sobre esta imagen del Señor Jesús. Quiere ser la caricia del papa para un pueblo que sabe sufrir con dignidad y con esperanza cristiana”, expresó León XIV ..."
     },
     {
-      "id": "nacional-5-RPP_Noticias_Hoy_Espana_v",
-      "title": "Hoy, España vs Inglaterra EN VIVO: sigue el partidazo en Madrid por la UEFA Nations League 2026",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/futbol-mundial/espana-vs-inglaterra-en-vivo-horario-y-donde-ver-tv-en-directo-fecha-6-uefa-nations-league-via-espn-partidos-de-hoy-noticia-1717842",
-      "image_url": "https://f.rpp-noticias.io/2026/11/14/525052_1929306.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-15_RPP_Noticias_Hoy_Espana_vs_Inglaterra_EN_VIVO.jpg",
-      "date": "Sun, 15 Nov 2026 14:01:00 -0500",
-      "date_formatted": "Hoy • 2:01 PM",
-      "date_full": "15 de Noviembre de 2026, 2:01 PM",
-      "timestamp": 1794769260,
-      "summary": "España enfrenta a Inglaterra EN VIVO: sigue el partido en el Estadio Metropolitano por la fecha 6 de la UEFA Nations League."
-    },
-    {
-      "id": "nacional-4-RPP_Noticias_Tabla_de_la_",
-      "title": "Tabla de la Liga Peruana de Vóley 2026-2027 EN VIVO: así se encuentran las posiciones en la fecha 5",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/voley/mas-voley/tabla-liga-peruana-de-voley-2026-2027-en-vivo-resultados-y-posiciones-fase-1-y-fase-2-lpv-voley-en-vivo-alianza-lima-universitario-sporting-cristal-noticia-1713237",
-      "image_url": "https://f.rpp-noticias.io/2026/10/18/212921_1919936.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-15_RPP_Noticias_Tabla_de_la_Liga_Peruana_de_Voley_2.jpg",
-      "date": "Sun, 15 Nov 2026 14:00:26 -0500",
-      "date_formatted": "Hoy • 2:00 PM",
-      "date_full": "15 de Noviembre de 2026, 2:00 PM",
-      "timestamp": 1794769226,
-      "summary": "Conoce como se encuentran los equipos en la primera fase de la Liga Peruana de Vóley 2026-2027."
-    },
-    {
-      "id": "nacional-3-Agencia_Andina_ONPE_ODPE_",
+      "id": "nacional-10-Agencia_Andina_ONPE_ODPE_",
       "title": "ONPE: ODPE publican listas de miembros de mesa segunda vuelta regional",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -252,7 +477,7 @@
       "summary": "La Oficina Nacional de Procesos Electorales (ONPE) informó que hoy las Oficinas Descentralizadas de Procesos Electorales (ODPE) publican las listas de miembros de mesa que cumplirán esta función durante la Segunda Elecci..."
     },
     {
-      "id": "regional-4-Pachamama_Radio_Puno_Puno",
+      "id": "regional-6-Pachamama_Radio_Puno_Puno",
       "title": "Puno: Limpieza pública podría tener seguro de vida y bono de 10 %",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -297,22 +522,7 @@
       "summary": "El líder del PP reitera su propuesta de no pagar el IRPF durante el primer año del primer empleo"
     },
     {
-      "id": "nacional-8-RPP_Noticias_Lechuceros_p",
-      "title": "Lechuceros para Las Palmas: ATU confirma el recorrido y tarifa de buses para asistentes a santa misa del papa León XIV",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/lima/actualidad/lechuceros-para-las-palmas-atu-confirma-el-recorrido-y-tarifa-de-buses-para-asistentes-a-santa-misa-del-papa-leon-xiv-noticia-1717905",
-      "image_url": "https://f.rpp-noticias.io/2026/11/15/293729_1929480.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-15_RPP_Noticias_Lechuceros_para_Las_Palmas_ATU_con.jpg",
-      "date": "Sun, 15 Nov 2026 13:48:40 -0500",
-      "date_formatted": "Hoy • 1:48 PM",
-      "date_full": "15 de Noviembre de 2026, 1:48 PM",
-      "timestamp": 1794768520,
-      "summary": "La Autoridad del Transporte Urbano (ATU) actualizó los recorridos que realizarán los servicios de buses nocturnos con motivo de la misa en Las Palmas."
-    },
-    {
-      "id": "internacional-2-France_24_en_Espanol_Esto",
+      "id": "internacional-3-France_24_en_Espanol_Esto",
       "title": "Estonia cerrará los pasos fronterizos con Rusia tras un intento de “sabotaje” en una fábrica de drones",
       "category": "internacional",
       "category_label": "Internacional",
@@ -327,7 +537,7 @@
       "summary": "Estonia cerrará todos sus pasos fronterizos con Rusia a partir del próximo 1 de diciembre, indicó este domingo 15 de noviembre su ministro de Asuntos Exteriores. El anuncio llega tras un presunto acto de sabotaje contra ..."
     },
     {
-      "id": "regional-5-Pachamama_Radio_Puno_Para",
+      "id": "regional-7-Pachamama_Radio_Puno_Para",
       "title": "Para más de 94 000 electores ODPE Chucuito prepara la Segunda Elección Regional 2026",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -342,7 +552,7 @@
       "summary": "Segunda elección regional 2026 convocará a 94 806 electores de Chucuito y Yunguyo en 342 mesas de sufragio el 6 de diciembre"
     },
     {
-      "id": "regional-6-Pachamama_Radio_Puno_Papa",
+      "id": "regional-8-Pachamama_Radio_Puno_Papa",
       "title": "Papa León XIV incomoda al poder con mensajes suaves pero firmes en Perú",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -357,127 +567,7 @@
       "summary": "El Papa León XIV pidió en Perú una economía al servicio de la persona, con un mensaje firme que incomodó al poder y llegó a fieles y familiares de víctimas"
     },
     {
-      "id": "nacional-4-Agencia_Andina_Saludo_des",
-      "title": "¡Saludo desde las alturas! Cusqueños emocionaron al papa León XIV a su llegada a la ciudad",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-saludo-desde-las-alturas-cusquenos-emocionaron-al-papa-leon-xiv-a-su-llegada-a-ciudad-1100105.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/15/001332357W.jpg",
-      "local_image": "images/today/2026-11-15_Agencia_Andina_Saludo_desde_las_alturas_Cusqueno.jpg",
-      "date": "Sun, 15 Nov 2026 13:36:39 -0500",
-      "date_formatted": "Hoy • 1:36 PM",
-      "date_full": "15 de Noviembre de 2026, 1:36 PM",
-      "timestamp": 1794767799,
-      "summary": "Un grupo de trabajadores que se encontraba en un edificio cercano al aeropuerto internacional Alejandro Velasco Astete de Cusco consiguió llamar la atención del papa León XIV con sus efusivos gritos de «¡León, León!», du..."
-    },
-    {
-      "id": "regional-7-Pachamama_Radio_Puno_Dos_",
-      "title": "Dos jóvenes caen a barranco de 15 metros detrás de la Escuela Bellavista en Puno",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Pachamama Radio (Puno)",
-      "url": "https://pachamamaradio.org/dos-jovenes-caen-a-barranco-de-15-metros-detras-de-la-escuela-bellavista-en-puno/",
-      "image_url": "https://pachamamaradio.org/wp-content/uploads/2026/11/Dos-jovenes-caen-a-barranco-de-15-metros-DF.avif",
-      "local_image": "images/today/2026-11-15_Pachamama_Radio_Puno_Dos_jovenes_caen_a_barranco_de_15_m.jpg",
-      "date": "2026-11-15T13:35:17",
-      "date_formatted": "Hoy • 1:35 PM",
-      "date_full": "15 de Noviembre de 2026, 1:35 PM",
-      "timestamp": 1794767717,
-      "summary": "Dos jóvenes cayeron a un barranco de 15 metros en Puno y fueron auxiliados por policías de emergencia y bomberos tras el accidente"
-    },
-    {
-      "id": "nacional-5-Agencia_Andina_Leon_XIV_P",
-      "title": "León XIV: Perú fortaleció preparación de destinos turísticos ante emergencias para visita",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-leon-xiv-peru-fortalecio-preparacion-destinos-turisticos-ante-emergencias-para-visita-1100104.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/15/001332336W.jpg",
-      "local_image": "images/today/2026-11-15_Agencia_Andina_Leon_XIV_Peru_fortalecio_preparaci.jpg",
-      "date": "Sun, 15 Nov 2026 13:30:00 -0500",
-      "date_formatted": "Hoy • 1:30 PM",
-      "date_full": "15 de Noviembre de 2026, 1:30 PM",
-      "timestamp": 1794767400,
-      "summary": "El Ministerio de Comercio Exterior y Turismo (Mincetur) capacitó a más de 120 prestadores de servicios turísticos en prevención y respuesta ante emergencias y desastres, como parte de las acciones de preparación para la ..."
-    },
-    {
-      "id": "nacional-6-Agencia_Andina_Gobierno_q",
-      "title": "Gobierno: quienes faciliten armas para cometer delitos recibirán hasta 15 años de cárcel",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-gobierno-quienes-faciliten-armas-para-cometer-delitos-recibiran-hasta-15-anos-carcel-1100097.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/10/11/001322639W.jpg",
-      "local_image": "images/today/2026-11-15_Agencia_Andina_Gobierno_quienes_faciliten_armas_p.jpg",
-      "date": "Sun, 15 Nov 2026 13:14:52 -0500",
-      "date_formatted": "Hoy • 1:14 PM",
-      "date_full": "15 de Noviembre de 2026, 1:14 PM",
-      "timestamp": 1794766492,
-      "summary": "La Presidencia del Consejo de Ministros recordó que las personas que faciliten armas para cometer delitos pueden recibir hasta 15 años de cárcel, de acuerdo al Decreto Legislativo 1744 que modifica el Código Penal con el..."
-    },
-    {
-      "id": "nacional-7-Agencia_Andina_Peruanos_L",
-      "title": "Peruanos Lucca Mesinas y Miguel Tudela hacen historia en el Mundial de Surf",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-peruanos-lucca-mesinas-y-miguel-tudela-hacen-historia-el-mundial-surf-1100098.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/15/001332355W.jpg",
-      "local_image": "images/today/2026-11-15_Agencia_Andina_Peruanos_Lucca_Mesinas_y_Miguel_Tud.jpg",
-      "date": "Sun, 15 Nov 2026 13:12:46 -0500",
-      "date_formatted": "Hoy • 1:12 PM",
-      "date_full": "15 de Noviembre de 2026, 1:12 PM",
-      "timestamp": 1794766366,
-      "summary": "El surf peruano celebró este domingo un resultado histórico en el Mundial de Surf Perú 2026, luego de que Lucca Mesinas y Miguel Tudela subieron al podio en los ISA World Surfing Games tras alcanzar el segundo y tercer p..."
-    },
-    {
-      "id": "nacional-8-Agencia_Andina_Con_cancio",
-      "title": "Con canción \"León, hermano del camino\", Cusco despide al papa León XIV",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-con-cancion-leon-hermano-del-camino-cusco-despide-al-papa-leon-xiv-1100100.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/15/001332347W.jpg",
-      "local_image": "images/today/2026-11-15_Agencia_Andina_Con_cancion_Leon_hermano_del_cami.jpg",
-      "date": "Sun, 15 Nov 2026 13:12:37 -0500",
-      "date_formatted": "Hoy • 1:12 PM",
-      "date_full": "15 de Noviembre de 2026, 1:12 PM",
-      "timestamp": 1794766357,
-      "summary": "Con la canción \"León, hermano del camino\", entonado por el coro del arzobispado de Cusco, culminaron las actividades del papa León XIV en la ciudad imperial donde fue despedido por miles de personas."
-    },
-    {
-      "id": "nacional-9-Agencia_Andina_Papa_Leon_",
-      "title": "Papa León XIV en Las Palmas: podrás obtener entrada con solo tu DNI antes de la misa",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-papa-leon-xiv-las-palmas-podras-obtener-entrada-solo-tu-dni-antes-de-misa-1100099.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/14/001332154W.jpg",
-      "local_image": "images/today/2026-11-15_Agencia_Andina_Papa_Leon_XIV_en_Las_Palmas_podras.jpg",
-      "date": "Sun, 15 Nov 2026 13:05:05 -0500",
-      "date_formatted": "Hoy • 1:05 PM",
-      "date_full": "15 de Noviembre de 2026, 1:05 PM",
-      "timestamp": 1794765905,
-      "summary": "La multitudinaria misa que celebrará el papa León XIV este lunes 16 de noviembre, a partir de las 10:30 horas, en la base aérea Las Palmas, en Surco, espera congregar a más de un millón de personas. Pero ¿qué pasará con ..."
-    },
-    {
-      "id": "nacional-10-Agencia_Andina_Misa_del_p",
-      "title": "Misa del papa León XIV en Las Palmas reunirá tres grandes devociones peruanas",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-misa-del-papa-leon-xiv-las-palmas-reunira-tres-grandes-devociones-peruanas-1099808.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/12/001331429W.jpg",
-      "local_image": "images/today/2026-11-15_Agencia_Andina_Misa_del_papa_Leon_XIV_en_Las_Palma.jpg",
-      "date": "Sun, 15 Nov 2026 13:00:00 -0500",
-      "date_formatted": "Hoy • 1:00 PM",
-      "date_full": "15 de Noviembre de 2026, 1:00 PM",
-      "timestamp": 1794765600,
-      "summary": "Todo va quedando listo para la multitudinaria misa que celebrará el papa León XIV este lunes 16 de noviembre en la Base Aérea Las Palmas, en Surco, como parte de sus últimas actividades pastorales en el Perú. En esta imp..."
-    },
-    {
-      "id": "internacional-3-France_24_en_Espanol_Info",
+      "id": "internacional-4-France_24_en_Espanol_Info",
       "title": "Informe desde Lima: León XIV resalta la importancia de las tradiciones religiosas populares",
       "category": "internacional",
       "category_label": "Internacional",
@@ -492,7 +582,7 @@
       "summary": "El papa León XIV entregó la Rosa de Oro a la Virgen Reina de Belén en su visita al Parque Arqueológico de Sacsayhuamán, donde resaltó la importancia de las tradiciones religiosas populares como símbolo de unidad. Informa..."
     },
     {
-      "id": "internacional-4-France_24_en_Espanol_Vero",
+      "id": "internacional-5-France_24_en_Espanol_Vero",
       "title": "Véronique Lecaros: \"La Iglesia católica se ha dado cuenta de la importancia de las tradiciones\"",
       "category": "internacional",
       "category_label": "Internacional",
@@ -522,22 +612,7 @@
       "summary": "Superestrella del teatro y el cine, talentoso jugador de fútbol americano y  creador de éxitos musicales. Pero el fervor anticomunista de la Guerra Fría, le asestó un fuerte golpe."
     },
     {
-      "id": "regional-8-Pachamama_Radio_Puno_Vinc",
-      "title": "Vinchos: Alcalde deja a la nueva gestión más de S/13.9 millones sin gastar y obras sin terminar",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Pachamama Radio (Puno)",
-      "url": "https://pachamamaradio.org/vinchos-alcalde-deja-a-la-nueva-gestion-mas-de-s-13-9-millones-sin-gastar-y-obras-sin-terminar/",
-      "image_url": "https://pachamamaradio.org/wp-content/uploads/2026/11/Vinchos-Alcalde-deja-a-la-nueva-gestion-mas-de-S13.9-millones-sin-gastar-y-obras-sin-terminar.avif",
-      "local_image": "images/today/2026-11-15_Pachamama_Radio_Puno_Vinchos_Alcalde_deja_a_la_nueva_ge.jpg",
-      "date": "2026-11-15T12:32:41",
-      "date_formatted": "Hoy • 12:32 PM",
-      "date_full": "15 de Noviembre de 2026, 12:32 PM",
-      "timestamp": 1794763961,
-      "summary": "A menos de dos meses de que concluya el año fiscal 2026 y termine la gestión del alcalde Faustino Flores Meneses, la Municipalidad Distrital de Vinchos, en Huamanga, ha devengado…"
-    },
-    {
-      "id": "internacional-5-France_24_en_Espanol_Tens",
+      "id": "internacional-6-France_24_en_Espanol_Tens",
       "title": "Tensiones en la Cumbre de la Francofonía por posible reelección de la secretaria general",
       "category": "internacional",
       "category_label": "Internacional",
@@ -552,7 +627,7 @@
       "summary": "🇫🇷 Emmanuel Macron llegó a la cumbre de la Organización Internacional de la Francofonía (OIF), donde las tensiones vinculadas al conflicto en el este de la República Democrática del Congo han marcado el evento."
     },
     {
-      "id": "internacional-6-France_24_en_Espanol_No_h",
+      "id": "internacional-7-France_24_en_Espanol_No_h",
       "title": "\"No hay palabras para este descalabro\": miles de jubilados siguen afectados por la crisis de Ueno Bank en Paraguay",
       "category": "internacional",
       "category_label": "Internacional",
@@ -582,7 +657,7 @@
       "summary": "El documento de 114 páginas de los socialistas contempla también un Pacto de Estado por la seguridad ferroviaria, un “escaño ciudadano” y la abolición de la prostitución"
     },
     {
-      "id": "internacional-7-France_24_en_Espanol_Mas_",
+      "id": "internacional-8-France_24_en_Espanol_Mas_",
       "title": "Más de 1.500 migrantes llegan a Canarias este fin de semana en una nueva crisis de la ruta atlántica",
       "category": "internacional",
       "category_label": "Internacional",
@@ -597,14 +672,14 @@
       "summary": "Más de 1.500 migrantes han llegado a las Islas Canarias durante este fin de semana, en una intensa sucesión de operaciones de rescate que ha situado a El Hierro en el epicentro de la presión migratoria. Solo el sábado fu..."
     },
     {
-      "id": "internacional-7-BBC_Mundo_Cuales_son_las_",
-      "title": "Cuáles son las 3 bandas criminales de Guatemala que EE.UU. designó como organizaciones terroristas extranjeras",
+      "id": "internacional-7-BBC_Mundo_Que_se_sabe_sob",
+      "title": "Qué se sabe sobre las 3 bandas criminales de Guatemala que EE.UU. designó como organizaciones terroristas extranjeras",
       "category": "internacional",
       "category_label": "Internacional",
       "source": "BBC Mundo",
       "url": "https://www.bbc.com/mundo/articles/c3rrg98rd8dqo?at_medium=RSS&at_campaign=rss",
       "image_url": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/d07d/live/8af20510-e10c-11f1-b3df-4961589d9b68.jpg",
-      "local_image": "images/today/2026-11-15_BBC_Mundo_Cuales_son_las_3_bandas_criminales.jpg",
+      "local_image": "images/today/2026-11-15_BBC_Mundo_Que_se_sabe_sobre_las_3_bandas_crim.jpg",
       "date": "Sun, 15 Nov 2026 16:40:04 GMT",
       "date_formatted": "Hoy • 11:40 AM",
       "date_full": "15 de Noviembre de 2026, 11:40 AM",
@@ -627,7 +702,7 @@
       "summary": "Sus disputas con los autores del \"boom\" y su papel en el gobierno de Méndez Montenegro opacaron la obra Asturias poco después de recibir el Nobel."
     },
     {
-      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "id": "regional-2-Diario_Sin_Fronteras_Puno",
       "title": "Rebalse del río afecta stands de comida y juegos mecánicos durante el Festival del Camarón en Camaná",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -732,7 +807,37 @@
       "summary": "Consulta el pronóstico del clima hoy en Lima y ciudades del Perú: temperatura actual, sensación térmica, radiación UV, probabilidad de lluvia y reporte oficial del Senamhi actualizado."
     },
     {
-      "id": "internacional-1-BBC_Mundo_Quizas_veamos_e",
+      "id": "regional-1-Diario_Los_Andes_Puno_DIA",
+      "title": "DIARIO LOS ANDES PUNO: 15/11/26",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Diario Los Andes (Puno)",
+      "url": "https://losandes.com.pe/diario-los-andes-puno-15-11-26/",
+      "image_url": "https://losandes.com.pe/wp-content/uploads/2026/11/PUNO-13-scaled.jpg",
+      "local_image": "images/today/2026-11-15_Diario_Los_Andes_Puno_DIARIO_LOS_ANDES_PUNO_15_11_26.jpg",
+      "date": "2026-11-15T00:57:41",
+      "date_formatted": "Hoy • 12:57 AM",
+      "date_full": "15 de Noviembre de 2026, 12:57 AM",
+      "timestamp": 1794722261,
+      "summary": "DIARIO LOS ANDES PUNO: 15/11/26"
+    },
+    {
+      "id": "regional-2-Diario_Los_Andes_Puno_DIA",
+      "title": "DIARIO LOS ANDES AREQUIPA: 15/11/26",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Diario Los Andes (Puno)",
+      "url": "https://losandes.com.pe/diario-los-andes-arequipa-15-11-26/",
+      "image_url": "https://losandes.com.pe/wp-content/uploads/2026/11/AQP-17-scaled.jpg",
+      "local_image": "images/today/2026-11-15_Diario_Los_Andes_Puno_DIARIO_LOS_ANDES_AREQUIPA_15_11_26.jpg",
+      "date": "2026-11-15T00:57:25",
+      "date_formatted": "Hoy • 12:57 AM",
+      "date_full": "15 de Noviembre de 2026, 12:57 AM",
+      "timestamp": 1794722245,
+      "summary": "DIARIO LOS ANDES AREQUIPA: 15/11/26"
+    },
+    {
+      "id": "internacional-2-BBC_Mundo_Quizas_veamos_e",
       "title": "\"Quizás veamos el 25 de octubre de este año como el comienzo del fin de la recesión democrática mundial\"",
       "category": "internacional",
       "category_label": "Internacional",
@@ -760,21 +865,6 @@
       "date_full": "14 de Noviembre de 2026, 11:30 PM",
       "timestamp": 1794717001,
       "summary": "Los socialistas mejoran sus posiciones entre el electorado de centro, pero están en riesgo de perder un millón de sufragios por el flanco conservador"
-    },
-    {
-      "id": "internacional-6-El_Pais_Internacional_Tod",
-      "title": "Todos los caminos a La Moncloa pasan por el ‘podcast’: “¿Eres más pija o más quinqui?”",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "El País Internacional",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-15/todos-los-caminos-a-la-moncloa-pasan-por-el-podcast.html",
-      "image_url": "https://imagenes.elpais.com/resizer/v2/Z6BYZETJSFKGFDXZ32ERH5VLTU.jpg?auth=886aa358c885e64b5ef7492aaedc4f635a48bcadf891226edb8ec3b747953eed",
-      "local_image": "images/today/2026-11-15_El_Pais_Internacional_Todos_los_caminos_a_La_Moncloa_pasa.jpg",
-      "date": "Sun, 15 Nov 2026 04:30:01 GMT",
-      "date_formatted": "14 Nov • 11:30 PM",
-      "date_full": "14 de Noviembre de 2026, 11:30 PM",
-      "timestamp": 1794717001,
-      "summary": "Por primera vez, una campaña a las generales en España se vive en estos formatos. Sánchez ya lleva tres y su equipo no descarta más: “Lo cerramos en el último momento”"
     },
     {
       "id": "internacional-8-El_Pais_Internacional_La_",
@@ -807,7 +897,7 @@
       "summary": "Han crecido viendo resquebrajarse el viejo mundo e intuyendo que les tocará poner en pie otro nuevo. Hablamos con 24 jóvenes nacidos en 2008 sobre sus ideas y preocupaciones"
     },
     {
-      "id": "regional-2-Diario_Sin_Fronteras_Puno",
+      "id": "regional-3-Diario_Sin_Fronteras_Puno",
       "title": "Deudos y víctimas de la masacre del 9 de enero de 2023 esperan al papa León XIV en Cusco para exigir justicia",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -822,7 +912,7 @@
       "summary": "Una delegación de la Asociación de Mártires y Víctimas de la ‘masacre’ del 9 de Enero de 2023 en Juliaca – Puno,"
     },
     {
-      "id": "regional-3-Diario_Sin_Fronteras_Puno",
+      "id": "regional-4-Diario_Sin_Fronteras_Puno",
       "title": "Cusco: entradas agotadas y hoteles llenos ante la llegada del papa León XIV",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -837,7 +927,7 @@
       "summary": "La visita del papa León XIV ha generado gran expectativa en Cusco. A un día de su llegada, los 30.000 pases disponibles"
     },
     {
-      "id": "regional-4-Diario_Sin_Fronteras_Puno",
+      "id": "regional-5-Diario_Sin_Fronteras_Puno",
       "title": "Cuy frito y café pasado: La gastronomía que prefería el papa León XIV en Oyotún",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -852,7 +942,7 @@
       "summary": "El papa León XIV se encuentra hoy en el distrito de Zaña, donde presidirá una misa a las 5:30 p. m. para"
     },
     {
-      "id": "regional-5-Diario_Sin_Fronteras_Puno",
+      "id": "regional-6-Diario_Sin_Fronteras_Puno",
       "title": "Trump se reunirá con Xi Jinping y Putin en histórico encuentro trilateral en China",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -867,7 +957,7 @@
       "summary": "La Casa Blanca confirmó la celebración de una cumbre inédita entre los líderes Donald Trump, Xi Jinping y Vladimir Putin para el"
     },
     {
-      "id": "regional-6-Diario_Sin_Fronteras_Puno",
+      "id": "regional-7-Diario_Sin_Fronteras_Puno",
       "title": "Periodista argentino califica a Chiclayo como “ciudad precaria” y genera críticas en redes sociales",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -882,7 +972,7 @@
       "summary": "La cobertura de la visita del papa León XIV a Chiclayo generó controversia luego de que un periodista argentino calificara a la"
     },
     {
-      "id": "regional-7-Diario_Sin_Fronteras_Puno",
+      "id": "regional-8-Diario_Sin_Fronteras_Puno",
       "title": "Visita del papa a Cusco aumenta la demanda de pasajes desde Arequipa: precios llegan a S/ 180",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -895,36 +985,6 @@
       "date_full": "14 de Noviembre de 2026, 11:16 AM",
       "timestamp": 1794672994,
       "summary": "La expectativa por la visita del papa León XIV a Cusco incrementó la demanda de pasajes terrestres desde Arequipa. En el Terminal"
-    },
-    {
-      "id": "nacional-3-RPP_Noticias_Temblor_en_C",
-      "title": "Temblor en Chile hoy 15 de noviembre: Epicentro del sismo según CSN",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/mundo/chile/temblor-en-chile-hoy-14-de-noviembre-epicentro-del-sismo-segun-csn-live-3712",
-      "image_url": "https://f.rpp-noticias.io/2024/11/07/363236_1666477.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-15_RPP_Noticias_Temblor_en_Chile_hoy_15_de_noviembr.jpg",
-      "date": "Sat, 14 Nov 2026 11:09:45 -0500",
-      "date_formatted": "14 Nov • 11:09 AM",
-      "date_full": "14 de Noviembre de 2026, 11:09 AM",
-      "timestamp": 1794672585,
-      "summary": "¿Cuál fue el último Temblor en Chile hoy 15 de noviembre y registrado por el servicio Sismológico Nacional de Chile (CSN)? Consulta los últimos sismos: magnitud y epicentro del movimiento sísmico."
-    },
-    {
-      "id": "regional-8-Diario_Sin_Fronteras_Puno",
-      "title": "BCR eleva tasa de interés a 4.50 % para contener el avance de la inflación",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Diario Sin Fronteras (Puno)",
-      "url": "https://diariosinfronteras.com.pe/2026/11/14/bcr-eleva-tasa-de-interes-a-4-50-para-contener-el-avance-de-la-inflacion/",
-      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/11/orig-1794577769771.jpg",
-      "local_image": "images/today/2026-11-15_Diario_Sin_Fronteras_Puno_BCR_eleva_tasa_de_interes_a_4_50.jpg",
-      "date": "2026-11-14T10:41:41",
-      "date_formatted": "14 Nov • 10:41 AM",
-      "date_full": "14 de Noviembre de 2026, 10:41 AM",
-      "timestamp": 1794670901,
-      "summary": "El Banco Central de Reserva del Perú (BCR) decidió elevar su tasa de interés de referencia de 4.25 % a 4.50 %,"
     }
   ]
 }
