@@ -1,14 +1,14 @@
 {
   "title": "Observatorio para Chabely",
   "date": "2026-11-21",
-  "updated_at": "21 de Noviembre de 2026 a las 4:15 PM (Hora Perú)",
-  "updated_at_iso": "2026-11-21T16:15:21.546136-05:00",
+  "updated_at": "21 de Noviembre de 2026 a las 6:29 PM (Hora Perú)",
+  "updated_at_iso": "2026-11-21T18:29:27.567891-05:00",
   "stats": {
-    "total": 69,
+    "total": 67,
     "portadas": 5,
     "regional": 23,
     "nacional": 19,
-    "internacional": 22
+    "internacional": 20
   },
   "media": [
     {
@@ -23,7 +23,7 @@
       "date": "2026-11-21",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 21 de Noviembre de 2026",
-      "timestamp": 1795295721,
+      "timestamp": 1795303767,
       "summary": "Primera plana y portada oficial del diario El Comercio (Perú) correspondiente al 21 de Noviembre de 2026."
     },
     {
@@ -38,7 +38,7 @@
       "date": "2026-11-21",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 21 de Noviembre de 2026",
-      "timestamp": 1795295721,
+      "timestamp": 1795303767,
       "summary": "Primera plana y portada oficial del diario La República (Perú) correspondiente al 21 de Noviembre de 2026."
     },
     {
@@ -53,7 +53,7 @@
       "date": "2026-11-21",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 21 de Noviembre de 2026",
-      "timestamp": 1795295721,
+      "timestamp": 1795303767,
       "summary": "Primera plana y portada oficial del diario La Razón (Perú) correspondiente al 21 de Noviembre de 2026."
     },
     {
@@ -68,7 +68,7 @@
       "date": "2026-11-21",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 21 de Noviembre de 2026",
-      "timestamp": 1795295721,
+      "timestamp": 1795303767,
       "summary": "Primera plana y portada oficial del diario Líbero (Perú) correspondiente al 21 de Noviembre de 2026."
     },
     {
@@ -83,26 +83,296 @@
       "date": "2026-11-21",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 21 de Noviembre de 2026",
-      "timestamp": 1795295721,
+      "timestamp": 1795303767,
       "summary": "Primera plana y portada oficial del diario El País (España / Global) correspondiente al 21 de Noviembre de 2026."
     },
     {
-      "id": "nacional-2-RPP_Noticias_Alianza_Lima",
-      "title": "Alianza Lima vs Atlético Atenea en vivo: ¿a qué hora juegan y dónde ver la fecha 6 de Fase 1 de Liga Peruana de Vóley?",
+      "id": "nacional-1-Agencia_Andina_INPE_imple",
+      "title": "INPE implementa sistema de inteligencia penitenciaria para recuperar control en prisiones",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-inpe-implementa-sistema-inteligencia-penitenciaria-para-recuperar-control-prisiones-1100975.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/09/06/001312603W.webp",
+      "local_image": "images/today/2026-11-21_Agencia_Andina_INPE_implementa_sistema_de_intelige.jpg",
+      "date": "Sat, 21 Nov 2026 18:19:18 -0500",
+      "date_formatted": "Hoy • 6:19 PM",
+      "date_full": "21 de Noviembre de 2026, 6:19 PM",
+      "timestamp": 1795303158,
+      "summary": "El Instituto Nacional Penitenciario (INPE) viene implementando un sistema de inteligencia penitenciaria, como parte de las medidas orientadas a recuperar el control en las cárceles, manifestó el presidente de dicha insti..."
+    },
+    {
+      "id": "nacional-2-Agencia_Andina_Innovacion",
+      "title": "Innovación pública: así funciona Katapulta, el laboratorio de la ONP para los asegurados",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-innovacion-publica-asi-funciona-katapulta-laboratorio-de-onp-para-los-asegurados-1100931.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333772W.webp",
+      "local_image": "images/today/2026-11-21_Agencia_Andina_Innovacion_publica_asi_funciona_Ka.jpg",
+      "date": "Sat, 21 Nov 2026 18:17:11 -0500",
+      "date_formatted": "Hoy • 6:17 PM",
+      "date_full": "21 de Noviembre de 2026, 6:17 PM",
+      "timestamp": 1795303031,
+      "summary": "¿Cómo saber si un cambio en un trámite de pensiones le facilita las cosas a quien debe realizarlo? En Katapulta, el laboratorio de innovación de la Oficina de Normalización Previsional (ONP), los propios asegurados parti..."
+    },
+    {
+      "id": "nacional-4-RPP_Noticias_Iran_anuncio",
+      "title": "Irán anunció un ataque contra dos radares del sistema Patriot de EE. UU. en Bahréin",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
       "source": "RPP Noticias",
-      "url": "https://rpp.pe/voley/mas-voley/alianza-lima-vs-atletico-atenea-en-vivo-a-que-hora-juegan-y-donde-ver-fecha-6-fase-1-liga-peruana-de-voley-2026-2027-via-latina-y-youtube-voley-noticia-1719055",
-      "image_url": "https://f.rpp-noticias.io/2026/11/21/383638_1931683.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-21_RPP_Noticias_Alianza_Lima_vs_Atletico_Atenea_en.jpg",
-      "date": "Sat, 21 Nov 2026 16:10:14 -0500",
-      "date_formatted": "Hoy • 4:10 PM",
-      "date_full": "21 de Noviembre de 2026, 4:10 PM",
-      "timestamp": 1795295414,
-      "summary": "Alianza vs Atenea EN VIVO: sigue la transmisión del encuentro por la fecha 6 de la primera fase de la Liga Peruana de Vóley."
+      "url": "https://rpp.pe/mundo/actualidad/iran-anuncio-un-ataque-contra-dos-radares-del-sistema-patriot-de-ee-uu-en-bahrein-noticia-1719084",
+      "image_url": "https://f.rpp-noticias.io/2026/11/21/533053_1931758.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-21_RPP_Noticias_Iran_anuncio_un_ataque_contra_dos_r.jpg",
+      "date": "Sat, 21 Nov 2026 18:12:27 -0500",
+      "date_formatted": "Hoy • 6:12 PM",
+      "date_full": "21 de Noviembre de 2026, 6:12 PM",
+      "timestamp": 1795302747,
+      "summary": "El ataque ha sido lanzado por la Fuerza Aeroespacial de la Guardia Revolucionaria con \"una operación ofensiva combinada utilizando misiles y drones\"."
     },
     {
-      "id": "nacional-1-Agencia_Andina_Beca_18_po",
+      "id": "nacional-1-RPP_Noticias_Regatas_Lima",
+      "title": "Regatas Lima vs Deportivo Soan EN VIVO vía YouTube: se enfrentan por la fecha 6 de la Liga Peruana de Vóley 2026-2027",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/voley/mas-voley/regatas-lima-vs-deportivo-soan-en-vivo-con-fernanda-tome-tomezinha-a-que-hora-juegan-y-donde-ver-fecha-6-fase-1-liga-peruana-de-voley-2026-2027-via-latina-y-youtube-voley-noticia-1718885",
+      "image_url": "https://f.rpp-noticias.io/2026/11/20/443344_1931389.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-21_RPP_Noticias_Regatas_Lima_vs_Deportivo_Soan_EN_V.jpg",
+      "date": "Sat, 21 Nov 2026 18:00:50 -0500",
+      "date_formatted": "Hoy • 6:00 PM",
+      "date_full": "21 de Noviembre de 2026, 6:00 PM",
+      "timestamp": 1795302050,
+      "summary": "Regatas Lima vs Deportivo Soan EN VIVO: sigue el partido por la fecha 6 de la Liga Peruana de Vóley 2026-2027."
+    },
+    {
+      "id": "nacional-5-RPP_Noticias_Ahora_si_San",
+      "title": "¡Ahora sí! Santiago Ascacibar anotó el 1-0 de Boca Juniors en la gran final de la Copa Sudamericana [VIDEO]",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/copa-sudamericana/ver-gol-santiago-ascacibar-en-boca-juniors-vs-atletico-mineiro-video-1-0-de-un-derechazo-en-barranquilla-partido-de-hoy-noticia-1719088",
+      "image_url": "https://f.rpp-noticias.io/2026/11/21/300030_1931764.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-21_RPP_Noticias_Ahora_si_Santiago_Ascacibar_anoto.jpg",
+      "date": "Sat, 21 Nov 2026 18:00:16 -0500",
+      "date_formatted": "Hoy • 6:00 PM",
+      "date_full": "21 de Noviembre de 2026, 6:00 PM",
+      "timestamp": 1795302016,
+      "summary": "Santiago Ascacibar apareció en el segundo palo para poner el 1-0 de Boca sobre Mineiro por la final de la Copa Sudamericana."
+    },
+    {
+      "id": "nacional-3-RPP_Noticias_Partidos_del",
+      "title": "Partidos del sábado 21 de noviembre: horarios y canales de TV para ver EN VIVO la Liga 1 y Copa Sudamericana",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/futbol-mundial/partidos-del-sabado-21-de-noviembre-horarios-y-canales-de-tv-para-ver-en-vivo-la-liga-1-y-copa-sudamericana-noticia-1718945",
+      "image_url": "https://f.rpp-noticias.io/2026/11/20/275527_1931499.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-21_RPP_Noticias_Partidos_del_sabado_21_de_noviembre.jpg",
+      "date": "Sat, 21 Nov 2026 18:00:01 -0500",
+      "date_formatted": "Hoy • 6:00 PM",
+      "date_full": "21 de Noviembre de 2026, 6:00 PM",
+      "timestamp": 1795302001,
+      "summary": "Conoce todos los detalles y la información de las competiciones del fútbol peruano y mundial."
+    },
+    {
+      "id": "nacional-3-Agencia_Andina_Pedagogico",
+      "title": "Pedagógico de Monterrico celebra 150 años formando educadores para el Perú",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-pedagogico-monterrico-celebra-150-anos-formando-educadores-para-peru-1100968.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333729W.webp",
+      "local_image": "images/today/2026-11-21_Agencia_Andina_Pedagogico_de_Monterrico_celebra_15.jpg",
+      "date": "Sat, 21 Nov 2026 18:00:00 -0500",
+      "date_formatted": "Hoy • 6:00 PM",
+      "date_full": "21 de Noviembre de 2026, 6:00 PM",
+      "timestamp": 1795302000,
+      "summary": "Con más de diez mil egresados, siete carreras acreditadas y un licenciamiento vigente hasta 2031, la histórica Escuela de Educación Superior Pedagógica Pública (EESPP) Monterrico celebra 150 años de labor institucional i..."
+    },
+    {
+      "id": "nacional-4-Agencia_Andina_La_Espada_",
+      "title": "‘La Espada y la Novela’: conversatorio sobre la experiencia militar y la literatura",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-la-espada-y-novela-conversatorio-sobre-experiencia-militar-y-literatura-1100973.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333770W.webp",
+      "local_image": "images/today/2026-11-21_Agencia_Andina_La_Espada_y_la_Novela_conversato.jpg",
+      "date": "Sat, 21 Nov 2026 17:57:39 -0500",
+      "date_formatted": "Hoy • 5:57 PM",
+      "date_full": "21 de Noviembre de 2026, 5:57 PM",
+      "timestamp": 1795301859,
+      "summary": "¿Qué ocurre cuando la experiencia militar se encuentra con la imaginación literaria? Esta pregunta será el punto de partida de ‘La Espada y la Novela’, un conversatorio que reunirá a Alan Torrico, Henry Walters y Miguel ..."
+    },
+    {
+      "id": "internacional-6-BBC_Mundo_Kate_Middleton_",
+      "title": "Kate Middleton habla abiertamente sobre cómo el cáncer cambió su vida en un documental de la BBC",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/c6gregq1xynwo?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/c010/live/8fc02730-e5a7-11f1-8df2-d7de7bfd91b9.jpg",
+      "local_image": "images/today/2026-11-21_BBC_Mundo_Kate_Middleton_habla_abiertamente_s.jpg",
+      "date": "Sat, 21 Nov 2026 22:57:24 GMT",
+      "date_formatted": "Hoy • 5:57 PM",
+      "date_full": "21 de Noviembre de 2026, 5:57 PM",
+      "timestamp": 1795301844,
+      "summary": "\"Hay una faceta mucho, mucho más profunda de cómo un cáncer te cambia\", dice la Princesa de Gales en el documental."
+    },
+    {
+      "id": "nacional-8-RPP_Noticias_Alianza_Lima",
+      "title": "Alianza Lima arrolló en Matute: goleó 5-0 a FC Cajamarca por la fecha 17 del Torneo Clausura [VIDEO]",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/descentralizado/alianza-lima-vs-fc-cajamarca-en-vivo-l1max-que-canal-transmite-fecha-17-torneo-clausura-2026-via-rpp-partidos-de-hoy-noticia-1718795",
+      "image_url": "https://f.rpp-noticias.io/2026/11/21/182518_1931757.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-21_RPP_Noticias_Alianza_Lima_arrollo_en_Matute_gol.jpg",
+      "date": "Sat, 21 Nov 2026 17:45:57 -0500",
+      "date_formatted": "Hoy • 5:45 PM",
+      "date_full": "21 de Noviembre de 2026, 5:45 PM",
+      "timestamp": 1795301157,
+      "summary": "Alianza Lima aplastó 5-0 a Cajamarca, que le dijo adiós a la Liga1 Te Apuesto."
+    },
+    {
+      "id": "nacional-7-RPP_Noticias_Alianza_Lima",
+      "title": "Alianza Lima vs FC Cajamarca: resumen e incidencias de la fecha 17 del Torneo Clausura 2026",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/descentralizado/alianza-lima-vs-fc-cajamarca-en-vivo-a-que-hora-juegan-en-matute-y-donde-ver-fecha-17-torneo-clausura-2026-via-l1max-partidos-de-hoy-noticia-1718750",
+      "image_url": "https://f.rpp-noticias.io/2026/11/21/074907_1931761.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-21_RPP_Noticias_Alianza_Lima_vs_FC_Cajamarca_resum.jpg",
+      "date": "Sat, 21 Nov 2026 17:45:40 -0500",
+      "date_formatted": "Hoy • 5:45 PM",
+      "date_full": "21 de Noviembre de 2026, 5:45 PM",
+      "timestamp": 1795301140,
+      "summary": "Alianza Lima vs FC Cajamarca EN VIVO: conoce cuándo se jugó la fecha 17 del Torneo Clausura 2026."
+    },
+    {
+      "id": "nacional-9-RPP_Noticias_Pronabec_Pos",
+      "title": "Pronabec: Postulantes a Beca 18 solo pueden llevar DNI, lápiz 2B y borrador al examen nacional de este domingo",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/peru/actualidad/pronabec-postulantes-a-beca-18-solo-pueden-llevar-dni-lapiz-2b-y-borrador-al-examen-nacional-de-este-domingo-noticia-1719069",
+      "image_url": "https://f.rpp-noticias.io/2026/11/21/273327_1931715.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-21_RPP_Noticias_Pronabec_Postulantes_a_Beca_18_sol.jpg",
+      "date": "Sat, 21 Nov 2026 17:40:47 -0500",
+      "date_formatted": "Hoy • 5:40 PM",
+      "date_full": "21 de Noviembre de 2026, 5:40 PM",
+      "timestamp": 1795300847,
+      "summary": "La prueba se llevará a cabo en 109 locales distribuidos en todas las regiones del país."
+    },
+    {
+      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "title": "Cusco: sentencian a hombre por vender restos de zorro andino",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Diario Sin Fronteras (Puno)",
+      "url": "https://diariosinfronteras.com.pe/2026/11/21/cusco-sentencian-a-hombre-por-vender-restos-de-zorro-andino/",
+      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/11/IMG_20261121_173336_800_x_533_pixel.png",
+      "local_image": "images/today/2026-11-21_Diario_Sin_Fronteras_Puno_Cusco_sentencian_a_hombre_por_vend.jpg",
+      "date": "2026-11-21T17:36:59",
+      "date_formatted": "Hoy • 5:36 PM",
+      "date_full": "21 de Noviembre de 2026, 5:36 PM",
+      "timestamp": 1795300619,
+      "summary": "Un hombre de 67 años fue sentenciado por ofrecer en venta restos de un zorro andino en el distrito de San Sebastián,"
+    },
+    {
+      "id": "internacional-1-France_24_en_Espanol_Diez",
+      "title": "Diez años del acuerdo de paz en Colombia: la UE califica de \"éxito\" lo que hizo la Comisión de la Verdad",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "France 24 en Español",
+      "url": "https://www.france24.com/es/programas/la-entrevista/20261121-diez-a%C3%B1os-del-acuerdo-de-paz-en-colombia-la-ue-califica-de-%C3%A9xito-lo-que-hizo-la-comisi%C3%B3n-de-la-verdad",
+      "image_url": "https://s.france24.com/media/display/7ee6b91c-e5fa-11f1-a455-1bac47ab2f5d/w:1024/p:16x9/capture-1f2c6b5b.jpg",
+      "local_image": "images/today/2026-11-21_France_24_en_Espanol_Diez_anos_del_acuerdo_de_paz_en_Col.jpg",
+      "date": "Sat, 21 Nov 2026 22:36:36 GMT",
+      "date_formatted": "Hoy • 5:36 PM",
+      "date_full": "21 de Noviembre de 2026, 5:36 PM",
+      "timestamp": 1795300596,
+      "summary": "Colombia conmemora diez años del histórico acuerdo entre el Estado y la ahora desmovilizada guerrilla de las FARC. Sin embargo, en los tres gobiernos que siguieron a la firma, los avances en su implementación han sido mo..."
+    },
+    {
+      "id": "nacional-5-Agencia_Andina_Registro_d",
+      "title": "Registro de organizaciones criminales permitirá golpear su actividad con mayor agilidad",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-registro-organizaciones-criminales-permitira-golpear-su-actividad-mayor-agilidad-1100965.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2025/11/23/001228277W.webp",
+      "local_image": "images/today/2026-11-21_Agencia_Andina_Registro_de_organizaciones_criminal.jpg",
+      "date": "Sat, 21 Nov 2026 17:30:04 -0500",
+      "date_formatted": "Hoy • 5:30 PM",
+      "date_full": "21 de Noviembre de 2026, 5:30 PM",
+      "timestamp": 1795300204,
+      "summary": "La creación del registro de organizaciones criminales con prácticas terroristas (Renocte), facilitará golpear la actividad de estas bandas delictivas con mayor agilidad, señaló el analista en seguridad integral y gestión..."
+    },
+    {
+      "id": "nacional-6-Agencia_Andina_Ayacucho_i",
+      "title": "Ayacucho: investigación revela cómo fue la vida cotidiana en sitio arqueológico Pilluchu",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-ayacucho-investigacion-revela-como-fue-vida-cotidiana-sitio-arqueologico-pilluchu-1100970.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333752W.webp",
+      "local_image": "images/today/2026-11-21_Agencia_Andina_Ayacucho_investigacion_revela_como.jpg",
+      "date": "Sat, 21 Nov 2026 17:27:15 -0500",
+      "date_formatted": "Hoy • 5:27 PM",
+      "date_full": "21 de Noviembre de 2026, 5:27 PM",
+      "timestamp": 1795300035,
+      "summary": "Unas 200 estructuras habitacionales y seis chullpas funerarias forman parte de los hallazgos identificados por un equipo de arqueólogos ayacuchanos que investiga el sitio arqueológico de Pilluchu, ubicado en el ámbito de..."
+    },
+    {
+      "id": "nacional-7-Agencia_Andina_Jorge_Chav",
+      "title": "Jorge Chávez: pasajeros ya pueden identificarse con DNI digital para vuelos nacionales",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-jorge-chavez-pasajeros-ya-pueden-identificarse-dni-digital-para-vuelos-nacionales-1100964.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333727W.webp",
+      "local_image": "images/today/2026-11-21_Agencia_Andina_Jorge_Chavez_pasajeros_ya_pueden_i.jpg",
+      "date": "Sat, 21 Nov 2026 17:00:00 -0500",
+      "date_formatted": "Hoy • 5:00 PM",
+      "date_full": "21 de Noviembre de 2026, 5:00 PM",
+      "timestamp": 1795298400,
+      "summary": "El Registro Nacional de Identificación y Estado Civil (Reniec) destacó que Lima Airport Partners (LAP) haya habilitado el uso del Documento Nacional de Identidad (DNId) para la identificación de los pasajeros en el Aerop..."
+    },
+    {
+      "id": "nacional-8-Agencia_Andina_Fenomeno_E",
+      "title": "Fenómeno El Niño: apoyo para atención de emergencias viales se tramita en plataforma SAEV",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-fenomeno-nino-apoyo-para-atencion-emergencias-viales-se-tramita-plataforma-saev-1100967.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333751W.webp",
+      "local_image": "images/today/2026-11-21_Agencia_Andina_Fenomeno_El_Nino_apoyo_para_atenci.jpg",
+      "date": "Sat, 21 Nov 2026 16:49:46 -0500",
+      "date_formatted": "Hoy • 4:49 PM",
+      "date_full": "21 de Noviembre de 2026, 4:49 PM",
+      "timestamp": 1795297786,
+      "summary": "La atención a las municipalidades y gobiernos regionales que solicitan combustible para liberar carreteras a su cargo bloqueadas por huaicos, derrumbes, lluvias, desborde de ríos u otros eventos de la naturaleza se reali..."
+    },
+    {
+      "id": "nacional-9-Agencia_Andina_Primer_vic",
+      "title": "Primer vicepresidente Galarreta: Presupuesto 2027 prioriza seguridad, educación y salud",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-primer-vicepresidente-galarreta-presupuesto-2027-prioriza-seguridad-educacion-y-salud-1100969.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333730W.webp",
+      "local_image": "images/today/2026-11-21_Agencia_Andina_Primer_vicepresidente_Galarreta_Pr.jpg",
+      "date": "Sat, 21 Nov 2026 16:40:35 -0500",
+      "date_formatted": "Hoy • 4:40 PM",
+      "date_full": "21 de Noviembre de 2026, 4:40 PM",
+      "timestamp": 1795297235,
+      "summary": "El Gobierno, a través de la Presidencia del Consejo de Ministros (PCM), saludó la aprobación por parte del Congreso de la República de la Ley de Presupuesto del Sector Público para el Año Fiscal 2027, que asciende a S/ 2..."
+    },
+    {
+      "id": "nacional-10-Agencia_Andina_Beca_18_po",
       "title": "Beca 18: postulantes solo pueden llevar DNI, lápiz 2B y borrador al examen de este domingo",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -117,67 +387,7 @@
       "summary": "Los más de 59 000 postulantes aptos para rendir el examen nacional de preselección de Beca 18-2027 deberán asistir el día domingo 22 de noviembre a sus respectivos locales de evaluación portando solo su documento naciona..."
     },
     {
-      "id": "nacional-5-RPP_Noticias_Alianza_Lima",
-      "title": "Alianza Lima vs FC Cajamarca EN VIVO vía L1 Max y RPP: se enfrentan en Matute por la fecha 17 del Torneo Clausura 2026",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/descentralizado/alianza-lima-vs-fc-cajamarca-en-vivo-l1max-que-canal-transmite-fecha-17-torneo-clausura-2026-via-rpp-partidos-de-hoy-noticia-1718795",
-      "image_url": "https://f.rpp-noticias.io/2026/11/21/235923_1931628.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-21_RPP_Noticias_Alianza_Lima_vs_FC_Cajamarca_EN_VIV.jpg",
-      "date": "Sat, 21 Nov 2026 16:00:57 -0500",
-      "date_formatted": "Hoy • 4:00 PM",
-      "date_full": "21 de Noviembre de 2026, 4:00 PM",
-      "timestamp": 1795294857,
-      "summary": "Alianza Lima vs FC Cajamarca EN VIVO: partido en el estadio Alejandro Villanueva-Matute, por la última fecha del Torneo Clausura 2026."
-    },
-    {
-      "id": "nacional-8-RPP_Noticias_Hallan_en_Ch",
-      "title": "Hallan en China una roca de 3 950 millones de años, considerada la más antigua de Asia",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/mundo/china/china-hallan-roca-de-3-950-millones-de-anos-considerada-la-mas-antigua-de-asia-noticia-1719065",
-      "image_url": "https://f.rpp-noticias.io/2026/11/21/110411_1931699.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-21_RPP_Noticias_Hallan_en_China_una_roca_de_3_950_m.jpg",
-      "date": "Sat, 21 Nov 2026 16:00:32 -0500",
-      "date_formatted": "Hoy • 4:00 PM",
-      "date_full": "21 de Noviembre de 2026, 4:00 PM",
-      "timestamp": 1795294832,
-      "summary": "Científicos chinos hallan en Hebei una roca de 3 950 millones de años, la más antigua de Asia, revelando claves sobre la formación de la corteza terrestre y procesos tectónicos primitivos."
-    },
-    {
-      "id": "nacional-4-RPP_Noticias_Real_Madrid_",
-      "title": "Real Madrid vs Celta EN VIVO: juegan por la fecha 13 de LaLiga 2026",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/futbol-mundial/real-madrid-vs-celta-en-vivo-a-que-hora-y-donde-ver-en-directo-fecha-13-laliga-2026-via-espn-disney-partidos-de-hoy-noticia-1718846",
-      "image_url": "https://f.rpp-noticias.io/2026/11/21/230223_1931698.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-21_RPP_Noticias_Real_Madrid_vs_Celta_EN_VIVO_juega.jpg",
-      "date": "Sat, 21 Nov 2026 16:00:13 -0500",
-      "date_formatted": "Hoy • 4:00 PM",
-      "date_full": "21 de Noviembre de 2026, 4:00 PM",
-      "timestamp": 1795294813,
-      "summary": "Real Madrid EN VIVO cuenta todos sus partidos en casa por victorias esta temporada con José Mourinho en el banquillo."
-    },
-    {
-      "id": "nacional-2-Agencia_Andina_Minsa_impu",
-      "title": "Minsa impulsa la protección de niñas, niños y adolescentes frente a la violencia",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-minsa-impulsa-proteccion-ninas-ninos-y-adolescentes-frente-a-violencia-1100963.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333719W.webp",
-      "local_image": "images/today/2026-11-21_Agencia_Andina_Minsa_impulsa_la_proteccion_de_nina.jpg",
-      "date": "Sat, 21 Nov 2026 16:00:00 -0500",
-      "date_formatted": "Hoy • 4:00 PM",
-      "date_full": "21 de Noviembre de 2026, 4:00 PM",
-      "timestamp": 1795294800,
-      "summary": "El Ministerio de Salud (Minsa) reunió a representantes de distintos sectores para fortalecer la respuesta del Estado frente a la violencia y sus consecuencias en la salud mental, con especial énfasis en la protección de ..."
-    },
-    {
-      "id": "internacional-6-El_Pais_Internacional_Aba",
+      "id": "internacional-4-El_Pais_Internacional_Aba",
       "title": "Abascal, en Alicante: “La remigración me suena a música celestial”",
       "category": "internacional",
       "category_label": "Internacional",
@@ -189,70 +399,10 @@
       "date_formatted": "Hoy • 4:00 PM",
       "date_full": "21 de Noviembre de 2026, 4:00 PM",
       "timestamp": 1795294800,
-      "summary": "El líder de Vox regresa a Sant Vicent del Raspeig, donde se casó con Lidia Bedman y en el que su suegro concurrió en las listas de Vox"
+      "summary": "El líder de Vox regresa a Sant Vicent del Raspeig donde se casó con Lidia Bedman"
     },
     {
-      "id": "nacional-4-Agencia_Andina_Congreso_f",
-      "title": "Congreso: fiscalizarán cumplimiento de ley de conmemoración de lucha contra el terrorismo",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-congreso-fiscalizaran-cumplimiento-ley-conmemoracion-lucha-contra-terrorismo-1100961.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/09/14/001314926W.webp",
-      "local_image": "images/today/2026-11-21_Agencia_Andina_Congreso_fiscalizaran_cumplimiento.jpg",
-      "date": "Sat, 21 Nov 2026 15:53:51 -0500",
-      "date_formatted": "Hoy • 3:53 PM",
-      "date_full": "21 de Noviembre de 2026, 3:53 PM",
-      "timestamp": 1795294431,
-      "summary": "El diputado de Renovación Popular, Aldo Bravo, informó que fiscalizará el cumplimiento de la ley que dispone la conmemoración de la lucha contra el terrorismo en los colegios."
-    },
-    {
-      "id": "nacional-3-Agencia_Andina_Temblor_en",
-      "title": "Temblor en Junín: corte del servicio eléctrico afectó a 92,000 usuarios de cuatro regiones",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-temblor-junin-corte-del-servicio-electrico-afecto-a-92000-usuarios-cuatro-regiones-1100966.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333725W.webp",
-      "local_image": "images/today/2026-11-21_Agencia_Andina_Temblor_en_Junin_corte_del_servici.jpg",
-      "date": "Sat, 21 Nov 2026 15:53:20 -0500",
-      "date_formatted": "Hoy • 3:53 PM",
-      "date_full": "21 de Noviembre de 2026, 3:53 PM",
-      "timestamp": 1795294400,
-      "summary": "Más de 92,000 usuarios de cuatro regiones del país se vieron afectados por el corte del servicio eléctrico tras el fuerte sismo de magnitud 6.7 registrado la noche del viernes 20 de noviembre en la provincia y región Jun..."
-    },
-    {
-      "id": "nacional-1-RPP_Noticias_Y_llego_el_p",
-      "title": "Y llegó el primer gol oficial: Luis Ramos anotó el 1-0 de Alianza Lima ante FC Cajamarca [VIDEO]",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/descentralizado/ver-gol-luis-ramos-en-alianza-lima-vs-fc-cajamarca-video-1-0-en-matute-por-la-fecha-17-partidos-de-hoy-noticia-1719063",
-      "image_url": "https://f.rpp-noticias.io/2026/11/21/405840_1931691.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-21_RPP_Noticias_Y_llego_el_primer_gol_oficial_Luis.jpg",
-      "date": "Sat, 21 Nov 2026 15:52:04 -0500",
-      "date_formatted": "Hoy • 3:52 PM",
-      "date_full": "21 de Noviembre de 2026, 3:52 PM",
-      "timestamp": 1795294324,
-      "summary": "Cristian Neira apareció dentro del área y le dio un pase a Luis Ramos para marcar el 1-0 de Alianza Lima sobre FC Cajamarca."
-    },
-    {
-      "id": "nacional-3-RPP_Noticias_Lambayeque_c",
-      "title": "Lambayeque: colegio de San José se queda se queda sin agua ni luz por deuda",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/rotafono/servicios-publicos/lambayeque-colegio-de-santa-rosa-se-queda-se-queda-sin-agua-ni-luz-por-deuda-noticia-1719060",
-      "image_url": "https://f.rpp-noticias.io/2026/11/21/atsapp-video-2026-11-20-at-52736-pm-1931685mp4_1931686.jpg",
-      "local_image": "images/today/2026-11-21_RPP_Noticias_Lambayeque_colegio_de_San_Jose_se.jpg",
-      "date": "Sat, 21 Nov 2026 15:44:41 -0500",
-      "date_formatted": "Hoy • 3:44 PM",
-      "date_full": "21 de Noviembre de 2026, 3:44 PM",
-      "timestamp": 1795293881,
-      "summary": "Rotafono de RPP | Esta situación afecta a más de mil escolares, quienes padecen condiciones antisalubres debido a los baños sucios, en la región Lambayeque. Las clases se realizarían de manera virtual si la UGEL no cance..."
-    },
-    {
-      "id": "internacional-1-France_24_en_Espanol_Bras",
+      "id": "internacional-2-France_24_en_Espanol_Bras",
       "title": "Brasil: Jair Bolsonaro se encuentra en cuidados intensivos, pero estable",
       "category": "internacional",
       "category_label": "Internacional",
@@ -267,22 +417,7 @@
       "summary": "Jair Bolsonaro, el expresidente brasileño que cumple en prisión domiciliaria una condena de 27 años de prisión por una trama golpista, sigue este sábado 21 de noviembre en una unidad de cuidados intensivos de un hospital..."
     },
     {
-      "id": "nacional-5-Agencia_Andina_Loreto_int",
-      "title": "Loreto: intoxicación afectó a 30 escolares de primaria y 3 docentes de San Juan Bautista",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-loreto-intoxicacion-afecto-a-30-escolares-primaria-y-3-docentes-san-juan-bautista-1100962.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333718W.webp",
-      "local_image": "images/today/2026-11-21_Agencia_Andina_Loreto_intoxicacion_afecto_a_30_es.jpg",
-      "date": "Sat, 21 Nov 2026 15:21:15 -0500",
-      "date_formatted": "Hoy • 3:21 PM",
-      "date_full": "21 de Noviembre de 2026, 3:21 PM",
-      "timestamp": 1795292475,
-      "summary": "El área de urgencias del Hospital Apoyo Iquitos colapsó este viernes 20 de noviembre al registrarse un caso de intoxicación masiva que afectó a 65 estudiantes de primaria y tres docentes de la institución educativa N.° 6..."
-    },
-    {
-      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "id": "regional-2-Diario_Sin_Fronteras_Puno",
       "title": "Puno: Capturan en Ilave a prófugo buscado por Bolivia",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -297,82 +432,7 @@
       "summary": "La Policía Nacional capturó en Ilave a Rodolfo Maquera Maquera, ciudadano peruano requerido por la justicia boliviana por el presunto delito de"
     },
     {
-      "id": "nacional-6-Agencia_Andina_Migracione",
-      "title": "Migraciones se une a red internacional contra el fraude de documentos y de identidad",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-migraciones-se-une-a-red-internacional-contra-fraude-documentos-y-identidad-1100959.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333711W.webp",
-      "local_image": "images/today/2026-11-21_Agencia_Andina_Migraciones_se_une_a_red_internacio.jpg",
-      "date": "Sat, 21 Nov 2026 15:00:00 -0500",
-      "date_formatted": "Hoy • 3:00 PM",
-      "date_full": "21 de Noviembre de 2026, 3:00 PM",
-      "timestamp": 1795291200,
-      "summary": "La Superintendencia Nacional de Migraciones se incorporó a la Red Regional de Expertos en Documentos de las Américas (RRED), iniciativa que reúne a Argentina, Belice, Costa Rica, Ecuador, El Salvador, Guatemala, Panamá, ..."
-    },
-    {
-      "id": "nacional-7-Agencia_Andina_Proponen_m",
-      "title": "Proponen modelo para destrabe de proyectos de construcción y recuperar obras paralizadas",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-proponen-modelo-para-destrabe-proyectos-construccion-y-recuperar-obras-paralizadas-1100952.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/08/29/001310401W.webp",
-      "local_image": "images/today/2026-11-21_Agencia_Andina_Proponen_modelo_para_destrabe_de_pr.jpg",
-      "date": "Sat, 21 Nov 2026 15:00:00 -0500",
-      "date_formatted": "Hoy • 3:00 PM",
-      "date_full": "21 de Noviembre de 2026, 3:00 PM",
-      "timestamp": 1795291200,
-      "summary": "La detección temprana de problemas técnicos, financieros y contractuales, así como la intervención oportuna para evitar que estos deriven en la paralización de obras, forman parte de una propuesta de gestión que busca de..."
-    },
-    {
-      "id": "nacional-8-Agencia_Andina_Cuatro_her",
-      "title": "Cuatro herramientas para ordenar las finanzas de tu emprendimiento",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-cuatro-herramientas-para-ordenar-las-finanzas-tu-emprendimiento-1100948.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/05/001329567W.jpg",
-      "local_image": "images/today/2026-11-21_Agencia_Andina_Cuatro_herramientas_para_ordenar_la.jpg",
-      "date": "Sat, 21 Nov 2026 15:00:00 -0500",
-      "date_formatted": "Hoy • 3:00 PM",
-      "date_full": "21 de Noviembre de 2026, 3:00 PM",
-      "timestamp": 1795291200,
-      "summary": "Tener clientes y registrar ventas no garantiza que un negocio sea rentable. El dinero que ingresa puede apenas cubrir los gastos o no estar disponible cuando se necesitan hacer pagos. Por eso, antes de pensar en crecer, ..."
-    },
-    {
-      "id": "nacional-9-Agencia_Andina_El_Imperio",
-      "title": "¿El Imperio Inca apareció antes de lo que dice la historia? Esto revelan nuevos estudios",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-el-imperio-inca-aparecio-antes-de-que-dice-historia-esto-revelan-nuevos-estudios-1100696.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2025/12/23/001237460W.webp",
-      "local_image": "images/today/2026-11-21_Agencia_Andina_El_Imperio_Inca_aparecio_antes_de.jpg",
-      "date": "Sat, 21 Nov 2026 14:45:29 -0500",
-      "date_formatted": "Hoy • 2:45 PM",
-      "date_full": "21 de Noviembre de 2026, 2:45 PM",
-      "timestamp": 1795290329,
-      "summary": "Los libros de historia refieren que el Imperio Inca se consolidó a mediados del siglo XV (alrededor de 1438) con la victoria de Pachacútec sobre los chancas, aunque sus orígenes como curacazgo o reino en el valle del Cus..."
-    },
-    {
-      "id": "nacional-10-Agencia_Andina_PJ_realiza",
-      "title": "PJ realiza pleno jurisdiccional superior para consensuar estándares con enfoque de género",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-pj-realiza-pleno-jurisdiccional-superior-para-consensuar-estandares-enfoque-genero-1100939.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/21/001333658W.webp",
-      "local_image": "images/today/2026-11-21_Agencia_Andina_PJ_realiza_pleno_jurisdiccional_sup.jpg",
-      "date": "Sat, 21 Nov 2026 14:41:33 -0500",
-      "date_formatted": "Hoy • 2:41 PM",
-      "date_full": "21 de Noviembre de 2026, 2:41 PM",
-      "timestamp": 1795290093,
-      "summary": "El Poder Judicial realizó el Pleno Jurisdiccional Superior Nacional sobre Violencia contra la Mujer e Integrantes del Grupo Familiar, para consensuar estándares normativos con la incorporación de manera transversal del e..."
-    },
-    {
-      "id": "internacional-2-France_24_en_Espanol_Un_a",
+      "id": "internacional-3-France_24_en_Espanol_Un_a",
       "title": "Un ataque con drones atribuido a Ucrania incendia un carguero ruso en el golfo de Finlandia",
       "category": "internacional",
       "category_label": "Internacional",
@@ -387,7 +447,7 @@
       "summary": "Un barco de carga de Rusia sufrió un incendio luego de ser alcanzado en aguas internacionales por un ataque con drones en el golfo de Finlandia. Autoridades rusas apuntaron a la autoría de Ucrania, algo que militares fin..."
     },
     {
-      "id": "internacional-3-France_24_en_Espanol_Elec",
+      "id": "internacional-4-France_24_en_Espanol_Elec",
       "title": "Elecciones en España: redes e influencers, los candidatos se vuelcan del discurso a la emoción",
       "category": "internacional",
       "category_label": "Internacional",
@@ -417,7 +477,7 @@
       "summary": "Decenas de australianos salieron de su país a finales del siglo XIX en busca de un mejor lugar para vivir. El país escogido fue Paraguay."
     },
     {
-      "id": "internacional-4-France_24_en_Espanol_Wall",
+      "id": "internacional-5-France_24_en_Espanol_Wall",
       "title": "Wall Street se tiñe de rojo: acciones vinculadas a la IA registran fuertes pérdidas",
       "category": "internacional",
       "category_label": "Internacional",
@@ -432,7 +492,7 @@
       "summary": "La semana bursátil cerró con caídas en las acciones tecnológicas de los mercados mundiales, en medio de una creciente preocupación por el futuro del sector de la inteligencia artificial (IA). Anthropic acaparó la atenció..."
     },
     {
-      "id": "internacional-5-France_24_en_Espanol_Quie",
+      "id": "internacional-6-France_24_en_Espanol_Quie",
       "title": "¿Quién es el 'Chapo Isidro', el capo mexicano que figuraba entre los 10 más buscados del FBI?",
       "category": "internacional",
       "category_label": "Internacional",
@@ -447,7 +507,7 @@
       "summary": "Fausto Isidro Meza Flores, alias el 'Chapo Isidro', fue detenido este 21 de noviembre durante un operativo militar que desencadenó violentos enfrentamientos y escenas de pánico en el estado de Sinaloa, según confirmó la ..."
     },
     {
-      "id": "internacional-6-France_24_en_Espanol_Orqu",
+      "id": "internacional-7-France_24_en_Espanol_Orqu",
       "title": "Orquestas le ponen banda sonora al descontento social en Francia",
       "category": "internacional",
       "category_label": "Internacional",
@@ -462,7 +522,7 @@
       "summary": "🇫🇷🎻 Desde septiembre, orquestas sinfónicas y otros grupos musicales en #Francia han acompañado las movilizaciones estudiantiles y ahora continúan respaldando, a través de la música, las protestas de trabajadores, funcion..."
     },
     {
-      "id": "nacional-7-RPP_Noticias_Boca_Juniors",
+      "id": "nacional-2-RPP_Noticias_Boca_Juniors",
       "title": "Boca Juniors vs Atlético Mineiro EN DIRECTO: sigue la transmisión de la gran final de la Copa Sudamericana 2026",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -477,7 +537,7 @@
       "summary": "Boca Juniors vs Atlético Mineiro se enfrentan en el Estadio Metropolitano de Barranquilla por la gran final de la Copa Sudamericana 2026."
     },
     {
-      "id": "internacional-7-France_24_en_Espanol_GTA_",
+      "id": "internacional-8-France_24_en_Espanol_GTA_",
       "title": "\"GTA VI\" logra un lanzamiento récord y supera los ingresos de la gira de Taylor Swift",
       "category": "internacional",
       "category_label": "Internacional",
@@ -522,7 +582,7 @@
       "summary": "La desaparición de topellantas en Juliaca no tiene cifras oficiales; Transportes no precisa cuántos dispositivos fueron sustraídos ni el valor de las pérdidas"
     },
     {
-      "id": "regional-2-Diario_Sin_Fronteras_Puno",
+      "id": "regional-3-Diario_Sin_Fronteras_Puno",
       "title": "Corte de Puno participa en la tercera jornada de forestación en el cerro Azoguini",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -535,21 +595,6 @@
       "date_full": "21 de Noviembre de 2026, 12:30 PM",
       "timestamp": 1795282232,
       "summary": "La Corte Superior de Justicia de Puno participó este viernes en la tercera jornada de forestación del cerro Azoguini, actividad en la"
-    },
-    {
-      "id": "internacional-8-France_24_en_Espanol_Un_s",
-      "title": "¿Un supuesto apagón mundial?: rastreamos el origen de las teorías",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "France 24 en Español",
-      "url": "https://www.france24.com/es/video/20261121-un-supuesto-apago%CC%81n-mundial-rastreamos-el-origen-de-las-teori%CC%81as",
-      "image_url": "https://s.france24.com/media/display/9ae7c71a-e5cc-11f1-b456-1bac47ab2f5d/w:1024/p:16x9/Un-supuesto-apago%CC%81n-mundial-rastreamos-el-origen-de-las-teori%CC%81as.png",
-      "local_image": "images/today/2026-11-21_France_24_en_Espanol_Un_supuesto_apagon_mundial_rast.jpg",
-      "date": "Sat, 21 Nov 2026 17:05:24 GMT",
-      "date_formatted": "Hoy • 12:05 PM",
-      "date_full": "21 de Noviembre de 2026, 12:05 PM",
-      "timestamp": 1795280724,
-      "summary": "📱📡 Durante los últimos días, las redes sociales se llenaron de publicaciones que anunciaban un supuesto ciberataque global para el 17 de noviembre. La teoría tomó fuerza a partir de un simulacro de alertas de emergencia ..."
     },
     {
       "id": "internacional-3-BBC_Mundo_Como_atraparon_",
@@ -567,7 +612,7 @@
       "summary": "Fausto Isidro \"Chapo Idisro\" Meza Flores, acusado de narcotráfico y tortura, fue detenido tras un enfrentamiento armado con las autoridades."
     },
     {
-      "id": "regional-3-Diario_Sin_Fronteras_Puno",
+      "id": "regional-4-Diario_Sin_Fronteras_Puno",
       "title": "Caso Liceo Naval: Padres de la víctima revelan que él volvió al colegio y que todos son responsables",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -597,7 +642,7 @@
       "summary": "Magaly Flores Pari solicita apoyo económico para continuar los estudios médicos de su hijo Rayan, de un año y ocho meses, quien presenta complicaciones renales. La madre llegó desde el caserío Samanto, distrito de La Cap..."
     },
     {
-      "id": "regional-4-Diario_Sin_Fronteras_Puno",
+      "id": "regional-5-Diario_Sin_Fronteras_Puno",
       "title": "Dictan 18 meses de prisión preventiva por crimen de ‘China Polo’",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -657,7 +702,7 @@
       "summary": "Un grifo ubicado en el kilómetro 10.5 de la vía Arequipa-Yura, en el distrito de Cerro Colorado, mantiene precios elevados en sus combustibles. Durante un recorrido periodístico, se reportó que el diésel, denominado petr..."
     },
     {
-      "id": "regional-5-Diario_Sin_Fronteras_Puno",
+      "id": "regional-6-Diario_Sin_Fronteras_Puno",
       "title": "Alias “Jolín” llega a Perú desde Ecuador tras operativo en el CEBAF Tumbes",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -687,7 +732,7 @@
       "summary": "Los crímenes ocurrieron en una Londres marcada por el nacimiento de la prensa amarillista, los pasquines con historias macabras y las novelas de misterio."
     },
     {
-      "id": "internacional-5-El_Pais_Internacional_Fei",
+      "id": "internacional-3-El_Pais_Internacional_Fei",
       "title": "Feijóo: “No os fieis del ambiente, de nada. Son capaces de todo, y heridos son todavía más peligrosos”",
       "category": "internacional",
       "category_label": "Internacional",
@@ -732,7 +777,7 @@
       "summary": "El sismo de magnitud 6.7 que remeció la región Junín la noche de este viernes 20 de noviembre dejó daños en viviendas de varias localidades y provocó el bloqueo parcial…"
     },
     {
-      "id": "internacional-4-El_Pais_Internacional_La_",
+      "id": "internacional-2-El_Pais_Internacional_La_",
       "title": "La plana mayor del primer Gobierno de Felipe González pide el voto para Pedro Sánchez: “Hay riesgo de involución y recorte de derechos”",
       "category": "internacional",
       "category_label": "Internacional",
@@ -745,21 +790,6 @@
       "date_full": "21 de Noviembre de 2026, 6:47 AM",
       "timestamp": 1795261666,
       "summary": "Solana, Serra, Almunia y Solchaga encabezan un artículo en apoyo del actual líder socialista frente a la posición del expresidente"
-    },
-    {
-      "id": "nacional-9-RPP_Noticias_Corte_de_agu",
-      "title": "Corte de agua en Lima hoy 21 de noviembre: Distritos y horarios afectados",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/lima/obras/corte-de-agua-en-lima-hoy-21-de-noviembre-distritos-y-horarios-afectados-noticia-1718969",
-      "image_url": "https://f.rpp-noticias.io/2025/03/06/112111_1714102.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-21_RPP_Noticias_Corte_de_agua_en_Lima_hoy_21_de_nov.jpg",
-      "date": "Sat, 21 Nov 2026 05:00:38 -0500",
-      "date_formatted": "Hoy • 5:00 AM",
-      "date_full": "21 de Noviembre de 2026, 5:00 AM",
-      "timestamp": 1795255238,
-      "summary": "EN VIVO Consulta aquí los distritos de Lima y horarios afectados por el corte de agua programado por el Servicio de Agua Potable y Alcantarillado de Lima (Sedapal) para hoy."
     },
     {
       "id": "internacional-5-BBC_Mundo_Como_una_taza_d",
@@ -852,7 +882,7 @@
       "summary": "Samira publica desde el extranjero los nombres de miembros de las fuerzas de seguridad iraníes que, según ella, son responsables de la muerte de los manifestantes."
     },
     {
-      "id": "regional-6-Diario_Sin_Fronteras_Puno",
+      "id": "regional-7-Diario_Sin_Fronteras_Puno",
       "title": "Hernando Tavera explica por qué el sismo de Junín se sintió en gran parte del Perú",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -865,21 +895,6 @@
       "date_full": "20 de Noviembre de 2026, 9:38 PM",
       "timestamp": 1795228737,
       "summary": "El sismo de magnitud 6.7 registrado la noche del viernes 20 de noviembre en Junín fue percibido en diferentes regiones del país"
-    },
-    {
-      "id": "regional-7-Diario_Sin_Fronteras_Puno",
-      "title": "Incendio destruye habitación y deja a familia sin sus pertenencias en Juliaca",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Diario Sin Fronteras (Puno)",
-      "url": "https://diariosinfronteras.com.pe/2026/11/20/incendio-destruye-habitacion-y-deja-a-familia-sin-sus-pertenencias-en-juliaca/",
-      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/11/SELLO-SF.png",
-      "local_image": "images/today/2026-11-21_Diario_Sin_Fronteras_Puno_Incendio_destruye_habitacion_y_dej.jpg",
-      "date": "2026-11-20T20:34:36",
-      "date_formatted": "20 Nov • 8:34 PM",
-      "date_full": "20 de Noviembre de 2026, 8:34 PM",
-      "timestamp": 1795224876,
-      "summary": "Una familia perdió sus pertenencias luego de que un incendio destruyera por completo una habitación de su vivienda, ubicada en el anexo"
     },
     {
       "id": "regional-4-Pachamama_Radio_Puno_Puno",
@@ -957,21 +972,6 @@
       "summary": "Fiscalía y Municipalidad de Puno incautan 35 cajas de pasas y 21 galoneras de saborizantes vencidos en panificadora de la UNA"
     },
     {
-      "id": "internacional-6-BBC_Mundo_La_bolsa_de_Wal",
-      "title": "La bolsa de Wall Street cae con fuerza en medio del desplome de las acciones de las tecnológicas y registra su peor semana desde la pandemia",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cm8791vvwelno?at_medium=RSS&at_campaign=rss",
-      "image_url": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/eea7/live/5f3cbf00-e535-11f1-b232-9987117b4bfe.png",
-      "local_image": "images/today/2026-11-21_BBC_Mundo_La_bolsa_de_Wall_Street_cae_con_fue.jpg",
-      "date": "Fri, 20 Nov 2026 23:15:44 GMT",
-      "date_formatted": "20 Nov • 6:15 PM",
-      "date_full": "20 de Noviembre de 2026, 6:15 PM",
-      "timestamp": 1795216544,
-      "summary": "Las tecnológicas se han visto afectadas por la caída masiva del sector en los mercados bursátiles."
-    },
-    {
       "id": "regional-7-Diario_Los_Andes_Puno_Tra",
       "title": "Trabajadores administrativos de educación protestan en Puno",
       "category": "regional",
@@ -987,7 +987,7 @@
       "summary": "El pago del servicio de comedor, la homologación y el vestuario son los beneficios que exigen los trabajadores administrativos del sector Educación, agrupados en la Fentase Puno. El gremio realiza una protesta este viern..."
     },
     {
-      "id": "internacional-3-El_Pais_Internacional_Lea",
+      "id": "internacional-1-El_Pais_Internacional_Lea",
       "title": "Lea todos los análisis del voto en las diferentes regiones ante el 29-N",
       "category": "internacional",
       "category_label": "Internacional",
@@ -1015,36 +1015,6 @@
       "date_full": "20 de Noviembre de 2026, 12:37 PM",
       "timestamp": 1795196277,
       "summary": "Diputados de diversas bancadas presentaron una moción para invitar al ministro de Relaciones Exteriores al pleno del Congreso, a fin de que explique la organización, los gastos y las fallas técnicas registradas durante l..."
-    },
-    {
-      "id": "internacional-2-El_Pais_Internacional_Lea",
-      "title": "Lea todas las entrevistas a los candidatos a las elecciones del 29-N",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "El País Internacional",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-20/lea-todas-las-entrevistas-a-los-candidatos-a-las-elecciones-del-29-n.html",
-      "image_url": "https://imagenes.elpais.com/resizer/v2/SHGZWOXRTZBSBHUKM6GBCNQS6E.jpg?auth=5e5cb94c6195143c6aa2a1da68cca86d309e4f4c3138880edaaa4d6cb70e5dee",
-      "local_image": "images/today/2026-11-21_El_Pais_Internacional_Lea_todas_las_entrevistas_a_los_can.jpg",
-      "date": "Fri, 20 Nov 2026 14:28:57 GMT",
-      "date_formatted": "20 Nov • 9:28 AM",
-      "date_full": "20 de Noviembre de 2026, 9:28 AM",
-      "timestamp": 1795184937,
-      "summary": "EL PAÍS conversa con los aspirantes de cada partido a lo largo de la campaña"
-    },
-    {
-      "id": "internacional-1-El_Pais_Internacional_La_",
-      "title": "La distancia entre el PP y el PSOE se estrecha al mínimo pese a la victoria de Feijóo en el debate",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "El País Internacional",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-20/la-distancia-entre-el-pp-y-el-psoe-se-estrecha-al-minimo-pese-a-la-victoria-de-feijoo-en-el-debate.html",
-      "image_url": "https://imagenes.elpais.com/resizer/v2/6GMU23HZJJA33E6TJ3UUJ52ESI.png",
-      "local_image": "https://imagenes.elpais.com/resizer/v2/6GMU23HZJJA33E6TJ3UUJ52ESI.png",
-      "date": "Fri, 20 Nov 2026 13:26:52 GMT",
-      "date_formatted": "20 Nov • 8:26 AM",
-      "date_full": "20 de Noviembre de 2026, 8:26 AM",
-      "timestamp": 1795181212,
-      "summary": "El noveno ‘tracking’ de 40dB. para EL PAÍS y la Cadena SER registra una caída de Vox de medio punto"
     }
   ]
 }
