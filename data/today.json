@@ -1,8 +1,8 @@
 {
   "title": "Observatorio para Chabely",
   "date": "2026-11-25",
-  "updated_at": "25 de Noviembre de 2026 a las 5:40 PM (Hora Perú)",
-  "updated_at_iso": "2026-11-25T17:40:16.421634-05:00",
+  "updated_at": "25 de Noviembre de 2026 a las 6:50 PM (Hora Perú)",
+  "updated_at_iso": "2026-11-25T18:50:12.623941-05:00",
   "stats": {
     "total": 69,
     "portadas": 4,
@@ -23,7 +23,7 @@
       "date": "2026-11-25",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 25 de Noviembre de 2026",
-      "timestamp": 1795646416,
+      "timestamp": 1795650612,
       "summary": "Primera plana y portada oficial del diario El Comercio (Perú) correspondiente al 25 de Noviembre de 2026."
     },
     {
@@ -38,7 +38,7 @@
       "date": "2026-11-25",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 25 de Noviembre de 2026",
-      "timestamp": 1795646416,
+      "timestamp": 1795650612,
       "summary": "Primera plana y portada oficial del diario La República (Perú) correspondiente al 25 de Noviembre de 2026."
     },
     {
@@ -53,7 +53,7 @@
       "date": "2026-11-25",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 25 de Noviembre de 2026",
-      "timestamp": 1795646416,
+      "timestamp": 1795650612,
       "summary": "Primera plana y portada oficial del diario Líbero (Perú) correspondiente al 25 de Noviembre de 2026."
     },
     {
@@ -68,11 +68,236 @@
       "date": "2026-11-25",
       "date_formatted": "Hoy • Edición Impresa",
       "date_full": "Edición del 25 de Noviembre de 2026",
-      "timestamp": 1795646416,
+      "timestamp": 1795650612,
       "summary": "Primera plana y portada oficial del diario El País (España / Global) correspondiente al 25 de Noviembre de 2026."
     },
     {
-      "id": "nacional-1-Agencia_Andina_Miraflores",
+      "id": "nacional-1-Agencia_Andina_Manipulaci",
+      "title": "Manipulación en la pareja: cómo detectar el abuso psicológico que afecta la salud mental",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-manipulacion-la-pareja-como-detectar-abuso-psicologico-afecta-salud-mental-1101420.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/25/001334660W.webp",
+      "local_image": "images/today/2026-11-25_Agencia_Andina_Manipulacion_en_la_pareja_como_det.jpg",
+      "date": "Wed, 25 Nov 2026 18:41:57 -0500",
+      "date_formatted": "Hoy • 6:41 PM",
+      "date_full": "25 de Noviembre de 2026, 6:41 PM",
+      "timestamp": 1795650117,
+      "summary": "En el Perú, el 49.1% de las mujeres de 15 a 49 años ha declarado haber sufrido violencia psicológica, física o sexual por parte de su esposo o compañero en algún momento de su vida, según datos de la Encuesta Demográfica..."
+    },
+    {
+      "id": "nacional-2-Agencia_Andina_Junin_gran",
+      "title": "Junín: granizada afecta cultivos de maíz, papa y haba en distritos de Jauja",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-junin-granizada-afecta-cultivos-maiz-papa-y-haba-distritos-jauja-1101452.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/25/001334751W.webp",
+      "local_image": "images/today/2026-11-25_Agencia_Andina_Junin_granizada_afecta_cultivos_de.jpg",
+      "date": "Wed, 25 Nov 2026 18:28:15 -0500",
+      "date_formatted": "Hoy • 6:28 PM",
+      "date_full": "25 de Noviembre de 2026, 6:28 PM",
+      "timestamp": 1795649295,
+      "summary": "Ante la granizada registrada en diversos sectores de la provincia de Jauja, la Dirección Regional de Agricultura Junín, por disposición de su director regional, Douglas Monroe Avellaneda, desplegó acciones inmediatas par..."
+    },
+    {
+      "id": "internacional-6-BBC_Mundo_Muere_a_los_65_",
+      "title": "Muere a los 65 años el guitarrista de la banda de pop Duran Duran",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "BBC Mundo",
+      "url": "https://www.bbc.com/mundo/articles/cmwy8gjdgwy6o?at_medium=RSS&at_campaign=rss",
+      "image_url": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/bf5e/live/c090fb90-e918-11f1-8383-53f283141713.jpg",
+      "local_image": "images/today/2026-11-25_BBC_Mundo_Muere_a_los_65_anos_el_guitarrista.jpg",
+      "date": "Wed, 25 Nov 2026 23:24:27 GMT",
+      "date_formatted": "Hoy • 6:24 PM",
+      "date_full": "25 de Noviembre de 2026, 6:24 PM",
+      "timestamp": 1795649067,
+      "summary": "El músico, coautor de algunos de los mayores éxitos de la banda, había estado recibiendo tratamiento para el cáncer de próstata."
+    },
+    {
+      "id": "nacional-3-Agencia_Andina_Presidenta",
+      "title": "Presidenta del Poder Judicial, Janet Tello, lamentó cifras de mujeres asesinadas",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-presidenta-del-poder-judicial-janet-tello-lamento-cifras-mujeres-asesinadas-1101450.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/09/15/001315110W.jpg",
+      "local_image": "images/today/2026-11-25_Agencia_Andina_Presidenta_del_Poder_Judicial_Jane.jpg",
+      "date": "Wed, 25 Nov 2026 18:17:21 -0500",
+      "date_formatted": "Hoy • 6:17 PM",
+      "date_full": "25 de Noviembre de 2026, 6:17 PM",
+      "timestamp": 1795648641,
+      "summary": "En el Día Internacional de la Eliminación de la Violencia contra la Mujer, la presidenta del Poder Judicial, Janet Tello Gilardi, lamentó las cifras de asesinatos de mujeres por sus propias parejas o personas de su entor..."
+    },
+    {
+      "id": "nacional-4-Agencia_Andina_Oriente_Me",
+      "title": "Oriente Medio: se registran nuevos bombardeos sobre Yemen y una explosión sacude Riad",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-oriente-medio-se-registran-nuevos-bombardeos-sobre-yemen-y-una-explosion-sacude-riad-1101453.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/25/001334748W.webp",
+      "local_image": "images/today/2026-11-25_Agencia_Andina_Oriente_Medio_se_registran_nuevos.jpg",
+      "date": "Wed, 25 Nov 2026 18:16:46 -0500",
+      "date_formatted": "Hoy • 6:16 PM",
+      "date_full": "25 de Noviembre de 2026, 6:16 PM",
+      "timestamp": 1795648606,
+      "summary": "Una explosión se escuchó este miércoles en la capital de Arabia Saudita, Riad, confirmaron un periodista de la AFP y algunos residentes, un día después de un ataque reivindicado por los hutíes contra el distrito financie..."
+    },
+    {
+      "id": "internacional-1-France_24_en_Espanol_Se_l",
+      "title": "\"Se le acabó la suerte\": EE. UU. detiene a migrante salvadoreño que ganó un millón de dólares en la lotería",
+      "category": "internacional",
+      "category_label": "Internacional",
+      "source": "France 24 en Español",
+      "url": "https://www.france24.com/es/ee-uu-y-canad%C3%A1/20261125-se-le-acab%C3%B3-la-suerte-ee-uu-detiene-a-migrante-salvadore%C3%B1o-que-gan%C3%B3-un-mill%C3%B3n-de-d%C3%B3lares-en-la-loter%C3%ADa",
+      "image_url": "https://s.france24.com/media/display/3338aefe-e923-11f1-935f-29d00e23de9a/w:1024/p:16x9/32046c6ed72b48abc7122a3d251436666a408e36.jpg",
+      "local_image": "images/today/2026-11-25_France_24_en_Espanol_Se_le_acabo_la_suerte_EE_UU_de.jpg",
+      "date": "Wed, 25 Nov 2026 23:10:42 GMT",
+      "date_formatted": "Hoy • 6:10 PM",
+      "date_full": "25 de Noviembre de 2026, 6:10 PM",
+      "timestamp": 1795648242,
+      "summary": "El Servicio de Inmigración y Control de Aduanas (ICE) de Estados Unidos confirmó este miércoles 25 de noviembre la detención de un salvadoreño en Boston. Ariel Antonio Velásquez-Morales fue retenido por las autoridades m..."
+    },
+    {
+      "id": "nacional-5-Agencia_Andina_Liverpool_",
+      "title": "Liverpool asalta Bélgica y somete por goleada al Brujas para escalar en la Champions",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-liverpool-asalta-belgica-y-somete-goleada-al-brujas-para-escalar-la-champions-1101448.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/25/001334747W.webp",
+      "local_image": "images/today/2026-11-25_Agencia_Andina_Liverpool_asalta_Belgica_y_somete_p.jpg",
+      "date": "Wed, 25 Nov 2026 18:10:38 -0500",
+      "date_formatted": "Hoy • 6:10 PM",
+      "date_full": "25 de Noviembre de 2026, 6:10 PM",
+      "timestamp": 1795648238,
+      "summary": "Con un doblete del sueco Alexander Isak, el Liverpool se impuso por 3-0 al Brujas, este miércoles en el estadio Jan Breydel, para sumar cuatro victorias en cinco partidos de Champions y situarse en el vagón de cabeza de ..."
+    },
+    {
+      "id": "nacional-6-Agencia_Andina_PCM_aprueb",
+      "title": "PCM aprueba 8 modelos estandarizados para mejorar gestión de unas 2,000 entidades públicas",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-pcm-aprueba-8-modelos-estandarizados-para-mejorar-gestion-unas-2000-entidades-publicas-1101444.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/01/13/001242937W.webp",
+      "local_image": "images/today/2026-11-25_Agencia_Andina_PCM_aprueba_8_modelos_estandarizado.jpg",
+      "date": "Wed, 25 Nov 2026 18:02:27 -0500",
+      "date_formatted": "Hoy • 6:02 PM",
+      "date_full": "25 de Noviembre de 2026, 6:02 PM",
+      "timestamp": 1795647747,
+      "summary": "La Presidencia del Consejo de Ministros (PCM) aprobó ocho modelos estandarizados de procesos estratégicos y de soporte que contribuirán a mejorar la gestión interna de más de 2,000 entidades públicas de los tres niveles ..."
+    },
+    {
+      "id": "nacional-7-Agencia_Andina_Produce_ar",
+      "title": "Produce articula medidas para apoyar a pescadores afectados por fenómeno El Niño",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-produce-articula-medidas-para-apoyar-a-pescadores-afectados-fenomeno-nino-1101434.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2025/10/19/001216791W.webp",
+      "local_image": "images/today/2026-11-25_Agencia_Andina_Produce_articula_medidas_para_apoya.jpg",
+      "date": "Wed, 25 Nov 2026 18:00:00 -0500",
+      "date_formatted": "Hoy • 6:00 PM",
+      "date_full": "25 de Noviembre de 2026, 6:00 PM",
+      "timestamp": 1795647600,
+      "summary": "El Ministerio de la Producción (Produce) articula un conjunto de medidas financieras para respaldar a los trabajadores y unidades productivas del sector pesquero afectados por el fenómeno de El Niño, mediante créditos bl..."
+    },
+    {
+      "id": "nacional-8-Agencia_Andina_El_Manches",
+      "title": "El Manchester United de Pochettino estuvo cerca, pero solo se llevó un punto de Portugal",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-el-manchester-united-pochettino-estuvo-cerca-pero-solo-se-llevo-un-punto-portugal-1101445.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/25/001334742W.webp",
+      "local_image": "images/today/2026-11-25_Agencia_Andina_El_Manchester_United_de_Pochettino.jpg",
+      "date": "Wed, 25 Nov 2026 17:58:18 -0500",
+      "date_formatted": "Hoy • 5:58 PM",
+      "date_full": "25 de Noviembre de 2026, 5:58 PM",
+      "timestamp": 1795647498,
+      "summary": "Un doblete del colombiano Luis Suárez permitió al Sporting de Lisboa empatar 2-2 en casa contra el Manchester United del entrenador argentino Mauricio Pochettino, este miércoles en la quinta jornada de la Liga de Campeon..."
+    },
+    {
+      "id": "nacional-9-Agencia_Andina_Piura_por_",
+      "title": "Piura: por segundo día seguido Catacaos bate récord de calor en noviembre con 38,5 °C",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-piura-segundo-dia-seguido-catacaos-bate-record-calor-noviembre-385-%C2%B0c-1101446.aspx",
+      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/25/001334737W.webp",
+      "local_image": "images/today/2026-11-25_Agencia_Andina_Piura_por_segundo_dia_seguido_Cata.jpg",
+      "date": "Wed, 25 Nov 2026 17:49:02 -0500",
+      "date_formatted": "Hoy • 5:49 PM",
+      "date_full": "25 de Noviembre de 2026, 5:49 PM",
+      "timestamp": 1795646942,
+      "summary": "La región Piura registra temperaturas excepcionalmente altas durante el día y la noche. La estación meteorológica San Miguel, ubicada en el distrito de Catacaos, registró el último martes una temperatura máxima de 38,5 °..."
+    },
+    {
+      "id": "nacional-4-RPP_Noticias_Corinthians_",
+      "title": "Corinthians vs. Atlético Mineiro en vivo: ¿a qué hora y dónde ver duelo por el Brasileirao 2026?",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/futbol/peruanos-en-el-mundo/corinthians-vs-atletico-mineiro-en-vivo-con-andre-carrillo-a-que-hora-y-donde-ver-duelo-por-brasileirao-2026-link-gratis-partidos-de-hoy-noticia-1719762",
+      "image_url": "https://f.rpp-noticias.io/2026/11/25/500150_1932992.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-25_RPP_Noticias_Corinthians_vs_Atletico_Mineiro_en.jpg",
+      "date": "Wed, 25 Nov 2026 17:45:33 -0500",
+      "date_formatted": "Hoy • 5:45 PM",
+      "date_full": "25 de Noviembre de 2026, 5:45 PM",
+      "timestamp": 1795646733,
+      "summary": "Corinthians vs. Atlético Mineiro en vivo: se enfrentarán este miércoles en la Arena MRV en Belo Horizonte."
+    },
+    {
+      "id": "nacional-1-RPP_Noticias_Julio_Velard",
+      "title": "Julio Velarde en CADE Ejecutivos 2026: “La gestión pública no es mala, es pésima”",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/economia/economia/julio-velarde-en-cade-ejecutivos-2026-la-gestion-publica-no-es-mala-es-pesima-noticia-1719836",
+      "image_url": "https://f.rpp-noticias.io/2026/11/25/234923_1933095.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-25_RPP_Noticias_Julio_Velarde_en_CADE_Ejecutivos_20.jpg",
+      "date": "Wed, 25 Nov 2026 17:44:51 -0500",
+      "date_formatted": "Hoy • 5:44 PM",
+      "date_full": "25 de Noviembre de 2026, 5:44 PM",
+      "timestamp": 1795646691,
+      "summary": "El presidente del Banco Central de Reserva cuestionó la capacidad del Estado para ofrecer servicios de calidad, pese al crecimiento económico y los recursos que genera el país. Señaló que Perú tiene peores resultados en ..."
+    },
+    {
+      "id": "nacional-6-RPP_Noticias_La_Victoria_",
+      "title": "La Victoria: familia pide ayuda para encontrar a su perrito Rayito",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/rotafono/mascotas/la-victoria-familia-pide-ayuda-para-encontrar-a-su-perrito-rayito-noticia-1719837",
+      "image_url": "https://f.rpp-noticias.io/2026/11/25/294829_1933094.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-25_RPP_Noticias_La_Victoria_familia_pide_ayuda_par.jpg",
+      "date": "Wed, 25 Nov 2026 17:43:44 -0500",
+      "date_formatted": "Hoy • 5:43 PM",
+      "date_full": "25 de Noviembre de 2026, 5:43 PM",
+      "timestamp": 1795646624,
+      "summary": "Rotafono de RPP | “Rayito” se perdió el 15 de noviembre por inmediaciones de la estación del tren eléctrico en Gamarra, distrito limeño de La Victoria."
+    },
+    {
+      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "title": "Viargoca clasificó a la final de la Copa Perú 2026 y va por el ascenso a Liga 2",
+      "category": "regional",
+      "category_label": "Regional (Puno)",
+      "source": "Diario Sin Fronteras (Puno)",
+      "url": "https://diariosinfronteras.com.pe/2026/11/25/viargoca-finalista-copa-peru-2026/",
+      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/11/FB_IMG_1795645502655.jpg",
+      "local_image": "images/today/2026-11-25_Diario_Sin_Fronteras_Puno_Viargoca_clasifico_a_la_final_de_l.jpg",
+      "date": "2026-11-25T17:41:30",
+      "date_formatted": "Hoy • 5:41 PM",
+      "date_full": "25 de Noviembre de 2026, 5:41 PM",
+      "timestamp": 1795646490,
+      "summary": "Viargoca Fútbol Club se convirtió en finalista de la Copa Perú 2026 tras vencer por 2-1 a Sociedad Tiro 28 de Pasco"
+    },
+    {
+      "id": "nacional-10-Agencia_Andina_Miraflores",
       "title": "Miraflores celebra llegada de la Navidad con actividades gratuitas y encendido del árbol",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -87,37 +312,7 @@
       "summary": "Para celebrar la llegada de la Navidad, el Británico Cultural organizará diversas experiencias para compartir en familia en su sebe de Miraflores que tendrán como actividad central, el tradicional encendido del árbol."
     },
     {
-      "id": "nacional-2-Agencia_Andina_Tropiezo_d",
-      "title": "Tropiezo del campeón: PSG no pudo en casa ante la Roma y suelta la punta de la Champions",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-tropiezo-del-campeon-psg-no-pudo-casa-ante-roma-y-suelta-punta-de-champions-1101441.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/25/001334725W.webp",
-      "local_image": "images/today/2026-11-25_Agencia_Andina_Tropiezo_del_campeon_PSG_no_pudo_e.jpg",
-      "date": "Wed, 25 Nov 2026 17:32:22 -0500",
-      "date_formatted": "Hoy • 5:32 PM",
-      "date_full": "25 de Noviembre de 2026, 5:32 PM",
-      "timestamp": 1795645942,
-      "summary": "El PSG, vigente bicampeón europeo, se dejó un empate (2-2) ante la Roma, este miércoles en el Parque de los Príncipes, para dejar al Real Madrid como líder en solitario de la Champions, único equipo que cuenta las cinco ..."
-    },
-    {
-      "id": "nacional-3-Agencia_Andina_FF_AA_esta",
-      "title": "FF.AA. están listas para responder las 24 horas emergencias por El Niño en Tumbes y Piura",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-ffaa-estan-listas-para-responder-las-24-horas-emergencias-por-nino-tumbes-y-piura-1101439.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/25/001334732W.webp",
-      "local_image": "images/today/2026-11-25_Agencia_Andina_FF_AA_estan_listas_para_responder.jpg",
-      "date": "Wed, 25 Nov 2026 17:30:00 -0500",
-      "date_formatted": "Hoy • 5:30 PM",
-      "date_full": "25 de Noviembre de 2026, 5:30 PM",
-      "timestamp": 1795645800,
-      "summary": "Las Fuerzas Armadas se encuentran listas para responder en cualquier momento ante las emergencias generadas por las intensas lluvias en Tumbes y Piura, en el marco del fenómeno El Niño, remarcó el ministro de Defensa, Ra..."
-    },
-    {
-      "id": "nacional-1-RPP_Noticias_Andy_Taylor_",
+      "id": "nacional-7-RPP_Noticias_Andy_Taylor_",
       "title": "Andy Taylor, guitarrista de Duran Duran, muere a los 65 años tras luchar contra el cáncer de próstata",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -132,7 +327,7 @@
       "summary": "El músico británico falleció el lunes 23 de noviembre en su casa, rodeado de su familia. Fue una pieza clave en el sonido y el éxito internacional de Duran Duran durante los años ochenta."
     },
     {
-      "id": "regional-1-Diario_Sin_Fronteras_Puno",
+      "id": "regional-2-Diario_Sin_Fronteras_Puno",
       "title": "Viargoca reacciona y empata con golazo de Cancapa ante Tiro 28",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -147,22 +342,7 @@
       "summary": "Viargoca FC encontró la igualdad frente a Sociedad Tiro 28 de Pasco gracias a un golazo de Fabricio Cancapa, quien hizo estallar"
     },
     {
-      "id": "nacional-4-Agencia_Andina_Cieneguill",
-      "title": "Cieneguilla: Alcalde entrante Ronald Salazar pide intervención de la Contraloría",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-cieneguilla-alcalde-entrante-ronald-salazar-pide-intervencion-de-contraloria-1101442.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/25/001334735W.webp",
-      "local_image": "images/today/2026-11-25_Agencia_Andina_Cieneguilla_Alcalde_entrante_Ronal.jpg",
-      "date": "Wed, 25 Nov 2026 17:24:33 -0500",
-      "date_formatted": "Hoy • 5:24 PM",
-      "date_full": "25 de Noviembre de 2026, 5:24 PM",
-      "timestamp": 1795645473,
-      "summary": "El alcalde electo por el distrito de Cieneguilla, Ronald Salazar, señaló hoy que no pudo instalar la Comisión de Transferencia de Gestión Municipal, cuyo objetivo, aseveró, es transparentar los actos administrativos de l..."
-    },
-    {
-      "id": "nacional-3-RPP_Noticias_Liga_MX_Leon",
+      "id": "nacional-9-RPP_Noticias_Liga_MX_Leon",
       "title": "Liga MX: León se enfrenta ante la visita Cruz Azul por la llave 2",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -192,21 +372,6 @@
       "summary": "Alexander Quispe puso su cargo a disposición tras frustrarse la presentación de la Candelaria 2027 en Lima; pidió una asamblea para explicar lo ocurrido en Puno"
     },
     {
-      "id": "nacional-5-Agencia_Andina_Condorcanq",
-      "title": "Condorcanqui tendrá nuevo Hogar de Refugio Temporal para víctimas de violencia sexual",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-condorcanqui-tendra-nuevo-hogar-refugio-temporal-para-victimas-violencia-sexual-1101431.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/25/001334706W.webp",
-      "local_image": "images/today/2026-11-25_Agencia_Andina_Condorcanqui_tendra_nuevo_Hogar_de.jpg",
-      "date": "Wed, 25 Nov 2026 17:15:04 -0500",
-      "date_formatted": "Hoy • 5:15 PM",
-      "date_full": "25 de Noviembre de 2026, 5:15 PM",
-      "timestamp": 1795644904,
-      "summary": "En el Día Internacional de la Eliminación de la Violencia contra la Mujer, la ministra de la Mujer y Poblaciones Vulnerables (MIMP), Mara Seminario, anunció que el sector dispondrá de un terreno de más de 3 mil metros cu..."
-    },
-    {
       "id": "regional-2-Pachamama_Radio_Puno_Vero",
       "title": "Verónika Mendoza plantea en CADE 2026 la creación de centros de innovación productiva en Cusco y demanda garantías para la masificación del gas natural",
       "category": "regional",
@@ -222,142 +387,22 @@
       "summary": "Verónika Mendoza presentó sus principales propuestas para el desarrollo económico y territorial del Cusco durante la 64.ª edición de CADE Ejecutivos, realizada en las instalaciones de Vidawasi, en Urubamba. Su…"
     },
     {
-      "id": "nacional-7-RPP_Noticias_Champions_Le",
-      "title": "Champions League: Alexander Isak impulsó la victoria 3-0 de Liverpool frente a Club Brugge con dos goles",
+      "id": "nacional-5-RPP_Noticias_Julio_Velard",
+      "title": "Julio Velarde ve mayor estabilidad: “Ahora sacar a un presidente es altamente improbable; va a durar cinco años\"",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
       "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/ligas-internacionales/champions-league-club-brugge-y-liverpool-se-encuentran-en-la-fecha-5-noticia-1719453",
-      "image_url": "https://f.rpp-noticias.io/2026/11/25/1933086.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-25_RPP_Noticias_Champions_League_Alexander_Isak_im.jpg",
-      "date": "Wed, 25 Nov 2026 17:05:06 -0500",
-      "date_formatted": "Hoy • 5:05 PM",
-      "date_full": "25 de Noviembre de 2026, 5:05 PM",
-      "timestamp": 1795644306,
-      "summary": "Club Brugge vs Liverpool se enfrentaron por la UEFA Champions League. Aquí todos los detalles y resumen del encuentro."
-    },
-    {
-      "id": "nacional-6-RPP_Noticias_Champions_Le",
-      "title": "Champions League: Fenerbahçe ganó por 1-0 a Shakhtar Donetsk con el gol de Vedat Muriqi",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/ligas-internacionales/champions-league-shakhtar-donetsk-se-enfrenta-ante-la-visita-fenerbahce-por-la-fecha-5-noticia-1719454",
-      "image_url": "https://f.rpp-noticias.io/2026/11/25/1933085.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-25_RPP_Noticias_Champions_League_Fenerbahce_gano_p.jpg",
-      "date": "Wed, 25 Nov 2026 17:05:05 -0500",
-      "date_formatted": "Hoy • 5:05 PM",
-      "date_full": "25 de Noviembre de 2026, 5:05 PM",
-      "timestamp": 1795644305,
-      "summary": "Shakhtar Donetsk vs Fenerbahçe se enfrentaron por la UEFA Champions League. Aquí todos los detalles y resumen del encuentro."
-    },
-    {
-      "id": "nacional-5-RPP_Noticias_Champions_Le",
-      "title": "Champions League: Sólido triunfo de Inter por 2-0 frente a Stuttgart",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/ligas-internacionales/champions-league-por-la-fecha-5-inter-recibira-a-stuttgart-noticia-1719456",
-      "image_url": "https://f.rpp-noticias.io/2026/11/25/1933084.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-25_RPP_Noticias_Champions_League_Solido_triunfo_de.jpg",
-      "date": "Wed, 25 Nov 2026 17:05:04 -0500",
-      "date_formatted": "Hoy • 5:05 PM",
-      "date_full": "25 de Noviembre de 2026, 5:05 PM",
-      "timestamp": 1795644304,
-      "summary": "Inter vs Stuttgart se enfrentaron por la UEFA Champions League. Aquí todos los detalles y resumen del encuentro."
-    },
-    {
-      "id": "nacional-10-RPP_Noticias_Champions_Le",
-      "title": "Champions League: El empate 2-2 entre Sporting Lisboa y Manchester United se destaca por los dobletes de Luis Suárez y Bruno Fernandes",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/ligas-internacionales/champions-league-sporting-lisboa-recibira-a-manchester-united-por-la-fecha-5-noticia-1719458",
-      "image_url": "https://f.rpp-noticias.io/2026/11/25/1933082.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-25_RPP_Noticias_Champions_League_El_empate_2-2_ent.jpg",
-      "date": "Wed, 25 Nov 2026 17:05:03 -0500",
-      "date_formatted": "Hoy • 5:05 PM",
-      "date_full": "25 de Noviembre de 2026, 5:05 PM",
-      "timestamp": 1795644303,
-      "summary": "Sporting Lisboa vs Manchester United se enfrentaron por la UEFA Champions League. Aquí todos los detalles y resumen del encuentro."
-    },
-    {
-      "id": "nacional-6-Agencia_Andina_El_mar_est",
-      "title": "El mar está más alto de lo normal y en el Callao creció 51 centímetros ¿a qué se debe?",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-el-mar-esta-mas-alto-de-normal-y-el-callao-crecio-51-centimetros-a-se-debe-1101391.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/25/001334603W.webp",
-      "local_image": "images/today/2026-11-25_Agencia_Andina_El_mar_esta_mas_alto_de_lo_normal_y.jpg",
-      "date": "Wed, 25 Nov 2026 17:01:56 -0500",
-      "date_formatted": "Hoy • 5:01 PM",
-      "date_full": "25 de Noviembre de 2026, 5:01 PM",
-      "timestamp": 1795644116,
-      "summary": "Los oleajes anómalos que golpean el litoral peruano, desde Tumbes hasta Tacna, coinciden con un incremento inusual del nivel del mar debido al calentamiento de sus aguas por el fenómeno El Niño, lo que ha elevado hasta 5..."
-    },
-    {
-      "id": "nacional-9-RPP_Noticias_En_un_partid",
-      "title": "En un partidazo, PSG y Roma igualaron 2-2 por la fecha 5 de la Champions League [VIDEO]",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/futbol/champions-league/psg-vs-roma-en-vivo-a-que-hora-juegan-y-donde-ver-fecha-5-fase-liga-champions-league-via-espn-partidos-de-hoy-noticia-1719548",
-      "image_url": "https://f.rpp-noticias.io/2026/11/25/305630_1933077.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-25_RPP_Noticias_En_un_partidazo_PSG_y_Roma_igualar.jpg",
-      "date": "Wed, 25 Nov 2026 17:00:02 -0500",
+      "url": "https://rpp.pe/economia/economia/julio-velarde-ve-dificil-una-salida-anticipada-de-keiko-fujimori-ahora-sacar-a-un-presidente-es-altamente-improbable-va-a-durar-cinco-anos-noticia-1719816",
+      "image_url": "https://f.rpp-noticias.io/2026/11/25/520252_1933081.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-25_RPP_Noticias_Julio_Velarde_ve_mayor_estabilidad.jpg",
+      "date": "Wed, 25 Nov 2026 17:00:30 -0500",
       "date_formatted": "Hoy • 5:00 PM",
       "date_full": "25 de Noviembre de 2026, 5:00 PM",
-      "timestamp": 1795644002,
-      "summary": "PSG y Roma igualaron 2-2 en el Parque de los Príncipes por la fecha 5 de la Champions League."
+      "timestamp": 1795644030,
+      "summary": "En CADE 2026, el presidente del BCR, Julio Velarde, sostuvo que la nueva composición del Congreso, con dos cámaras, hace poco probable una salida anticipada de la presidenta."
     },
     {
-      "id": "nacional-7-Agencia_Andina_Pleno_del_",
-      "title": "Pleno del Senado verá el viernes 27 pedido de viaje presidencial a Barranquilla, Colombia",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-pleno-del-senado-vera-viernes-27-pedido-viaje-presidencial-a-barranquilla-colombia-1101433.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/10/001330848W.jpg",
-      "local_image": "images/today/2026-11-25_Agencia_Andina_Pleno_del_Senado_vera_el_viernes_27.jpg",
-      "date": "Wed, 25 Nov 2026 17:00:00 -0500",
-      "date_formatted": "Hoy • 5:00 PM",
-      "date_full": "25 de Noviembre de 2026, 5:00 PM",
-      "timestamp": 1795644000,
-      "summary": "El Pleno del Senado de la República se reunirá este viernes 27 con el fin de debatir, entre otros temas, el Proyecto de la Resolución Legislativa 31-2026-2031-S que propone autorizar a la presidenta de la república, Keik..."
-    },
-    {
-      "id": "nacional-8-Agencia_Andina_Dolar_cier",
-      "title": "Dólar cierra a la baja en S/ 3.478 tras operaciones del BCR",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-dolar-cierra-a-baja-s-3478-tras-operaciones-del-bcr-1101430.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/04/23/001274033W.webp",
-      "local_image": "images/today/2026-11-25_Agencia_Andina_Dolar_cierra_a_la_baja_en_S_3_478.jpg",
-      "date": "Wed, 25 Nov 2026 17:00:00 -0500",
-      "date_formatted": "Hoy • 5:00 PM",
-      "date_full": "25 de Noviembre de 2026, 5:00 PM",
-      "timestamp": 1795644000,
-      "summary": "El precio del dólar cerró este miércoles en 3.478 soles en el mercado cambiario peruano, lo que representó una caída de 0.17% respecto al cierre del martes (3.484 soles), en una jornada marcada por las operaciones del Ba..."
-    },
-    {
-      "id": "nacional-9-Agencia_Andina_Lima_recib",
-      "title": "Lima recibe primeros $ 500 mil del Banco Mundial para iniciar semaforización inteligente",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-lima-recibe-primeros-500-mil-del-banco-mundial-para-iniciar-semaforizacion-inteligente-1101437.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2024/06/17/001073589W.webp",
-      "local_image": "images/today/2026-11-25_Agencia_Andina_Lima_recibe_primeros_500_mil_del.jpg",
-      "date": "Wed, 25 Nov 2026 16:57:18 -0500",
-      "date_formatted": "Hoy • 4:57 PM",
-      "date_full": "25 de Noviembre de 2026, 4:57 PM",
-      "timestamp": 1795643838,
-      "summary": "La Municipalidad Metropolitana de Lima recibió un primer desembolso de US$ 500 000 del Banco Mundial para impulsar el Programa de Inversión para el Mejoramiento de la Gestión del Tránsito y Apoyo al Transporte Sostenible..."
-    },
-    {
-      "id": "internacional-1-France_24_en_Espanol_Afri",
+      "id": "internacional-2-France_24_en_Espanol_Afri",
       "title": "África: la región con mayor número de mujeres asesinadas en el ámbito privado",
       "category": "internacional",
       "category_label": "Internacional",
@@ -372,22 +417,7 @@
       "summary": "La violencia contra las mujeres sigue siendo una de las mayores crisis de derechos humanos en África. En Kenia, cientos de personas salieron a las calles para denunciar el elevado número de feminicidios, mientras que en ..."
     },
     {
-      "id": "nacional-10-Agencia_Andina_Expertos_a",
-      "title": "Expertos analizarán futuro de las inversiones sostenibles en foro sobre economía circular",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "Agencia Andina",
-      "url": "https://andina.pe/agencia/noticia-expertos-analizaran-futuro-las-inversiones-sostenibles-foro-sobre-economia-circular-1101436.aspx",
-      "image_url": "https://portal.andina.pe/EDPfotografia3/Thumbnail/2026/11/25/001334722W.webp",
-      "local_image": "images/today/2026-11-25_Agencia_Andina_Expertos_analizaran_futuro_de_las_i.jpg",
-      "date": "Wed, 25 Nov 2026 16:49:07 -0500",
-      "date_formatted": "Hoy • 4:49 PM",
-      "date_full": "25 de Noviembre de 2026, 4:49 PM",
-      "timestamp": 1795643347,
-      "summary": "A fin de posicionar la inversión sostenible y circular como motores de un modelo productivo más competitivo, este 26 y 27 de noviembre se desarrollará en Lima el IX Foro Internacional de Economía Circular (FIEC)."
-    },
-    {
-      "id": "regional-2-Diario_Sin_Fronteras_Puno",
+      "id": "regional-3-Diario_Sin_Fronteras_Puno",
       "title": "Walter Anchapuri no participará en debate al Gobierno Regional de Tacna",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -400,21 +430,6 @@
       "date_full": "25 de Noviembre de 2026, 4:48 PM",
       "timestamp": 1795643311,
       "summary": "El presidente del CONREDE Tacna, Richard Paz, informó a través de Radio Exitosa que el candidato al Gobierno Regional de Tacna, Walter"
-    },
-    {
-      "id": "nacional-8-RPP_Noticias_El_dolar_es_",
-      "title": "“El dólar es dominante”: Julio Velarde no cree que el yuan chino pueda desplazar la supremacía de la moneda estadounidense",
-      "category": "nacional",
-      "category_label": "Nacional (Perú)",
-      "source": "RPP Noticias",
-      "url": "https://rpp.pe/economia/economia/el-dolar-es-dominante-julio-velarde-ve-dificil-que-el-yuan-chino-pueda-desplazar-la-supremacia-de-la-moneda-estadounidense-noticia-1719824",
-      "image_url": "https://f.rpp-noticias.io/2026/11/25/205220_1933075.jpg?imgdimension=look",
-      "local_image": "images/today/2026-11-25_RPP_Noticias_El_dolar_es_dominante_Julio_Vela.jpg",
-      "date": "Wed, 25 Nov 2026 16:43:59 -0500",
-      "date_formatted": "Hoy • 4:43 PM",
-      "date_full": "25 de Noviembre de 2026, 4:43 PM",
-      "timestamp": 1795643039,
-      "summary": "Pese al avance de China y los esfuerzos de algunos países por reducir su dependencia de la moneda estadounidense, el presidente del BCRP considera que el dólar mantendrá su liderazgo en el sistema financiero internaciona..."
     },
     {
       "id": "internacional-1-El_Pais_Internacional_Dec",
@@ -438,8 +453,8 @@
       "category_label": "Internacional",
       "source": "El País Internacional",
       "url": "https://elpais.com/espana/elecciones-generales/2026-11-25/feijoo-pide-el-voto-prestado-a-los-socialistas-avergonzados-para-limpiar-al-psoe.html",
-      "image_url": "https://imagenes.elpais.com/resizer/v2/HXU35X7BLFM2TEFUYL5GO54XUU.jpg?auth=a1a6354c79b1b4c16832c9269f531264c3f07387464151ff078b65b5809da1cb",
-      "local_image": "images/today/2026-11-25_El_Pais_Internacional_Feijoo_pide_el_voto_prestado_a_l.jpg",
+      "image_url": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261125/1242388_211247_video_1800.mp4",
+      "local_image": "https://vdmedia.elpais.com/mcv/elpais/multimedia/20261125/1242388_211247_video_1800.mp4",
       "date": "Wed, 25 Nov 2026 21:01:36 GMT",
       "date_formatted": "Hoy • 4:01 PM",
       "date_full": "25 de Noviembre de 2026, 4:01 PM",
@@ -447,7 +462,7 @@
       "summary": "El candidato del PP da por hecho la victoria de la suma de la derecha en el mitin central de Madrid, junto a Ayuso y Álvarez de Toledo"
     },
     {
-      "id": "internacional-2-France_24_en_Espanol_Fran",
+      "id": "internacional-3-France_24_en_Espanol_Fran",
       "title": "Francisco revela en su diario que vio tres veces al diablo y también las \"puertas del infierno\"",
       "category": "internacional",
       "category_label": "Internacional",
@@ -462,7 +477,7 @@
       "summary": "Entre 1992 y 2024, el papa Francisco llenó una libreta de tapas negras. Era su diario personal. Allí, afirma haber tenido encuentros con el diablo, con \"sus ojos amenazantes y seductores\", así como haber visto las \"puert..."
     },
     {
-      "id": "internacional-3-France_24_en_Espanol_Fabi",
+      "id": "internacional-4-France_24_en_Espanol_Fabi",
       "title": "Fabiana Tuñez: \"la violencia feminicida no es una estadística, son vidas\"",
       "category": "internacional",
       "category_label": "Internacional",
@@ -477,7 +492,7 @@
       "summary": "La violencia de género sigue cobrando vidas en América Latina y revela una crisis que va mucho más allá de las cifras. Pese a la existencia de leyes y marcos de protección en varios países, persisten desafíos en la preve..."
     },
     {
-      "id": "regional-3-Diario_Sin_Fronteras_Puno",
+      "id": "regional-4-Diario_Sin_Fronteras_Puno",
       "title": "Astronauta análoga de NASA Nataly Rojas Barnett será ponente principal del III Congreso Anual CIEC en Tacna",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -492,7 +507,7 @@
       "summary": "La astronauta análoga Nataly Rojas Barnett, presentada como comandante de la Misión Aurora, será la ponente principal del III Congreso Anual de"
     },
     {
-      "id": "internacional-4-France_24_en_Espanol_Bang",
+      "id": "internacional-5-France_24_en_Espanol_Bang",
       "title": "Bangladesh: protestas por el salario mínimo sacuden industria textil",
       "category": "internacional",
       "category_label": "Internacional",
@@ -507,7 +522,7 @@
       "summary": "Bangladesh vuelve a vivir jornadas de tensión por las protestas de miles de trabajadores de la industria textil, que consideran insuficiente el aumento del salario mínimo aprobado por las autoridades. Aunque la nueva rem..."
     },
     {
-      "id": "internacional-5-France_24_en_Espanol_Dire",
+      "id": "internacional-6-France_24_en_Espanol_Dire",
       "title": "Directo a... Guayaquil y la investigación de EE. UU. por operativo militar contra alias 'Charlie'",
       "category": "internacional",
       "category_label": "Internacional",
@@ -522,7 +537,7 @@
       "summary": "La muerte de Carlos Germán Muñoz Jara, alias 'Charlie', señalado por las autoridades ecuatorianas como integrante de Los Choneros, desencadenó una controversia que ahora trasciende las fronteras de Ecuador. Tras el opera..."
     },
     {
-      "id": "internacional-6-France_24_en_Espanol_Egip",
+      "id": "internacional-7-France_24_en_Espanol_Egip",
       "title": "Egipto: al menos 30 muertos por la explosión de un camión cisterna cerca de El Cairo",
       "category": "internacional",
       "category_label": "Internacional",
@@ -537,7 +552,7 @@
       "summary": "Al menos 30 personas murieron y otras 15 resultaron heridas por la explosión de un camión cisterna,que transportaba cilindros de gas y que sufrió un accidente en la carretera de circunvalación de Warraq, en el norte de E..."
     },
     {
-      "id": "regional-4-Diario_Sin_Fronteras_Puno",
+      "id": "regional-5-Diario_Sin_Fronteras_Puno",
       "title": "Mujer fallece durante intervención en clínica OMED de Tacna",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -552,7 +567,7 @@
       "summary": "Una mujer de 45 años falleció la noche del martes al interior de la clínica OMED, Oncología y Cirugía, ubicada en la"
     },
     {
-      "id": "internacional-7-France_24_en_Espanol_Ejer",
+      "id": "internacional-8-France_24_en_Espanol_Ejer",
       "title": "Ejército de EE. UU. detona más de cuatro toneladas de explosivos de plomo en Iowa",
       "category": "internacional",
       "category_label": "Internacional",
@@ -567,7 +582,7 @@
       "summary": "El Ejército estadounidense destruyó este 25 de noviembre más de cuatro toneladas de material explosivo a base de plomo, en desuso desde hace años y almacenado en una fábrica de una localidad de Iowa, en el centro del paí..."
     },
     {
-      "id": "regional-5-Diario_Sin_Fronteras_Puno",
+      "id": "regional-6-Diario_Sin_Fronteras_Puno",
       "title": "Presidente de la Frfcp pone su cargo a disposición tras fallido lanzamiento en Lima",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -580,21 +595,6 @@
       "date_full": "25 de Noviembre de 2026, 1:58 PM",
       "timestamp": 1795633115,
       "summary": "Luego que los directivos de la Federación Regional del Folclore y Cultura de Puno (Frfcp), pidieran explicaciones documentadas y anunciaran la conformación"
-    },
-    {
-      "id": "internacional-8-France_24_en_Espanol_Trum",
-      "title": "Trump reaviva guerra arancelaria: gravámenes de hasta 20% a China y otros 13 mercados",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "France 24 en Español",
-      "url": "https://www.france24.com/es/video/20261125-trump-reaviva-guerra-arancelaria-grav%C3%A1menes-de-hasta-20-a-china-y-otros-13-mercados",
-      "image_url": "https://s.france24.com/media/display/4a21d0a8-e8fd-11f1-b382-1991d4929b54/w:1024/p:16x9/ES-20261125-123258-123605-CS.jpg",
-      "local_image": "images/today/2026-11-25_France_24_en_Espanol_Trump_reaviva_guerra_arancelaria_g.jpg",
-      "date": "Wed, 25 Nov 2026 18:58:30 GMT",
-      "date_formatted": "Hoy • 1:58 PM",
-      "date_full": "25 de Noviembre de 2026, 1:58 PM",
-      "timestamp": 1795633110,
-      "summary": "El presidente de Estados Unidos, Donald Trump, propuso nuevos aranceles de hasta el 20% a las importaciones chinas y busca penalizar lo que considera un \"exceso de capacidad industrial\", atribuido a subsidios y barreras ..."
     },
     {
       "id": "internacional-4-El_Pais_Internacional_El_",
@@ -612,7 +612,7 @@
       "summary": "El Instituto para la Remigración, liderado por el supremacista blanco Martin Sellner, con vínculos con Abascal, propone “preservar la continuidad etnocultural” española mediante la salida de extranjeros que “suponen una ..."
     },
     {
-      "id": "regional-6-Diario_Sin_Fronteras_Puno",
+      "id": "regional-7-Diario_Sin_Fronteras_Puno",
       "title": "ANP Puno denuncia agresiones y hostigamiento de simpatizantes de Asi- JP y Ahora Nación contra periodistas",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -732,21 +732,6 @@
       "summary": "La Confederación Nacional de Pequeña Minería y Minería Artesanal del Perú (CONFEMIN Perú) convocó a una nueva movilización nacional para el 1 de diciembre de 2026, tras una reunión de dirigentes realizada el 24 de noviem..."
     },
     {
-      "id": "internacional-8-BBC_Mundo_Menos_sexo_y_ma",
-      "title": "Menos sexo y más porno: lo que revela el último informe nacional sobre la sexualidad de los británicos",
-      "category": "internacional",
-      "category_label": "Internacional",
-      "source": "BBC Mundo",
-      "url": "https://www.bbc.com/mundo/articles/cq8e04ynw811o?at_medium=RSS&at_campaign=rss",
-      "image_url": "https://ichef.bbci.co.uk/ace/ws/1024/cpsprodpb/1c04/live/270d0cc0-e8b4-11f1-99a1-253766e7ad8b.jpg",
-      "local_image": "images/today/2026-11-25_BBC_Mundo_Menos_sexo_y_mas_porno_lo_que_reve.jpg",
-      "date": "Wed, 25 Nov 2026 17:16:04 GMT",
-      "date_formatted": "Hoy • 12:16 PM",
-      "date_full": "25 de Noviembre de 2026, 12:16 PM",
-      "timestamp": 1795626964,
-      "summary": "En Reino Unido, muchos jóvenes nunca han tenido relaciones sexuales, pero muchos practican el sexting y ven pornografía."
-    },
-    {
       "id": "regional-4-Diario_Los_Andes_Puno_Des",
       "title": "Despiste de moto deja a joven herido en la carretera Panamericana en Juli",
       "category": "regional",
@@ -822,7 +807,7 @@
       "summary": "Especialistas de la Autoridad Nacional del Agua (ANA) recorrieron 36 puntos de muestreo en las cuencas Tambopata e Inambari para evaluar la calidad del agua y detectar posibles fuentes de contaminación. El monitoreo se d..."
     },
     {
-      "id": "regional-7-Diario_Sin_Fronteras_Puno",
+      "id": "regional-8-Diario_Sin_Fronteras_Puno",
       "title": "San Antón inicia renovación de dos puentes en Condoriri Kenamari con inversión superior a S/ 3 millones",
       "category": "regional",
       "category_label": "Regional (Puno)",
@@ -835,21 +820,6 @@
       "date_full": "25 de Noviembre de 2026, 11:06 AM",
       "timestamp": 1795622801,
       "summary": "Con una inversión superior a los S/ 3 millones, se inició la renovación de los puentes Quelluchupa y Condoriri, ubicados en la"
-    },
-    {
-      "id": "regional-8-Diario_Sin_Fronteras_Puno",
-      "title": "Alza de precios amenaza ganancias de comerciantes puneños en Navidad",
-      "category": "regional",
-      "category_label": "Regional (Puno)",
-      "source": "Diario Sin Fronteras (Puno)",
-      "url": "https://diariosinfronteras.com.pe/2026/11/25/alza-de-precios-amenaza-ganancias-de-comerciantes-punenos-en-navidad/",
-      "image_url": "https://diariosinfronteras.com.pe/wp-content/uploads/2026/11/FOTOS-NOTAS-DSF-2026-11-25T105148.776.jpg",
-      "local_image": "images/today/2026-11-25_Diario_Sin_Fronteras_Puno_Alza_de_precios_amenaza_ganancias.jpg",
-      "date": "2026-11-25T10:52:46",
-      "date_formatted": "Hoy • 10:52 AM",
-      "date_full": "25 de Noviembre de 2026, 10:52 AM",
-      "timestamp": 1795621966,
-      "summary": "El incremento de los precios al consumidor en la ciudad de Puno, que alcanzó el 0.78 % durante octubre, podría elevar los"
     },
     {
       "id": "internacional-2-El_Pais_Internacional_Cre",
@@ -957,7 +927,7 @@
       "summary": "La ONU escogió esa fecha para rendir homenaje a tres mujeres que fueron brutalmente asesinadas por su oposición a la dictadura de Rafael Trujillo."
     },
     {
-      "id": "nacional-2-RPP_Noticias_Cada_dia_se_",
+      "id": "nacional-8-RPP_Noticias_Cada_dia_se_",
       "title": "Cada día se reportan más de 80 denuncias por violencia sexual contra mujeres en el Perú, según cifras del MIMP",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -987,7 +957,7 @@
       "summary": "De distintas formas —y a veces con bajo perfil—, Pekín logra sostener una presencia trascendental en la región aunque Washington busca limitarla."
     },
     {
-      "id": "internacional-7-BBC_Mundo_La_disputa_entr",
+      "id": "internacional-8-BBC_Mundo_La_disputa_entr",
       "title": "La disputa entre matemáticos que aviva el temor de que la IA pueda socavar la ciencia",
       "category": "internacional",
       "category_label": "Internacional",
@@ -1017,7 +987,22 @@
       "summary": "Los vídeos que la creadora de contenido grabó bailando en el metro de Londres se hicieron virales en internet en 2023."
     },
     {
-      "id": "internacional-6-BBC_Mundo_Las_fuerzas_esp",
+      "id": "nacional-2-RPP_Noticias_SENAMHI_Pron",
+      "title": "SENAMHI: Pronóstico del clima hoy miércoles 25 de noviembre 2026",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/peru/actualidad/senamhi-pronostico-del-clima-hoy-miercoles-25-de-noviembre-2026-noticia-1719638",
+      "image_url": "https://f.rpp-noticias.io/2025/12/03/213221_1818086.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-25_RPP_Noticias_SENAMHI_Pronostico_del_clima_hoy_m.jpg",
+      "date": "Wed, 25 Nov 2026 04:00:45 -0500",
+      "date_formatted": "Hoy • 4:00 AM",
+      "date_full": "25 de Noviembre de 2026, 4:00 AM",
+      "timestamp": 1795597245,
+      "summary": "Consulta el pronóstico del clima hoy en Lima y ciudades del Perú: temperatura actual, sensación térmica, radiación UV, probabilidad de lluvia y reporte oficial del Senamhi actualizado."
+    },
+    {
+      "id": "internacional-7-BBC_Mundo_Las_fuerzas_esp",
       "title": "Las fuerzas especiales de Colombia rescatan a decenas de secuestrados en un supermercado y logran someter a los asaltantes",
       "category": "internacional",
       "category_label": "Internacional",
@@ -1032,7 +1017,7 @@
       "summary": "Según informó el gobierno, los hombres armados tomaron a los clientes y empleados del supermercado como rehenes, al ser sorprendidos por la Policía en medio de un intento de robo."
     },
     {
-      "id": "nacional-4-RPP_Noticias_Temblor_en_C",
+      "id": "nacional-10-RPP_Noticias_Temblor_en_C",
       "title": "Temblor en Chile hoy 25 de noviembre: Epicentro del sismo según CSN",
       "category": "nacional",
       "category_label": "Nacional (Perú)",
@@ -1045,6 +1030,21 @@
       "date_full": "25 de Noviembre de 2026, 2:09 AM",
       "timestamp": 1795590585,
       "summary": "¿Cuál fue el último Temblor en Chile hoy 25 de noviembre y registrado por el servicio Sismológico Nacional de Chile (CSN)? Consulta los últimos sismos: magnitud y epicentro del movimiento sísmico."
+    },
+    {
+      "id": "nacional-3-RPP_Noticias_Temblor_en_P",
+      "title": "Temblor en Perú, hoy 25 de noviembre: magnitud y epicentro del sismo según IGP",
+      "category": "nacional",
+      "category_label": "Nacional (Perú)",
+      "source": "RPP Noticias",
+      "url": "https://rpp.pe/lima/desastres-naturales/temblor-en-peru-hoy-24-de-noviembre-magnitud-y-epicentro-del-sismo-segun-igp-live-3727",
+      "image_url": "https://f.rpp-noticias.io/2024/11/04/372237_1665153.jpg?imgdimension=look",
+      "local_image": "images/today/2026-11-25_RPP_Noticias_Temblor_en_Peru_hoy_25_de_noviembr.jpg",
+      "date": "Tue, 24 Nov 2026 19:39:58 -0500",
+      "date_formatted": "24 Nov • 7:39 PM",
+      "date_full": "24 de Noviembre de 2026, 7:39 PM",
+      "timestamp": 1795567198,
+      "summary": "Actualización EN VIVO del último sismo en Perú hoy, miércoles 25 de noviembre según las últimas actualizaciones del Instituto Geofísico del Perú IGP"
     }
   ]
 }
